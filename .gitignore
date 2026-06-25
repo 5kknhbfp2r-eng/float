@@ -29,6 +29,10 @@ __pycache__/
 *.log
 node_modules/
 
+# --- recipe-replay simulation outputs (regenerable via engine/sim_replay.py) ---
+_sim_replay.csv
+_sim_recipes.json
+
 # --- agent scratch / stray working files ---
 tmp_*
 *.jpg

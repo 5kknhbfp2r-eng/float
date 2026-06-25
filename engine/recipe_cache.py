@@ -80,13 +80,15 @@ def replay(ticker, day, cik=None):
     if not (xv or gv):
         return ("no-os", None)
     # L8 O/S guard — establish a trustworthy share base or defer to the LLM (never replay on a bad O/S).
-    # The recipe's os_at is an LLM-VALIDATED magnitude anchor: real O/S drifts with dilution but does
-    # NOT jump orders of magnitude between events (any 13D/13G/proxy would trip is_stale first). So a
-    # 30x XBRL-vs-regex gap is a regex MISPARSE (authorized-shares / wrong class), not genuine
-    # uncertainty -> anchor on os_at to reject the misparse instead of a symmetric disagree-veto.
-    # Accuracy-safe: anchoring only ever defers MORE than blind-trust, never emits a wrong float.
+    # The recipe's os_at is an LLM-VALIDATED magnitude anchor. A re-fetched O/S beyond ±30% of it is
+    # NOT trustworthy to replay against the carried exclusion: it's either a regex MISPARSE
+    # (authorized-shares / wrong class, ~30x off), a basis change (ADS-vs-ordinary, multi-class), or
+    # a material dilution/split that needs the control set re-judged -> defer & re-derive. The ±30%
+    # band was calibrated on the 236-ticker IS simulation: it removes ~30 of 52 >10% replay misses at
+    # ZERO cost to accurate (<=5%) replays (those barely move O/S, ratio~1.0). Accuracy-safe by
+    # construction: tightening the band only ever defers MORE, never emits a wrong float.
     anchor = r.get("os_at")
-    sane = lambda v: (not anchor) or (0.2 * anchor <= v <= 8.0 * anchor)
+    sane = lambda v: (not anchor) or (anchor / 1.3 <= v <= 1.3 * anchor)
     if nclass == 1 and xv and sane(xv):
         os_ = xv                                          # single-class XBRL, anchor-consistent -> gold
     elif nclass == 1 and xv and gv and abs(xv - gv) / max(xv, gv) <= 0.30:
