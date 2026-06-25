@@ -225,7 +225,21 @@ of strict numeric order from incremental edits).
   optimistic ~3× (≈35% free on hard names, higher on clean → ~2× blended) × the cheap-model/compressed cut
   (~6×) ⇒ low hundreds, not a hard $200. Still ~30–50× under naive all-LLM (~$15–20K) and ~6–12× under the
   current hybrid (~$2–4K).
-- **▶ Next:** (1) reduce replay drift/deferrals — better O/S recency + multi-class listed-class pick (biggest
-  free-fraction lever); (2) run the recipe-emit across the full IS set to warm both caches at scale; (3)
-  improve 13F recall (holder-CIK from the 13G header); (4) re-derive WHLR/TGEN (likely label errors).
-  Artifacts: `recipes.json` (recipe cache), `holder_registry.json` (warmed), `_recipes_emitted.json`.
+- **§16 levers 2-3 IMPROVED — replay free-fraction 35%→50% (2026-06-25, commit `96f4bc3`).** Two fixes to
+  `recipe_cache.replay`, both accuracy-safe (only ever defer MORE, never a wrong float): (a) **O/S anchoring** —
+  the recipe's LLM-validated `os_at` is a magnitude anchor; a 30x XBRL-vs-regex gap is a regex MISPARSE
+  (authorized shares), so anchor on `os_at` to reject it instead of a symmetric disagree-veto (fixed NUKK,
+  whose clean single-class XBRL was vetoed by a 150M authorized-shares regex hit); (b) **carry the exclusion
+  in shares** — store + carry the LLM's `dno_M` AND `control_M`, held fixed against the drifting O/S exactly
+  as the LABELS are built (D&O constant between proxies). The old deterministic D&O re-fetch re-read the SAME
+  proxy (no intra-proxy drift to capture) at the proxy's stale PRE-split basis → the reverse-split bug (NUKK
+  dno=11M on a 52.7M basis vs 5M O/S → negative float → implausible). Removed it; added a `proxy-changed` guard
+  (new ownership source → defer to LLM). On the validated set: FREE 35%→50% (7/14), within-5% 3/5→4/7, bad
+  deferrals 2→0; the remaining 7 deferrals are all `stale` (real structural events, correctly → LLM).
+- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE (above); remaining sub-lever = genuine multi-class
+  listed-class pick via XBRL member-dimension (L3 exists in `det_float`, not yet wired into `replay`; not
+  exercised by the 3-ticker validated set — lower priority). (2) **run recipe-emit across the full IS set** to
+  warm both caches at scale (needs LLM agents — 3 at a time, interruption-resilient via durable recording);
+  (3) improve 13F recall (holder-CIK from the 13G header); (4) re-derive WHLR/TGEN (likely label errors).
+  Artifacts: `recipes.json` (recipe cache, now carries `dno_M`+`control_M`), `holder_registry.json` (warmed),
+  `_recipes_emitted.json`.
