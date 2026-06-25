@@ -22,7 +22,10 @@ import polars as pl
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(PROJECT_DIR, "data")
-KEY = open(os.path.join(PROJECT_DIR, "sapi.txt")).read().strip()
+try:                                            # sec-api retired; EDGAR-only engine doesn't use KEY.
+    KEY = open(os.path.join(PROJECT_DIR, "sapi.txt")).read().strip()
+except FileNotFoundError:                       # a fresh clone has no sapi.txt (gitignored) — fine.
+    KEY = ""
 HDR = {"Authorization": KEY, "Content-Type": "application/json"}
 UA = {"User-Agent": "research kelsenowens@gmail.com"}
 TEXT_CACHE = os.path.join(DATA, "_cache", "filing_text")

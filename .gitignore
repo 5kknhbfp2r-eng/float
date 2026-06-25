@@ -21,6 +21,12 @@ __pycache__/
 *.pyc
 *.pyo
 
+# --- bulk data / build artifacts / logs ---
+*.parquet
+*.pkl
+*.log
+node_modules/
+
 # --- agent scratch / stray working files ---
 tmp_*
 *.jpg

@@ -1,0 +1,8 @@
+# Python 3.10 (matches the producing venv: claudebacktest_init2-2.4\.venv, Python 3.10).
+# Engine runtime dependencies (the EDGAR float tool + helper scripts):
+polars==1.41.0
+requests==2.32.3
+
+# Standard library only otherwise (csv, json, re, urllib, etc.).
+# No key needed for SEC EDGAR. The Claude API key (capi.txt) is only needed to RE-DERIVE
+# floats via LLM agents — not to use the committed float_is.csv or run the dossier engine.
