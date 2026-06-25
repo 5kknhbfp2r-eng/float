@@ -20,10 +20,15 @@ import float_gather as fg
 import edgar
 
 RECIPES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes.json")
-# filings that change the EXCLUSION STRUCTURE (control set / D&O). NOT periodics or offerings —
-# those only move O/S, which replay re-fetches fresh. A new 13D/13G/proxy => re-judge with the LLM.
+# filings that change the EXCLUSION STRUCTURE (control set / D&O). A new 13D/13G/proxy => re-judge.
 STRUCT_FORMS = ["SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SCHEDULE 13D", "SCHEDULE 13G",
                 "SCHEDULE 13D/A", "SCHEDULE 13G/A", "DEF 14A", "DEFM14A", "DEFM14C"]
+# O/S-EVENT forms: an offering/takedown CLOSES here and the XBRL O/S fact LAGS it (only refreshes at
+# the next 10-Q/10-K), so a deterministic O/S re-fetch would be STALE (the AGEN/HUSA failure mode in
+# the IS sim — frozen XBRL while a 424B issued shares). Treat as an event that needs the LLM to read
+# the post-event share base. Reverse splits land in 8-K (too noisy to blanket-trigger); the 424B
+# offering-close is the clean, targeted signal and is what actually moves O/S in this universe.
+OS_EVENT_FORMS = ["424B1", "424B2", "424B3", "424B4", "424B5", "424B7", "424B8"]
 
 
 def _load():
@@ -59,7 +64,7 @@ def is_stale(ticker, day, cik=None):
     if not r:
         return True
     cik = cik or r["cik"]
-    for f in edgar.query(cik, STRUCT_FORMS, day, size=40):
+    for f in edgar.query(cik, STRUCT_FORMS + OS_EVENT_FORMS, day, size=60):
         if r["derived_day"] < f["filedAt"][:10] <= day:
             return True
     return False

@@ -246,13 +246,21 @@ of strict numeric order from incremental edits).
   problems: a name clean at derivation gets corrupted by a later split/offering/basis-change). Gap-form guards
   are too blunt (`calib_guard.py`: defer 32–81 accurate to catch 30–41 misses). The clean knob (`calib_band.py`):
   the `os_selected/os_at` ratio — accurate replays barely move O/S (ratio~1.0); basis-change/split misses land
-  outside. **Fix applied:** tighten the replay anchor band 8×→**±30% (k=1.3)** — calibrated knee catches ~30/52
-  misses at ZERO cost to accurate replays. **Result: free 52%→45%, within-5% 62%→71%, within-10% 73%→83%,
-  misses 26%→16%**, and the absolute count of GOOD replays is preserved (band sheds ONLY wrong replays).
-  Residual 16% ≈ sim artifacts (ads_ratio carried as 1 — a real LLM recipe carries the true ratio) + label
-  errors (TGEN). **Bottom line: the recipe-replay free-fraction is ~40–45% at HIGH accuracy on its proper
-  domain (clean single-class); the hard archetypes correctly route to the LLM.** Re-run: `python sim_replay.py`
-  (resume-safe, ~10 min) then score; `python calib_band.py` reproduces the band knee. Outputs gitignored.
+  outside. **Two accuracy-safe fixes applied:** (a) tighten the replay anchor band 8×→**±30% (k=1.3)** —
+  calibrated knee (`calib_band.py`) catches ~30/52 misses at ZERO cost to accurate replays; (b) add **424B
+  offering forms to `is_stale`** (new `OS_EVENT_FORMS`) — an offering CLOSES at a 424B but the XBRL O/S fact
+  LAGS it (refreshes only at the next 10-Q), so a deterministic re-fetch is stale → treat as an event that
+  re-fires the LLM (the §16 event-driven-recompute principle; the AGEN/HUSA frozen-XBRL failure mode).
+  **Result (band + 424B): free 52%→40%, within-5% 62%→72%, within-10% 73%→88%, misses 26%→12%, median 0.2%.**
+  The band is a pure win (sheds only wrong replays); 424B-staleness is an accuracy↔cost knob (45%/84% without
+  it → 40%/88% with it — tune via `OS_EVENT_FORMS`). **Residual ~12% (the genuinely hard cases the deterministic
+  replay can't self-correct, NOT mostly ADS — the band already defers big-ratio ADS):** reverse-split lag
+  announced via 8-K *before* any 424B (HUSA 899% — XBRL frozen pre-split; needs 8-K Item-5.03 reading),
+  multi-class wrong-class pick (METCB/CTNM/GPUS — needs L3 member-dimension in replay), a few clean-name O/S
+  /exclusion drifts (AGEN frozen-XBRL+8-K, SRM, XCUR), and label errors (TGEN). **Bottom line: recipe-replay
+  free-fraction is ~40% at ~88% within-10% / 72% within-5% accuracy on its proper domain; the hard archetypes
+  correctly route to the LLM.** Re-run: `python sim_replay.py` (resume-safe ~10 min) then score; `calib_band.py`
+  reproduces the knee. Outputs gitignored.
 - **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~measure accuracy at scale~~ DONE (the $0 sim above).
   (2) **run recipe-emit across the full IS set** (needs LLM agents — 3 at a time, interruption-resilient via
   durable recording): the BIGGEST remaining win is that real recipes carry the LLM-derived `ads_ratio` +
