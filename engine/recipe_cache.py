@@ -120,8 +120,11 @@ def replay(ticker, day, cik=None):
     sane = lambda v: (not anchor) or (anchor / 1.3 <= v <= 1.3 * anchor)
     if nclass == 1 and xv and sane(xv):
         os_ = xv                                          # single-class XBRL, anchor-consistent -> gold
-    elif nclass == 1 and xv and gv and abs(xv - gv) / max(xv, gv) <= 0.30:
-        os_ = xv                                          # no anchor: require XBRL/regex agreement
+    elif nclass == 1 and xv and gv and not anchor and abs(xv - gv) / max(xv, gv) <= 0.30:
+        os_ = xv                                          # NO anchor only: require XBRL/regex agreement
+        # (with an anchor, agreement must NOT override sanity — else a stale wrong-class XBRL that the
+        #  regex also reads agrees with itself and leaks past the band, e.g. METCB Class-A 44M vs the
+        #  listed Class-B 10.7M anchor. A non-sane value falls through to os-uncertain -> LLM.)
     elif nclass > 1:
         return ("os-multiclass", None)                    # flat XBRL can't pick the listed class -> LLM
     elif gv and not xv and sane(gv):
