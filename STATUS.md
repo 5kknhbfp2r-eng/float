@@ -196,6 +196,14 @@ of strict numeric order from incremental edits).
   partial (some institutions fall to judge-then-cache); that's a cost miss, never an accuracy error. On the
   12 hard-tail names: 14% free / 85% judge-once-cached (a floor — representative stocks are mostly
   institutional 13G ⇒ much higher free; value compounds as the cache warms across the universe).
-- **▶ Next:** warmup-seed the registry from `receipts/` (the 1,025 IS verdicts) + improve 13F recall
-  (robust holder-CIK from the 13G filing header); then the **per-ticker float-recipe cache** + event-driven
-  recompute (§16 levers 2–3); and re-derive WHLR/TGEN (likely label errors).
+- **Receipts-seeding TRIED → ABANDONED as unsafe (2026-06-25).** Bulk-seeding the registry from the
+  receipts' `kept_13g` free-text pulls control entities as "passive" (e.g. Hannover Holdings — a 13D block;
+  Jinshan Intl BVI — a foreign control shell; named individuals / family trusts), which would cause a
+  false exclusion → wrong float. The free-text holder strings can't be cleanly partitioned (the §8.1
+  name-noise problem). **Decision:** the registry warms ONLY from clean structured verdicts —
+  `set_class()` called by the LLM tail when an agent names an entity + its class — plus the live
+  keep-list / CIK-verified-13F checks. No bulk receipt seeding.
+- **▶ Next:** (1) wire `holder_registry.set_class()` into the LLM-tail agents so each run warms the cache
+  with clean verdicts; (2) the **per-ticker float-recipe cache** + event-driven recompute (§16 levers 2–3);
+  (3) improve 13F recall (robust holder-CIK straight from the 13G filing header); (4) re-derive WHLR/TGEN
+  (likely label errors).
