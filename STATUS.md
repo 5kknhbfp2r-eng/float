@@ -251,25 +251,31 @@ of strict numeric order from incremental edits).
   offering forms to `is_stale`** (new `OS_EVENT_FORMS`) — an offering CLOSES at a 424B but the XBRL O/S fact
   LAGS it (refreshes only at the next 10-Q), so a deterministic re-fetch is stale → treat as an event that
   re-fires the LLM (the §16 event-driven-recompute principle; the AGEN/HUSA frozen-XBRL failure mode).
-  **Result (band + 424B): free 52%→40%, within-5% 62%→72%, within-10% 73%→88%, misses 26%→12%, median 0.2%.**
-  The band is a pure win (sheds only wrong replays); 424B-staleness is an accuracy↔cost knob (45%/84% without
-  it → 40%/88% with it — tune via `OS_EVENT_FORMS`). **Residual ~12% (the genuinely hard cases the deterministic
-  replay can't self-correct, NOT mostly ADS — the band already defers big-ratio ADS):** reverse-split lag
-  announced via 8-K *before* any 424B (HUSA 899% — XBRL frozen pre-split; needs 8-K Item-5.03 reading),
-  multi-class wrong-class pick (METCB/CTNM/GPUS — needs L3 member-dimension in replay), a few clean-name O/S
-  /exclusion drifts (AGEN frozen-XBRL+8-K, SRM, XCUR), and label errors (TGEN). **Bottom line: recipe-replay
-  free-fraction is ~40% at ~88% within-10% / 72% within-5% accuracy on its proper domain; the hard archetypes
-  correctly route to the LLM.** Re-run: `python sim_replay.py` (resume-safe ~10 min) then score; `calib_band.py`
-  reproduces the knee. Outputs gitignored.
-- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~measure accuracy at scale~~ DONE (the $0 sim above).
+  (c) **reverse-split defer** (`_split_in_window`, commit `e27f8c3`) — a reverse split changes the share
+  basis but XBRL keeps reporting the PRE-split count until the next periodic; the announcing 8-K can predate
+  derivation, so defer if a "reverse split"+ratio 8-K is filed in [derived−30d, day] (kills the HUSA 899%).
+  (d) **close a band leak** (`a0b0b48`) — the XBRL-vs-regex agreement fallback bypassed the anchor band when
+  the regex echoed a stale wrong-class O/S (METCB Class-A 44M vs the listed Class-B 10.7M anchor → 315%);
+  gate it on `not anchor`. **FULL $0 ARC (naive → carry-dno + band + 424B + split + leak-fix) on the
+  236-ticker / 383-later-day IS sim: free 52%→38% | within-5% 62%→75% | within-10% 73%→89% | misses 26%→10%
+  | WORST-CASE 899%→30% | median 0.1%.** Every dropped free replay was wrong/uncertain — the band/leak fixes
+  shed ONLY bad replays; 424B + split are accuracy↔cost knobs (tune via `OS_EVENT_FORMS` / the lookback).
+  **Residual ~10% are all SOFT now (11–30%, no catastrophes):** foreign/ADS O/S-source (UBXG/PRE/MB — a real
+  LLM recipe carries the ADS ratio, so these are sim artifacts), AGEN frozen-XBRL+8-K dilution (no 424B/split
+  signal — needs 8-K item reading, diminishing returns), a few clean drifts (SRM/XCUR/BSGM), and label errors
+  (TGEN). **Bottom line: recipe-replay is ~38% free at ~89% within-10% / 75% within-5% accuracy, worst-case
+  30%, on its proper domain; everything uncertain routes to the LLM.** Re-run: `python sim_replay.py`
+  (resume-safe ~10 min) then score; `calib_band.py` / `calib_split.py` reproduce the knees. Outputs gitignored.
+- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~measure accuracy at scale~~ DONE; ~~$0 accuracy guards
+  (band, 424B, reverse-split, leak-fix)~~ DONE — worst-case 899%→30%, misses 26%→10% (the $0 arc above).
   (2) **run recipe-emit across the full IS set** (needs LLM agents — 3 at a time, interruption-resilient via
   durable recording): the BIGGEST remaining win is that real recipes carry the LLM-derived `ads_ratio` +
-  basis, which removes the foreign/ADS chunk of the sim's residual misses (the largest miss category). This
-  also warms both caches at scale and gives the true blended free-fraction with real (not label-stand-in)
-  recipes. ~236 multi-day tickers; consider a stratified ~30-ticker first wave to confirm before the full
-  set. (3) optional surgical guards for the genuine residual misses: frozen-XBRL O/S (AGEN — an 8-K/424B
-  offering post-dates the XBRL fact; needs item-level 8-K reading, gap-form alone is too blunt) and the
-  multi-class listed-class pick (L3 member-dimension, not yet wired into `replay`). (4) improve 13F recall
-  (holder-CIK from the 13G header); (5) re-derive WHLR/TGEN (likely label errors — TGEN re-surfaced as an
+  basis, which removes the foreign/ADS chunk of the residual misses (a sim artifact — the sim carried
+  ads_ratio=1). Also warms both caches at scale and gives the true blended free-fraction with real (not
+  label-stand-in) recipes. ~236 multi-day tickers; consider a stratified ~30-ticker first wave to confirm
+  before the full set. (3) remaining soft-miss guards (diminishing returns, optional): frozen-XBRL O/S (AGEN
+  — an 8-K dilution post-dates the XBRL fact with no 424B/split signal; needs item-level 8-K reading, gap-form
+  alone is too blunt). (4) improve 13F recall (holder-CIK from the 13G header); (5) re-derive WHLR/TGEN
+  (likely label errors — TGEN re-surfaced as an
   11% sim miss). Artifacts: `recipes.json` (now carries `dno_M`+`control_M`), `holder_registry.json`,
   `_recipes_emitted.json`; harness: `engine/sim_replay.py` + `engine/calib_band.py`.
