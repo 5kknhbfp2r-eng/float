@@ -14,10 +14,15 @@ drifting O/S exactly as the labels are built (D&O constant between proxy filings
 thing re-fetched each day (anchored on os_at to reject misparses); a changed ownership source or a
 new 13D/13G/proxy re-fires the LLM (proxy-changed / is_stale).
 """
-import os, json
+import os, re, json, datetime as dt
 import det_float as D
 import float_gather as fg
 import edgar
+
+# reverse-split detection (the HUSA 899% lag: a split changes the share basis but XBRL keeps reporting
+# the pre-split count until the next periodic, so a deterministic O/S re-fetch is stale mid-recipe).
+_RS = re.compile(r"reverse\s+(?:stock\s+)?split", re.I)
+_RS_RATIO = re.compile(r"\b(?:1[-\s]?for[-\s]?\d{1,3}|\d{1,3}[-\s]?for[-\s]?1|1[-:]\s?\d{1,3})\b", re.I)
 
 RECIPES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes.json")
 # filings that change the EXCLUSION STRUCTURE (control set / D&O). A new 13D/13G/proxy => re-judge.
@@ -70,6 +75,25 @@ def is_stale(ticker, day, cik=None):
     return False
 
 
+def _split_in_window(cik, derived_day, day, lookback=30):
+    """True if a reverse-split-announcing 8-K is filed in [derived_day-lookback, day] -> the share
+    basis may change mid-recipe and XBRL lags it -> defer & re-derive (the HUSA 899% failure mode).
+    The 30d look-back covers announcements that precede their effective date (HUSA: announced 14d
+    before derivation, effective the next day). Reads 8-K text only for otherwise-free-eligible
+    replays (called late in replay) so the cost is bounded to a small minority of (ticker,day)s."""
+    lo = (dt.date.fromisoformat(derived_day) - dt.timedelta(days=lookback)).isoformat()
+    for f in edgar.query(cik, ["8-K", "8-K/A"], day, size=30):
+        if not (lo <= f["filedAt"][:10] <= day):
+            continue
+        try:
+            t = fg._text(f)
+        except Exception:
+            continue
+        if _RS.search(t) and _RS_RATIO.search(t):
+            return True
+    return False
+
+
 def replay(ticker, day, cik=None):
     """Deterministic float on a NEW day from the cached recipe (no LLM). Returns
     (status, float_M): status in {ok, stale, no-recipe, no-os}. 'stale' -> hand to the LLM."""
@@ -118,6 +142,8 @@ def replay(ticker, day, cik=None):
         return ("no-proxy", None)
     if f_now["filedAt"][:10] != f_der["filedAt"][:10]:
         return ("proxy-changed", None)                    # new D&O source -> re-judge with the LLM
+    if _split_in_window(cik, r["derived_day"], day):
+        return ("split", None)                            # reverse split mid-recipe (XBRL lags) -> LLM
     fl = os_ / (r["ads_ratio"] or 1.0) - r["dno_M"] - r["control_M"]
     if fl <= 0 or fl > os_ * 1.01:
         return ("implausible", None)
