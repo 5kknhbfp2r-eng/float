@@ -1,0 +1,69 @@
+{
+ "ticker": "UPXI",
+ "as_of": "2025-07-10",
+ "os_source": "424B3 filed 2025-06-23 acc:0001477932-25-004766 + DEF14A 2025-05-12 acc:0001477932-25-003551",
+ "excluded": [
+  {
+   "name": "D&O_real=0.48M(Marshall0.31M+Salkind0.13M+Norstrud0.02M+others0.02M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "PIPE_investors=institutional_passive_70+filers",
+   "shares_M": null
+  }
+ ],
+ "float_M": "37.43",
+ "os_M": "37.92",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1775194,
+ "depends_on_filings": [
+  {
+   "accession": "0001477932-25-004960",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001477932-25-004820",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001477932-25-004766",
+   "form": "424B3",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001477932-25-004692",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001477932-25-004689",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001477932-25-004623",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001477932-25-003866",
+   "form": "10-Q",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001477932-25-003551",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001477932-21-002410",
+   "form": "S-1",
+   "filedAt": "2021-04-15"
+  }
+ ]
+}

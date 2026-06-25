@@ -1,0 +1,77 @@
+{
+ "ticker": "RILY",
+ "as_of": "2025-07-17",
+ "os_source": "Common O/S 30,497,066 per Bryant Riley SCHEDULE 13D/A 2025-04-11 acc:0001213900-25-031211 (as of 2/19/2025, latest periodic; co. delinquent on later 10-Qs); ownership DEF 14A 2024-05-10 acc:0001213900-24-041725",
+ "excluded": [
+  {
+   "name": "Excluded=~10.01M D&O group (Bryant Riley 6.999M chairman + other officers/dirs ~3.0M, ex-options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.88M BlackRock 13G",
+   "shares_M": null
+  },
+  {
+   "name": "2.56M Daniel Asher",
+   "shares_M": null
+  },
+  {
+   "name": "1.82M Neil Subin/MILFAM family office (no board seat, <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "20.49",
+ "os_M": "30.50",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1464790,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-061210",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-051802",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-048338",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001213900-25-046915",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001213900-25-029055",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001213900-25-027230",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001628280-25-007082",
+   "form": "10-Q",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001213900-24-041725",
+   "form": "DEF 14A",
+   "filedAt": "2024-05-10"
+  },
+  {
+   "accession": "0001193125-09-202908",
+   "form": "424B3",
+   "filedAt": "2009-10-02"
+  }
+ ]
+}

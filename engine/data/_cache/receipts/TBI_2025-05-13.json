@@ -1,0 +1,75 @@
+{
+ "ticker": "TBI",
+ "as_of": "2025-05-13",
+ "os_source": "O/S 10-Q cover filed 2025-05-05: 29,864,024 common",
+ "excluded": [
+  {
+   "name": "Excluded=1.396M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.092M Pzena",
+   "shares_M": null
+  },
+  {
+   "name": "2.627M BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "2.005M Invesco",
+   "shares_M": null
+  },
+  {
+   "name": "2.002M Vanguard",
+   "shares_M": null
+  },
+  {
+   "name": "1.742M FMR (all passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "28.47",
+ "os_M": "29.86",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 768899,
+ "depends_on_filings": [
+  {
+   "accession": "0000768899-25-000091",
+   "form": "10-Q",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0000768899-25-000089",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001140361-25-012334",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0000768899-25-000041",
+   "form": "8-K",
+   "filedAt": "2025-02-19"
+  },
+  {
+   "accession": "0000768899-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0000768899-24-000119",
+   "form": "8-K",
+   "filedAt": "2024-11-04"
+  },
+  {
+   "accession": "0000912057-96-012289",
+   "form": "424B4",
+   "filedAt": "1996-06-13"
+  }
+ ]
+}

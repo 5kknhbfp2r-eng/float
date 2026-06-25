@@ -1,0 +1,73 @@
+{
+ "ticker": "XCUR",
+ "as_of": "2025-08-01",
+ "os_source": "S-1 2025-07-14 acc:0001698530-25-000062",
+ "excluded": [
+  {
+   "name": "HiTron=3.333M(52.8% control 13D)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "DGP=0.493M",
+   "shares_M": null
+  },
+  {
+   "name": "SangSangIn=0.433M(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.98",
+ "os_M": "6.32",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1698530,
+ "depends_on_filings": [
+  {
+   "accession": "0001698530-25-000069",
+   "form": "424B3",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001698530-25-000062",
+   "form": "S-1",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001698530-25-000056",
+   "form": "10-Q",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001698530-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001698530-25-000047",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001698530-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001698530-25-000035",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001698530-24-000134",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-02"
+  },
+  {
+   "accession": "0001628280-17-011891",
+   "form": "S-1",
+   "filedAt": "2017-11-28"
+  }
+ ]
+}

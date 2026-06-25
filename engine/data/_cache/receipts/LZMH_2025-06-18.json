@@ -1,0 +1,60 @@
+{
+ "ticker": "LZMH",
+ "as_of": "2025-06-18",
+ "os_source": "20-F 2025-06-17 acc:0001213900-25-055265 Class B O/S 129,570,000; 424B4 offering 1.8M+greenshoe",
+ "excluded": [
+  {
+   "name": "Excluded=124.6M+ pre-IPO Class B (founder/CFO-controlled BVI shells: LZ Holdings 30.98M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanshion 34.09M",
+   "shares_M": null
+  },
+  {
+   "name": "Youder 38.5M",
+   "shares_M": null
+  },
+  {
+   "name": "BJ Tojoy 14.18M",
+   "shares_M": null
+  },
+  {
+   "name": "Kim Full 6.89M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.07M IPO public Class B float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.07",
+ "os_M": "129.57",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1967397,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-055265",
+   "form": "20-F",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001213900-25-038478",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001213900-25-018830",
+   "form": "6-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001213900-23-098088",
+   "form": "F-1",
+   "filedAt": "2023-12-22"
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "ticker": "AVXL",
+ "as_of": "2025-07-23",
+ "os_source": "10-Q 2025-05-13+DEF14A 2025-04-25",
+ "excluded": [
+  {
+   "name": "D&O group 10.67M (incl CEO Missling 7.58M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard 4.36M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 6.67M 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "85.37",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1314052,
+ "depends_on_filings": [
+  {
+   "accession": "0001731122-25-000973",
+   "form": "S-3",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001731122-25-000935",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001731122-25-000878",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001731122-25-000724",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001731122-25-000607",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001731122-24-001160",
+   "form": "8-K",
+   "filedAt": "2024-07-30"
+  },
+  {
+   "accession": "0001731122-24-001003",
+   "form": "8-K",
+   "filedAt": "2024-06-21"
+  },
+  {
+   "accession": "0001062993-13-004523",
+   "form": "S-1",
+   "filedAt": "2013-09-04"
+  }
+ ]
+}

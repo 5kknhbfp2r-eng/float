@@ -1,0 +1,54 @@
+{
+ "ticker": "HOLO",
+ "as_of": "2025-07-11",
+ "os_source": "424B5 acc 0001829126-25-004270 filed 2025-06-05 (81,992,848 ordinary O/S, post 40:1 consol eff 4/21) + 20-F acc 0001829126-25-001963; carried from 2025-06-03, intervening 6/05 offering is convertible notes (no immediate issuance)",
+ "excluded": [
+  {
+   "name": "Excluded=Tiger Initiative+Lucky Monkey control entities + D&O ~0.83 (incl Class B holders)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=non-affiliate float 81.16 per prospectus; HOLO trades Class A ordinary directly not ADS",
+   "shares_M": null
+  }
+ ],
+ "float_M": "81.16",
+ "os_M": "81.99",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1841209,
+ "depends_on_filings": [
+  {
+   "accession": "0001829126-25-004269",
+   "form": "6-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001829126-25-002848",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001829126-25-002613",
+   "form": "6-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001829126-25-002099",
+   "form": "6-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001829126-25-001963",
+   "form": "20-F",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001104659-21-051350",
+   "form": "S-1",
+   "filedAt": "2021-04-16"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "DDC",
+ "as_of": "2025-05-29",
+ "os_source": "6-K 2025-05-16 acc=0001213900-25-044621 : 4,645,749 Class A Ordinary shares outstanding as of May 15 2025 (post 1-for-25 reverse split; trades direct on NYSE-American, no ADS)",
+ "excluded": [
+  {
+   "name": "Norma Ka Yin Chu (founder/CEO/Chair, 23,309,275 pre-split Class A scaled /25)",
+   "shares_M": 0.932371
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.71",
+ "os_M": "4.65",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1808110,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-044621",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001213900-25-043916",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-030054",
+   "form": "6-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001013762-25-001000",
+   "form": "6-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001213900-25-017669",
+   "form": "6-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001213900-23-049381",
+   "form": "F-1",
+   "filedAt": "2023-06-16"
+  }
+ ]
+}

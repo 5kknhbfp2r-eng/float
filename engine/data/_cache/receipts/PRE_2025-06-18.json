@@ -1,0 +1,63 @@
+{
+ "ticker": "PRE",
+ "as_of": "2025-06-18",
+ "os_source": "20-F 2025-04-30 Item 7 O/S 11.45M acc:0001628280-25-032021(carry)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.85
+  },
+  {
+   "name": "Item7 major holders per prior derivation",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "9.60",
+ "os_M": "11.45",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1876431,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-032021",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001628280-25-032019",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001628280-25-031458",
+   "form": "6-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001628280-25-030870",
+   "form": "6-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001628280-25-028242",
+   "form": "6-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001628280-25-021127",
+   "form": "20-F",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001104659-22-044399",
+   "form": "424B3",
+   "filedAt": "2022-04-11"
+  }
+ ]
+}

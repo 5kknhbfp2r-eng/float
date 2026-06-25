@@ -1,0 +1,57 @@
+{
+ "ticker": "SNT",
+ "as_of": "2025-05-19",
+ "os_source": "OS_SOURCE: 20-F filed 2025-04-23 acc 0001178913-25-001415 : 23,326,653 Common Shares (Apr 21 2025)",
+ "excluded": [
+  {
+   "name": "FIMI_Opportunity_Five_Delaware",
+   "shares_M": 4.647
+  },
+  {
+   "name": "FIMI_Israel_Opportunity_Five",
+   "shares_M": 5.207
+  },
+  {
+   "name": "DandO_realshares",
+   "shares_M": 0.0001
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "13.47",
+ "os_M": "23.33",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1993727,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-001415",
+   "form": "20-F",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001178913-25-001419",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001178913-25-001411",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001178913-25-001258",
+   "form": "6-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001178913-24-003828",
+   "form": "6-K",
+   "filedAt": "2024-11-25"
+  },
+  {
+   "accession": "0001178913-23-003748",
+   "form": "424B3",
+   "filedAt": "2023-11-21"
+  }
+ ]
+}

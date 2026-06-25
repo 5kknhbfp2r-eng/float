@@ -1,0 +1,77 @@
+{
+ "ticker": "XCUR",
+ "as_of": "2025-06-30",
+ "os_source": "10-K 2025-03-18 acc:0001698530-25-000019 cover page 2025-03-12=6317771; 10-Q cover 2025-06-23 confirms same",
+ "excluded": [
+  {
+   "name": "Excluded=HiTron 3.33M(52.8% 13D control)",
+   "shares_M": null
+  },
+  {
+   "name": "DGP 0.42M(6.7% 13D)",
+   "shares_M": null
+  },
+  {
+   "name": "SangSang 0.43M(6.9% 13D)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Shin Chang+RMS0718 0.29M(4.6%,registered rights,no 13D shown)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.13",
+ "os_M": "6.32",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1698530,
+ "depends_on_filings": [
+  {
+   "accession": "0001698530-25-000056",
+   "form": "10-Q",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001698530-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001698530-25-000047",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001698530-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001698530-25-000035",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001698530-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001698530-25-000017",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001698530-24-000134",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-02"
+  },
+  {
+   "accession": "0001628280-17-011891",
+   "form": "S-1",
+   "filedAt": "2017-11-28"
+  }
+ ]
+}

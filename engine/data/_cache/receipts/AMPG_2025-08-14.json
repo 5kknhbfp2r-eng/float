@@ -1,0 +1,69 @@
+{
+ "ticker": "AMPG",
+ "as_of": "2025-08-14",
+ "os_source": "10-Q 2025-08-14 acc:0001493152-25-011972 OS=20573595; DEF14A 2024-10-21 acc:0001493152-24-041766",
+ "excluded": [
+  {
+   "name": "D&O real ~3.01M: CEO Maqbool 2.663M+CFO 10K+Flores 25K+Mazziota 248K+Kappers 30K+Lee 30K+Modi 0",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Bard Associates 2.07M (SC 13G passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "17.57",
+ "os_M": "20.57",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1518461,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-011972",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001641172-25-024050",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001493152-25-011518",
+   "form": "S-3/A",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001641172-25-020599",
+   "form": "8-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001493152-25-011333",
+   "form": "S-3",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001493152-25-011268",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001641172-25-007751",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001493152-24-041766",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-21"
+  },
+  {
+   "accession": "0001477932-12-002977",
+   "form": "S-1",
+   "filedAt": "2012-08-13"
+  }
+ ]
+}

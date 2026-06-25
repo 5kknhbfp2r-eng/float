@@ -1,0 +1,75 @@
+{
+ "ticker": "DOMO",
+ "as_of": "2025-05-22",
+ "os_source": "DEF 14A 2025-05-13 acc=0001505952-25-000062 cover : 36,940,668 Class B common (ticker class) outstanding as of May 1 2025 record date (Class A 3,263,659 separate super-voting class)",
+ "excluded": [
+  {
+   "name": "D&O group Class B (incl founder J.James)",
+   "shares_M": 2.864083
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock Inc",
+   "shares_M": 2.439099
+  },
+  {
+   "name": "BlackRock Portfolio Mgmt",
+   "shares_M": 1.93868
+  },
+  {
+   "name": "RPD Fund Mgmt/Okumus",
+   "shares_M": 2.182018
+  },
+  {
+   "name": "Vanguard Group",
+   "shares_M": 4.718054
+  },
+  {
+   "name": "Ameriprise Financial",
+   "shares_M": 3.00489
+  }
+ ],
+ "float_M": "34.08",
+ "os_M": "36.94",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1505952,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-027066",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001505952-25-000062",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001505952-25-000045",
+   "form": "10-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001505952-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001505952-25-000007",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001505952-25-000004",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001628280-18-007487",
+   "form": "S-1",
+   "filedAt": "2018-06-01"
+  }
+ ]
+}

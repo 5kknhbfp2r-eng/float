@@ -1,0 +1,85 @@
+{
+ "ticker": "NUKK",
+ "as_of": "2025-08-26",
+ "os_source": "PRER14A 2025-07-29 O/S 6,202,373 as of 7/24/25 acc:0001213900-25-068805",
+ "excluded": [
+  {
+   "name": "Shalom",
+   "shares_M": 0.5
+  },
+  {
+   "name": "dirs4",
+   "shares_M": 0.04
+  },
+  {
+   "name": "KotaievaXGroup_common",
+   "shares_M": 0.47
+  },
+  {
+   "name": "Assentato",
+   "shares_M": 0.67
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "NLI170=0(all-derivative)",
+   "shares_M": null
+  },
+  {
+   "name": "Esousa=0(prefunded+warrants)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.52",
+ "os_M": "6.20",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1787518,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-080347",
+   "form": "8-K",
+   "filedAt": "2025-08-25"
+  },
+  {
+   "accession": "0001213900-25-076794",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001213900-25-073322",
+   "form": "8-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001213900-25-069676",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001213900-25-068817",
+   "form": "S-1/A",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001213900-25-067726",
+   "form": "8-K",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001213900-25-062353",
+   "form": "S-1/A",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-013066",
+   "form": "PRE 14A",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0001213900-20-006275",
+   "form": "S-1",
+   "filedAt": "2020-03-13"
+  }
+ ]
+}

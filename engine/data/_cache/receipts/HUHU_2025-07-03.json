@@ -1,0 +1,62 @@
+{
+ "ticker": "HUHU",
+ "as_of": "2025-07-03",
+ "os_source": "20-F 2025-04-29 cover: 21,173,413 ordinary shares (Nasdaq HUHU, ordinary not ADS; 1-for-4 fwd split baked in)",
+ "excluded": [
+  {
+   "name": "ArmyXiaoHoldings",
+   "shares_M": 8.438
+  },
+  {
+   "name": "IncreaseWillpowerLP",
+   "shares_M": 1.854
+  },
+  {
+   "name": "BillionWangHoldings",
+   "shares_M": 8.248
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.63",
+ "os_M": "21.17",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1945415,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-036389",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-018381",
+   "form": "6-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001213900-25-014324",
+   "form": "6-K",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001213900-24-106172",
+   "form": "6-K",
+   "filedAt": "2024-12-06"
+  },
+  {
+   "accession": "0001213900-24-101036",
+   "form": "6-K",
+   "filedAt": "2024-11-21"
+  },
+  {
+   "accession": "0001213900-23-024193",
+   "form": "F-1",
+   "filedAt": "2023-03-29"
+  }
+ ]
+}

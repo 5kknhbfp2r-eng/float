@@ -1,0 +1,52 @@
+{
+ "ticker": "MB",
+ "as_of": "2025-07-08",
+ "os_source": "20-F 2025-05-15 acc:0001641172-25-010685 (17M ord) + 6-K 2025-05-16 acc:0001641172-25-011248 (+155,000 overallot)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 12.465
+  },
+  {
+   "name": "Galaxy Shine 9.017+Thrivors 3.448 BVI control SPVs (=D&O group)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 4.69
+  },
+  {
+   "name": "public ordinary float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.69",
+ "os_M": "17.16",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2027265,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011248",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001641172-25-010685",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-003839",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-24-044667",
+   "form": "F-1",
+   "filedAt": "2024-11-12"
+  }
+ ]
+}

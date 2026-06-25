@@ -1,0 +1,73 @@
+{
+ "ticker": "AUUD",
+ "as_of": "2025-06-27",
+ "os_source": "S-1 2025-05-16 acc:0001683168-25-003796; DEF14A 2025-04-07 acc:0001683168-25-002315",
+ "excluded": [
+  {
+   "name": "Excluded=0.005M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O real shares ~5K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none (no 5%+ holders)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.62",
+ "os_M": "0.62",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1554818,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-004645",
+   "form": "S-3",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001683168-25-003796",
+   "form": "S-1",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001683168-25-003292",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001683168-25-003175",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001683168-25-002315",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001683168-25-002176",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001683168-25-001733",
+   "form": "8-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001683168-25-000063",
+   "form": "8-K",
+   "filedAt": "2025-01-03"
+  },
+  {
+   "accession": "0001683168-20-000083",
+   "form": "S-1",
+   "filedAt": "2020-01-10"
+  }
+ ]
+}

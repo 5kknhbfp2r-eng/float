@@ -1,0 +1,59 @@
+{
+ "ticker": "ELVA",
+ "as_of": "2025-07-23",
+ "os_source": "O/S 40,106,915 common from Q2 MD&A 6-K 2025-05-15 acc:0001654954-25-005648 ex99.2 (As of March 31 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group 11.22M common (Sankar Das Gupta 10.45M founder/control, Raj Das Gupta 0.25M CEO, Jacobs 0.48M, Hansson 0.05M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public float ~28.88M (passive 13G institutions)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "28.88",
+ "os_M": "40.11",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1844450,
+ "depends_on_filings": [
+  {
+   "accession": "0001654954-25-008305",
+   "form": "6-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001654954-25-008053",
+   "form": "6-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001654954-25-007914",
+   "form": "6-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001654954-25-007839",
+   "form": "6-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001654954-25-007380",
+   "form": "6-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001654954-25-006525",
+   "form": "6-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001654954-24-015904",
+   "form": "40-F",
+   "filedAt": "2024-12-26"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "ticker": "HSPO",
+ "as_of": "2025-06-23",
+ "os_source": "10-Q 2025-05-14 acc:0001929980-25-000426 + 8-K 2025-06-13 acc:0001929980-25-000498",
+ "excluded": [
+  {
+   "name": "Excluded=2.31M",
+   "shares_M": null
+  },
+  {
+   "name": "non-redeemable founder shares (Sponsor 2,092,750 + ~218K)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.86M",
+   "shares_M": null
+  },
+  {
+   "name": "redeemable public shares 1,857,989",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.86",
+ "os_M": "4.17",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1946021,
+ "depends_on_filings": [
+  {
+   "accession": "0001929980-25-000498",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001929980-25-000474",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001929980-25-000426",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001929980-25-000308",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001929980-25-000178",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001929980-25-000102",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001929980-25-000067",
+   "form": "8-K",
+   "filedAt": "2025-02-06"
+  },
+  {
+   "accession": "0001929980-24-000565",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-19"
+  },
+  {
+   "accession": "0001929980-22-000034",
+   "form": "S-1",
+   "filedAt": "2022-11-29"
+  }
+ ]
+}

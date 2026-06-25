@@ -1,0 +1,58 @@
+{
+ "ticker": "CLGN",
+ "as_of": "2025-05-29",
+ "os_source": "OS_SOURCE: 20-F 2025-03-26 acc 0001013762-25-002502 : 11,454,512 ordinary (as of 2025-03-15)",
+ "excluded": [
+  {
+   "name": "DnO_group_exOptions",
+   "shares_M": 0.410566
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "AmiSagy",
+   "shares_M": 1.943184
+  },
+  {
+   "name": "Loewenbaum",
+   "shares_M": 1.449079
+  }
+ ],
+ "float_M": "11.04",
+ "os_M": "11.45",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1631487,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-048011",
+   "form": "6-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001213900-25-031759",
+   "form": "6-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001013762-25-002502",
+   "form": "20-F",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001013762-25-002498",
+   "form": "6-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001213900-25-016271",
+   "form": "6-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001047469-16-016194",
+   "form": "F-1",
+   "filedAt": "2016-10-21"
+  }
+ ]
+}

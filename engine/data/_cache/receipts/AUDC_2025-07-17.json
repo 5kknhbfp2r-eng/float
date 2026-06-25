@@ -1,0 +1,78 @@
+{
+ "ticker": "AUDC",
+ "as_of": "2025-07-17",
+ "os_source": "20-F Item 7 acc:0001410578-25-000464 (29,473,093 ord ex-treasury as of 3/11/25)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.94
+  },
+  {
+   "name": "D&O group directly-owned ex-options/RSUs (incl founder Adlersberg, co-founder Bialik)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.54
+  },
+  {
+   "name": "Senvest 8.6%;2.46",
+   "shares_M": null
+  },
+  {
+   "name": "Value Base 8.3%;1.65",
+   "shares_M": null
+  },
+  {
+   "name": "Copeland 5.6%;1.54",
+   "shares_M": null
+  },
+  {
+   "name": "Morgan Stanley 5.2%;1.54",
+   "shares_M": null
+  },
+  {
+   "name": "William Blair 5.2% (all passive 13G <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "24.5",
+ "os_M": "29.47",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1086434,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-059183",
+   "form": "6-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001104659-25-044826",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-25-029639",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001410578-25-000464",
+   "form": "20-F",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001104659-25-028135",
+   "form": "6-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001178913-05-000769",
+   "form": "424B3",
+   "filedAt": "2005-06-09"
+  }
+ ]
+}

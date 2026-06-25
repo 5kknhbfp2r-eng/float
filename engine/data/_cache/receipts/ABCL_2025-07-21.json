@@ -1,0 +1,72 @@
+{
+ "ticker": "ABCL",
+ "as_of": "2025-07-21",
+ "os_source": "10-Q 2025-05-08 cover 298,355,752; DEF14A 2025-04-29 acc:0001193125-25-...",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 68.7
+  },
+  {
+   "name": "D&O group ex-options (incl Thermopylae/Hansen 56.1M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 27.53
+  },
+  {
+   "name": "Baker Bros 13G passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "229.66",
+ "os_M": "298.36",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1703057,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-031219",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001628280-25-028529",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001628280-25-025573",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001628280-25-025006",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001628280-25-023836",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-023808",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-020703",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001193125-20-299507",
+   "form": "S-1",
+   "filedAt": "2020-11-20"
+  }
+ ]
+}

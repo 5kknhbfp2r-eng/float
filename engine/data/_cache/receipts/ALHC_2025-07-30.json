@@ -1,0 +1,63 @@
+{
+ "ticker": "ALHC",
+ "as_of": "2025-07-30",
+ "os_source": "10-Q 2025-07-30+DEF14A 2025-04-25",
+ "excluded": [
+  {
+   "name": "General Atlantic 61.30M control",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 14.38M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Fidelity 16.45M 13F passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "191.78",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1832466,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-036713",
+   "form": "10-Q",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001171843-25-004825",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001628280-25-030795",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001171843-25-002689",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001628280-25-019952",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001628280-25-017872",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001193125-21-067513",
+   "form": "S-1",
+   "filedAt": "2021-03-03"
+  }
+ ]
+}

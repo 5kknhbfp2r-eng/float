@@ -1,0 +1,75 @@
+{
+ "ticker": "SRPT",
+ "as_of": "2025-07-28",
+ "os_source": "DEF14A 2025-04-24 acc:0000950170-25-058003; 10-Q 2025-05-06 O/S 98,254,898",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_ex_options",
+   "shares_M": null
+  },
+  {
+   "name": "4.27M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "10.12M; Vanguard",
+   "shares_M": null
+  },
+  {
+   "name": "8.82M; CapitalIntl",
+   "shares_M": null
+  },
+  {
+   "name": "8.90M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "98.25",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 873303,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-161516",
+   "form": "8-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0000950170-25-096257",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0000950170-25-083131",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-064412",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-058003",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0000950170-25-027717",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0000912057-97-019606",
+   "form": "424B4",
+   "filedAt": "1997-06-05"
+  }
+ ]
+}

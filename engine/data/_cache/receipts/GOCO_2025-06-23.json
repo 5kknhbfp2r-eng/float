@@ -1,0 +1,63 @@
+{
+ "ticker": "GOCO",
+ "as_of": "2025-06-23",
+ "os_source": "10-Q 2025-05-16 acc:0001808220-25-000054 (Class A 11,115,125 as of May 6 2025); ownership DEF14A 2025-04-28 acc:0001140361-25-015892",
+ "excluded": [
+  {
+   "name": "Excluded=Centerbridge Class A 4.18M (PE sponsor 13D+board)",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group Class A 1.40M (CEO Kotte 1.00M, Cruz/Jones)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none material (no passive Class A 5% holder in table)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.53",
+ "os_M": "11.12",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1808220,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-032314",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001808220-25-000054",
+   "form": "10-Q",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001808220-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001140361-25-015892",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001808220-25-000037",
+   "form": "8-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001808220-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001193125-20-173051",
+   "form": "S-1",
+   "filedAt": "2020-06-19"
+  }
+ ]
+}

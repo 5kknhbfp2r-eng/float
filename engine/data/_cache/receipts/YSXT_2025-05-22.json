@@ -1,0 +1,46 @@
+{
+ "ticker": "YSXT",
+ "as_of": "2025-05-22",
+ "os_source": "OS_SOURCE: IPO-closing 6-K filed 2024-12-20 acc=0001104659-24-130315 + 424B4 : 22,260,175 Class A (post full greenshoe)",
+ "excluded": [
+  {
+   "name": "JeffreXiao_XJ_Holding",
+   "shares_M": 11.850077
+  },
+  {
+   "name": "ZWQ_Holding",
+   "shares_M": 0.566772
+  },
+  {
+   "name": "XGR_Holding",
+   "shares_M": 0.875644
+  },
+  {
+   "name": "other_preIPO_ClassA",
+   "shares_M": 7.530182
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "1.44",
+ "os_M": "22.26",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1993463,
+ "depends_on_filings": [
+  {
+   "accession": "0001410578-25-000186",
+   "form": "6-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001104659-24-130315",
+   "form": "6-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001104659-24-072869",
+   "form": "F-1",
+   "filedAt": "2024-06-18"
+  }
+ ]
+}

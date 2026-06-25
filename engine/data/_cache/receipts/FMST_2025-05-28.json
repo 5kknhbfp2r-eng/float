@@ -1,0 +1,79 @@
+{
+ "ticker": "FMST",
+ "as_of": "2025-05-28",
+ "os_source": "OS_SOURCE: 424B3 acc 0001171843-25-001157 MD&A : 10,337,396 common shares issued and outstanding as of Feb12-2025 (latest count <= as_of)",
+ "excluded": [
+  {
+   "name": "Barnards_CEO_COO_Claimbank_Ora",
+   "shares_M": 0.721
+  },
+  {
+   "name": "Hamzagic_CFO",
+   "shares_M": 0.023
+  },
+  {
+   "name": "More",
+   "shares_M": 0.019
+  },
+  {
+   "name": "Lyons",
+   "shares_M": 0.011
+  },
+  {
+   "name": "Mason",
+   "shares_M": 0.005
+  },
+  {
+   "name": "McLeod",
+   "shares_M": 0.002
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "9.56",
+ "os_M": "10.34",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1935418,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-003468",
+   "form": "6-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001171843-25-003247",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001171843-25-002908",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001171843-25-002754",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001171843-25-002696",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001171843-25-002548",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001171843-24-003729",
+   "form": "20-F",
+   "filedAt": "2024-07-01"
+  },
+  {
+   "accession": "0001753926-23-000691",
+   "form": "F-1",
+   "filedAt": "2023-05-18"
+  }
+ ]
+}

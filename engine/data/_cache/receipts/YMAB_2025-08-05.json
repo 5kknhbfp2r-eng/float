@@ -1,0 +1,75 @@
+{
+ "ticker": "YMAB",
+ "as_of": "2025-08-05",
+ "os_source": "DEF14A 2025-05-30 acc:0001558370-25-008299; 10-Q 2025-05-13 acc:0001558370-25-007492",
+ "excluded": [
+  {
+   "name": "D&O_group_ex_options=7.08M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Paradigm_13G=4.09M",
+   "shares_M": null
+  },
+  {
+   "name": "HBM_13G=3.30M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_13G=2.92M",
+   "shares_M": null
+  },
+  {
+   "name": "Acorn_13G=2.76M",
+   "shares_M": null
+  },
+  {
+   "name": "Caligan_13G=2.34M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "38.21",
+ "os_M": "45.30",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1722964,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-073993",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001104659-25-068099",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001558370-25-008299",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001104659-25-053289",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001558370-25-007492",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001558370-25-007491",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001047469-18-005786",
+   "form": "S-1",
+   "filedAt": "2018-08-24"
+  }
+ ]
+}

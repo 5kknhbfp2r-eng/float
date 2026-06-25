@@ -1,0 +1,75 @@
+{
+ "ticker": "SEDG",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: 10-Q filed 2025-05-08 : 59,043,817 shares (Mar 31 2025)",
+ "excluded": [
+  {
+   "name": "DandO_group",
+   "shares_M": 0.419
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock",
+   "shares_M": 8.997
+  },
+  {
+   "name": "GMO",
+   "shares_M": 4.954
+  },
+  {
+   "name": "Vanguard",
+   "shares_M": 3.188
+  },
+  {
+   "name": "JaneStreet",
+   "shares_M": 3.091
+  },
+  {
+   "name": "Susquehanna",
+   "shares_M": 3.036
+  }
+ ],
+ "float_M": "58.62",
+ "os_M": "59.04",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1419612,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-001662",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001178913-25-001588",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001178913-25-001370",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001178913-25-001256",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001178913-25-000655",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001178913-25-000546",
+   "form": "8-K",
+   "filedAt": "2025-02-19"
+  },
+  {
+   "accession": "0001047469-15-000911",
+   "form": "S-1",
+   "filedAt": "2015-02-18"
+  }
+ ]
+}

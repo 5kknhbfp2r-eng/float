@@ -1,0 +1,67 @@
+{
+ "ticker": "SOUN",
+ "as_of": "2025-05-12",
+ "os_source": "O/S 10-Q cover filed 2025-05-12 acc 0001628280-25-024654: 369,198,933 Class A (May 8 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=4.22M D&O group Class A",
+   "shares_M": null
+  },
+  {
+   "name": "32.54M Class B founder unlisted",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=32.03M Vanguard",
+   "shares_M": null
+  },
+  {
+   "name": "23.28M BlackRock passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "364.98",
+ "os_M": "369.2",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1840856,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-024654",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-023838",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-036107",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001840856-25-000008",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001840856-24-000039",
+   "form": "8-K",
+   "filedAt": "2024-11-12"
+  },
+  {
+   "accession": "0001213900-24-095993",
+   "form": "8-K",
+   "filedAt": "2024-11-08"
+  },
+  {
+   "accession": "0001213900-21-009092",
+   "form": "S-1",
+   "filedAt": "2021-02-12"
+  }
+ ]
+}

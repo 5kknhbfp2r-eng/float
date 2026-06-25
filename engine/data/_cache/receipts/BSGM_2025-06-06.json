@@ -1,0 +1,69 @@
+{
+ "ticker": "BSGM",
+ "as_of": "2025-06-06",
+ "os_source": "10-Q 2025-05-19 acc:0001641172-25-011419",
+ "excluded": [
+  {
+   "name": "D&O_group=3.352M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "majority_float=20.9M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "20.9",
+ "os_M": "24.2525",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1530766,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013022",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001641172-25-012363",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001641172-25-011419",
+   "form": "10-Q",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001641172-25-010617",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-008624",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001641172-25-007596",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001641172-25-006519",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001493152-24-046504",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-18"
+  },
+  {
+   "accession": "0001185185-13-001497",
+   "form": "S-1",
+   "filedAt": "2013-07-22"
+  }
+ ]
+}

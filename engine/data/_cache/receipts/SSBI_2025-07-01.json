@@ -1,0 +1,21 @@
+{
+ "ticker": "SSBI",
+ "as_of": "2025-07-01",
+ "os_source": "UNRESOLVED: no SEC filer resolves to ticker SSBI at/before 2025-07-01 (full ladder exhausted)",
+ "excluded": [
+  {
+   "name": "Excluded=n/a",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=n/a",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "",
+ "under_20M": "false",
+ "confidence": "low"
+}

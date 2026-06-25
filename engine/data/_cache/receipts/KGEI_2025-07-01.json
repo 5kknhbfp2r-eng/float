@@ -1,0 +1,54 @@
+{
+ "ticker": "KGEI",
+ "as_of": "2025-07-01",
+ "os_source": "40-F AIF (ex99-1) 2025-03-25 acc:0001641172-25-000648; O/S 35.460309M XBRL EntityCommonStockSharesOutstanding FY2024",
+ "excluded": [
+  {
+   "name": "Excluded=6.067771M D&O group ex-options (AIF Control of Securities, 17.1%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none (no SEC 13D/G; Canadian filer)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.39",
+ "os_M": "35.46",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1477081,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-016365",
+   "form": "6-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001641172-25-010175",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-008944",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001641172-25-005745",
+   "form": "6-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001641172-25-004696",
+   "form": "6-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001641172-25-000648",
+   "form": "40-F",
+   "filedAt": "2025-03-25"
+  }
+ ]
+}

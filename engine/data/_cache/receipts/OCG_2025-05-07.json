@@ -1,0 +1,71 @@
+{
+ "ticker": "OCG",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: F-3 2024-12-05 acc 0001213900-24-106069 : 18,569,340 ordinary outstanding as of 2024-12-04 + 0.5M award 6-K 2025-05-02 = ~19.07M",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 0.434
+  },
+  {
+   "name": "CEO+employee grants 2025-04-28",
+   "shares_M": 0.5
+  },
+  {
+   "name": "Oriental Culture Inv Development(Kong)",
+   "shares_M": 0.49
+  },
+  {
+   "name": "Oriental Culture Inv Communication(Gao)",
+   "shares_M": 0.49
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "17.16",
+ "os_M": "19.07",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1776067,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-039187",
+   "form": "6-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001213900-25-038482",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001213900-25-007560",
+   "form": "6-K",
+   "filedAt": "2025-01-28"
+  },
+  {
+   "accession": "0001213900-25-005029",
+   "form": "6-K",
+   "filedAt": "2025-01-21"
+  },
+  {
+   "accession": "0001213900-24-111926",
+   "form": "6-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001213900-24-106069",
+   "form": "F-3",
+   "filedAt": "2024-12-05"
+  },
+  {
+   "accession": "0001213900-24-036221",
+   "form": "20-F",
+   "filedAt": "2024-04-25"
+  },
+  {
+   "accession": "0001213900-19-022984",
+   "form": "F-1",
+   "filedAt": "2019-11-12"
+  }
+ ]
+}

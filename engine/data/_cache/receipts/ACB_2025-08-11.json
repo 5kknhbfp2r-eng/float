@@ -1,0 +1,59 @@
+{
+ "ticker": "ACB",
+ "as_of": "2025-08-11",
+ "os_source": "Q1 FY2026 6-K MD&A 2025-08-06 acc:0001683541-25-000015; O/S 56.453948M issued and outstanding common shares",
+ "excluded": [
+  {
+   "name": "Excluded=0.228039M D&O group (AIF, 0.4%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=all institutions (passive, widely held)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "56.23",
+ "os_M": "56.45",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1683541,
+ "depends_on_filings": [
+  {
+   "accession": "0001279569-25-000864",
+   "form": "6-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001279569-25-000862",
+   "form": "6-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001279569-25-000828",
+   "form": "6-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001683541-25-000015",
+   "form": "6-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001279569-25-000806",
+   "form": "6-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001279569-25-000785",
+   "form": "6-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001683541-25-000008",
+   "form": "40-F",
+   "filedAt": "2025-06-18"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "SPCE",
+ "as_of": "2025-05-16",
+ "os_source": "O/S 10-Q cover filed 2025-05-15 acc 0001706946-25-000079: 41,574,845 common (May 8 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=0.108M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=remaining widely-held float; no 5% holder disclosed",
+   "shares_M": null
+  }
+ ],
+ "float_M": "41.47",
+ "os_M": "41.57",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1706946,
+ "depends_on_filings": [
+  {
+   "accession": "0001706946-25-000079",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001706946-25-000077",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001706946-25-000063",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001706946-25-000036",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0001706946-24-000249",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001706946-24-000234",
+   "form": "8-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001144204-17-044783",
+   "form": "S-1",
+   "filedAt": "2017-08-23"
+  }
+ ]
+}

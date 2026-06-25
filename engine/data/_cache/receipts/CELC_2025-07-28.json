@@ -1,0 +1,79 @@
+{
+ "ticker": "CELC",
+ "as_of": "2025-07-28",
+ "os_source": "10-Q 2025-05-15+DEF14A 2025-04-01",
+ "excluded": [
+  {
+   "name": "D&O ex-options 4644431M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Baker Bros 2678553",
+   "shares_M": null
+  },
+  {
+   "name": "BVF 3466000",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 2179064",
+   "shares_M": null
+  },
+  {
+   "name": "GEO 3703561",
+   "shares_M": null
+  },
+  {
+   "name": "Perceptive 2362279",
+   "shares_M": null
+  },
+  {
+   "name": "Soleus 3872184",
+   "shares_M": null
+  }
+ ],
+ "float_M": "33.19",
+ "os_M": "37.84",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1603454,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021095",
+   "form": "8-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001641172-25-017043",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001641172-25-011273",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001641172-25-011053",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-010308",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-002114",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001571049-17-007662",
+   "form": "S-1",
+   "filedAt": "2017-08-23"
+  }
+ ]
+}

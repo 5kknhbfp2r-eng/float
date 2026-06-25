@@ -1,0 +1,67 @@
+{
+ "ticker": "EHTH",
+ "as_of": "2025-08-06",
+ "os_source": "DEF14A 2025-04-28 + 8-K 2025-06-18 OS=30,326,646 common",
+ "excluded": [
+  {
+   "name": "Excluded=1.60M D&O beneficial group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=8Knots 2.40M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Nantahala 1.91M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Palo Alto 1.88M 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "28.72",
+ "os_M": "30.33",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1333493,
+ "depends_on_filings": [
+  {
+   "accession": "0001333493-25-000087",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001333493-25-000083",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001333493-25-000078",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001333493-25-000057",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001333493-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001333493-25-000047",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-06-087959",
+   "form": "S-1",
+   "filedAt": "2006-04-25"
+  }
+ ]
+}

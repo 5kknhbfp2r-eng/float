@@ -1,0 +1,64 @@
+{
+ "ticker": "SOS",
+ "as_of": "2025-05-09",
+ "os_source": "OS_SOURCE: F-3 filed 2025-03-14 acc 0001213900-25-024134 (444,688,474 Class A ord) + 6-K 2025-04-11 PIPE 222,337,500 Class A closed Apr 9 = ~667.0M ord /150 ADS = 4.45M ADS",
+ "excluded": [
+  {
+   "name": "DandO_ClassA_ord=0.189(/150=0.001 ADS)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "PIPE_resale_holders_dispersed=kept",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.45",
+ "os_M": "4.45",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1346610,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-031075",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001213900-25-025067",
+   "form": "6-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001213900-25-024134",
+   "form": "F-3",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001213900-24-081219",
+   "form": "6-K",
+   "filedAt": "2024-09-24"
+  },
+  {
+   "accession": "0001213900-24-070236",
+   "form": "6-K",
+   "filedAt": "2024-08-16"
+  },
+  {
+   "accession": "0001213900-24-061346",
+   "form": "6-K",
+   "filedAt": "2024-07-15"
+  },
+  {
+   "accession": "0001213900-24-043545",
+   "form": "20-F",
+   "filedAt": "2024-05-15"
+  },
+  {
+   "accession": "0001193125-17-105710",
+   "form": "F-1",
+   "filedAt": "2017-03-31"
+  }
+ ]
+}

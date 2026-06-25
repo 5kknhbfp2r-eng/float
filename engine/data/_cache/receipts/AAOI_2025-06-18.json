@@ -1,0 +1,64 @@
+{
+ "ticker": "AAOI",
+ "as_of": "2025-06-18",
+ "os_source": "424B5 2025-05-28 acc:0001104659-25-053547",
+ "excluded": [
+  {
+   "name": "Excluded=2.50M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.04M BlackRock(13G),2.50M D.E.Shaw(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "53.64",
+ "os_M": "56.14",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1158114,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-004603",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001683168-25-004444",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001683168-25-004402",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001104659-25-053561",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001437749-25-015518",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001683168-25-003290",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001104659-25-040212",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001047469-13-008409",
+   "form": "S-1",
+   "filedAt": "2013-08-13"
+  }
+ ]
+}

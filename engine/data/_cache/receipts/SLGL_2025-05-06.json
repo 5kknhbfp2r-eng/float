@@ -1,0 +1,21 @@
+{
+ "ticker": "SLGL",
+ "as_of": "2025-05-06",
+ "os_source": "OS_SOURCE: 6-K filed 2025-05-05 acc 0001178913-25-001578 : 27,857,620 ordinary -> ~2,785,762 post 1:10 reverse split (eff May 5 2025)",
+ "excluded": [
+  {
+   "name": "ArkinGroup_DandO_exOptWarr",
+   "shares_M": 1.635
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "PhoenixHoldings",
+   "shares_M": 0.247
+  }
+ ],
+ "float_M": "1.15",
+ "os_M": "2.79",
+ "under_20M": "true",
+ "confidence": "high"
+}

@@ -1,0 +1,49 @@
+{
+ "ticker": "MLGO",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: 20-F 2025-04-28 acc 0001829126-25-002971 Item 6.E (as of Apr 25 2025) : Class A 24,198,024 = 24.20M (traded class; Class B 44.878M control class excluded from Class A basis)",
+ "excluded": [
+  {
+   "name": "WiMi_JieZhao_control_ClassA",
+   "shares_M": 1.851
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "22.35",
+ "os_M": "24.20",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1800392,
+ "depends_on_filings": [
+  {
+   "accession": "0001829126-25-002971",
+   "form": "20-F",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001829126-25-002972",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001829126-24-008645",
+   "form": "6-K",
+   "filedAt": "2024-12-31"
+  },
+  {
+   "accession": "0001829126-24-008110",
+   "form": "6-K",
+   "filedAt": "2024-12-06"
+  },
+  {
+   "accession": "0001829126-24-008076",
+   "form": "6-K",
+   "filedAt": "2024-12-05"
+  },
+  {
+   "accession": "0001213900-20-043549",
+   "form": "S-1",
+   "filedAt": "2020-12-18"
+  }
+ ]
+}

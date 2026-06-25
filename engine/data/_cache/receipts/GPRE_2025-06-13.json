@@ -1,0 +1,63 @@
+{
+ "ticker": "GPRE",
+ "as_of": "2025-06-13",
+ "os_source": "DEF14A 2025-04-24 + 10-Q 2025-05-08 + 13D/A 2025-05-10 acc:0000921895-25-001379",
+ "excluded": [
+  {
+   "name": "Excluded=5.04M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O 12 persons 0.70M + Ancora 13D board seat control 4.34M actual shares",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive institutional funds",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "65.40",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1309402,
+ "depends_on_filings": [
+  {
+   "accession": "0001309402-25-000111",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001309402-25-000089",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001309402-25-000084",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001309402-25-000074",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001309402-25-000066",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001309402-25-000063",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001038838-04-001162",
+   "form": "S-1",
+   "filedAt": "2004-12-16"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "ticker": "AKA",
+ "as_of": "2025-05-14",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-13 (period count) : 10,692,964 common",
+ "excluded": [
+  {
+   "name": "NewExcelerate_Summit",
+   "shares_M": 6.05
+  },
+  {
+   "name": "Beard_entities",
+   "shares_M": 2.02
+  },
+  {
+   "name": "D&O_group_incl_Bryett",
+   "shares_M": 1.88
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "0.74",
+ "os_M": "10.69",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1865107,
+ "depends_on_filings": [
+  {
+   "accession": "0001865107-25-000031",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001865107-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001865107-25-000023",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001865107-25-000015",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001865107-25-000002",
+   "form": "8-K",
+   "filedAt": "2025-01-13"
+  },
+  {
+   "accession": "0001865107-24-000085",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001193125-21-254270",
+   "form": "S-1",
+   "filedAt": "2021-08-24"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "METCB",
+ "as_of": "2025-07-11",
+ "os_source": "10-Q 2025-05-12 acc:0001558370-25-007370 (10,285,469 Class B 4/30) + 8-K 2025-06-02 acc:0001104659-25-055441 Class B stock dividend 0.009228; O/S Class B ~10.70M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 3.96
+  },
+  {
+   "name": "D&O+control group Class B ~37% incl Yorktown funds + post-dividend",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.74",
+ "os_M": "10.70",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1687187,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-067026",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001104659-25-066421",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001104659-25-064431",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001104659-25-063615",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001104659-25-055441",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001558370-25-007370",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001558370-25-007257",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-25-041856",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001193125-16-807449",
+   "form": "S-1",
+   "filedAt": "2016-12-29"
+  }
+ ]
+}

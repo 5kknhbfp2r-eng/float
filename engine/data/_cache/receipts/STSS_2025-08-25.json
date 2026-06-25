@@ -1,0 +1,59 @@
+{
+ "ticker": "STSS",
+ "as_of": "2025-08-25",
+ "os_source": "10-Q filed 2025-08-13 cover O/S acc:0001641172-25-023597 = 1,023,214",
+ "excluded": [
+  {
+   "name": "Excluded=0.0016M D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=all 13G passive (FMR/etc)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.02",
+ "os_M": "1.02",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1737995,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-025338",
+   "form": "8-K",
+   "filedAt": "2025-08-25"
+  },
+  {
+   "accession": "0001641172-25-023597",
+   "form": "10-Q",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001641172-25-021168",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001641172-25-020215",
+   "form": "8-K",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001641172-25-017827",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001641172-25-013536",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001493152-22-007279",
+   "form": "S-1",
+   "filedAt": "2022-03-18"
+  }
+ ]
+}

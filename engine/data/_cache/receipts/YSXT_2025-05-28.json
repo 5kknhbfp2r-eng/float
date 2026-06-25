@@ -1,0 +1,47 @@
+{
+ "ticker": "YSXT",
+ "as_of": "2025-05-28",
+ "os_source": "O/S 424B4 prospectus 2024-12-18 acc:0001104659-24-129824: 22,072,675 Class A ordinary post-IPO (listed class; +1,177,325 Class B unlisted)",
+ "excluded": [
+  {
+   "name": "Excluded=Jeffre Xiao XJ Holding 11.85M (chairman BVI SPV)",
+   "shares_M": null
+  },
+  {
+   "name": "Zheng ZWQ Holding 0.57M",
+   "shares_M": null
+  },
+  {
+   "name": "Geran Xiao XGR Holding 0.88M (founder BVI SPVs, D&O group 13.29M Class A)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=non-founder pre-IPO Class A ~7.53M + public IPO 1.25M (not locked, not affiliates)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.78",
+ "os_M": "22.07",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1993463,
+ "depends_on_filings": [
+  {
+   "accession": "0001410578-25-000186",
+   "form": "6-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001104659-24-130315",
+   "form": "6-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001104659-24-072869",
+   "form": "F-1",
+   "filedAt": "2024-06-18"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "AUUD",
+ "as_of": "2025-07-09",
+ "os_source": "S-1 2025-05-16+8-K 2025-06-30 (pref only)",
+ "excluded": [
+  {
+   "name": "D&O group 38.8K",
+   "shares_M": null
+  },
+  {
+   "name": "insider Thramann 36.3K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.62",
+ "os_M": "0.62",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1554818,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-004977",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001683168-25-004838",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001683168-25-004645",
+   "form": "S-3",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001683168-25-003796",
+   "form": "S-1",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001683168-25-003292",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001683168-25-003175",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001683168-25-002315",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001683168-25-002176",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001683168-20-000083",
+   "form": "S-1",
+   "filedAt": "2020-01-10"
+  }
+ ]
+}

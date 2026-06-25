@@ -1,0 +1,63 @@
+{
+ "ticker": "IROH",
+ "as_of": "2025-07-08",
+ "os_source": "10-Q 2025-03-31 + 8-K 2025-06-26 redemption 8-K",
+ "excluded": [
+  {
+   "name": "BengocheaSPACSponsorI",
+   "shares_M": 1.932
+  },
+  {
+   "name": "EFHuttonRepresentative",
+   "shares_M": 0.035
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "passiveKept",
+   "shares_M": 0.0
+  }
+ ],
+ "float_M": "0.149",
+ "os_M": "2.116",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1901203,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-058377",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001213900-25-056569",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001213900-25-050988",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-049446",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001213900-25-043698",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-24-111887",
+   "form": "8-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0000930413-22-001846",
+   "form": "S-1",
+   "filedAt": "2022-11-01"
+  }
+ ]
+}

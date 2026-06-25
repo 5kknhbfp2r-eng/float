@@ -1,0 +1,101 @@
+{
+ "ticker": "AVTX",
+ "as_of": "2025-07-17",
+ "os_source": "10-Q cover 2025-05-12 acc:(10,827,620 common); 8-K 2025-06-17 acc:0001628280-25-031818 reconfirms 10,827,620",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.34
+  },
+  {
+   "name": "D&O group directly-owned ex-options/RSU/Series C",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.09
+  },
+  {
+   "name": "BVF 9.99%;1.09",
+   "shares_M": null
+  },
+  {
+   "name": "Ikarian 9.99%;1.09",
+   "shares_M": null
+  },
+  {
+   "name": "RA Capital 9.99%;1.09",
+   "shares_M": null
+  },
+  {
+   "name": "OrbiMed 9.99%;1.11",
+   "shares_M": null
+  },
+  {
+   "name": "Deep Track 9.99%;0.55",
+   "shares_M": null
+  },
+  {
+   "name": "Affinity 5.09%;0.55",
+   "shares_M": null
+  },
+  {
+   "name": "Crutcher 5.07% (all passive/no board control)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.49",
+ "os_M": "10.83",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1534120,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-032232",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001628280-25-032011",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001628280-25-031818",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001628280-25-029639",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001628280-25-029225",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001628280-25-024436",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-024435",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-021311",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001047469-15-005421",
+   "form": "S-1",
+   "filedAt": "2015-06-12"
+  }
+ ]
+}

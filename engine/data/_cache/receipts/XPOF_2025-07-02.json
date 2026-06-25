@@ -1,0 +1,89 @@
+{
+ "ticker": "XPOF",
+ "as_of": "2025-07-02",
+ "os_source": "10-Q 2025-05-09 acc:0000950170-25-068272 (cover Class A 34,926,000 as of 4/30/2025)",
+ "excluded": [
+  {
+   "name": "Excluded=7.726611M D&O-group Class A (Grabowski/H&W 5.65M+Geisler/LAG Fit 1.63M control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=MSD 3.85M",
+   "shares_M": null
+  },
+  {
+   "name": "DESALKIV 3.28M",
+   "shares_M": null
+  },
+  {
+   "name": "Redwood 2.19M",
+   "shares_M": null
+  },
+  {
+   "name": "Voss 2.86M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 1.90M",
+   "shares_M": null
+  },
+  {
+   "name": "Nut Tree 3.00M passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "27.20",
+ "os_M": "34.93",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1802156,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-154934",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001193125-25-141805",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001193125-25-130159",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001193125-25-124614",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001193125-25-120372",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-068272",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001193125-25-115980",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-015745",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-21-200626",
+   "form": "S-1",
+   "filedAt": "2021-06-25"
+  }
+ ]
+}

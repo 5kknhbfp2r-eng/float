@@ -1,0 +1,67 @@
+{
+ "ticker": "VMEO",
+ "as_of": "2025-08-04",
+ "os_source": "10-Q 2025-08-04 acc:0001837686-25-000093",
+ "excluded": [
+  {
+   "name": "Diller=10.01M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group=3.07M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Lynrock=15.02M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock=12.12M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "156.31",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1837686,
+ "depends_on_filings": [
+  {
+   "accession": "0001837686-25-000093",
+   "form": "10-Q",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001837686-25-000090",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001104659-25-059848",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001104659-25-058144",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001837686-25-000053",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001104659-25-041232",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001104659-21-048151",
+   "form": "424B3",
+   "filedAt": "2021-04-08"
+  }
+ ]
+}

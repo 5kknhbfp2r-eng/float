@@ -1,0 +1,77 @@
+{
+ "ticker": "AMZE",
+ "as_of": "2025-06-18",
+ "os_source": "8-K 2025-06-18 press release (acc 0001554795-25-000160): 5,277,810 common O/S as of 6/16/25, post Series D conversion + 1-for-23 reverse split",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.41
+  },
+  {
+   "name": "Amaze Software securityholder group (Series D control, ~83.5%, incl CEO Aaron Day) + legacy D&O",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.7
+  },
+  {
+   "name": "legacy public free float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.7",
+ "os_M": "5.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1880343,
+ "depends_on_filings": [
+  {
+   "accession": "0001554795-25-000160",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001554795-25-000156",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001554795-25-000153",
+   "form": "S-1",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001554795-25-000149",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001554795-25-000147",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001554795-25-000143",
+   "form": "10-Q",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001554795-25-000142",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001554795-25-000129",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001213900-21-058730",
+   "form": "S-1",
+   "filedAt": "2021-11-12"
+  }
+ ]
+}

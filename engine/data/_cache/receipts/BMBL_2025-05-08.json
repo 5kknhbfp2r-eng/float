@@ -1,0 +1,71 @@
+{
+ "ticker": "BMBL",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: 10-K 2025-02-28 acc 0000950170-25-030151 cover : 105,545,584 Class A (as of 2025-01-31)",
+ "excluded": [
+  {
+   "name": "StockholdersAgmtGroup_Blackstone+WolfeHerd_ClassA",
+   "shares_M": 31.042819
+  },
+  {
+   "name": "OtherDnO_ClassA",
+   "shares_M": 0.518367
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard",
+   "shares_M": 10.208851
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 9.915582
+  },
+  {
+   "name": "Ameriprise",
+   "shares_M": 6.382493
+  }
+ ],
+ "float_M": "73.98",
+ "os_M": "105.55",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1830043,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-065679",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-25-084347",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000950170-25-030151",
+   "form": "10-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-25-042459",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0000950170-25-022236",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001193125-25-008082",
+   "form": "8-K",
+   "filedAt": "2025-01-17"
+  },
+  {
+   "accession": "0001193125-21-009745",
+   "form": "S-1",
+   "filedAt": "2021-01-15"
+  }
+ ]
+}

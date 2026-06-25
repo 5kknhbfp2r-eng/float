@@ -1,0 +1,75 @@
+{
+ "ticker": "MLNK",
+ "as_of": "2025-08-11",
+ "os_source": "DEF14A 2025-04-23; 10-Q 2025-08-11 O/S 74,195,939",
+ "excluded": [
+  {
+   "name": "Excluded=4.68M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-RSUs; 28.93M",
+   "shares_M": null
+  },
+  {
+   "name": "Thoma Bravo control; 11.43M",
+   "shares_M": null
+  },
+  {
+   "name": "Nguyen former director/co-founder",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=29.15M",
+   "shares_M": null
+  },
+  {
+   "name": "Darlington 6767248 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.15",
+ "os_M": "74.2",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1834494,
+ "depends_on_filings": [
+  {
+   "accession": "0001834494-25-000080",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001193125-25-177557",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001193125-25-177535",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001834494-25-000056",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001834494-25-000045",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001834494-25-000034",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-21-145352",
+   "form": "S-1",
+   "filedAt": "2021-04-30"
+  }
+ ]
+}

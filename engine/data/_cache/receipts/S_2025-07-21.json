@@ -1,0 +1,67 @@
+{
+ "ticker": "S",
+ "as_of": "2025-07-21",
+ "os_source": "Class A O/S: 10-Q 2025-05-28 acc:0001583708-25-000106 (316,861,848 @4/30/25)",
+ "excluded": [
+  {
+   "name": "Excluded=5.48M D&O group ClassA",
+   "shares_M": null
+  },
+  {
+   "name": "3.98M Insight Ventures ClassA(VC board seat)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=25.16M Vanguard(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "15.57M BlackRock(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "307.4",
+ "os_M": "316.86",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1583708,
+ "depends_on_filings": [
+  {
+   "accession": "0001583708-25-000119",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001583708-25-000106",
+   "form": "10-Q",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001583708-25-000104",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001583708-25-000095",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001583708-25-000031",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001583708-24-000123",
+   "form": "8-K",
+   "filedAt": "2024-12-04"
+  },
+  {
+   "accession": "0001628280-21-011624",
+   "form": "S-1",
+   "filedAt": "2021-06-03"
+  }
+ ]
+}

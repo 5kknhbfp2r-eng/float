@@ -1,0 +1,95 @@
+{
+ "ticker": "FLD",
+ "as_of": "2025-06-17",
+ "os_source": "10-Q cover 2025-05-15 acc:0000950170-25-072818 (46,382,470 common O/S); ownership S-1 2025-04-01 acc:0001213900-25-026537",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group 9.66M",
+   "shares_M": null
+  },
+  {
+   "name": "Emerald sponsor+advisors 5.84M",
+   "shares_M": null
+  },
+  {
+   "name": "Fulgur Frontier+Ventures 10.91M",
+   "shares_M": null
+  },
+  {
+   "name": "Thesis 4.13M",
+   "shares_M": null
+  },
+  {
+   "name": "Craft Ventures 3.64M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=ATW 0.5M real common (rest blocker warrants)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "12.2",
+ "os_M": "46.38",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1889123,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-087435",
+   "form": "424B3",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0000950170-25-087072",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0000950170-25-078327",
+   "form": "424B3",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0000950170-25-076844",
+   "form": "424B3",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000950170-25-072818",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072851",
+   "form": "424B3",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072655",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-039762",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001213900-25-032114",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001213900-24-102858",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-26"
+  },
+  {
+   "accession": "0001104659-21-142103",
+   "form": "S-1",
+   "filedAt": "2021-11-20"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "ticker": "CRVO",
+ "as_of": "2025-07-25",
+ "os_source": "10-Q 2025-05-12 acc:0001437749-25-015966 + 8-K 6/25 O/S 8,702,719",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.905
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.916
+  },
+  {
+   "name": "RA Capital 9.9% passive;0.734",
+   "shares_M": null
+  },
+  {
+   "name": "Armistice 7.8% passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.80",
+ "os_M": "8.70",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1053691,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-021278",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001437749-25-017613",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001437749-25-015966",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-016131",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-013543",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001437749-25-012337",
+   "form": "8-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0000950147-99-001166",
+   "form": "424B3",
+   "filedAt": "1999-10-29"
+  }
+ ]
+}

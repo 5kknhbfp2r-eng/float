@@ -1,0 +1,72 @@
+{
+ "ticker": "LTBR",
+ "as_of": "2025-08-12",
+ "os_source": "424B2 2025-06-05 O/S 23,548,325 as-of Jun-4; 10-Q 2025-05-12; S-3 2025-05-23",
+ "excluded": [
+  {
+   "name": "Excluded=0.98M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 983980",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=22.5M",
+   "shares_M": null
+  },
+  {
+   "name": "AK Jensen 1201404 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "22.5",
+ "os_M": "23.5",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1084554,
+ "depends_on_filings": [
+  {
+   "accession": "0001477932-25-005673",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001477932-25-004434",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001477932-25-004160",
+   "form": "S-3",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001477932-25-003550",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001477932-25-003515",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001477932-25-003492",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001477932-25-001948",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001371625-06-000038",
+   "form": "424B3",
+   "filedAt": "2006-10-06"
+  }
+ ]
+}

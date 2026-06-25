@@ -1,0 +1,109 @@
+{
+ "ticker": "BTM",
+ "as_of": "2025-06-09",
+ "os_source": "10-Q 2025-05-15 acc:0000950170-25-072051 cover Class A 23,119,373 (5/13/25)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.38
+  },
+  {
+   "name": "D&O group Class A 382,089",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 3.06
+  },
+  {
+   "name": "Paul/Sopris 17% sub-20% non-control",
+   "shares_M": null
+  },
+  {
+   "name": "1.48",
+   "shares_M": null
+  },
+  {
+   "name": "Meteora 13G",
+   "shares_M": null
+  },
+  {
+   "name": "1.44",
+   "shares_M": null
+  },
+  {
+   "name": "LMR 13G",
+   "shares_M": null
+  },
+  {
+   "name": "1.44",
+   "shares_M": null
+  },
+  {
+   "name": "Polar 13G",
+   "shares_M": null
+  },
+  {
+   "name": "1.37",
+   "shares_M": null
+  },
+  {
+   "name": "Shaolin 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "22.74",
+ "os_M": "23.12",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1901799,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-079361",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0000950170-25-072051",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072779",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072018",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-052611",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0000950170-25-043906",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0000950170-25-040778",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0000950170-24-122516",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001193125-21-370810",
+   "form": "S-1",
+   "filedAt": "2021-12-31"
+  }
+ ]
+}

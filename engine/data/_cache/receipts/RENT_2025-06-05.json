@@ -1,0 +1,79 @@
+{
+ "ticker": "RENT",
+ "as_of": "2025-06-05",
+ "os_source": "DEF14A 2025-05-22 acc:0001140361-25-020175 (Class A 3,866,254 as of 5/13/2025); 10-K 2025-04-15",
+ "excluded": [
+  {
+   "name": "Excluded=0.248M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.409M Bain CV(control/StockholdersAgmt/board)",
+   "shares_M": null
+  },
+  {
+   "name": "0.255M Highland(control/StockholdersAgmt)",
+   "shares_M": null
+  },
+  {
+   "name": "Class B 0.156M founder non-listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.336M Goldstone",
+   "shares_M": null
+  },
+  {
+   "name": "0.243M CastleKnight",
+   "shares_M": null
+  },
+  {
+   "name": "0.211M T.Rowe(passive,<20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.95",
+ "os_M": "3.87",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1468327,
+ "depends_on_filings": [
+  {
+   "accession": "0001468327-25-000095",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001140361-25-020175",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001468327-25-000087",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001468327-25-000056",
+   "form": "10-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001468327-25-000052",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001468327-25-000021",
+   "form": "8-K",
+   "filedAt": "2025-03-05"
+  },
+  {
+   "accession": "0001193125-21-291103",
+   "form": "S-1",
+   "filedAt": "2021-10-04"
+  }
+ ]
+}

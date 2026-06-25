@@ -1,0 +1,75 @@
+{
+ "ticker": "CVKD",
+ "as_of": "2025-08-05",
+ "os_source": "DEF14A 2025-07-31 acc:0001937993-25-000000 (O/S=2,046,854 record_date=2025-07-28)",
+ "excluded": [
+  {
+   "name": "Excluded=Pham_418333(incl_PVBQ_Trust_200K)",
+   "shares_M": null
+  },
+  {
+   "name": "Szot_33333",
+   "shares_M": null
+  },
+  {
+   "name": "Murphy_40986",
+   "shares_M": null
+  },
+  {
+   "name": "Zelenkofske_2667",
+   "shares_M": null
+  },
+  {
+   "name": "Wilson_3333",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none_over_5pct",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.548",
+ "os_M": "2.047",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1937993,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-071764",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001213900-25-069612",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001213900-25-065710",
+   "form": "8-K",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001213900-25-040788",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-041049",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-032732",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001213900-22-058071",
+   "form": "S-1",
+   "filedAt": "2022-09-22"
+  }
+ ]
+}

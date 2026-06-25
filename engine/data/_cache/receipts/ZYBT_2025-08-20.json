@@ -1,0 +1,58 @@
+{
+ "ticker": "ZYBT",
+ "as_of": "2025-08-20",
+ "os_source": "20-F 2025-07-03 acc (Item 6E): 47,391,376 Ordinary Shares outstanding",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 43.22
+  },
+  {
+   "name": "D&O/control group 43,221,462 (Han 42,963,748 via Securingium 40M+VVAX 685K+Vanguards 2.28M; +Lian/Dong/He small blocks)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none (no passive 5% holders; 91.2% insider-controlled)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.17",
+ "os_M": "47.39",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1975641,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-061202",
+   "form": "20-F",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-047332",
+   "form": "6-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001213900-25-028214",
+   "form": "6-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001213900-25-021178",
+   "form": "6-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001213900-25-003416",
+   "form": "6-K",
+   "filedAt": "2025-01-14"
+  },
+  {
+   "accession": "0001213900-24-002027",
+   "form": "F-1",
+   "filedAt": "2024-01-09"
+  }
+ ]
+}

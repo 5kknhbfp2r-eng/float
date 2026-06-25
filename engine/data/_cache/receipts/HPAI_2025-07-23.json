@@ -1,0 +1,85 @@
+{
+ "ticker": "HPAI",
+ "as_of": "2025-07-23",
+ "os_source": "20-F acc 0001213900-24-092865 Item 7 (37,132,968 ordinary @ Dec 31 2024) + 424B3 acc 0001213900-25-052109 (0.97M resale, no issuance)",
+ "excluded": [
+  {
+   "name": "Excluded=Helport Holdings 19.41 (52.3% Fan Yu founder)",
+   "shares_M": null
+  },
+  {
+   "name": "Hades 2.97 (Ying Chen pre-combo shareholder)",
+   "shares_M": null
+  },
+  {
+   "name": "Asymptotica 2.52 (Shuangchi He key personnel)",
+   "shares_M": null
+  },
+  {
+   "name": "Extra Technology 2.14 (Cong Shi BCA Purchaser Rep)",
+   "shares_M": null
+  },
+  {
+   "name": "Hao 2.91 (SPAC sponsor)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none (no passive funds; trades ordinary not ADS)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.18",
+ "os_M": "37.13",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2001699,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-052109",
+   "form": "424B3",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-026217",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001013762-25-000334",
+   "form": "6-K",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001213900-25-001160",
+   "form": "424B3",
+   "filedAt": "2025-01-06"
+  },
+  {
+   "accession": "0001213900-24-113083",
+   "form": "6-K",
+   "filedAt": "2024-12-27"
+  },
+  {
+   "accession": "0001213900-24-111383",
+   "form": "F-1",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001213900-24-092865",
+   "form": "20-F",
+   "filedAt": "2024-10-31"
+  },
+  {
+   "accession": "0001213900-24-071866",
+   "form": "6-K",
+   "filedAt": "2024-08-22"
+  },
+  {
+   "accession": "0001929980-24-000291",
+   "form": "424B3",
+   "filedAt": "2024-07-08"
+  }
+ ]
+}

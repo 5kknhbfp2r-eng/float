@@ -1,0 +1,74 @@
+{
+ "ticker": "TZUP",
+ "as_of": "2025-07-14",
+ "os_source": "S-3/A filed 2025-07-09 acc:0001641172-25-018349 + PRE14A 2025-04-17 acc:0001853825",
+ "excluded": [
+  {
+   "name": "D&O_real=0.96M(Steele_post-sale_0.60M+Haag0.30M+others0.06M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "nonD&O_passive=AmVentures1.24M+Valkyrie1.07M+Lupinelli1.40M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.71",
+ "os_M": "9.68",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1853825,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-018349",
+   "form": "S-3/A",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001641172-25-018266",
+   "form": "S-3",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001641172-25-018006",
+   "form": "8-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001641172-25-016123",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001641172-25-013565",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001641172-25-011551",
+   "form": "S-3/A",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001641172-25-011020",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-009858",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-005251",
+   "form": "PRE 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001721868-21-000252",
+   "form": "S-1",
+   "filedAt": "2021-04-29"
+  }
+ ]
+}

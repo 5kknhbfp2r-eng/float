@@ -1,0 +1,69 @@
+{
+ "ticker": "UPXI",
+ "as_of": "2025-07-18",
+ "os_source": "8-K filed 2025-07-18 acc:0001477932-25-005150 (convertible notes not converted)",
+ "excluded": [
+  {
+   "name": "D&O_real=0.48M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "no_new_shares",
+   "shares_M": null
+  }
+ ],
+ "float_M": "49.89",
+ "os_M": "50.37",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1775194,
+ "depends_on_filings": [
+  {
+   "accession": "0001477932-25-005150",
+   "form": "8-K",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001477932-25-005126",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001477932-25-005090",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001477932-25-005026",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001477932-25-004960",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001477932-25-004820",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001477932-25-003866",
+   "form": "10-Q",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001477932-25-003551",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001477932-21-002410",
+   "form": "S-1",
+   "filedAt": "2021-04-15"
+  }
+ ]
+}

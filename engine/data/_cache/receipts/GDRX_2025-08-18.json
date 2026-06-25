@@ -1,0 +1,71 @@
+{
+ "ticker": "GDRX",
+ "as_of": "2025-08-18",
+ "os_source": "Class A O/S 98,580,674 from 10-Q 2025-08-06 acc:0001809519-25-000117 cover (as of 2025-07-29); Class B 248,869,320 non-traded",
+ "excluded": [
+  {
+   "name": "Excluded=16.0M D&O group ClassA",
+   "shares_M": null
+  },
+  {
+   "name": "3.5M Silver Lake ClassA (control sponsor)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Vanguard 7.9M",
+   "shares_M": null
+  },
+  {
+   "name": "Rubric 5.8M",
+   "shares_M": null
+  },
+  {
+   "name": "Ameriprise 5.1M (passive 13G); float ~79M >>20M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "79.0",
+ "os_M": "98.58",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1809519,
+ "depends_on_filings": [
+  {
+   "accession": "0001809519-25-000117",
+   "form": "10-Q",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001809519-25-000115",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001809519-25-000088",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001809519-25-000073",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001809519-25-000063",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001809519-25-000055",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001193125-20-234662",
+   "form": "S-1",
+   "filedAt": "2020-08-28"
+  }
+ ]
+}

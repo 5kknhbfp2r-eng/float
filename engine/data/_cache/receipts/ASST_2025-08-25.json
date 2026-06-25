@@ -1,0 +1,73 @@
+{
+ "ticker": "ASST",
+ "as_of": "2025-08-25",
+ "os_source": "424B3 2025-08-22 acc:0001213900-25-079987 ClassB 15,624,395 as of 8/21/25 (matches 10-Q cover 8/1 acc:0001213900-25-071724)",
+ "excluded": [
+  {
+   "name": "Excluded=0.450107M D&O-group ClassB",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=G1/Susquehanna 0.802693M",
+   "shares_M": null
+  },
+  {
+   "name": "Steadfast/Pitts 0.793167M (passive 5pct)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "15.17",
+ "os_M": "15.62",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1920406,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-080112",
+   "form": "8-K",
+   "filedAt": "2025-08-25"
+  },
+  {
+   "accession": "0001213900-25-079987",
+   "form": "424B3",
+   "filedAt": "2025-08-22"
+  },
+  {
+   "accession": "0001213900-25-079018",
+   "form": "8-K",
+   "filedAt": "2025-08-20"
+  },
+  {
+   "accession": "0001213900-25-071724",
+   "form": "10-Q",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001213900-25-061470",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-047570",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001213900-25-046468",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001213900-24-071597",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-22"
+  },
+  {
+   "accession": "0001213900-22-053816",
+   "form": "S-1",
+   "filedAt": "2022-09-02"
+  }
+ ]
+}

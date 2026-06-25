@@ -1,0 +1,72 @@
+{
+ "ticker": "GEOS",
+ "as_of": "2025-06-17",
+ "os_source": "DEF14A 2024-12-27 + 10-Q 2025-05-09 acc:0001437749-25-015711",
+ "excluded": [
+  {
+   "name": "Excluded=0.94M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 9 persons (982,417 total minus 40,750 RSUs = 941,667)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=4.52M",
+   "shares_M": null
+  },
+  {
+   "name": "DGI 1.56M+BlackRock 0.75M+Tieton 0.72M+Moors 0.75M+Vanguard 0.74M all passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "11.87",
+ "os_M": "12.81",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1001115,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-015711",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001437749-25-015576",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-006029",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001437749-25-002980",
+   "form": "8-K",
+   "filedAt": "2025-02-06"
+  },
+  {
+   "accession": "0001437749-25-002907",
+   "form": "8-K",
+   "filedAt": "2025-02-05"
+  },
+  {
+   "accession": "0001437749-25-000808",
+   "form": "8-K",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001437749-24-038442",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-27"
+  },
+  {
+   "accession": "0000950129-97-004010",
+   "form": "S-1",
+   "filedAt": "1997-09-30"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "ticker": "JTAI",
+ "as_of": "2025-05-27",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-15 acc 0001641172-25-010861 : 2,551,256 shares common (As of May 13 2025, post 1-for-225 reverse split)",
+ "excluded": [
+  {
+   "name": "D&O_group_actual",
+   "shares_M": 0.031
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "2.52",
+ "os_M": "2.55",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1861622,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-010861",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-008849",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-005420",
+   "form": "424B3",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001641172-25-002178",
+   "form": "S-3/A",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001493152-25-010835",
+   "form": "S-3/A",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001493152-25-007864",
+   "form": "S-3/A",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001493152-25-007719",
+   "form": "8-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001493152-24-046704",
+   "form": "8-K",
+   "filedAt": "2024-11-19"
+  },
+  {
+   "accession": "0001493152-24-046436",
+   "form": "8-K",
+   "filedAt": "2024-11-18"
+  },
+  {
+   "accession": "0001493152-24-030300",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-05"
+  },
+  {
+   "accession": "0001493152-21-017118",
+   "form": "S-1",
+   "filedAt": "2021-07-19"
+  }
+ ]
+}

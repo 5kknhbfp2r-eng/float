@@ -1,0 +1,63 @@
+{
+ "ticker": "NEPH",
+ "as_of": "2025-08-11",
+ "os_source": "10-Q 2025-08-07 acc:0001641172-25-022596",
+ "excluded": [
+  {
+   "name": "Wexford_3.60M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_ex_options_0.38M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Pessin_0.81M_13D_kept",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.57",
+ "os_M": "10.54",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1196298,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-022978",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001641172-25-022596",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001641172-25-015250",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001641172-25-009262",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-007775",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001641172-25-006427",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-04-098762",
+   "form": "S-1",
+   "filedAt": "2004-06-04"
+  }
+ ]
+}

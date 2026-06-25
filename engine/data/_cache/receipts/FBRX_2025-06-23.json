@@ -1,0 +1,63 @@
+{
+ "ticker": "FBRX",
+ "as_of": "2025-06-23",
+ "os_source": "DEF14A 2025-04-30 acc:0001193125-25-107130 + 10-Q 2025-05-15 acc:0000950170-25-072569 + 8-K 2025-06-23 acc:0001193125-25-144174",
+ "excluded": [
+  {
+   "name": "Excluded=0.38M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G funds (Alger,Janus,BVF,Tybourne,OrbiMed,Ikarian all passive per 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.2",
+ "os_M": "6.58",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1419041,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-144174",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001193125-25-131525",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0000950170-25-072569",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001193125-25-120772",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001193125-25-107130",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001193125-25-085762",
+   "form": "8-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001193125-17-077001",
+   "form": "S-1",
+   "filedAt": "2017-03-09"
+  }
+ ]
+}

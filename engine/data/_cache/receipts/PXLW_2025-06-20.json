@@ -1,0 +1,67 @@
+{
+ "ticker": "PXLW",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-14 acc:0001040161-25-000027 cover O/S 62,952,586 (as of 5/9/2025)",
+ "excluded": [
+  {
+   "name": "Excluded=3.26M D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=5.97M Cushner",
+   "shares_M": null
+  },
+  {
+   "name": "4.26M Baird",
+   "shares_M": null
+  },
+  {
+   "name": "3.54M Vanguard (passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "59.70",
+ "os_M": "62.95",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1040161,
+ "depends_on_filings": [
+  {
+   "accession": "0001040161-25-000033",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001040161-25-000027",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001040161-25-000025",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001040161-25-000021",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001040161-25-000019",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001193125-25-062581",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0000912057-00-008497",
+   "form": "S-1",
+   "filedAt": "2000-02-25"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "MXC",
+ "as_of": "2025-06-13",
+ "os_source": "DEF14A 2024-07-22 acc:0001493152-24-028677; 10-Q 2025-02-07 acc:0001493152-25-005426",
+ "excluded": [
+  {
+   "name": "Excluded=1.00M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O-ex-options-incl-Taylor-44pct",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.20M",
+   "shares_M": null
+  },
+  {
+   "name": "Howard-Cox-9.9pct-outside",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.04",
+ "os_M": "2.05",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 66418,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-009888",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001493152-25-005426",
+   "form": "10-Q",
+   "filedAt": "2025-02-07"
+  },
+  {
+   "accession": "0001493152-25-005428",
+   "form": "8-K",
+   "filedAt": "2025-02-07"
+  },
+  {
+   "accession": "0001493152-24-044090",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001493152-24-036140",
+   "form": "8-K",
+   "filedAt": "2024-09-13"
+  },
+  {
+   "accession": "0001493152-24-030789",
+   "form": "8-K",
+   "filedAt": "2024-08-08"
+  },
+  {
+   "accession": "0001493152-24-028677",
+   "form": "DEF 14A",
+   "filedAt": "2024-07-22"
+  }
+ ]
+}

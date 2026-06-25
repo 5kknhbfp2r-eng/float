@@ -1,0 +1,68 @@
+{
+ "ticker": "PC",
+ "as_of": "2025-07-30",
+ "os_source": "424B3 filed 2025-02-14 acc:0001493152-25-006896 (29,200,000 ordinary post-offering) / 1:9 reverse split per 6-K 2025-07-14 acc:0001641172-25-018852 -> 3.244M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.172
+  },
+  {
+   "name": "Hero Global Enterprises Ltd founder control shell 10,547,250 ord /9 (65.9%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public F-1 offering 10M ord + S-8 plan 3.2M ord (all /9), passive holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.07",
+ "os_M": "3.24",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1998056,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-018852",
+   "form": "6-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001641172-25-015344",
+   "form": "6-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001641172-25-013740",
+   "form": "6-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001641172-25-006371",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001493152-25-006896",
+   "form": "424B3",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001493152-25-004375",
+   "form": "F-1/A",
+   "filedAt": "2025-01-31"
+  },
+  {
+   "accession": "0001493152-24-044714",
+   "form": "20-F",
+   "filedAt": "2024-11-12"
+  },
+  {
+   "accession": "0001493152-24-018273",
+   "form": "F-1",
+   "filedAt": "2024-05-09"
+  }
+ ]
+}

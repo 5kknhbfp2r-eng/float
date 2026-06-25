@@ -1,0 +1,79 @@
+{
+ "ticker": "RENT",
+ "as_of": "2025-08-21",
+ "os_source": "O/S 10-Q 2025-06-06 (Class A as of 5/30) acc:0001468327-25-000... = 3,761,469",
+ "excluded": [
+  {
+   "name": "Excluded=0.248016M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.408820M Bain Capital Ventures",
+   "shares_M": null
+  },
+  {
+   "name": "0.255218M Highland Capital (Stockholders Agreement control group)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.336082M Goldstone",
+   "shares_M": null
+  },
+  {
+   "name": "0.242670M CastleKnight",
+   "shares_M": null
+  },
+  {
+   "name": "0.210637M T.Rowe",
+   "shares_M": null
+  },
+  {
+   "name": "0.197481M TCV passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.85",
+ "os_M": "3.76",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1468327,
+ "depends_on_filings": [
+  {
+   "accession": "0000950103-25-010546",
+   "form": "8-K",
+   "filedAt": "2025-08-21"
+  },
+  {
+   "accession": "0001468327-25-000143",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001468327-25-000097",
+   "form": "10-Q",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001468327-25-000095",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001140361-25-020175",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001468327-25-000087",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-21-291103",
+   "form": "S-1",
+   "filedAt": "2021-10-04"
+  }
+ ]
+}

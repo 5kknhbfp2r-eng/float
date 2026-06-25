@@ -1,0 +1,58 @@
+{
+ "ticker": "PRE",
+ "as_of": "2025-05-21",
+ "os_source": "OS_SOURCE: 20-F 2025-04-30 acc 0001628280-25-021127 Item7 : 11,453,009 Class A Ordinary (Apr 24 2025); total ordinary 12,984,844 post 1-for-15 split",
+ "excluded": [
+  {
+   "name": "D&O group Class A",
+   "shares_M": 0.88978
+  },
+  {
+   "name": "LoYukMingDennis",
+   "shares_M": 0.962963
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "PrudentialHK",
+   "shares_M": 0.427963
+  }
+ ],
+ "float_M": "9.60",
+ "os_M": "11.45",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1876431,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-021127",
+   "form": "20-F",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001628280-25-010267",
+   "form": "6-K",
+   "filedAt": "2025-03-05"
+  },
+  {
+   "accession": "0001628280-24-051127",
+   "form": "6-K",
+   "filedAt": "2024-12-13"
+  },
+  {
+   "accession": "0001628280-24-049363",
+   "form": "6-K",
+   "filedAt": "2024-11-27"
+  },
+  {
+   "accession": "0001628280-24-042771",
+   "form": "6-K",
+   "filedAt": "2024-10-15"
+  },
+  {
+   "accession": "0001104659-22-044399",
+   "form": "424B3",
+   "filedAt": "2022-04-11"
+  }
+ ]
+}

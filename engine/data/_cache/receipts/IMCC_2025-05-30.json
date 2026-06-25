@@ -1,0 +1,62 @@
+{
+ "ticker": "IMCC",
+ "as_of": "2025-05-30",
+ "os_source": "OS_SOURCE: 6-K 2025-05-27 acc 0001178913-25-001956 : 3,366,971 Common Shares following completion of Focus Transaction (2025-05-26)",
+ "excluded": [
+  {
+   "name": "Shuster",
+   "shares_M": 0.7695
+  },
+  {
+   "name": "Gabay",
+   "shares_M": 0.3897
+  },
+  {
+   "name": "Ewave",
+   "shares_M": 0.1288
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "2.08",
+ "os_M": "3.37",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1792030,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-001983",
+   "form": "6-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001178913-25-001956",
+   "form": "6-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001178913-25-001810",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001178913-25-001621",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001178913-25-001590",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001178913-25-001576",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001178913-25-001126",
+   "form": "20-F",
+   "filedAt": "2025-03-31"
+  }
+ ]
+}

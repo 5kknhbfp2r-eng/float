@@ -1,0 +1,67 @@
+{
+ "ticker": "LSF",
+ "as_of": "2025-08-13",
+ "os_source": "DEF14A 2025-05-15; 10-Q 2025-08-06 O/S 10,664,523 as-of Aug-4",
+ "excluded": [
+  {
+   "name": "Excluded=1.38M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=9.28M",
+   "shares_M": null
+  },
+  {
+   "name": "Danone 857194 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "9.28",
+ "os_M": "10.66",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1650696,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-025955",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001437749-25-025135",
+   "form": "10-Q",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001437749-25-025115",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001437749-25-021452",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001437749-25-017204",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001437749-25-015149",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-20-236395",
+   "form": "S-1",
+   "filedAt": "2020-08-31"
+  }
+ ]
+}

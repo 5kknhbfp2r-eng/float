@@ -1,0 +1,76 @@
+{
+ "ticker": "CSBR",
+ "as_of": "2025-06-12",
+ "os_source": "10-Q 2025-03-17 acc:0001628280-25-012941 + DEF14A 2024-08-27 acc:0001628280-24-038540",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real_5.14M(Tobin/Battery+Ackerman+Morris+Sidransky+Mendelson)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=NEA_1.71M",
+   "shares_M": null
+  },
+  {
+   "name": "WestElk_1.09M",
+   "shares_M": null
+  },
+  {
+   "name": "Pessin_0.74M",
+   "shares_M": null
+  },
+  {
+   "name": "Tocqueville_0.68M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.57",
+ "os_M": "13.71",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 771856,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-012941",
+   "form": "10-Q",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001628280-25-012022",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001628280-24-050789",
+   "form": "8-K",
+   "filedAt": "2024-12-11"
+  },
+  {
+   "accession": "0001628280-24-042780",
+   "form": "8-K",
+   "filedAt": "2024-10-15"
+  },
+  {
+   "accession": "0001628280-24-042039",
+   "form": "8-K",
+   "filedAt": "2024-10-03"
+  },
+  {
+   "accession": "0001628280-24-040137",
+   "form": "8-K",
+   "filedAt": "2024-09-11"
+  },
+  {
+   "accession": "0001628280-24-038540",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-27"
+  },
+  {
+   "accession": "0001144204-15-029114",
+   "form": "S-1",
+   "filedAt": "2015-05-11"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "ticker": "CERO",
+ "as_of": "2025-06-17",
+ "os_source": "10-Q 2025-05-15 acc:0001213900-25-044335 cover 7,722,072 (5/14) pre-split; 8-K acc:0001213900-25-054371 1-for-20 split eff 6/13 -> ~0.40M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.01
+  },
+  {
+   "name": "D&O real common ex-options/warrants /20",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.0
+  },
+  {
+   "name": "no passive institution; 5% owners are mgmt/affiliate",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.39",
+ "os_M": "0.40",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1870404,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-054961",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001213900-25-054769",
+   "form": "424B3",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001213900-25-054371",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001213900-25-053292",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001213900-25-052185",
+   "form": "424B3",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-051750",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-044335",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-040263",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193125-21-271453",
+   "form": "S-1",
+   "filedAt": "2021-09-13"
+  }
+ ]
+}

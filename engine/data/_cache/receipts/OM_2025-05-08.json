@@ -1,0 +1,83 @@
+{
+ "ticker": "OM",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-07 acc 0000950170-25-066003 cover : 17,722,310 common as of May 2 2025",
+ "excluded": [
+  {
+   "name": "D&O group ex-options",
+   "shares_M": 0.3421
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR",
+   "shares_M": 2.597
+  },
+  {
+   "name": "Durable",
+   "shares_M": 1.74
+  },
+  {
+   "name": "Alyeska",
+   "shares_M": 1.667
+  },
+  {
+   "name": "PFM",
+   "shares_M": 1.667
+  },
+  {
+   "name": "T.RowePrice",
+   "shares_M": 1.578
+  },
+  {
+   "name": "Woodline",
+   "shares_M": 1.333
+  },
+  {
+   "name": "Perceptive",
+   "shares_M": 1.208
+  }
+ ],
+ "float_M": "17.38",
+ "os_M": "17.72",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1484612,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-066003",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-065680",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-053260",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001193125-25-058953",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-25-056206",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001193125-25-051981",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001193125-20-226746",
+   "form": "S-1",
+   "filedAt": "2020-08-21"
+  }
+ ]
+}

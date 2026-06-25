@@ -1,0 +1,72 @@
+{
+ "ticker": "EVTL",
+ "as_of": "2025-07-17",
+ "os_source": "O/S 96.68M from 424B5 2025-07-10 acc:0001104659-25-066866 (84.677M @7/1 +12.0M offering)",
+ "excluded": [
+  {
+   "name": "Excluded=Mudrick 54.01M",
+   "shares_M": null
+  },
+  {
+   "name": "Fitzpatrick-SF 15.49M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 0.14M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Saba Capital 8.33M passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "27.04",
+ "os_M": "96.68",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1867102,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-066598",
+   "form": "6-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001104659-25-066431",
+   "form": "6-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001104659-25-065771",
+   "form": "6-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001140361-25-024262",
+   "form": "6-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001104659-25-058677",
+   "form": "6-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001104659-25-055645",
+   "form": "6-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001104659-25-022354",
+   "form": "20-F",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001104659-21-145446",
+   "form": "424B3",
+   "filedAt": "2021-12-01"
+  }
+ ]
+}

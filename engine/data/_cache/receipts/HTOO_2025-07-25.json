@@ -1,0 +1,64 @@
+{
+ "ticker": "HTOO",
+ "as_of": "2025-07-25",
+ "os_source": "6-K 2025-07-10 (1:35 split, 27.418M pre->~783,376 post) + 6-K 2025-07-23 (PIPE +269,459) + 424B3 2025-06-13 (non-affiliate 19.54M)",
+ "excluded": [
+  {
+   "name": "affiliates",
+   "shares_M": 0.134
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "passivePIPE_float",
+   "shares_M": 0.92
+  }
+ ],
+ "float_M": "0.92",
+ "os_M": "1.05",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1819794,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-067480",
+   "form": "6-K",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001213900-25-066971",
+   "form": "6-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-066822",
+   "form": "6-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-066811",
+   "form": "6-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-066340",
+   "form": "6-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001213900-25-064924",
+   "form": "6-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001213900-25-041617",
+   "form": "20-F",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001213900-20-036193",
+   "form": "424B3",
+   "filedAt": "2020-11-10"
+  }
+ ]
+}

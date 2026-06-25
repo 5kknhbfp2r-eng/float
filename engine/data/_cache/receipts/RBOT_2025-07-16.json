@@ -1,0 +1,67 @@
+{
+ "ticker": "RBOT",
+ "as_of": "2025-07-16",
+ "os_source": "Class A O/S 5,277,994 per 10-Q 2025-05-12 acc:0000950170 (cover); ownership DEF 14A 2025-04-29 acc:0001140361-25-016293",
+ "excluded": [
+  {
+   "name": "Excluded=0.19M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.97M Khosla Ventures (lead VC)",
+   "shares_M": null
+  },
+  {
+   "name": "0.46M Innovation Endeavors (Schmidt VC)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.60M Gates Frontier (passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.67",
+ "os_M": "5.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1812173,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-063296",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001213900-25-059237",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001213900-25-042087",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001213900-25-042203",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001140361-25-016293",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-031124",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001213900-20-015990",
+   "form": "S-1",
+   "filedAt": "2020-06-26"
+  }
+ ]
+}

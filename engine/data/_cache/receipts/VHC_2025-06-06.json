@@ -1,0 +1,67 @@
+{
+ "ticker": "VHC",
+ "as_of": "2025-06-06",
+ "os_source": "OS_SOURCE DEF14A 2025-04-25 acc:0001082324-25-000018; 10-Q 2025-05-14=4,238,581 confirmed",
+ "excluded": [
+  {
+   "name": "Excluded=0.61M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O real 605,152 (756,179 total - 151,027 options per fn9)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.63M",
+   "shares_M": null
+  },
+  {
+   "name": "float; no 5%+ passive holder outside D&O",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.63",
+ "os_M": "4.24",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1082324,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-018930",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001140361-25-015742",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001140361-24-040072",
+   "form": "8-K",
+   "filedAt": "2024-09-04"
+  },
+  {
+   "accession": "0001140361-24-030525",
+   "form": "8-K",
+   "filedAt": "2024-06-18"
+  },
+  {
+   "accession": "0001140361-23-056522",
+   "form": "8-K",
+   "filedAt": "2023-12-06"
+  },
+  {
+   "accession": "0001140361-23-049516",
+   "form": "8-K",
+   "filedAt": "2023-10-25"
+  },
+  {
+   "accession": "0000950148-99-001720",
+   "form": "424B3",
+   "filedAt": "1999-08-03"
+  }
+ ]
+}

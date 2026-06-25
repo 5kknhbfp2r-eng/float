@@ -1,0 +1,84 @@
+{
+ "ticker": "FLWS",
+ "as_of": "2025-07-22",
+ "os_source": "10-Q acc 0001084869-25-000007 filed 2025-05-09 (Class A 36,495,311 @ May 2 2025; Class B 27,068,221) + DEF 14A 2024-10-25",
+ "excluded": [
+  {
+   "name": "Excluded=McCann Family 13D group Class A 10.10",
+   "shares_M": null
+  },
+  {
+   "name": "non-McCann D&O Class A 0.80",
+   "shares_M": null
+  },
+  {
+   "name": "Class B 27.07 not listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock 3.90",
+   "shares_M": null
+  },
+  {
+   "name": "Aristotle 2.15",
+   "shares_M": null
+  },
+  {
+   "name": "Fund1 2.37",
+   "shares_M": null
+  },
+  {
+   "name": "Dimensional 2.37 (passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "25.59",
+ "os_M": "36.50",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1084869,
+ "depends_on_filings": [
+  {
+   "accession": "0001084869-25-000007",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001437749-25-015520",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-013070",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001437749-25-002182",
+   "form": "8-K",
+   "filedAt": "2025-01-30"
+  },
+  {
+   "accession": "0001437749-24-037292",
+   "form": "8-K",
+   "filedAt": "2024-12-12"
+  },
+  {
+   "accession": "0001437749-24-032702",
+   "form": "8-K",
+   "filedAt": "2024-10-31"
+  },
+  {
+   "accession": "0001437749-24-032078",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-25"
+  },
+  {
+   "accession": "0001047469-99-021779",
+   "form": "S-1",
+   "filedAt": "1999-05-21"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "ticker": "BGSF",
+ "as_of": "2025-06-16",
+ "os_source": "10-Q 2025-05-07; DEF14A 2024-06-14",
+ "excluded": [
+  {
+   "name": "Excluded=0.80M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 8 persons",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.73M",
+   "shares_M": null
+  },
+  {
+   "name": "North Star Investment Mgmt passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.31",
+ "os_M": "11.11",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1474903,
+ "depends_on_filings": [
+  {
+   "accession": "0001474903-25-000029",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001474903-25-000031",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001474903-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001474903-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001474903-24-000087",
+   "form": "8-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001474903-24-000083",
+   "form": "8-K",
+   "filedAt": "2024-08-12"
+  },
+  {
+   "accession": "0001474903-24-000069",
+   "form": "8-K",
+   "filedAt": "2024-08-07"
+  },
+  {
+   "accession": "0001474903-24-000062",
+   "form": "DEF 14A",
+   "filedAt": "2024-06-14"
+  },
+  {
+   "accession": "0001144204-13-054797",
+   "form": "S-1",
+   "filedAt": "2013-10-10"
+  }
+ ]
+}

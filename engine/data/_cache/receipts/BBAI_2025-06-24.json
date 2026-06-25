@@ -1,0 +1,72 @@
+{
+ "ticker": "BBAI",
+ "as_of": "2025-06-24",
+ "os_source": "DEF14A 2025-04-29; 10-Q 2025-05-02; 424B5 2025-06-02 acc:0001193125-25-132737",
+ "excluded": [
+  {
+   "name": "Excluded=3.33M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 1.1%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=287.86M",
+   "shares_M": null
+  },
+  {
+   "name": "public float; AE Industrial 0.18M (<1% now)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "287.0",
+ "os_M": "291.19",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1836981,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-030042",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001193125-25-133431",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001628280-25-028831",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001193125-25-120781",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001628280-25-021899",
+   "form": "10-Q",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001628280-25-021537",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001628280-25-020692",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001193125-21-013879",
+   "form": "S-1",
+   "filedAt": "2021-01-22"
+  }
+ ]
+}

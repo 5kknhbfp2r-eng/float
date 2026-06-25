@@ -1,0 +1,87 @@
+{
+ "ticker": "KRRO",
+ "as_of": "2025-06-03",
+ "os_source": "10-Q 2025-05-07 acc:0000950170-25-065800",
+ "excluded": [
+  {
+   "name": "Excl=Atlas Venture 1.14M (board-nominee VC)",
+   "shares_M": null
+  },
+  {
+   "name": "NEA 1.09M (board-nominee VC)",
+   "shares_M": null
+  },
+  {
+   "name": "D&O actual 0.04M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Deep Track 0.85M",
+   "shares_M": null
+  },
+  {
+   "name": "Point72 0.72M",
+   "shares_M": null
+  },
+  {
+   "name": "AllianceBernstein 0.71M",
+   "shares_M": null
+  },
+  {
+   "name": "FMR 0.58M",
+   "shares_M": null
+  },
+  {
+   "name": "Platanus 0.54M",
+   "shares_M": null
+  },
+  {
+   "name": "Driehaus 0.49M (all passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.12",
+ "os_M": "9.39",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1703647,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-065800",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-065786",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-059533",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001193125-25-064792",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0000950170-25-040755",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001193125-25-024305",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001193125-19-239976",
+   "form": "S-1",
+   "filedAt": "2019-09-06"
+  }
+ ]
+}

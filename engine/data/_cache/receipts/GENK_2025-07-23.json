@@ -1,0 +1,88 @@
+{
+ "ticker": "GENK",
+ "as_of": "2025-07-23",
+ "os_source": "10-Q acc 0000950170-25-070379 (Class A 5,038,461 @ May 12 2025; Class B 27,761,515 non-listed) + DEF14A acc 0000950170-25-061171",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group Class A 0.376",
+   "shares_M": null
+  },
+  {
+   "name": "Don Kim Class A 0.040",
+   "shares_M": null
+  },
+  {
+   "name": "Lauren Wang Class A 0.020",
+   "shares_M": null
+  },
+  {
+   "name": "Jose Manzanarez Class A 0.020",
+   "shares_M": null
+  },
+  {
+   "name": "Class B 27.76 non-listed super-voting",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Wasatch 0.674 (13G 13.4%)",
+   "shares_M": null
+  },
+  {
+   "name": "Portolan 0.284 (13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Skylands 0.266 (13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.58",
+ "os_M": "5.04",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1891856,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-088198",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0000950170-25-077917",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0000950170-25-074757",
+   "form": "S-3",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0000950170-25-070379",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-070302",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-061171",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0000950170-25-058112",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001193125-23-155567",
+   "form": "S-1",
+   "filedAt": "2023-05-26"
+  }
+ ]
+}

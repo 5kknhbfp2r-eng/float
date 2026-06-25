@@ -1,0 +1,62 @@
+{
+ "ticker": "NEGG",
+ "as_of": "2025-06-09",
+ "os_source": "20-F 2025-04-28 acc:0001213900-25-036055 Item7 (O/S 19.48M ord)",
+ "excluded": [
+  {
+   "name": "Excluded=17.89M",
+   "shares_M": null
+  },
+  {
+   "name": "control major-holders Item7 register",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.59M",
+   "shares_M": null
+  },
+  {
+   "name": "public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.59",
+ "os_M": "19.48",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1474627,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-036055",
+   "form": "20-F",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001213900-25-035774",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001213900-25-034343",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001213900-25-029400",
+   "form": "6-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001013762-25-000315",
+   "form": "6-K",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001193125-09-231825",
+   "form": "S-1",
+   "filedAt": "2009-11-12"
+  }
+ ]
+}

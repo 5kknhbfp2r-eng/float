@@ -1,0 +1,69 @@
+{
+ "ticker": "KALV",
+ "as_of": "2025-07-07",
+ "os_source": "10-Q 2025-03-12 acc:0000950170-25-037995 + DEF14A 2024-08-22",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real2.775M+Frazier3.688M=6.46M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Venrock4.82M+Tang3.44M+Adage2.85M+Suvretta2.68M+BlackRock2.24M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "49.72",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1348911,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-155885",
+   "form": "8-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001193125-25-117878",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001193125-25-075100",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001193125-25-055602",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0000950170-25-037995",
+   "form": "10-Q",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0000950170-25-038015",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001193125-24-279016",
+   "form": "8-K",
+   "filedAt": "2024-12-16"
+  },
+  {
+   "accession": "0001193125-24-205356",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-22"
+  },
+  {
+   "accession": "0001193125-14-455475",
+   "form": "S-1",
+   "filedAt": "2014-12-29"
+  }
+ ]
+}

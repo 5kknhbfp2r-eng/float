@@ -1,0 +1,75 @@
+{
+ "ticker": "TTNP",
+ "as_of": "2025-06-03",
+ "os_source": "10-Q 2025-05-14 acc:0001829126-25-003656 (914,234 common post 1:20 split) + 8-K 6/2 acc:0001829126-25-004148 (+150,087 common Sire conversion 5/30)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.24
+  },
+  {
+   "name": "Choong Choon Hau 18.1% 13D;0.15",
+   "shares_M": null
+  },
+  {
+   "name": "Jeffrey Chung 11.2%;0.27",
+   "shares_M": null
+  },
+  {
+   "name": "Blue Harbour+Yeoh 19.9%;0.003",
+   "shares_M": null
+  },
+  {
+   "name": "D&O ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none material",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.40",
+ "os_M": "1.06",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 910267,
+ "depends_on_filings": [
+  {
+   "accession": "0001829126-25-004194",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001829126-25-004148",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001829126-25-003656",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001829126-25-003316",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001829126-25-002830",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001829126-25-002284",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0000891554-96-000901",
+   "form": "424B3",
+   "filedAt": "1996-12-03"
+  }
+ ]
+}

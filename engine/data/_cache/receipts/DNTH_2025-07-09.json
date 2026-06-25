@@ -1,0 +1,91 @@
+{
+ "ticker": "DNTH",
+ "as_of": "2025-07-09",
+ "os_source": "DEF14A 2025-04-10 acc:0000950170-25-052874 + 10-Q 2025-05-12 acc:0000950170-25-069226",
+ "excluded": [
+  {
+   "name": "D&O=2.72M(group)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR 4.44M",
+   "shares_M": null
+  },
+  {
+   "name": "Avidity 3.38M",
+   "shares_M": null
+  },
+  {
+   "name": "Fairmount 3.27M",
+   "shares_M": null
+  },
+  {
+   "name": "RA Capital 2.87M",
+   "shares_M": null
+  },
+  {
+   "name": "BCLS 2.69M",
+   "shares_M": null
+  },
+  {
+   "name": "DeepTrack 2.36M",
+   "shares_M": null
+  },
+  {
+   "name": "Octagon 2.11M",
+   "shares_M": null
+  },
+  {
+   "name": "Venrock 1.74M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 1.64M all passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "32.13",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1690585,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-076304",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0000950170-25-069226",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-069195",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-052874",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0000950170-25-037125",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0000950170-25-033075",
+   "form": "8-K",
+   "filedAt": "2025-03-05"
+  },
+  {
+   "accession": "0001193125-18-173570",
+   "form": "S-1",
+   "filedAt": "2018-05-24"
+  }
+ ]
+}

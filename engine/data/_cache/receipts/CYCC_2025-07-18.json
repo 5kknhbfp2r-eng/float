@@ -1,0 +1,69 @@
+{
+ "ticker": "CYCC",
+ "as_of": "2025-07-18",
+ "os_source": "DEF14A 2025-04-24 + 10-Q 2025-05-14 acc:0001641172-25-010270",
+ "excluded": [
+  {
+   "name": "carried_Jul15",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "carried from Jul 15 no change",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "356.36",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1130166,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-019834",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001641172-25-017906",
+   "form": "8-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001641172-25-017479",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001641172-25-017152",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001641172-25-015874",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-013479",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001641172-25-010270",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-005982",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0000891020-00-002205",
+   "form": "S-1",
+   "filedAt": "2000-12-22"
+  }
+ ]
+}

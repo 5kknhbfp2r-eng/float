@@ -1,0 +1,66 @@
+{
+ "ticker": "MTAL",
+ "as_of": "2025-05-27",
+ "os_source": "OS_SOURCE: 20-F 2025-03-28 acc 0001104659-25-029012 : 82,462,034 Ordinary Shares (as of 2025-02-28)",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 2.139
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Glencore Operations Australia",
+   "shares_M": 10.0
+  },
+  {
+   "name": "United Super",
+   "shares_M": 5.6524
+  },
+  {
+   "name": "Fourth Sail",
+   "shares_M": 5.185
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 4.279
+  }
+ ],
+ "float_M": "80.32",
+ "os_M": "82.46",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1950246,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-052600",
+   "form": "6-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001104659-25-041351",
+   "form": "6-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001104659-25-029012",
+   "form": "20-F",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001104659-25-029041",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001104659-25-028965",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001104659-23-059154",
+   "form": "424B3",
+   "filedAt": "2023-05-11"
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "ticker": "EHLD",
+ "as_of": "2025-06-26",
+ "os_source": "carried from 2025-06-23; O/S 2,816,615 unchanged (6-K 6/26 acc:0001317861-25-000034 is Q1 earnings + confirms 51.04% Pittas->Marla share transfer, no issuance)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.691753
+  },
+  {
+   "name": "control group 58.6% (Marla/Latsis 51.04% control + residual Pittas affiliates + D&O)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.12
+  },
+  {
+   "name": "non-control public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.12",
+ "os_M": "2.82",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2032779,
+ "depends_on_filings": [
+  {
+   "accession": "0001317861-25-000034",
+   "form": "6-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0000919574-25-003751",
+   "form": "6-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0000919574-25-003620",
+   "form": "6-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001477932-25-004234",
+   "form": "20-F/A",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001317861-25-000025",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "ticker": "PAPL",
+ "as_of": "2025-07-23",
+ "os_source": "10-Q filed 2025-07-14 cover acc:0001641172-25-019521 (20,092,025 common as of July 14, 2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.078
+  },
+  {
+   "name": "Marin Kendall (Pres/COO) 13D held shares;0.846",
+   "shares_M": null
+  },
+  {
+   "name": "Dasgupta CEO ex-opt/warr;0.692",
+   "shares_M": null
+  },
+  {
+   "name": "Green dir ex-opt/warr;0.062",
+   "shares_M": null
+  },
+  {
+   "name": "Baron ex-opt;0.090",
+   "shares_M": null
+  },
+  {
+   "name": "Giannoukakis ex-opt",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.756
+  },
+  {
+   "name": "Prodigy Capital Corp 3.76% (<20%, non-control)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "16.32",
+ "os_M": "20.09",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1938109,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-019521",
+   "form": "10-Q",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001641172-25-016878",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001641172-25-012506",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001641172-25-011531",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001641172-25-008757",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001493152-25-009725",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001493152-22-034192",
+   "form": "S-1",
+   "filedAt": "2022-12-01"
+  }
+ ]
+}

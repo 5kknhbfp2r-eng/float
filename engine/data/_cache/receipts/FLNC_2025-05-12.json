@@ -1,0 +1,24 @@
+{
+ "ticker": "FLNC",
+ "as_of": "2025-05-12",
+ "os_source": "OS_SOURCE: 10-Q acc(2025-05-08) cover : 130,718,873 Class A common outstanding May8-2025 (Class B-1 51,499,195 separate, held by AES)",
+ "excluded": [
+  {
+   "name": "SiemensAG",
+   "shares_M": 51.499
+  },
+  {
+   "name": "QatarHolding_QIA",
+   "shares_M": 14.668
+  },
+  {
+   "name": "D&O_group_exopt",
+   "shares_M": 1.189
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "63.36",
+ "os_M": "130.72",
+ "under_20M": "false",
+ "confidence": "high"
+}

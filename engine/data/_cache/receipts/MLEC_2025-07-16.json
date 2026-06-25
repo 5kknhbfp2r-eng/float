@@ -1,0 +1,68 @@
+{
+ "ticker": "MLEC",
+ "as_of": "2025-07-16",
+ "os_source": "POS AM 2025-06-16 acc:0001213900-25-054896 (4,012,684 Shares O/S; non-affiliate float 722,729 as of 6/11/2025); no intervening filing; O/S 4.01M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 3.289955
+  },
+  {
+   "name": "affiliates 82% (Union Group, Bioceres, THEO, D&O)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.72",
+ "os_M": "4.01",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1937737,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-055580",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001213900-25-055015",
+   "form": "6-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001213900-25-054685",
+   "form": "6-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001213900-25-051126",
+   "form": "6-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-042398",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-036913",
+   "form": "6-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-24-092168",
+   "form": "20-F",
+   "filedAt": "2024-10-30"
+  },
+  {
+   "accession": "0001213900-22-077639",
+   "form": "424B3",
+   "filedAt": "2022-12-05"
+  }
+ ]
+}

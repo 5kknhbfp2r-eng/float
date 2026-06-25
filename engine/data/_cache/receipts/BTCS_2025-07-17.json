@@ -1,0 +1,81 @@
+{
+ "ticker": "BTCS",
+ "as_of": "2025-07-17",
+ "os_source": "424B5 2025-07-08+DEF14A 2025-03-28+10-Q 2025-05-14",
+ "excluded": [
+  {
+   "name": "Allen 3848789",
+   "shares_M": null
+  },
+  {
+   "name": "Handerhan 1420769",
+   "shares_M": null
+  },
+  {
+   "name": "Prevoznik 398945",
+   "shares_M": null
+  },
+  {
+   "name": "others 200K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "no significant non-D&O non-passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "17.45",
+ "os_M": "23.32",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1436229,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-011227",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001641172-25-018876",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001641172-25-017484",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001641172-25-015746",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-012010",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-011611",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-010401",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-001236",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001255294-08-000507",
+   "form": "S-1",
+   "filedAt": "2008-05-29"
+  }
+ ]
+}

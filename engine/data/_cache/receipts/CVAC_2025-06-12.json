@@ -1,0 +1,71 @@
+{
+ "ticker": "CVAC",
+ "as_of": "2025-06-12",
+ "os_source": "20-F 2025-04-10 acc:0001410578-25-000692 major-shareholder table on 225,155,874 common o/s @ Mar-15-2025",
+ "excluded": [
+  {
+   "name": "Excluded=82.532M dievini/Hopp control block (incl Hothum 70.18M dedup)",
+   "shares_M": null
+  },
+  {
+   "name": "0.34M D&O personal ex-dievini",
+   "shares_M": null
+  },
+  {
+   "name": "29.871M KfW (board-seated state bank)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=16.592M GSK (7.4% strategic, no board seat)",
+   "shares_M": null
+  },
+  {
+   "name": "public ~96M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "112.4",
+ "os_M": "225.16",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1809122,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-058873",
+   "form": "6-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001104659-25-052416",
+   "form": "6-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001104659-25-051010",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001410578-25-001369",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001104659-25-049433",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001410578-25-000692",
+   "form": "20-F",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001104659-20-086354",
+   "form": "F-1",
+   "filedAt": "2020-07-24"
+  }
+ ]
+}

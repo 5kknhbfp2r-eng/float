@@ -1,0 +1,72 @@
+{
+ "ticker": "USAR",
+ "as_of": "2025-06-12",
+ "os_source": "OS_SOURCE DEF14A 2025-06-02 acc:0001213900-25-050029=91,036,777 May23; 10-Q 2025-05-15 acc:0001213900-25-043743 cover=90,836,766",
+ "excluded": [
+  {
+   "name": "Excluded=35.75M",
+   "shares_M": null
+  },
+  {
+   "name": "Gutnick 13.67M+Tready Smith/Bayshore 15.53M+Blitzer sponsor 6.25M+other D&O 302k",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=55.29M",
+   "shares_M": null
+  },
+  {
+   "name": "float; Alyeska 9.15M 13G; Newtyn 5.31M passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "55.29",
+ "os_M": "91.04",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1970622,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-053510",
+   "form": "424B3",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001213900-25-050029",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001213900-25-043743",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-043335",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-039439",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001213900-25-037647",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-25-035605",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001213900-23-027320",
+   "form": "S-1",
+   "filedAt": "2023-04-05"
+  }
+ ]
+}

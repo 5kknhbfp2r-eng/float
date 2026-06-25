@@ -1,0 +1,81 @@
+{
+ "ticker": "SER",
+ "as_of": "2025-08-25",
+ "os_source": "DEF 14A 2024-11-06 / 10-Q 2025-08-11 acc:0001708599-25-000089",
+ "excluded": [
+  {
+   "name": "Excluded=4.55M",
+   "shares_M": null
+  },
+  {
+   "name": "Juvenescence/JuvVentures 2.27M + D&O real 2.28M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Puffinus 0.90M",
+   "shares_M": null
+  },
+  {
+   "name": "McMillan 0.71M",
+   "shares_M": null
+  },
+  {
+   "name": "Fisk 0.50M (not confirmed as control)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.70",
+ "os_M": "10.25",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1708599,
+ "depends_on_filings": [
+  {
+   "accession": "0001708599-25-000105",
+   "form": "8-K",
+   "filedAt": "2025-08-25"
+  },
+  {
+   "accession": "0001708599-25-000101",
+   "form": "8-K",
+   "filedAt": "2025-08-22"
+  },
+  {
+   "accession": "0001708599-25-000089",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001708599-25-000091",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001708599-25-000076",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001708599-25-000065",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001708599-25-000058",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001708599-24-000014",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001493152-24-006667",
+   "form": "424B3",
+   "filedAt": "2024-02-14"
+  }
+ ]
+}

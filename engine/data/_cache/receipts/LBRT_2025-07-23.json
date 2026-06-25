@@ -1,0 +1,67 @@
+{
+ "ticker": "LBRT",
+ "as_of": "2025-07-23",
+ "os_source": "10-Q 2025-04-17 cover acc (Class A 161,954,214)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 3.131
+  },
+  {
+   "name": "D&O group 13 persons 1.9%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 71.3
+  },
+  {
+   "name": "BlackRock27.5+Vanguard19.2+FMR15.2+Dimensional9.4 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "158.82",
+ "os_M": "161.95",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1694028,
+ "depends_on_filings": [
+  {
+   "accession": "0001694028-25-000088",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001694028-25-000083",
+   "form": "10-Q",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001694028-25-000079",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001839882-25-014204",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001694028-25-000061",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001694028-25-000041",
+   "form": "8-K",
+   "filedAt": "2025-01-29"
+  },
+  {
+   "accession": "0001193125-17-042988",
+   "form": "S-1",
+   "filedAt": "2017-02-14"
+  }
+ ]
+}

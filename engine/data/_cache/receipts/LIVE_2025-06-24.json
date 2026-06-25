@@ -1,0 +1,59 @@
+{
+ "ticker": "LIVE",
+ "as_of": "2025-06-24",
+ "os_source": "DEF 14A 2025-05-21 acc:0001628280-25-027021",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_1.639M(JonIsaac_IsaacCapital)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Kingston_Yunis_0.583M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.44",
+ "os_M": "3.08",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1045742,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-027021",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001628280-25-024487",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-023889",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-009472",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001628280-25-005057",
+   "form": "8-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001628280-24-050970",
+   "form": "8-K",
+   "filedAt": "2024-12-12"
+  },
+  {
+   "accession": "0000950170-23-022750",
+   "form": "424B3",
+   "filedAt": "2023-05-17"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "ticker": "YEXT",
+ "as_of": "2025-06-04",
+ "os_source": "DEF 14A 2025-04-28 acc:0001614178-25-000046 O/S 125,866,826 as of 2025-03-31",
+ "excluded": [
+  {
+   "name": "Excluded=D&O real 6.31M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Lead Edge 12.79M(10.2% Form3 no board seat)",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 9.84M(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 15.26M(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "LynrockLake 10.67M(13G/A)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "119.56",
+ "os_M": "125.87",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1614178,
+ "depends_on_filings": [
+  {
+   "accession": "0001614178-25-000065",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001614178-25-000055",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001614178-25-000046",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001614178-25-000049",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001614178-25-000039",
+   "form": "8-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001614178-25-000030",
+   "form": "10-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0001047469-17-001510",
+   "form": "S-1",
+   "filedAt": "2017-03-13"
+  }
+ ]
+}

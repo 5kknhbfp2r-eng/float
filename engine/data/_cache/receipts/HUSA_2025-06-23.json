@@ -1,0 +1,85 @@
+{
+ "ticker": "HUSA",
+ "as_of": "2025-06-23",
+ "os_source": "O/S 8-K 2025-06-20 acc:0001641172-25-015941 (offering closed) -> 1,568,653 prior + 174,100 new common = 1,742,753; 49,662 prefunded warrants excluded from O/S",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.006
+  },
+  {
+   "name": "D&O options-only,real common ~0.006M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.18
+  },
+  {
+   "name": "BFH passive 13G;1.30",
+   "shares_M": null
+  },
+  {
+   "name": "3i passive 13G;0.174",
+   "shares_M": null
+  },
+  {
+   "name": "new RD offering shares to <5% public purchasers",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.74",
+ "os_M": "1.74",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1156041,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015941",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-015652",
+   "form": "424B3",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001641172-25-015514",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001641172-25-015108",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-012740",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-009427",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001641172-25-006364",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001641172-25-003763",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0000899243-01-502002",
+   "form": "424B1",
+   "filedAt": "2001-12-17"
+  }
+ ]
+}

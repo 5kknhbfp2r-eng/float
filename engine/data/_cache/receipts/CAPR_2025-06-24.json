@@ -1,0 +1,59 @@
+{
+ "ticker": "CAPR",
+ "as_of": "2025-06-24",
+ "os_source": "DEF14A 2025-04-08 + 10-Q 2025-05-14 acc:0001133869-25-000016",
+ "excluded": [
+  {
+   "name": "D&O_group=5.427M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "NipponShinyaku=7.090M,BlackRock=2.967M,Vanguard=2.277M,Highbridge=2.790M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "45.68",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1133869,
+ "depends_on_filings": [
+  {
+   "accession": "0001558370-25-008145",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001558370-25-007770",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001558370-25-007574",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001558370-25-004610",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001558370-25-004605",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001558370-25-003304",
+   "form": "8-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001144204-07-062206",
+   "form": "424B3",
+   "filedAt": "2007-11-15"
+  }
+ ]
+}

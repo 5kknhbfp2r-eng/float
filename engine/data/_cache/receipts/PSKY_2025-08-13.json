@@ -1,0 +1,33 @@
+{
+ "ticker": "PSKY",
+ "as_of": "2025-08-13",
+ "os_source": "8-K12B 2025-08-07 acc:0001193125-25-175046",
+ "excluded": [
+  {
+   "name": "Excluded=316.67M",
+   "shares_M": null
+  },
+  {
+   "name": "Skydance control block (est.)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public Paramount shareholders + PIPE institutions",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "1064.65",
+ "under_20M": "false",
+ "confidence": "low",
+ "cik": 2041610,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-026058",
+   "form": "424B3",
+   "filedAt": "2025-02-13"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "AMLX",
+ "as_of": "2025-06-24",
+ "os_source": "10-Q 2025-05-08 acc:0000950170-25-066363, DEF14A 2025-04-24 acc:0000950170-25-057665",
+ "excluded": [
+  {
+   "name": "Excluded=8.32M D&O pure shares(group 11.28M minus 2.97M options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=6.77M Perceptive(13G),4.82M Point72(13G),4.64M TCG(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "80.77",
+ "os_M": "89.08",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1658551,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-135860",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0000950170-25-066363",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-066355",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-057665",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0000950170-25-031303",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001193125-25-004547",
+   "form": "8-K",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001193125-21-359405",
+   "form": "S-1",
+   "filedAt": "2021-12-16"
+  }
+ ]
+}

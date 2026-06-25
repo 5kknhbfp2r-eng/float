@@ -1,0 +1,63 @@
+{
+ "ticker": "BNGO",
+ "as_of": "2025-08-21",
+ "os_source": "10-Q 2025-08-14 acc:0001411690-25-000083",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_actual_25.6K",
+   "shares_M": null
+  },
+  {
+   "name": "0.025M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=CVI_Investments_178K(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.84",
+ "os_M": "1.8654",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1411690,
+ "depends_on_filings": [
+  {
+   "accession": "0001411690-25-000083",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001411690-25-000082",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001411690-25-000073",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001411690-25-000045",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001140361-25-016025",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001411690-25-000036",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001193125-18-207855",
+   "form": "S-1",
+   "filedAt": "2018-06-28"
+  }
+ ]
+}

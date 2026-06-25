@@ -1,0 +1,73 @@
+{
+ "ticker": "BDMD",
+ "as_of": "2025-06-13",
+ "os_source": "20-F 2025-05-15 Item 6.E (acc 0001410578-25-001328): 37,015,899 ordinary shares basis (May 13); cover 35,728,625 + 290,000 GFC; NOT ADS",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 18.52
+  },
+  {
+   "name": "D&O group (Haimei Wu/Auto King/Betters Medical control 50%)",
+   "shares_M": null
+  },
+  {
+   "name": "4.77",
+   "shares_M": null
+  },
+  {
+   "name": "ExcelFin SPAC sponsor 12.9%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.75
+  },
+  {
+   "name": "Grand Fortune 7.4% minority strategic",
+   "shares_M": null
+  },
+  {
+   "name": "13.7",
+   "shares_M": null
+  },
+  {
+   "name": "public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.7",
+ "os_M": "37.02",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1982444,
+ "depends_on_filings": [
+  {
+   "accession": "0001410578-25-001328",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001104659-25-006483",
+   "form": "6-K",
+   "filedAt": "2025-01-28"
+  },
+  {
+   "accession": "0001104659-24-113469",
+   "form": "6-K",
+   "filedAt": "2024-11-01"
+  },
+  {
+   "accession": "0001104659-24-105030",
+   "form": "6-K",
+   "filedAt": "2024-10-01"
+  },
+  {
+   "accession": "0001104659-24-097385",
+   "form": "424B3",
+   "filedAt": "2024-09-05"
+  }
+ ]
+}

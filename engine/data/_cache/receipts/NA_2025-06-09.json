@@ -1,0 +1,75 @@
+{
+ "ticker": "NA",
+ "as_of": "2025-06-09",
+ "os_source": "20-F 2025-04-11 acc:0001213900-25-031065 (17,022,669 ord: 14,163,760 ClA + 2,858,909 ClB)",
+ "excluded": [
+  {
+   "name": "Excluded=7.595M D&O group (incl all 2.859M ClB founder)",
+   "shares_M": null
+  },
+  {
+   "name": "0.519M Nanoeco trust",
+   "shares_M": null
+  },
+  {
+   "name": "0.397M Nanometa trust",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.579M FENBUSHI",
+   "shares_M": null
+  },
+  {
+   "name": "1.548M Golden Forest",
+   "shares_M": null
+  },
+  {
+   "name": "1.548M Longling (all <20% external)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.51",
+ "os_M": "17.02",
+ "under_20M": "true",
+ "confidence": "medium",
+ "cik": 1872302,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-039905",
+   "form": "424B3",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-031065",
+   "form": "20-F",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001013762-25-002129",
+   "form": "6-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001213900-25-021926",
+   "form": "6-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001213900-25-021707",
+   "form": "6-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0001213900-25-018762",
+   "form": "6-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-22-172095",
+   "form": "F-1",
+   "filedAt": "2022-06-10"
+  }
+ ]
+}

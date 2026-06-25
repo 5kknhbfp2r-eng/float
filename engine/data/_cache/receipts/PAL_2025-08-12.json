@@ -1,0 +1,63 @@
+{
+ "ticker": "PAL",
+ "as_of": "2025-08-12",
+ "os_source": "DEF14A 2025-04-08 acc:0001998768-25-000013 + 10-Q 2025-05-14",
+ "excluded": [
+  {
+   "name": "D&O_ex_RSU=3.511M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR_3.46M",
+   "shares_M": null
+  },
+  {
+   "name": "AmCentury_1.43M_passive_13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "23.56",
+ "os_M": "27.07",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1998768,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-074341",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001213900-25-050809",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001213900-25-043436",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-040754",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001213900-25-029640",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001213900-25-012256",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001213900-24-032249",
+   "form": "S-1",
+   "filedAt": "2024-04-11"
+  }
+ ]
+}

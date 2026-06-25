@@ -1,0 +1,89 @@
+{
+ "ticker": "ATNF",
+ "as_of": "2025-08-13",
+ "os_source": "8-K 2025-08-05 acc:0001213900-25-072065 (154,032,084 O/S at PIPE close) + 8-K 2025-08-13 acc:0001213900-25-075707 (warrant exercises 8/8-8/13 ~2.44M)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.31
+  },
+  {
+   "name": "D&O group ex-options;1.318",
+   "shares_M": null
+  },
+  {
+   "name": "Elray Resources control/13D (expected repurchased)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 11.32
+  },
+  {
+   "name": "passive 13G 7.3%;11.59",
+   "shares_M": null
+  },
+  {
+   "name": "passive 13G 7.5%;8.94",
+   "shares_M": null
+  },
+  {
+   "name": "passive 13G 5.8%;all PIPE institutional purchasers <8%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "152.8",
+ "os_M": "156.47",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1690080,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-075707",
+   "form": "8-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001213900-25-074637",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-074030",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001213900-25-072065",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001213900-25-068930",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001213900-25-067354",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001213900-25-066984",
+   "form": "10-Q",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-061804",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001213900-17-004247",
+   "form": "S-1",
+   "filedAt": "2017-04-26"
+  }
+ ]
+}

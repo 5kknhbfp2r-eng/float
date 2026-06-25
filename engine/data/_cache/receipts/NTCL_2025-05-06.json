@@ -1,0 +1,20 @@
+{
+ "ticker": "NTCL",
+ "as_of": "2025-05-06",
+ "os_source": "OS_SOURCE: 20-F 15.83M Class A + 6-K 2025-05-06 acc 0001104659-25-045098 1.35M incentive shares issued 2025-04-29 = 17.18M Class A",
+ "excluded": [
+  {
+   "name": "Jianbiao Dai/Dragonsoft",
+   "shares_M": 6.3695
+  },
+  {
+   "name": "Lang Wide/Sze Kok",
+   "shares_M": 4.4355
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "6.38",
+ "os_M": "17.18",
+ "under_20M": "true",
+ "confidence": "med"
+}

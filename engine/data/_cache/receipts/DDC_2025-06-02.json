@@ -1,0 +1,54 @@
+{
+ "ticker": "DDC",
+ "as_of": "2025-06-02",
+ "os_source": "6-K 2025-05-16 acc:0001213900-25-044621 post 1-for-25 reverse split: 4,645,749 Class A o/s @ May-15-2025 (incl 1.47M obligated); 20-F 2025-05-15 acc:0001213900-25-043916 ownership (pre-split 78,750,356 Class A)",
+ "excluded": [
+  {
+   "name": "Excluded=0.932M founder/CEO Norma Chu Class A (23,309,275 pre-split /25); Class B 0.875M pre-split non-listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.71M public Class A (float); no intervening filing 5/29-6/02 (carry-forward)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.71",
+ "os_M": "4.65",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1808110,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-044621",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001213900-25-043916",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-030054",
+   "form": "6-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001013762-25-001000",
+   "form": "6-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001213900-25-017669",
+   "form": "6-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001213900-23-049381",
+   "form": "F-1",
+   "filedAt": "2023-06-16"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "ticker": "RBOT",
+ "as_of": "2025-08-12",
+ "os_source": "10-Q 2025-08-12 cover Class A O/S 5,298,253 acc:0001213900-25-075049; DEF14A 2025-04-29 blocks",
+ "excluded": [
+  {
+   "name": "DnO_classA",
+   "shares_M": 0.19
+  },
+  {
+   "name": "Khosla",
+   "shares_M": 0.97
+  },
+  {
+   "name": "InnovationEndeavors",
+   "shares_M": 0.46
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "GatesFrontier=0.60(passive)",
+   "shares_M": null
+  },
+  {
+   "name": "ClassB_founder=0.65(non-listed)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.69",
+ "os_M": "5.30",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1812173,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-075049",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-074974",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-070028",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001213900-25-063296",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001213900-25-059237",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001213900-25-042203",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001140361-25-016293",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-20-015990",
+   "form": "S-1",
+   "filedAt": "2020-06-26"
+  }
+ ]
+}

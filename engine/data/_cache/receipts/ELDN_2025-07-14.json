@@ -1,0 +1,71 @@
+{
+ "ticker": "ELDN",
+ "as_of": "2025-07-14",
+ "os_source": "10-Q 2025-05-14: 59,881,775 shares",
+ "excluded": [
+  {
+   "name": "D&O group ex-options",
+   "shares_M": 8.4
+  },
+  {
+   "name": "BVF Partners 13G kept",
+   "shares_M": 6.29
+  },
+  {
+   "name": "RA Capital 13G kept",
+   "shares_M": 3.57
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BVF",
+   "shares_M": 6.29
+  },
+  {
+   "name": "RA_Capital",
+   "shares_M": 3.57
+  }
+ ],
+ "float_M": "51.48",
+ "os_M": "59.88",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1404281,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-085588",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0000950170-25-071582",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-071370",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-060299",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-051663",
+   "form": "8-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0000950170-25-042644",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-14-305049",
+   "form": "S-1",
+   "filedAt": "2014-08-11"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "ticker": "GPUS",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: DEF14A 2025-05-02 acc=0001214659-25-006877 : 1,706,356 Class A (record date)",
+ "excluded": [
+  {
+   "name": "insider Class A",
+   "shares_M": 0.009
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "1.70",
+ "os_M": "1.71",
+ "under_20M": "true",
+ "confidence": "high"
+}

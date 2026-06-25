@@ -1,0 +1,71 @@
+{
+ "ticker": "PGY",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-07 acc 0001883085-25-000082 cover : 63,055,282 Class A Ordinary as of Apr 30 2025",
+ "excluded": [
+  {
+   "name": "D&O group Class A",
+   "shares_M": 2.276
+  },
+  {
+   "name": "ViolaVentures",
+   "shares_M": 8.176
+  },
+  {
+   "name": "OakHC/FT",
+   "shares_M": 10.541
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock",
+   "shares_M": 3.212
+  },
+  {
+   "name": "GIC",
+   "shares_M": 3.656
+  }
+ ],
+ "float_M": "42.06",
+ "os_M": "63.06",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1883085,
+ "depends_on_filings": [
+  {
+   "accession": "0001883085-25-000082",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001883085-25-000080",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001883085-25-000066",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001883085-25-000042",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001883085-25-000035",
+   "form": "8-K",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0001883085-24-000205",
+   "form": "8-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001140361-22-020886",
+   "form": "424B3",
+   "filedAt": "2022-05-27"
+  }
+ ]
+}

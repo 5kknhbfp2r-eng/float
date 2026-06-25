@@ -1,0 +1,63 @@
+{
+ "ticker": "RRGB",
+ "as_of": "2025-06-02",
+ "os_source": "DEF14A 2025-04-24 acc:0001104659-25-038610; 10-Q 2025-05-29 acc:0001171759-25-000020",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_0.47M",
+   "shares_M": null
+  },
+  {
+   "name": "JCP_Jumana_3.48M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=PacificRidge_1.07M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.79",
+ "os_M": "17.74",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1171759,
+ "depends_on_filings": [
+  {
+   "accession": "0001171759-25-000020",
+   "form": "10-Q",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001171759-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001104659-25-052507",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001104659-25-038610",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0000950142-25-001161",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001171759-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0000898430-02-001620",
+   "form": "S-1",
+   "filedAt": "2002-04-26"
+  }
+ ]
+}

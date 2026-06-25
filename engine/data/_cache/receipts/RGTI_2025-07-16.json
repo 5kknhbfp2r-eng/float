@@ -1,0 +1,67 @@
+{
+ "ticker": "RGTI",
+ "as_of": "2025-07-16",
+ "os_source": "10-Q 2025-05-12 acc:0001838359-25-000xxx os=290,322,889; DEF 14A 2025-04-25 proxy",
+ "excluded": [
+  {
+   "name": "Excluded=5.66M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options (proxy Apr2025)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0M",
+   "shares_M": null
+  },
+  {
+   "name": "no >5% passive non-D&O",
+   "shares_M": null
+  }
+ ],
+ "float_M": "288.8",
+ "os_M": "290.32",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1838359,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-058530",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001104659-25-058395",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001104659-25-054408",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001558370-25-007375",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001558370-25-007372",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-25-038956",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-21-036476",
+   "form": "S-1",
+   "filedAt": "2021-02-10"
+  }
+ ]
+}

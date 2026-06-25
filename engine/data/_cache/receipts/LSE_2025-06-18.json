@@ -1,0 +1,44 @@
+{
+ "ticker": "LSE",
+ "as_of": "2025-06-18",
+ "os_source": "20-F 2025-02-14 acc:0001493152-25-006894 (IPO 424B4 2024-12-20)",
+ "excluded": [
+  {
+   "name": "Excluded=15.5M founder-controlled BVI shells (Polar/WISE-POWER/COBO/Pacific Century) under Hongliang Li voting proxy",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.525M IPO public float; passive 13G funds within float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.53",
+ "os_M": "17.025",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1985139,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-006894",
+   "form": "20-F",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001493152-25-001422",
+   "form": "6-K",
+   "filedAt": "2025-01-08"
+  },
+  {
+   "accession": "0001493152-24-051113",
+   "form": "6-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001493152-24-038956",
+   "form": "F-1",
+   "filedAt": "2024-10-01"
+  }
+ ]
+}

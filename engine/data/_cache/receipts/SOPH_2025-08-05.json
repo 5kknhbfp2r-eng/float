@@ -1,0 +1,80 @@
+{
+ "ticker": "SOPH",
+ "as_of": "2025-08-05",
+ "os_source": "F-3 2025-08-05 acc:0000950103-25-009934 cover 67,579,560 ord as of 2025-06-30; D&O from 20-F 2025-03-04 acc:0001840706-25-000009",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.36
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=6.99 Alychlo 13G",
+   "shares_M": null
+  },
+  {
+   "name": "6.79 Generation 13G",
+   "shares_M": null
+  },
+  {
+   "name": "5.51 aMoon 13G",
+   "shares_M": null
+  },
+  {
+   "name": "3.36 Balderton 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "63.21",
+ "os_M": "67.58",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1840706,
+ "depends_on_filings": [
+  {
+   "accession": "0001840706-25-000026",
+   "form": "6-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0000950103-25-009937",
+   "form": "F-3",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0000950103-25-009934",
+   "form": "F-3",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001840706-25-000021",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001840706-25-000018",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001840706-25-000015",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001840706-25-000009",
+   "form": "20-F",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001193125-21-207629",
+   "form": "F-1",
+   "filedAt": "2021-07-02"
+  }
+ ]
+}

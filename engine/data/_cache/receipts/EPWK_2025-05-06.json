@@ -1,0 +1,43 @@
+{
+ "ticker": "EPWK",
+ "as_of": "2025-05-06",
+ "os_source": "OS_SOURCE: 424B4 IPO acc 0001575872-25-000131 + 6-K acc 0001575872-25-000167 : ClassA 18,351,494 + over-allot 412,500 = 18,763,994 (float = 2,750,000 + 412,500 offering = 3,162,500)",
+ "excluded": [
+  {
+   "name": "FounderHuang_ClassB",
+   "shares_M": 3.556
+  },
+  {
+   "name": "ResaleSelling_locked",
+   "shares_M": 2.5
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.16",
+ "os_M": "18.76",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1900720,
+ "depends_on_filings": [
+  {
+   "accession": "0001575872-25-000268",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001575872-25-000167",
+   "form": "6-K",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001575872-25-000136",
+   "form": "6-K",
+   "filedAt": "2025-02-07"
+  },
+  {
+   "accession": "0001575872-23-000230",
+   "form": "F-1",
+   "filedAt": "2023-02-09"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "ticker": "UMAC",
+ "as_of": "2025-06-03",
+ "os_source": "OS_SOURCE DEF14A 2024-10-15+10-Q 2025-05-08 acc:0001683168-25-003285=15,122,018",
+ "excluded": [
+  {
+   "name": "Excluded=1.32M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=13.80M",
+   "shares_M": null
+  },
+  {
+   "name": "float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.80",
+ "os_M": "15.12",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1956955,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-004079",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001683168-25-003913",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001683168-25-003285",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001683168-25-003286",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001683168-25-003236",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001683168-25-002292",
+   "form": "S-3",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001683168-25-001930",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001683168-25-000425",
+   "form": "DEF 14A",
+   "filedAt": "2025-01-17"
+  },
+  {
+   "accession": "0001683168-25-000141",
+   "form": "PRE 14A",
+   "filedAt": "2025-01-07"
+  },
+  {
+   "accession": "0001683168-24-007157",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-15"
+  },
+  {
+   "accession": "0001683168-23-001467",
+   "form": "S-1",
+   "filedAt": "2023-03-14"
+  }
+ ]
+}

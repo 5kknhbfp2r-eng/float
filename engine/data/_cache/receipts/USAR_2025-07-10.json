@@ -1,0 +1,79 @@
+{
+ "ticker": "USAR",
+ "as_of": "2025-07-10",
+ "os_source": "10-Q filed 2025-05-15 acc:0001213900-25-043743 + DEF14A 2025-06-02 acc:0001213900-25-050029 + 8-K 2025-07-01 acc:0001213900-25-060414",
+ "excluded": [
+  {
+   "name": "D&O_actual_common=35.75M(Blitzer_Sponsor6.25M+Gutnick13.67M+Smith_Bayshore15.53M+others0.30M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Alyeska=9.15M(passive_13G)+Newtyn=5.31M(passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "55.24",
+ "os_M": "90.99",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1970622,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-062438",
+   "form": "S-1/A",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-062346",
+   "form": "424B3",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-062345",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-061110",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001213900-25-060483",
+   "form": "424B3",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001213900-25-060414",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001213900-25-055427",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001213900-25-050029",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001213900-25-043743",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-043335",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-23-027320",
+   "form": "S-1",
+   "filedAt": "2023-04-05"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "ticker": "BODI",
+ "as_of": "2025-08-06",
+ "os_source": "10-Q cover 2025-05-13 acc:0000950170-25-072601 = Class A 4,259,361 O/S (listed class)",
+ "excluded": [
+  {
+   "name": "Excluded=0.675M Raine Entities (15.8% sponsor)",
+   "shares_M": null
+  },
+  {
+   "name": "0.238M Jon Congdon (co-founder)",
+   "shares_M": null
+  },
+  {
+   "name": "~0.3M insider Class A ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=no passive 5%+ Class A institutions; Daikeler Class X 2.58M is separate non-listed class",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.05",
+ "os_M": "4.26",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1826889,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-103027",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0000950170-25-083082",
+   "form": "424B3",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-083074",
+   "form": "424B3",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-083042",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-072601",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072634",
+   "form": "424B3",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072623",
+   "form": "424B3",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-071373",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001193125-25-091354",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0000950170-25-053295",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001213900-20-030635",
+   "form": "S-1",
+   "filedAt": "2020-10-08"
+  }
+ ]
+}

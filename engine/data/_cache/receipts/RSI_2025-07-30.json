@@ -1,0 +1,67 @@
+{
+ "ticker": "RSI",
+ "as_of": "2025-07-30",
+ "os_source": "DEF 14A 2025-04-14 acc:0001793659-25-000xxx + 10-Q 2025-05-01 acc:0001793659-25-000111 Class A os=95,616,494",
+ "excluded": [
+  {
+   "name": "Excluded=7.17M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O Class A group (Bluhm 547K ClassA + Schwartz 3.16M + others ~7.17M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=18.53M",
+   "shares_M": null
+  },
+  {
+   "name": "BLK 6.23M+Vanguard 7.54M+Divisadero 4.77M passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "95.62",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1793659,
+ "depends_on_filings": [
+  {
+   "accession": "0001793659-25-000164",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001793659-25-000124",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001793659-25-000111",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001793659-25-000108",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001793659-25-000098",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001793659-25-000069",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-20-021539",
+   "form": "S-1",
+   "filedAt": "2020-01-31"
+  }
+ ]
+}

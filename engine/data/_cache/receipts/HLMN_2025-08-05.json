@@ -1,0 +1,63 @@
+{
+ "ticker": "HLMN",
+ "as_of": "2025-08-05",
+ "os_source": "10-Q 2025-08-05 acc:0001822492; DEF 14A 2025-04-21",
+ "excluded": [
+  {
+   "name": "Excluded=1.50M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=>20M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "196.07",
+ "os_M": "197.57",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1822492,
+ "depends_on_filings": [
+  {
+   "accession": "0001822492-25-000172",
+   "form": "10-Q",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001822492-25-000170",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001822492-25-000103",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001822492-25-000093",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001822492-25-000078",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001822492-25-000042",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001104659-20-105836",
+   "form": "S-1",
+   "filedAt": "2020-09-17"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "TDUP",
+ "as_of": "2025-08-04",
+ "os_source": "10-Q filed 2025-08-04 cover acc:0001484778-25-000081 Class A 102,185,171 + Class B 20,975,710",
+ "excluded": [
+  {
+   "name": "Excluded=4.91M D&O Class A",
+   "shares_M": null
+  },
+  {
+   "name": "20.98M Class B super-voting(insider/VC)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=8.58M Capital World",
+   "shares_M": null
+  },
+  {
+   "name": "4.89M BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "6.20M Needham",
+   "shares_M": null
+  },
+  {
+   "name": "4.84M Ameriprise (all passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "97.28",
+ "os_M": "123.16",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1484778,
+ "depends_on_filings": [
+  {
+   "accession": "0001484778-25-000081",
+   "form": "10-Q",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001484778-25-000079",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001628280-25-027662",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001484778-25-000049",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001484778-25-000043",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001484778-25-000040",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001628280-21-003857",
+   "form": "S-1",
+   "filedAt": "2021-03-03"
+  }
+ ]
+}

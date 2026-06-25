@@ -1,0 +1,72 @@
+{
+ "ticker": "ARBKL",
+ "as_of": "2025-07-11",
+ "os_source": "20-F 2025-05-15 acc:0001104659-25-049311 cover 719,468,699 ord as of 5/8/25; ADS=10 ord",
+ "excluded": [
+  {
+   "name": "Excluded=~0.5",
+   "shares_M": null
+  },
+  {
+   "name": "D&O all <1% (ADS terms)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 5.77
+  },
+  {
+   "name": "Armistice Capital 8% passive (ADS terms)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "71.0",
+ "os_M": "71.95",
+ "under_20M": "false",
+ "confidence": "low",
+ "cik": 1841675,
+ "depends_on_filings": [
+  {
+   "accession": "0001654954-25-007956",
+   "form": "6-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001654954-25-007837",
+   "form": "6-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001654954-25-007803",
+   "form": "6-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001654954-25-007622",
+   "form": "6-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001654954-25-007564",
+   "form": "6-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001654954-25-007530",
+   "form": "6-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001104659-25-049311",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001104659-21-107653",
+   "form": "F-1",
+   "filedAt": "2021-08-19"
+  }
+ ]
+}

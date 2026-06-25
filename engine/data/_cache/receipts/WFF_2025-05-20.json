@@ -1,0 +1,43 @@
+{
+ "ticker": "WFF",
+ "as_of": "2025-05-20",
+ "os_source": "OS_SOURCE: 13G filed 2025-05-19 acc=0001213900-25-045314 : 25,190,000 ordinary shares outstanding as of 2025-05-15",
+ "excluded": [
+  {
+   "name": "Lew_Capital",
+   "shares_M": 15.85332
+  },
+  {
+   "name": "LYC_Capital_mother",
+   "shares_M": 1.35
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "7.99",
+ "os_M": "25.19",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1980210,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-040644",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001213900-25-037683",
+   "form": "20-F",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-25-025801",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001213900-24-081064",
+   "form": "F-1",
+   "filedAt": "2024-09-23"
+  }
+ ]
+}

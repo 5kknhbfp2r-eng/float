@@ -1,0 +1,64 @@
+{
+ "ticker": "CLRO",
+ "as_of": "2025-06-30",
+ "os_source": "DEF14A 2025-05-13 + 10-Q 2025-05-15 acc:0000840715-25-000040",
+ "excluded": [
+  {
+   "name": "Bagley=12.591M,D&O_direct=0.044M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "no_significant_passive_holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.36",
+ "os_M": "25.99",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 840715,
+ "depends_on_filings": [
+  {
+   "accession": "0001753926-25-001044",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001753926-25-001008",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001753926-25-000914",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001753926-25-000875",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001753926-25-000867",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001753926-25-000847",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001753926-25-000783",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000840715-01-500031",
+   "form": "424B1",
+   "filedAt": "2001-12-12"
+  }
+ ]
+}

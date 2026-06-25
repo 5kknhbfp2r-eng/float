@@ -1,0 +1,68 @@
+{
+ "ticker": "GPRE",
+ "as_of": "2025-08-11",
+ "os_source": "10-Q 2025-08-11 acc:0001309402-25-000130; DEF 14A 2025-04-24",
+ "excluded": [
+  {
+   "name": "Excluded=0.70M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=>20M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "65.59",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1309402,
+ "depends_on_filings": [
+  {
+   "accession": "0001309402-25-000130",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001309402-25-000126",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001104659-25-068498",
+   "form": "S-3",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001309402-25-000111",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001309402-25-000084",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001309402-25-000074",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001309402-25-000066",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001038838-04-001162",
+   "form": "S-1",
+   "filedAt": "2004-12-16"
+  }
+ ]
+}

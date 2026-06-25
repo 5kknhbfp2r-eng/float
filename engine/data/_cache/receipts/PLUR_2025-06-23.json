@@ -1,0 +1,67 @@
+{
+ "ticker": "PLUR",
+ "as_of": "2025-06-23",
+ "os_source": "13D/A 2025-06-09 O/S 7,875,555 as of 6/4/25 acc:0001213900-25-052382",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.826
+  },
+  {
+   "name": "D&O group 7 persons 2.055M ex 229,353 options (incl Weinstein/Chutzpah/Plantae deduped)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.321
+  },
+  {
+   "name": "Merchant Adventure 16.68%;Slager/Regals 0.352 13G;Shayna 0.419;Gun 0.307 all passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.05",
+ "os_M": "7.88",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1158780,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-047783",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001213900-25-047562",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001213900-25-042637",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-040816",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-036785",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-035770",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001085037-04-000229",
+   "form": "424B4",
+   "filedAt": "2004-03-18"
+  }
+ ]
+}

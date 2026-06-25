@@ -1,0 +1,89 @@
+{
+ "ticker": "COMM",
+ "as_of": "2025-08-04",
+ "os_source": "10-Q 2025-08-04 acc:0001517228-25-000000 + DEF14A 2025-03-24",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_actual_4215K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Vanguard_23M(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_20.9M(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "FPR_Partners_13.4M",
+   "shares_M": null
+  },
+  {
+   "name": "Ramya_Rao_13.1M",
+   "shares_M": null
+  },
+  {
+   "name": "Charger_Corp_13.1M",
+   "shares_M": null
+  },
+  {
+   "name": "Carlyle_preferred_only",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "221.53",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1517228,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-101615",
+   "form": "10-Q",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001193125-25-172146",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0000950170-25-101614",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0000950170-25-088160",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0000950170-25-071403",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-067487",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0000950170-25-061428",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950170-25-043853",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001193125-13-317314",
+   "form": "S-1",
+   "filedAt": "2013-08-02"
+  }
+ ]
+}

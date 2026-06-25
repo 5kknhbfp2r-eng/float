@@ -1,0 +1,36 @@
+{
+ "ticker": "ELPW",
+ "as_of": "2025-05-16",
+ "os_source": "OS_SOURCE: 20-F 2024-11-27 acc 0001493152-24-048069 : Class A 44,278,677 (of 50,056,114 all-class as of Nov21-2024)",
+ "excluded": [
+  {
+   "name": "ZiboYingke",
+   "shares_M": 8.029
+  },
+  {
+   "name": "ShenzhenJinpenglong",
+   "shares_M": 6.701
+  },
+  {
+   "name": "Xingzheng",
+   "shares_M": 6.623
+  },
+  {
+   "name": "XiamenJiupaiyuanjiang",
+   "shares_M": 4.715
+  },
+  {
+   "name": "PingtanYingke",
+   "shares_M": 3.712
+  },
+  {
+   "name": "FounderLiu_ClassB",
+   "shares_M": 5.777
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "14.50",
+ "os_M": "44.28",
+ "under_20M": "true",
+ "confidence": "med"
+}

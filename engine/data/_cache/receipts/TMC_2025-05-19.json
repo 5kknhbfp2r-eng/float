@@ -1,0 +1,63 @@
+{
+ "ticker": "TMC",
+ "as_of": "2025-05-19",
+ "os_source": "O/S 10-Q cover 2025-05-14 acc:0001410578-25-001269: 362,186,002 common shares as of May 13 2025",
+ "excluded": [
+  {
+   "name": "Excluded=89.36M D&O group actual-common ex-options incl Karkar/ERAS 60.95M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Allseas 52.78M (14.6%, strategic, no board seat)",
+   "shares_M": null
+  },
+  {
+   "name": "First Manhattan 22.99M (6.5%, board observer)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "272.83",
+ "os_M": "362.19",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1798562,
+ "depends_on_filings": [
+  {
+   "accession": "0001410578-25-001269",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-048499",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-047373",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-25-040742",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001104659-25-036264",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001104659-25-028794",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001213900-20-006690",
+   "form": "S-1",
+   "filedAt": "2020-03-17"
+  }
+ ]
+}

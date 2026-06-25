@@ -1,0 +1,87 @@
+{
+ "ticker": "TRNR",
+ "as_of": "2025-07-01",
+ "os_source": "S-3 2025-06-27 acc:0000950170-25-091040 post-split O/S 1,361,663; 1:10 reverse split June 27 2025",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_adjusted",
+   "shares_M": null
+  },
+  {
+   "name": "0.00M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=all_public",
+   "shares_M": null
+  },
+  {
+   "name": "1.36M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.36",
+ "os_M": "1.36",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1785056,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-091040",
+   "form": "S-3",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0000950170-25-088526",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0000950170-25-085471",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0000950170-25-084654",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0000950170-25-084290",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0000950170-25-082373",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0000950170-25-074458",
+   "form": "10-Q",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0000950170-25-021304",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0000950170-25-013748",
+   "form": "PRE 14A",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0000950170-24-090702",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-05"
+  },
+  {
+   "accession": "0001193125-23-008845",
+   "form": "S-1",
+   "filedAt": "2023-01-17"
+  }
+ ]
+}

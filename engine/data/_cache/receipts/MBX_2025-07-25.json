@@ -1,0 +1,63 @@
+{
+ "ticker": "MBX",
+ "as_of": "2025-07-25",
+ "os_source": "DEF14A 2025-04-23 acc:0000950170-25-056978; 10-Q 2025-05-12 acc:0000950170-25-068602",
+ "excluded": [
+  {
+   "name": "D&O_group=18.15M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Deep_Track=3.02M",
+   "shares_M": null
+  },
+  {
+   "name": "Wellington=2.94M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "15.27",
+ "os_M": "33.42",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1776111,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-086546",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0000950170-25-083447",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0000950170-25-082697",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-068602",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-068599",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-056978",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-24-206227",
+   "form": "S-1",
+   "filedAt": "2024-08-23"
+  }
+ ]
+}

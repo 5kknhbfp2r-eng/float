@@ -1,0 +1,54 @@
+{
+ "ticker": "BOSC",
+ "as_of": "2025-05-29",
+ "os_source": "OS_SOURCE: 20-F 2025-03-31 acc 0001213900-25-026190 : 5,923,559 ordinary (as of 2025-03-15)",
+ "excluded": [
+  {
+   "name": "DnO_group_6persons",
+   "shares_M": 0.227708
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Todd_Felte",
+   "shares_M": 0.458118
+  }
+ ],
+ "float_M": "5.70",
+ "os_M": "5.92",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1005516,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-048828",
+   "form": "6-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001213900-25-026190",
+   "form": "20-F",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001213900-25-026194",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001213900-25-025881",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001213900-25-025298",
+   "form": "6-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001178913-07-000270",
+   "form": "F-1/A",
+   "filedAt": "2007-02-12"
+  }
+ ]
+}

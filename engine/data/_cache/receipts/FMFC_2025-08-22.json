@@ -1,0 +1,57 @@
+{
+ "ticker": "FMFC",
+ "as_of": "2025-08-22",
+ "os_source": "Class A O/S 15.30M from 424B4 2025-06-25 acc:0001213900-25-057878 (15.0M post-IPO) + 6-K 2025-07-21 acc:0001213900-25-065869 (300k over-allotment exercised 2025-07-16); total O/S 18.30M incl 3.0M Class B",
+ "excluded": [
+  {
+   "name": "Excluded=6.56M",
+   "shares_M": null
+  },
+  {
+   "name": "DMD Venture Ltd (Miao family control, Class A)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=8.74M",
+   "shares_M": null
+  },
+  {
+   "name": "public Class A float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.74",
+ "os_M": "18.30",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2024656,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-069288",
+   "form": "20-F",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001213900-25-069298",
+   "form": "6-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001213900-25-065869",
+   "form": "6-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0001213900-25-058423",
+   "form": "6-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001213900-24-089901",
+   "form": "F-1",
+   "filedAt": "2024-10-23"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "VG",
+ "as_of": "2025-06-03",
+ "os_source": "10-Q 2025-05-12 acc:0002007855-25-000018 (Class A 451,257,010 as of 5/2/2025; Class B 1,968,604,458)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 130.0
+  },
+  {
+   "name": "D&O group Class A incl insiders Thayer/Larson/Earl;Class B 1968.6M founders Sabel/Pender non-listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 354.68
+  },
+  {
+   "name": "PIMCO 78.6% Class A passive investment adviser (no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "321.26",
+ "os_M": "451.26",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 2007855,
+ "depends_on_filings": [
+  {
+   "accession": "0000950103-25-006300",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0002007855-25-000021",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0002007855-25-000018",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950103-25-005582",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950103-25-005130",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001193125-25-071787",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001193125-24-282957",
+   "form": "S-1",
+   "filedAt": "2024-12-20"
+  }
+ ]
+}

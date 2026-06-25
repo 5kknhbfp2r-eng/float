@@ -1,0 +1,82 @@
+{
+ "ticker": "BOF",
+ "as_of": "2025-07-22",
+ "os_source": "424B3 2025-07-14+10-Q 2025-05-15+DEF14A 2024-09-09",
+ "excluded": [
+  {
+   "name": "D&O common 1853769",
+   "shares_M": null
+  },
+  {
+   "name": "Kaufman Kapital 1000000",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Donald Foss Trust 431145",
+   "shares_M": null
+  },
+  {
+   "name": "other small holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.87",
+ "os_M": "10.72",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1962481,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-018902",
+   "form": "424B3",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001641172-25-017784",
+   "form": "S-3",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001641172-25-013178",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001641172-25-011992",
+   "form": "S-3",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-010566",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001493152-25-007654",
+   "form": "8-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001493152-25-007104",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001493152-24-049986",
+   "form": "8-K",
+   "filedAt": "2024-12-13"
+  },
+  {
+   "accession": "0001493152-24-035464",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-09"
+  },
+  {
+   "accession": "0001493152-23-013404",
+   "form": "S-1",
+   "filedAt": "2023-04-24"
+  }
+ ]
+}

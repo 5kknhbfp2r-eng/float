@@ -1,0 +1,63 @@
+{
+ "ticker": "ASMB",
+ "as_of": "2025-05-02",
+ "os_source": "OS_SOURCE: DEF14A 2025-04-23 (Apr 8 2025 record) : 7,637,553 common",
+ "excluded": [
+  {
+   "name": "Gilead",
+   "shares_M": 2.21
+  },
+  {
+   "name": "D&O_group",
+   "shares_M": 0.41
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Schornstein",
+   "shares_M": 0.73
+  }
+ ],
+ "float_M": "5.02",
+ "os_M": "7.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1426800,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-057353",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0000950170-25-042673",
+   "form": "10-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0000950170-25-042660",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0000950170-25-024134",
+   "form": "8-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0000950170-25-001141",
+   "form": "8-K",
+   "filedAt": "2025-01-03"
+  },
+  {
+   "accession": "0000950170-24-139962",
+   "form": "8-K",
+   "filedAt": "2024-12-26"
+  },
+  {
+   "accession": "0001144204-10-038608",
+   "form": "S-1",
+   "filedAt": "2010-07-20"
+  }
+ ]
+}

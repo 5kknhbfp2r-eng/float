@@ -1,0 +1,64 @@
+{
+ "ticker": "TWIN",
+ "as_of": "2025-08-21",
+ "os_source": "10-Q 2025-05-07 acc:0001437749-25-014928",
+ "excluded": [
+  {
+   "name": "D&O=3.00M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "GAMCO_passive=2.11M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "11.14",
+ "os_M": "14.15",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 100378,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-027487",
+   "form": "8-K",
+   "filedAt": "2025-08-21"
+  },
+  {
+   "accession": "0001437749-25-027486",
+   "form": "8-K",
+   "filedAt": "2025-08-21"
+  },
+  {
+   "accession": "0001437749-25-026047",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001437749-25-014928",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001437749-25-014927",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001437749-25-014926",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001437749-25-004129",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001437749-24-029097",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-13"
+  }
+ ]
+}

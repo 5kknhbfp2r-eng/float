@@ -1,0 +1,75 @@
+{
+ "ticker": "UHG",
+ "as_of": "2025-07-17",
+ "os_source": "DEF14A 2025-04-25 + 13D/A acc:0001104659-25-053085; Class A O/S 21,628,512 (10-Q May9 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=3.0M Nieri family Class A(control: Nieri 0.65M+trusts)",
+   "shares_M": null
+  },
+  {
+   "name": "2.83M other D&O Class A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.8M Fidelity(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "1.5M Anson",
+   "shares_M": null
+  },
+  {
+   "name": "1.49M Conversant",
+   "shares_M": null
+  },
+  {
+   "name": "1.2M Dendur passive <20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "15.8",
+ "os_M": "21.63",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1830188,
+ "depends_on_filings": [
+  {
+   "accession": "0001830188-25-000057",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001830188-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001830188-25-000038",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001830188-25-000036",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001830188-25-000033",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001830188-25-000028",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001104659-21-002331",
+   "form": "S-1",
+   "filedAt": "2021-01-08"
+  }
+ ]
+}

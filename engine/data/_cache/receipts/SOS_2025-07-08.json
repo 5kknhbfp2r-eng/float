@@ -1,0 +1,67 @@
+{
+ "ticker": "SOS",
+ "as_of": "2025-07-08",
+ "os_source": "F-3/A 2025-06-25 acc:0001213900-25-057886 (non-affiliate public float 991,316,492 Class A ord /150 = 6.61M ADS) + 20-F acc:0001213900-25-044183 (ADS ratio 150:1)",
+ "excluded": [
+  {
+   "name": "Excluded=24.48M ord ClassB/150",
+   "shares_M": null
+  },
+  {
+   "name": "founder Wang unlisted Class B;Excluded",
+   "shares_M": 0.0013
+  },
+  {
+   "name": "D&O Class A 0.19M ord /150",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none material",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.61",
+ "os_M": "6.61",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1346610,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-057886",
+   "form": "F-3/A",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-044183",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-031075",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001213900-25-025067",
+   "form": "6-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001213900-24-081219",
+   "form": "6-K",
+   "filedAt": "2024-09-24"
+  },
+  {
+   "accession": "0001213900-24-070236",
+   "form": "6-K",
+   "filedAt": "2024-08-16"
+  },
+  {
+   "accession": "0001193125-17-105710",
+   "form": "F-1",
+   "filedAt": "2017-03-31"
+  }
+ ]
+}

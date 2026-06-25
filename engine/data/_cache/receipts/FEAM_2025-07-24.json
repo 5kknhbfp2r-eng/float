@@ -1,0 +1,91 @@
+{
+ "ticker": "FEAM",
+ "as_of": "2025-07-24",
+ "os_source": "S-3/424B3 2025-05-23/06-04 (O/S as of May 14 2025: 20,017,746)",
+ "excluded": [
+  {
+   "name": "Ascend+Meridian=7.730M",
+   "shares_M": null
+  },
+  {
+   "name": "BEP=7.497M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O=0.073M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "ArmisticeCapital=1.083M",
+   "shares_M": null
+  },
+  {
+   "name": "5ECapitalII=1.827M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.72",
+ "os_M": "20.02",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1888654,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-134939",
+   "form": "424B3",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001193125-25-125840",
+   "form": "S-3",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000950170-25-072736",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001193125-25-065503",
+   "form": "424B3",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001193125-25-056676",
+   "form": "S-3",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0000950170-25-038789",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0000950170-25-033824",
+   "form": "8-K",
+   "filedAt": "2025-03-05"
+  },
+  {
+   "accession": "0000950170-25-032427",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0000950170-25-022315",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0000950170-25-012391",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-03"
+  },
+  {
+   "accession": "0001193125-22-260121",
+   "form": "S-1",
+   "filedAt": "2022-10-11"
+  }
+ ]
+}

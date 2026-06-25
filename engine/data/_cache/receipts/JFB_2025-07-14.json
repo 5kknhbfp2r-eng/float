@@ -1,0 +1,57 @@
+{
+ "ticker": "JFB",
+ "as_of": "2025-07-14",
+ "os_source": "10-Q 2025-05-14 cover: Class A 5,250,000 issued & outstanding (listed class)",
+ "excluded": [
+  {
+   "name": "JosephBasileIII",
+   "shares_M": 0.365
+  },
+  {
+   "name": "BasileFamilyIrrevTrust",
+   "shares_M": 3.25
+  },
+  {
+   "name": "LisaAnnBasileRevTrust",
+   "shares_M": 0.09697
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "CharteredServicesLLC",
+   "shares_M": 0.36
+  }
+ ],
+ "float_M": "1.54",
+ "os_M": "5.25",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2024306,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-071521",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-069468",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-047908",
+   "form": "10-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001493152-25-009645",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001493152-24-044316",
+   "form": "S-1",
+   "filedAt": "2024-11-08"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "SIGA",
+ "as_of": "2025-08-07",
+ "os_source": "DEF14A 2025-04-28 acc:CIK1010086/10-Q Q2-2025",
+ "excluded": [
+  {
+   "name": "Excluded=MacAndrews_24.16M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_1.39M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Lewis_5.27M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_4.02M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "45.99",
+ "os_M": "71.54",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1010086,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-024889",
+   "form": "10-Q",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001140361-25-028821",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001140361-25-022316",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001140361-25-017954",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-016016",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001140361-25-012708",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0000950130-97-004031",
+   "form": "424B1",
+   "filedAt": "1997-09-10"
+  }
+ ]
+}

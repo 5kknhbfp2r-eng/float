@@ -1,0 +1,67 @@
+{
+ "ticker": "FLL",
+ "as_of": "2025-06-18",
+ "os_source": "DEF14A 2025-04-07 acc:0000891482-25-000018 + 10-Q 2025-05-08",
+ "excluded": [
+  {
+   "name": "Excluded=1.98M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 9 persons ex-options (1,548,489 options excluded from 3,528,892)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.2M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "35.65",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 891482,
+ "depends_on_filings": [
+  {
+   "accession": "0000891482-25-000036",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0000891482-25-000033",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0000891482-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000891482-25-000027",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000891482-25-000025",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000891482-25-000018",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0000950170-96-000587",
+   "form": "424B1",
+   "filedAt": "1996-08-09"
+  }
+ ]
+}

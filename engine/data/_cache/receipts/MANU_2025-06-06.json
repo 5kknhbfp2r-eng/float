@@ -1,0 +1,80 @@
+{
+ "ticker": "MANU",
+ "as_of": "2025-06-06",
+ "os_source": "13G/A 2025-04-04 acc:0001172661-25-001391 Class A O/S 54,317,002; 13D/A 2024-12-19 acc:0000950142-24-002965 INEOS Class A",
+ "excluded": [
+  {
+   "name": "Excluded=INEOS/Ratcliffe 16.19M Class A",
+   "shares_M": null
+  },
+  {
+   "name": "Joel Glazer 1.26M",
+   "shares_M": null
+  },
+  {
+   "name": "Darcie Glazer 0.45M (Class B super-voting not in listed class)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Ariel 8.3M passive",
+   "shares_M": null
+  },
+  {
+   "name": "Lindsell Train ~5.05M passive",
+   "shares_M": null
+  },
+  {
+   "name": "public Class A float ~36.4M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "36.42",
+ "os_M": "54.32",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1549107,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-057303",
+   "form": "6-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001104659-25-057047",
+   "form": "6-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001104659-25-054517",
+   "form": "6-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001104659-25-045046",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-25-016509",
+   "form": "6-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001410578-25-000168",
+   "form": "6-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001104659-24-099826",
+   "form": "20-F",
+   "filedAt": "2024-09-13"
+  },
+  {
+   "accession": "0001047469-12-007026",
+   "form": "F-1",
+   "filedAt": "2012-07-03"
+  }
+ ]
+}

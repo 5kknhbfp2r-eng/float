@@ -1,0 +1,67 @@
+{
+ "ticker": "SRTS",
+ "as_of": "2025-07-24",
+ "os_source": "DEF14A 2025-04-29 acc:0001753926-25-000705; 10-Q 2025-05-15 O/S 16,445,036",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_exOptions",
+   "shares_M": null
+  },
+  {
+   "name": "1.47M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Solot_13G",
+   "shares_M": null
+  },
+  {
+   "name": "1.25M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "14.98",
+ "os_M": "16.45",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1494891,
+ "depends_on_filings": [
+  {
+   "accession": "0001753926-25-000919",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001753926-25-000853",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001753926-25-000851",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001753926-25-000705",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001753926-25-000213",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001753926-25-000183",
+   "form": "8-K",
+   "filedAt": "2025-02-05"
+  },
+  {
+   "accession": "0001144204-16-080141",
+   "form": "S-1",
+   "filedAt": "2016-02-10"
+  }
+ ]
+}

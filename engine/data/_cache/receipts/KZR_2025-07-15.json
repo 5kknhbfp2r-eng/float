@@ -1,0 +1,59 @@
+{
+ "ticker": "KZR",
+ "as_of": "2025-07-15",
+ "os_source": "10-Q 2025-05-13 + DEF14A 2025-04-25 acc:0000950170-25-047001",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real0.155M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Tang0.72M+Suvretta0.717M+EqualTalent0.617M+Avidity0.503M+BML0.369M_all_passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.15",
+ "os_M": "7.30",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1645666,
+ "depends_on_filings": [
+  {
+   "accession": "0001645666-25-000029",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001645666-25-000027",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001645666-25-000026",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001645666-25-000020",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001645666-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001645666-25-000009",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001193125-18-173747",
+   "form": "S-1",
+   "filedAt": "2018-05-24"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "ticker": "MTEN",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: 20-F 2025-04-30 acc 0001213900-25-037714 : 6,839,600 Ordinary Shares O/S (as of 2025-04-15; 5B is authorized not O/S)",
+ "excluded": [
+  {
+   "name": "D&O group Xu+Ding (YK Xu Holding 2.091 + DJZ Holding 2.009)",
+   "shares_M": 4.1
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "2.74",
+ "os_M": "6.84",
+ "under_20M": "true",
+ "confidence": "high"
+}

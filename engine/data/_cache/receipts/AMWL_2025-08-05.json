@@ -1,0 +1,75 @@
+{
+ "ticker": "AMWL",
+ "as_of": "2025-08-05",
+ "os_source": "10-Q cover 2025-08-05 acc:0000950170-25-103035; Class A O/S 14,504,796 (listed class, latest practicable date)",
+ "excluded": [
+  {
+   "name": "Excluded=0.319964M D&O group ClassA(2.3%)",
+   "shares_M": null
+  },
+  {
+   "name": "1.369518M Class B(founders, non-listed)",
+   "shares_M": null
+  },
+  {
+   "name": "0.277777M Class C(strategic, non-listed non-voting)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.841338M Caledonia(13F)",
+   "shares_M": null
+  },
+  {
+   "name": "1.224323M Morgan Stanley(13F)",
+   "shares_M": null
+  },
+  {
+   "name": "1.300611M Senvest(13F) all passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "14.18",
+ "os_M": "14.50",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1393584,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-103035",
+   "form": "10-Q",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0000950170-25-103029",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0000950170-25-087478",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0000950170-25-061838",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950170-25-057290",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0000950170-25-030996",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001193125-20-228478",
+   "form": "S-1",
+   "filedAt": "2020-08-24"
+  }
+ ]
+}

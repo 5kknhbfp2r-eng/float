@@ -1,0 +1,78 @@
+{
+ "ticker": "PPCB",
+ "as_of": "2025-08-18",
+ "os_source": "424B4 2025-08-18 / 10-Q 2025-05-15",
+ "excluded": [
+  {
+   "name": "Excluded=0.01M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O negligible post-splits",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=all (no block holders)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "11.60",
+ "os_M": "11.61",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1517681,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-024617",
+   "form": "424B3",
+   "filedAt": "2025-08-18"
+  },
+  {
+   "accession": "0001641172-25-024613",
+   "form": "424B4",
+   "filedAt": "2025-08-18"
+  },
+  {
+   "accession": "0001641172-25-023580",
+   "form": "8-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001641172-25-021560",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001641172-25-021182",
+   "form": "S-1/A",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001641172-25-020574",
+   "form": "8-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001641172-25-016719",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001641172-25-010798",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001493152-24-038815",
+   "form": "10-K",
+   "filedAt": "2024-09-30"
+  },
+  {
+   "accession": "0001354488-11-001953",
+   "form": "S-1",
+   "filedAt": "2011-06-23"
+  }
+ ]
+}

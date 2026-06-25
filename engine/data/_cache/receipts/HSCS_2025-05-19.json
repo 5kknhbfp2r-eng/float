@@ -1,0 +1,77 @@
+{
+ "ticker": "HSCS",
+ "as_of": "2025-05-19",
+ "os_source": "O/S 10-Q cover filed 2025-03-13 acc 0000950170-25-038699: 1,080,946 common as of Mar 12 2025",
+ "excluded": [
+  {
+   "name": "Excluded=0.0168M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.0309M FRV control lender",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Matthews 0.052M",
+   "shares_M": null
+  },
+  {
+   "name": "Mount Sinai 0.065M passive <20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.03",
+ "os_M": "1.08",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1468492,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-074598",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001013762-25-001087",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0000950170-25-038699",
+   "form": "10-Q",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0000950170-25-038762",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0000950170-25-007314",
+   "form": "8-K",
+   "filedAt": "2025-01-21"
+  },
+  {
+   "accession": "0001213900-24-109832",
+   "form": "8-K",
+   "filedAt": "2024-12-17"
+  },
+  {
+   "accession": "0000950170-24-136647",
+   "form": "8-K",
+   "filedAt": "2024-12-16"
+  },
+  {
+   "accession": "0001213900-24-079949",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-18"
+  },
+  {
+   "accession": "0001193125-22-153172",
+   "form": "S-1",
+   "filedAt": "2022-05-17"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "ticker": "BYON",
+ "as_of": "2025-07-21",
+ "os_source": "10-Q 2025-04-29+DEF14A 2025-03-28",
+ "excluded": [
+  {
+   "name": "D&O ex-RSUs 797696",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock 3629610",
+   "shares_M": null
+  },
+  {
+   "name": "Morgan Stanley 2786824",
+   "shares_M": null
+  }
+ ],
+ "float_M": "56.88",
+ "os_M": "57.68",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1130713,
+ "depends_on_filings": [
+  {
+   "accession": "0001130713-25-000045",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001140361-25-018409",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001130713-25-000041",
+   "form": "10-Q",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001130713-25-000038",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001140361-25-010811",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001130713-25-000029",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0000912057-02-008668",
+   "form": "S-1",
+   "filedAt": "2002-03-05"
+  }
+ ]
+}

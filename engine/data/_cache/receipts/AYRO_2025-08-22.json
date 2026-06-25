@@ -1,0 +1,69 @@
+{
+ "ticker": "AYRO",
+ "as_of": "2025-08-22",
+ "os_source": "10-Q cover 2025-08-13 acc:0001641172-25-023974 = 675,399 common O/S (post 1-for-5 reverse split ~Aug 1 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=0.0359M D&O group (179,310 pre-split /5)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 5% holders Alpha/Hewlett/Mainfield/Iroquois/Diveroli (9.99% blockers, no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.64",
+ "os_M": "0.68",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1086745,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-023974",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001641172-25-023242",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001641172-25-022163",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001641172-25-021921",
+   "form": "8-K",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001641172-25-016952",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001641172-25-014559",
+   "form": "S-3",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001641172-25-012320",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001641172-25-005591",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001013762-05-001199",
+   "form": "424B3",
+   "filedAt": "2005-09-20"
+  }
+ ]
+}

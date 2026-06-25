@@ -1,0 +1,39 @@
+{
+ "ticker": "WTF",
+ "as_of": "2025-07-28",
+ "os_source": "20-F 2025-07-24 acc:0001140361-25-027147 (cover 48,237,472 ordinary)",
+ "excluded": [
+  {
+   "name": "Excluded=41.889204M D&O group ex-options (Zhou Kai/Waton 40.98M control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public/non-affiliate ~6.35M incl 4.375M IPO float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.35",
+ "os_M": "48.24",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1987363,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-027147",
+   "form": "20-F",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001140361-25-011860",
+   "form": "6-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001140361-24-047668",
+   "form": "F-1",
+   "filedAt": "2024-11-22"
+  }
+ ]
+}

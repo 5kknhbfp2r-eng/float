@@ -1,0 +1,54 @@
+{
+ "ticker": "ZKIN",
+ "as_of": "2025-05-09",
+ "os_source": "OS_SOURCE: 20-F filed 2025-01-27 acc=0001410578-25-000055 (36,147,625 ordinary shares) reconciled with 6-K 2025-01-31 acc=0001104659-25-008177 1-for-7 reverse split = 36,147,625/7 = 5.164M ordinary as of 2025-05-09 : 5.164M",
+ "excluded": [
+  {
+   "name": "DandO_group_GoldenHill_control",
+   "shares_M": 0.956
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "CF_Opportunity_Fund",
+   "shares_M": 0.451
+  }
+ ],
+ "float_M": "4.21",
+ "os_M": "5.16",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1687451,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-016528",
+   "form": "6-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001104659-25-008177",
+   "form": "6-K",
+   "filedAt": "2025-01-31"
+  },
+  {
+   "accession": "0001410578-25-000055",
+   "form": "20-F",
+   "filedAt": "2025-01-27"
+  },
+  {
+   "accession": "0001104659-24-104380",
+   "form": "6-K",
+   "filedAt": "2024-09-30"
+  },
+  {
+   "accession": "0001104659-24-101366",
+   "form": "6-K",
+   "filedAt": "2024-09-19"
+  },
+  {
+   "accession": "0001144204-17-029167",
+   "form": "F-1",
+   "filedAt": "2017-05-24"
+  }
+ ]
+}

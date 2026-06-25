@@ -1,0 +1,73 @@
+{
+ "ticker": "METC",
+ "as_of": "2025-07-11",
+ "os_source": "10-Q 2025-05-12 acc:0001558370-25-007370 (44,418,301 Class A); no intervening issuance; O/S Class A 44.42M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 16.014003
+  },
+  {
+   "name": "D&O+control group Class A 36.1% incl Yorktown funds",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "28.40",
+ "os_M": "44.42",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1687187,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-067026",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001104659-25-066421",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001104659-25-064431",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001104659-25-063615",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001104659-25-055441",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001558370-25-007370",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001558370-25-007257",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-25-041856",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001193125-16-807449",
+   "form": "S-1",
+   "filedAt": "2016-12-29"
+  }
+ ]
+}

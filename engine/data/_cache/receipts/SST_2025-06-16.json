@@ -1,0 +1,71 @@
+{
+ "ticker": "SST",
+ "as_of": "2025-06-16",
+ "os_source": "DEF 14A 2025-05-19 acc:0001628280-25-026505 + 8-K reverse split eff 6/11 acc:0001628280-25-030708",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.701
+  },
+  {
+   "name": "Cannae Holdings (Foley sponsor control);1.359",
+   "shares_M": null
+  },
+  {
+   "name": "CEE Holdings Trust control;0.991",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group; all post-split /10 on Class A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public Class A; float 2.47M post-split",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.47",
+ "os_M": "7.52",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1805833,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-030708",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001628280-25-030451",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001628280-25-027355",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001628280-25-026505",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001628280-25-022712",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001628280-25-022742",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001047469-20-003275",
+   "form": "S-1",
+   "filedAt": "2020-05-30"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "OSCR",
+ "as_of": "2025-06-18",
+ "os_source": "8-K 2025-06-06 acc:0001193125-25-137039 Item5.07 confirms Class A 218,993,334; carried from 2025-05-07 DEF14A",
+ "excluded": [
+  {
+   "name": "Excluded=21.05M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group (Bertolini/Kushner-Thrive/Schlosser) Class A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=197.94M",
+   "shares_M": null
+  },
+  {
+   "name": "public float; Class B 35.5M separate non-listed class",
+   "shares_M": null
+  }
+ ],
+ "float_M": "197.94",
+ "os_M": "218.99",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1568651,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-137039",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001568651-25-000015",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001568651-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001140361-25-015601",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-25-043364",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001568651-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001193125-21-030955",
+   "form": "S-1",
+   "filedAt": "2021-02-05"
+  }
+ ]
+}

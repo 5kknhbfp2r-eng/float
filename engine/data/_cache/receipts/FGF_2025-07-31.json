@@ -1,0 +1,63 @@
+{
+ "ticker": "FGF",
+ "as_of": "2025-07-31",
+ "os_source": "10-Q acc 0001641172-25-010388 filed 2025-05-14 (common O/S 1,267,904 @ May 5 2025) + DEF 14A 2024-11-21",
+ "excluded": [
+  {
+   "name": "Excluded=Fundamental Global GP LLC/FGG 0.322 (control vehicle, Cerminara)",
+   "shares_M": null
+  },
+  {
+   "name": "D&O individuals direct common 0.107 ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=no other 5% holder; Series A preferred 0.895 separate non-listed class",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.84",
+ "os_M": "1.27",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1591890,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021498",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001641172-25-010388",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-002373",
+   "form": "8-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001641172-25-000080",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001493152-24-050926",
+   "form": "8-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001493152-24-047200",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-21"
+  },
+  {
+   "accession": "0001591890-14-000003",
+   "form": "S-1",
+   "filedAt": "2014-01-10"
+  }
+ ]
+}

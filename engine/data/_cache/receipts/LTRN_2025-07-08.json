@@ -1,0 +1,69 @@
+{
+ "ticker": "LTRN",
+ "as_of": "2025-07-08",
+ "os_source": "424B5 2025-07-03 acc:0001641172-25-017790 + 10-Q 2025-05-15 acc:0001641172-25-010547",
+ "excluded": [
+  {
+   "name": "Excluded=affiliates0.046M_per_424B5_certification",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BiosEquity1.076M+BiologicalMimetics0.914M+ProPhase0.631M+other_public",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.74",
+ "os_M": "10.78",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1763950,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-017810",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001641172-25-010547",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-010541",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-000917",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001493152-25-001685",
+   "form": "8-K",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001493152-24-044124",
+   "form": "8-K",
+   "filedAt": "2024-11-08"
+  },
+  {
+   "accession": "0001493152-24-044006",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001493152-24-016840",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-29"
+  },
+  {
+   "accession": "0001213900-20-009332",
+   "form": "S-1",
+   "filedAt": "2020-04-16"
+  }
+ ]
+}

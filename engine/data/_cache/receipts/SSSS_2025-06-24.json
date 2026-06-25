@@ -1,0 +1,63 @@
+{
+ "ticker": "SSSS",
+ "as_of": "2025-06-24",
+ "os_source": "10-Q 2025-05-07 acc:0001641172-25-008970",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_1.58M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Herzfeld_1.71M",
+   "shares_M": null
+  },
+  {
+   "name": "Gabelli_1.45M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "21.98",
+ "os_M": "23.55",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1509470,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015799",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001104659-25-054873",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001641172-25-008970",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001104659-25-045141",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-25-034123",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001104659-25-032460",
+   "form": "8-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001104659-20-091596",
+   "form": "424B3",
+   "filedAt": "2020-08-06"
+  }
+ ]
+}

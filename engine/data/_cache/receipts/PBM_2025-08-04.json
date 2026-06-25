@@ -1,0 +1,63 @@
+{
+ "ticker": "PBM",
+ "as_of": "2025-08-04",
+ "os_source": "20-F 2025-06-25 Item 7 O/S 713,232 as of 6/19/25 acc:0001213900-25-... (carried from 7/31)",
+ "excluded": [
+  {
+   "name": "DnO",
+   "shares_M": 0.0
+  },
+  {
+   "name": "ParentPGI=0(exited 13D/A 5/12)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "passive13G_kept",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.71",
+ "os_M": "0.71",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1985062,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-067748",
+   "form": "20-F/A",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001213900-25-057893",
+   "form": "20-F",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-057779",
+   "form": "6-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-053433",
+   "form": "6-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001213900-25-046051",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-040150",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-23-118691",
+   "form": "424B3",
+   "filedAt": "2023-11-15"
+  }
+ ]
+}

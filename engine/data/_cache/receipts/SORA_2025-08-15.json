@@ -1,0 +1,72 @@
+{
+ "ticker": "SORA",
+ "as_of": "2025-08-15",
+ "os_source": "20-F 2025-05-12 acc:0001213900-25-042060 O/S 24,864,000 ord; reconfirmed 6-K 2025-08-06 acc:0001213900-25-072554",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 14.45
+  },
+  {
+   "name": "Pride River (Kwan Ngai) BVI founder shell control 58.1% = full D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 10.41
+  },
+  {
+   "name": "public+other pre-IPO holders <5% + post-IPO 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.41",
+ "os_M": "24.864",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2033515,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-077034",
+   "form": "6-K",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001213900-25-072554",
+   "form": "6-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001213900-25-068413",
+   "form": "6-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001213900-25-063490",
+   "form": "6-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001213900-25-061657",
+   "form": "6-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001213900-25-061201",
+   "form": "6-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-042060",
+   "form": "20-F",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001213900-24-102257",
+   "form": "F-1",
+   "filedAt": "2024-11-25"
+  }
+ ]
+}

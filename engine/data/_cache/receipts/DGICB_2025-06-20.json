@@ -1,0 +1,71 @@
+{
+ "ticker": "DGICB",
+ "as_of": "2025-06-20",
+ "os_source": "Class B O/S 5,649,240 from 10-Q filed 2025-05-06 acc:0000800457-25 (per dossier reconciliation); DEF14A 2025-03-17 acc:0001140361-25-008932",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.709
+  },
+  {
+   "name": "Donegal Mutual control 84.4% Class B;0.00175",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group Class B",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  },
+  {
+   "name": "Dimensional & BlackRock hold Class A only, no Class B",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.94",
+ "os_M": "5.65",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 800457,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-017502",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001171843-25-002460",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001140361-25-014837",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001171843-25-002286",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001171843-25-001961",
+   "form": "8-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001140361-25-008932",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0000950115-96-001276",
+   "form": "424B3",
+   "filedAt": "1996-09-06"
+  }
+ ]
+}

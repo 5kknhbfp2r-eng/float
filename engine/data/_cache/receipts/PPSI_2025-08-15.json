@@ -1,0 +1,73 @@
+{
+ "ticker": "PPSI",
+ "as_of": "2025-08-15",
+ "os_source": "DEF 14A 2024-10-17 / 10-Q 2025-08-14",
+ "excluded": [
+  {
+   "name": "Excluded=2.35M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O real shares (Mazurek 1.97M + Michalec 0.24M + Klink 0.11M + others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none named above 5pct",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.74",
+ "os_M": "11.10",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1449792,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-023969",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001641172-25-023983",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001641172-25-016245",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001641172-25-011068",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-004837",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001493152-25-007522",
+   "form": "8-K",
+   "filedAt": "2025-02-19"
+  },
+  {
+   "accession": "0001493152-24-049111",
+   "form": "8-K",
+   "filedAt": "2024-12-06"
+  },
+  {
+   "accession": "0001493152-24-041410",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-17"
+  },
+  {
+   "accession": "0001255294-08-000766",
+   "form": "S-1",
+   "filedAt": "2008-11-14"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "PTHS",
+ "as_of": "2025-07-07",
+ "os_source": "Common O/S 3,029,501 per SCHEDULE 13D 2025-07-03 acc:0000950170-25-093838 (Ligand); confirmed 3,034,416 as of 7/2 per 13D/A 2025-07-04 acc:0001753926-25-001081; merger/reverse-split 8-K 2025-07-02 acc:0001753926-25-001055",
+ "excluded": [
+  {
+   "name": "Excluded=1.50M Ligand (new control parent, 49.9%)",
+   "shares_M": null
+  },
+  {
+   "name": "0.25M Friedberg/Nomis Bay/Balmoral group (director)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=PIPE investors held as Series A Preferred not in Common O/S",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.28",
+ "os_M": "3.03",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1919246,
+ "depends_on_filings": [
+  {
+   "accession": "0001753926-25-001055",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001753926-25-000790",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001753926-25-000722",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001753926-25-000652",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001753926-25-000376",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001753926-24-001983",
+   "form": "8-K",
+   "filedAt": "2024-11-21"
+  },
+  {
+   "accession": "0001753926-24-001955",
+   "form": "8-K",
+   "filedAt": "2024-11-18"
+  },
+  {
+   "accession": "0001140361-24-042069",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-26"
+  },
+  {
+   "accession": "0001753926-23-000040",
+   "form": "S-1",
+   "filedAt": "2023-01-11"
+  }
+ ]
+}

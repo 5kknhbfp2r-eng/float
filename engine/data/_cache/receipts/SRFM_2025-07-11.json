@@ -1,0 +1,71 @@
+{
+ "ticker": "SRFM",
+ "as_of": "2025-07-11",
+ "os_source": "424B5 2025-06-26 acc:0000950170-25-090207 (33,712,011 o/s); carried from 7/8",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.48
+  },
+  {
+   "name": "D&O group;Excluded",
+   "shares_M": 1.57
+  },
+  {
+   "name": "Fayed/LamVen control affiliate",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 3.42
+  },
+  {
+   "name": "Palantir passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "30.66",
+ "os_M": "33.71",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1936224,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-091041",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0000950170-25-090410",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001140361-25-018647",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-070437",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-070381",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-048519",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001213900-23-045915",
+   "form": "S-1",
+   "filedAt": "2023-06-03"
+  }
+ ]
+}

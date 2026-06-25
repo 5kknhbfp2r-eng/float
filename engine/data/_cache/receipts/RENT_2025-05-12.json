@@ -1,0 +1,85 @@
+{
+ "ticker": "RENT",
+ "as_of": "2025-05-12",
+ "os_source": "OS_SOURCE: 10-K cover 2025-04-15 acc 0001468327-25-000056 : 3,825,951 Class A shares outstanding as of April 11, 2025 (post 1-for-20 reverse split)",
+ "excluded": [
+  {
+   "name": "D&O group ex-RSU",
+   "shares_M": 0.121
+  },
+  {
+   "name": "Bain Capital Ventures",
+   "shares_M": 0.409
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Goldstone",
+   "shares_M": 0.336
+  },
+  {
+   "name": "Highland Capital",
+   "shares_M": 0.256
+  },
+  {
+   "name": "T. Rowe Price",
+   "shares_M": 0.211
+  },
+  {
+   "name": "TCV",
+   "shares_M": 0.197
+  }
+ ],
+ "float_M": "3.30",
+ "os_M": "3.83",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1468327,
+ "depends_on_filings": [
+  {
+   "accession": "0001468327-25-000056",
+   "form": "10-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001468327-25-000052",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001468327-25-000021",
+   "form": "8-K",
+   "filedAt": "2025-03-05"
+  },
+  {
+   "accession": "0001468327-24-000336",
+   "form": "8-K",
+   "filedAt": "2024-12-09"
+  },
+  {
+   "accession": "0001468327-24-000259",
+   "form": "8-K",
+   "filedAt": "2024-09-05"
+  },
+  {
+   "accession": "0001468327-24-000219",
+   "form": "8-K",
+   "filedAt": "2024-07-16"
+  },
+  {
+   "accession": "0001468327-24-000166",
+   "form": "8-K",
+   "filedAt": "2024-06-06"
+  },
+  {
+   "accession": "0001140361-24-027298",
+   "form": "DEF 14A",
+   "filedAt": "2024-05-23"
+  },
+  {
+   "accession": "0001193125-21-291103",
+   "form": "S-1",
+   "filedAt": "2021-10-04"
+  }
+ ]
+}

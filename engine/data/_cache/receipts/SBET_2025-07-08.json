@@ -1,0 +1,67 @@
+{
+ "ticker": "SBET",
+ "as_of": "2025-07-08",
+ "os_source": "O/S: DEF14A acc:0001641172-25-017811 (62,125,336 @6/20) + 8-K 7/8 acc:0001641172-25-018094 ATM 5,499,845(6/28-7/4)",
+ "excluded": [
+  {
+   "name": "Excluded=0.15M D&O actual shares ex-warrants (Lubin all warrants)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=4.91M Jane Street",
+   "shares_M": null
+  },
+  {
+   "name": "3.66M ParaFi",
+   "shares_M": null
+  },
+  {
+   "name": "public ATM float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "69.5",
+ "os_M": "69.65",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1981535,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-018094",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001641172-25-017811",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001641172-25-017278",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001641172-25-016228",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001641172-25-014970",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-010881",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001493152-23-038300",
+   "form": "424B3",
+   "filedAt": "2023-10-25"
+  }
+ ]
+}

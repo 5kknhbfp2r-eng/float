@@ -1,0 +1,83 @@
+{
+ "ticker": "RAIN",
+ "as_of": "2025-05-12",
+ "os_source": "OS_SOURCE: 424B3 2025-04-25 acc 0001213900-25-035587 : 7,528,761 Class A shares outstanding (post-PIPE)",
+ "excluded": [
+  {
+   "name": "Harry You",
+   "shares_M": 1.452
+  },
+  {
+   "name": "Paul Dacier",
+   "shares_M": 1.861
+  },
+  {
+   "name": "Niccolo de Masi",
+   "shares_M": 0.092
+  },
+  {
+   "name": "Coliseum Sponsor",
+   "shares_M": 1.017
+  },
+  {
+   "name": "Lyman Dickerson",
+   "shares_M": 0.018
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Meteora",
+   "shares_M": 0.755
+  },
+  {
+   "name": "Stevenson School",
+   "shares_M": 0.5
+  },
+  {
+   "name": "ColoredRings",
+   "shares_M": 0.45
+  }
+ ],
+ "float_M": "3.09",
+ "os_M": "7.53",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2028293,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-035587",
+   "form": "424B3",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001213900-25-032239",
+   "form": "10-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001213900-25-029433",
+   "form": "8-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001213900-25-016645",
+   "form": "8-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001213900-25-009111",
+   "form": "8-K",
+   "filedAt": "2025-02-03"
+  },
+  {
+   "accession": "0001213900-25-001708",
+   "form": "8-K",
+   "filedAt": "2025-01-07"
+  },
+  {
+   "accession": "0001104659-24-127032",
+   "form": "424B3",
+   "filedAt": "2024-12-10"
+  }
+ ]
+}

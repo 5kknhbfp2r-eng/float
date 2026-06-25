@@ -1,0 +1,77 @@
+{
+ "ticker": "LIDR",
+ "as_of": "2025-07-28",
+ "os_source": "424B5 2025-07-28 acc:0000947871-25-000691 (O/S 30,316,365 @7/25/25)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.04
+  },
+  {
+   "name": "affiliates per company non-affiliate calc",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 29.28
+  },
+  {
+   "name": "company-stated public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.28",
+ "os_M": "30.32",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1818644,
+ "depends_on_filings": [
+  {
+   "accession": "0000947871-25-000693",
+   "form": "8-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0000947871-25-000687",
+   "form": "8-K",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0000947871-25-000555",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001437749-25-015868",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0000947871-25-000464",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000947871-25-000443",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000947871-25-000301",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001140361-24-017288",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-02"
+  },
+  {
+   "accession": "0001213900-20-030494",
+   "form": "S-1",
+   "filedAt": "2020-10-07"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "ticker": "FNKO",
+ "as_of": "2025-05-12",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-08 acc=0001704711-25-000073 cover : 54,287,354 Class A",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 1.729
+  },
+  {
+   "name": "TCG 3.0 Fuji",
+   "shares_M": 12.528
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Cooper Creek",
+   "shares_M": 3.13
+  },
+  {
+   "name": "Working Capital Partners",
+   "shares_M": 5.13
+  },
+  {
+   "name": "Fund Investments",
+   "shares_M": 4.965
+  }
+ ],
+ "float_M": "40.03",
+ "os_M": "54.29",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1704711,
+ "depends_on_filings": [
+  {
+   "accession": "0001704711-25-000073",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001704711-25-000072",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001704711-25-000064",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001704711-25-000053",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-25-050446",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001704711-25-000015",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001193125-17-305846",
+   "form": "S-1",
+   "filedAt": "2017-10-06"
+  }
+ ]
+}

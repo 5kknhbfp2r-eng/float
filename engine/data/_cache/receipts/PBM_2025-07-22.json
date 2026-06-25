@@ -1,0 +1,62 @@
+{
+ "ticker": "PBM",
+ "as_of": "2025-07-22",
+ "os_source": "20-F filed 2025-06-25 Item 7 acc:0001213900-25-057893 (713,232 common as of June 19, 2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.0
+  },
+  {
+   "name": "D&O group hold 0 shares;0",
+   "shares_M": null
+  },
+  {
+   "name": "former parent Psyence Group Inc exited all shares May 2-9 2025 (13D/A acc:0001213900-25-042029)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G/A institutional holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.71",
+ "os_M": "0.71",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1985062,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-057893",
+   "form": "20-F",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-057779",
+   "form": "6-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-053433",
+   "form": "6-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001213900-25-046051",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-040150",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-23-118691",
+   "form": "424B3",
+   "filedAt": "2023-11-15"
+  }
+ ]
+}

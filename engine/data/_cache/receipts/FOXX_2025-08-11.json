@@ -1,0 +1,85 @@
+{
+ "ticker": "FOXX",
+ "as_of": "2025-08-11",
+ "os_source": "O/S 6.78M from 10-Q 2025-05-15 acc:0001213900-25-043597 (6,780,597 common); carried from 2025-07-22, no intervening O/S change",
+ "excluded": [
+  {
+   "name": "Excluded=2.16M Acri Sponsor(Hua CFO)",
+   "shares_M": null
+  },
+  {
+   "name": "2.31M BRR Investment(13D control)",
+   "shares_M": null
+  },
+  {
+   "name": "0.70M New Bay(Liu shell)",
+   "shares_M": null
+  },
+  {
+   "name": "0.66M BR Technologies(Xu shell)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.95M",
+   "shares_M": null
+  },
+  {
+   "name": "public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.95",
+ "os_M": "6.78",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2013807,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-071412",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001213900-25-051966",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-043597",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-040241",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-024794",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001213900-25-016221",
+   "form": "8-K",
+   "filedAt": "2025-02-22"
+  },
+  {
+   "accession": "0001213900-25-011903",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001213900-24-090457",
+   "form": "10-K",
+   "filedAt": "2024-10-24"
+  },
+  {
+   "accession": "0001013762-24-002164",
+   "form": "424B3",
+   "filedAt": "2024-07-29"
+  }
+ ]
+}

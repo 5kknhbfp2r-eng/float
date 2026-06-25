@@ -1,0 +1,67 @@
+{
+ "ticker": "CVRX",
+ "as_of": "2025-07-16",
+ "os_source": "DEF14A 2025-04-23 acc:0001140361-25-015190 + 10-Q 2025-05-09 acc:0001558370-25-007077",
+ "excluded": [
+  {
+   "name": "Vensana=1.711M(board-nominee via Nielsen)",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_net=2.726M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "J&J 4.10M passive 13G",
+   "shares_M": null
+  },
+  {
+   "name": "NEA 2.03M 13D no board",
+   "shares_M": null
+  }
+ ],
+ "float_M": "22.60",
+ "os_M": "25.32",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1235912,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-056843",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001558370-25-007077",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001104659-25-046109",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-015190",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001104659-25-032626",
+   "form": "8-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001104659-25-009115",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001104659-21-077026",
+   "form": "S-1",
+   "filedAt": "2021-06-04"
+  }
+ ]
+}

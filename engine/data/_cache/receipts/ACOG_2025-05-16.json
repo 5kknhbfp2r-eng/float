@@ -1,0 +1,75 @@
+{
+ "ticker": "ACOG",
+ "as_of": "2025-05-16",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-15 0001213900-25-044163 : 16,019,787 common",
+ "excluded": [
+  {
+   "name": "D&O_pure_common",
+   "shares_M": 0.92
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Besser/Manchester",
+   "shares_M": 1.0
+  },
+  {
+   "name": "AWM",
+   "shares_M": 1.04
+  },
+  {
+   "name": "Solas",
+   "shares_M": 1.39
+  },
+  {
+   "name": "Ikarian",
+   "shares_M": 0.97
+  },
+  {
+   "name": "Funicular",
+   "shares_M": 0.87
+  }
+ ],
+ "float_M": "15.10",
+ "os_M": "16.02",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1655923,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-044163",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-037661",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-25-030683",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001213900-25-018138",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001213900-24-111194",
+   "form": "8-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001213900-24-099596",
+   "form": "8-K",
+   "filedAt": "2024-11-18"
+  },
+  {
+   "accession": "0001213900-24-037413",
+   "form": "S-1",
+   "filedAt": "2024-04-30"
+  }
+ ]
+}

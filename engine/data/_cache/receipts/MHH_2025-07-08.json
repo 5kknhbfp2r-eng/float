@@ -1,0 +1,62 @@
+{
+ "ticker": "MHH",
+ "as_of": "2025-07-08",
+ "os_source": "DEF14A 2025-04-09 acc:0001193125-25-076408; 10-Q 2025-05-15 acc:0001193125-25-120845",
+ "excluded": [
+  {
+   "name": "D&O_real_4.88M",
+   "shares_M": null
+  },
+  {
+   "name": "Wadhwani_family_trust_1.85M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Shaw_1.32M",
+   "shares_M": null
+  },
+  {
+   "name": "CapMgmt_0.69M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.02",
+ "os_M": "11.75",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1437226,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-122458",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001193125-25-121300",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-25-120845",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001193125-25-076408",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001193125-25-073415",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001193125-25-029138",
+   "form": "8-K",
+   "filedAt": "2025-02-19"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "FLYX",
+ "as_of": "2025-08-25",
+ "os_source": "O/S: 10-Q acc 0000950170-25-107987 cover '20,199,586 shares of Class A Common Stock issued and outstanding'; control block 13D/A acc 0000950170-25-100465 (Hymowitz group 24,553,145 ben. - 10,601,433 warrants = 13,951,712 actual Class A)",
+ "excluded": [
+  {
+   "name": "Excluded=13.95M Hymowitz/EnTrust group(director-controlled: EG Sponsor+EnTrust Emerald+ETG Omni)",
+   "shares_M": null
+  },
+  {
+   "name": "59.93M Class B(Segrave,non-economic)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.12M EnTrust Magnolia(FE Manager non-affiliate controls)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.25",
+ "os_M": "20.20",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1843973,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-107987",
+   "form": "10-Q",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0000950170-25-108008",
+   "form": "8-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0000950170-25-100242",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0000950170-25-099181",
+   "form": "8-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0000950170-25-088488",
+   "form": "S-3/A",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0000950170-25-080223",
+   "form": "S-3",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0000950170-25-064421",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001628280-24-043424",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-23"
+  },
+  {
+   "accession": "0001193125-21-106505",
+   "form": "S-1",
+   "filedAt": "2021-04-05"
+  }
+ ]
+}

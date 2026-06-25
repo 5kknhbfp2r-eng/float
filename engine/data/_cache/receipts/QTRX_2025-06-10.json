@@ -1,0 +1,77 @@
+{
+ "ticker": "QTRX",
+ "as_of": "2025-06-10",
+ "os_source": "10-Q 2025-05-12 acc:unknown; DEF14A 2024-04-15 acc:unknown",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_2.66M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock_3.19M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_2.06M",
+   "shares_M": null
+  },
+  {
+   "name": "Millennium_2.21M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "38.83",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1503274,
+ "depends_on_filings": [
+  {
+   "accession": "0001503274-25-000056",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001503274-25-000054",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001503274-25-000051",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-25-040749",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001104659-25-035125",
+   "form": "424B3",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001503274-25-000042",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001503274-25-000038",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001104659-24-047245",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-15"
+  },
+  {
+   "accession": "0001047469-17-006947",
+   "form": "S-1",
+   "filedAt": "2017-11-09"
+  }
+ ]
+}

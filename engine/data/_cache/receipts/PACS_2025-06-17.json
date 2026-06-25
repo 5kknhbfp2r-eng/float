@@ -1,0 +1,65 @@
+{
+ "ticker": "PACS",
+ "as_of": "2025-06-17",
+ "os_source": "424B4 2024-09-06 acc:0001628280-24-039734 + 13G 2025-02-13 Hancock acc:0002001184-25-000005 O/S 155,177,511",
+ "excluded": [
+  {
+   "name": "Excluded=54.63M",
+   "shares_M": null
+  },
+  {
+   "name": "Murray control; 54.63M",
+   "shares_M": null
+  },
+  {
+   "name": "Hancock control; 1.3M",
+   "shares_M": null
+  },
+  {
+   "name": "other D&O",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.0
+  },
+  {
+   "name": "no passive 13G large blocks identified",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "155.18",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 2001184,
+ "depends_on_filings": [
+  {
+   "accession": "0002001184-25-000031",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0002001184-25-000026",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0002001184-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0002001184-24-000051",
+   "form": "8-K",
+   "filedAt": "2024-11-26"
+  },
+  {
+   "accession": "0001628280-24-010947",
+   "form": "S-1",
+   "filedAt": "2024-03-13"
+  }
+ ]
+}

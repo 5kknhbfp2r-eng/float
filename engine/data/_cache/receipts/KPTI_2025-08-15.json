@@ -1,0 +1,75 @@
+{
+ "ticker": "KPTI",
+ "as_of": "2025-08-15",
+ "os_source": "O/S 10-Q filed 2025-08-11 acc:0000950170-25-106238 common 8,647,000 as of 2025-06-30 (thousands; post 1:15 split)",
+ "excluded": [
+  {
+   "name": "Excluded=0.261M D&O group ex-options(13 persons)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Vanguard 0.510M",
+   "shares_M": null
+  },
+  {
+   "name": "Adage 0.437M",
+   "shares_M": null
+  },
+  {
+   "name": "JWood 0.458M",
+   "shares_M": null
+  },
+  {
+   "name": "Highbridge 0.650M warrants",
+   "shares_M": null
+  },
+  {
+   "name": "Affinity 0.664M options - all passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.39",
+ "os_M": "8.65",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1503802,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-106238",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0000950170-25-106236",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0000950170-25-095167",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0000950170-25-079009",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0000950170-25-069176",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-053511",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001047469-13-009519",
+   "form": "S-1",
+   "filedAt": "2013-10-04"
+  }
+ ]
+}

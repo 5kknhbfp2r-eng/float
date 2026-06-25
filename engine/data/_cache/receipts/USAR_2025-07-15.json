@@ -1,0 +1,84 @@
+{
+ "ticker": "USAR",
+ "as_of": "2025-07-15",
+ "os_source": "424B3 filed 2025-07-11 acc:0001213900-25-063264 (no new shares)",
+ "excluded": [
+  {
+   "name": "D&O_actual_common=35.75M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "carried_from_2025-07-10",
+   "shares_M": null
+  }
+ ],
+ "float_M": "55.24",
+ "os_M": "90.99",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1970622,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-063264",
+   "form": "424B3",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001213900-25-062438",
+   "form": "S-1/A",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-062346",
+   "form": "424B3",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-062345",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-061110",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001213900-25-060483",
+   "form": "424B3",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001213900-25-060414",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001213900-25-055427",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001213900-25-050029",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001213900-25-043743",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-043335",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-23-027320",
+   "form": "S-1",
+   "filedAt": "2023-04-05"
+  }
+ ]
+}

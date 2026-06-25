@@ -1,0 +1,53 @@
+{
+ "ticker": "NTCL",
+ "as_of": "2025-05-02",
+ "os_source": "OS_SOURCE: 20-F 2025-02-18 acc 0001410578-25-000153 : 15,830,000 Class A ordinary shares (listed class)",
+ "excluded": [
+  {
+   "name": "Jianbiao Dai/Dragonsoft",
+   "shares_M": 6.3695
+  },
+  {
+   "name": "Lang Wide/Sze Kok",
+   "shares_M": 4.4355
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "5.03",
+ "os_M": "15.83",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1927578,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-031130",
+   "form": "6-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001104659-25-022192",
+   "form": "6-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001410578-25-000153",
+   "form": "20-F",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001104659-25-000838",
+   "form": "6-K",
+   "filedAt": "2025-01-03"
+  },
+  {
+   "accession": "0001104659-24-132507",
+   "form": "6-K",
+   "filedAt": "2024-12-30"
+  },
+  {
+   "accession": "0001104659-23-037550",
+   "form": "F-1",
+   "filedAt": "2023-03-28"
+  }
+ ]
+}

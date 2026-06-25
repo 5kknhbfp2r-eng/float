@@ -1,0 +1,71 @@
+{
+ "ticker": "DNA",
+ "as_of": "2025-07-22",
+ "os_source": "Class A O/S 46.34M from 10-Q 2025-05-06 acc:0001628280-25-022761 cover",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group Class A 1.21M",
+   "shares_M": null
+  },
+  {
+   "name": "Austin Che Class A 0.36M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Baillie Gifford 3.36M",
+   "shares_M": null
+  },
+  {
+   "name": "Cascade 3.80M",
+   "shares_M": null
+  },
+  {
+   "name": "Viking 3.58M (passive 13G <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "44.77",
+ "os_M": "46.34",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1830214,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-031304",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001628280-25-027058",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001628280-25-022761",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001628280-25-022759",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001628280-25-020648",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001628280-25-007816",
+   "form": "8-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0001193125-20-326138",
+   "form": "S-1",
+   "filedAt": "2020-12-23"
+  }
+ ]
+}

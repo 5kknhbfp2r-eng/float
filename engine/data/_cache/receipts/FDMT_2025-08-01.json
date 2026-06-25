@@ -1,0 +1,59 @@
+{
+ "ticker": "FDMT",
+ "as_of": "2025-08-01",
+ "os_source": "10-Q 2025-05-08 acc:0000950170-25-063000 approx",
+ "excluded": [
+  {
+   "name": "Excluded=1.83M D&O",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=RA Capital/GS/BlackRock/Vanguard/BVF/Venrock passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "43.96",
+ "os_M": "45.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1650648,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-092964",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0000950170-25-088482",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0000950170-25-067040",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-067013",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-016307",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-030020",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-19-258924",
+   "form": "S-1",
+   "filedAt": "2019-09-30"
+  }
+ ]
+}

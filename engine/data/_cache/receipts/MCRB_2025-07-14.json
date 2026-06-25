@@ -1,0 +1,71 @@
+{
+ "ticker": "MCRB",
+ "as_of": "2025-07-14",
+ "os_source": "10-Q 2025-05-07 acc:0000950170-25-065173; DEF14A 2025-03-13",
+ "excluded": [
+  {
+   "name": "carried_from_2025-06-30",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "D&O_4.7pct",
+   "shares_M": null
+  },
+  {
+   "name": "FMR",
+   "shares_M": null
+  },
+  {
+   "name": "Nestl\u00e9",
+   "shares_M": null
+  },
+  {
+   "name": "Flagship",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.98",
+ "os_M": "8.65",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1609809,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-065173",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-25-114430",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-25-089189",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001193125-25-080185",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0000950170-25-038441",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0001193125-25-053473",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0001193125-15-202059",
+   "form": "S-1",
+   "filedAt": "2015-05-27"
+  }
+ ]
+}

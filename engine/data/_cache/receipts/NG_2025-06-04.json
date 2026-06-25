@@ -1,0 +1,76 @@
+{
+ "ticker": "NG",
+ "as_of": "2025-06-04",
+ "os_source": "10-Q 2025-04-01 cover acc:0001171843-25-001907 (334,646,571 as of 3/26/2025)",
+ "excluded": [
+  {
+   "name": "Excluded=84.86M Electrum/Kaplan control 25.4%",
+   "shares_M": null
+  },
+  {
+   "name": "7.997M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=27.24M Paulson 8%",
+   "shares_M": null
+  },
+  {
+   "name": "26.09M First Eagle 7.8%",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock - passive <20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "241.79",
+ "os_M": "334.65",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1173420,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-003649",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001171843-25-003349",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001171843-25-003030",
+   "form": "8-K",
+   "filedAt": "2025-05-10"
+  },
+  {
+   "accession": "0001171843-25-002996",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001171843-25-002880",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001171843-25-002830",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001171843-25-001907",
+   "form": "10-Q",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001193125-25-061430",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-24"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "ticker": "NSYS",
+ "as_of": "2025-06-24",
+ "os_source": "DEF 14A 2025-04-01 acc:0001641172-25-002010 + 10-K 2025-03-31 O/S 2,760,993",
+ "excluded": [
+  {
+   "name": "Excluded=1.46M",
+   "shares_M": null
+  },
+  {
+   "name": "Curtis Squire+Kunin family 53.2%; 0.33M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O direct",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.27M",
+   "shares_M": null
+  },
+  {
+   "name": "Everingham 9.8%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.97",
+ "os_M": "2.76",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 722313,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015833",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-010251",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-010259",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-002010",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001641172-25-001475",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001641172-25-000284",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0000912057-96-014752",
+   "form": "S-1/A",
+   "filedAt": "1996-07-16"
+  }
+ ]
+}

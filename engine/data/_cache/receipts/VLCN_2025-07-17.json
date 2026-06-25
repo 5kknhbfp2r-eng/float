@@ -1,0 +1,83 @@
+{
+ "ticker": "VLCN",
+ "as_of": "2025-07-17",
+ "os_source": "13G/A filed 2025-07-02 acc:0000902664-25-002870 O/S 533,008 as of Jun24 2025 (post 1-for-8 split eff Jun11)",
+ "excluded": [
+  {
+   "name": "Excluded=~0.00004M D&O ex-options(negligible, 313 pre-split shares /8)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.027M 13G IA filer(4.99% passive)",
+   "shares_M": null
+  },
+  {
+   "name": "0.50M public float; Jul17 PP excluded-not closed until Jul21",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.53",
+ "os_M": "0.533",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1829794,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-005160",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001683168-25-004446",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001683168-25-004106",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001683168-25-003779",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001683168-25-003351",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001683168-25-003162",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001683168-25-002997",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001683168-25-002834",
+   "form": "PRE 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001683168-25-001672",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001683168-24-007094",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-11"
+  },
+  {
+   "accession": "0001683168-21-004236",
+   "form": "S-1",
+   "filedAt": "2021-09-10"
+  }
+ ]
+}

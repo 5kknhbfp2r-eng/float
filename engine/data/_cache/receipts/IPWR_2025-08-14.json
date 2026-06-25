@@ -1,0 +1,59 @@
+{
+ "ticker": "IPWR",
+ "as_of": "2025-08-14",
+ "os_source": "10-Q+2025-08-14+acc:0001437749-25-026716",
+ "excluded": [
+  {
+   "name": "D&O-ex-options=0.23M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "AWM=0.83M-13G-passive,AIGH=0.83M-13G-passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.27",
+ "os_M": "8.50",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1507957,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-026716",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001437749-25-026715",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001437749-25-020337",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001437749-25-017024",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001437749-25-013535",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001437749-25-005359",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001415889-13-001511",
+   "form": "S-1",
+   "filedAt": "2013-08-06"
+  }
+ ]
+}

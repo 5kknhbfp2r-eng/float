@@ -1,0 +1,67 @@
+{
+ "ticker": "GOGO",
+ "as_of": "2025-06-18",
+ "os_source": "10-Q 2025-05-09 + DEF14A 2025-04-29 + 13D/A 2025-05-27 acc:0000950170-25-077855 + Form4 2025-05-27 acc:0000950170-25-077864",
+ "excluded": [
+  {
+   "name": "Excluded=57.33M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group incl Thorne 34.09M + GTCR 23.24M (reduced from 31.74M after 8.5M sale)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=23.74M",
+   "shares_M": null
+  },
+  {
+   "name": "FMR 13.47M+BlackRock 10.26M passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "73.59",
+ "os_M": "130.92",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1537054,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-087884",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0000950170-25-086797",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0000950170-25-073501",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0000950170-25-067982",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0000950170-25-067981",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001140361-25-016313",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001193125-11-351260",
+   "form": "S-1",
+   "filedAt": "2011-12-23"
+  }
+ ]
+}

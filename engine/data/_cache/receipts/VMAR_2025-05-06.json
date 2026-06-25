@@ -1,0 +1,69 @@
+{
+ "ticker": "VMAR",
+ "as_of": "2025-05-06",
+ "os_source": "OS_SOURCE: 6-K mgmt circular ex99-2 filed 2025-04-04 acc=0001104659-25-032306 record date 2025-03-27 : 10,400,665 common shares",
+ "excluded": [
+  {
+   "name": "DnO_group",
+   "shares_M": 0.062
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "KPAC_Holdings",
+   "shares_M": 0.18
+  }
+ ],
+ "float_M": "10.34",
+ "os_M": "10.40",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1813783,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-034879",
+   "form": "20-F/A",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001410578-25-000657",
+   "form": "6-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001104659-25-032306",
+   "form": "6-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001104659-25-029462",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001104659-25-028758",
+   "form": "6-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001104659-25-011702",
+   "form": "6-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001104659-25-010153",
+   "form": "424B3",
+   "filedAt": "2025-02-06"
+  },
+  {
+   "accession": "0001410578-24-002109",
+   "form": "20-F",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001104659-20-082428",
+   "form": "F-1",
+   "filedAt": "2020-07-09"
+  }
+ ]
+}

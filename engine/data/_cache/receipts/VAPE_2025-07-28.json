@@ -1,0 +1,73 @@
+{
+ "ticker": "VAPE",
+ "as_of": "2025-07-28",
+ "os_source": "10-KT filed 2025-07-25 acc:0001641172-25-021042 O/S 841,346 as of Jul25 2025",
+ "excluded": [
+  {
+   "name": "Excluded=0.030M D&O group ex-options(held of record)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.067M Finlinson(8%,13D)",
+   "shares_M": null
+  },
+  {
+   "name": "0.061M 111 Equity(7.3%,13D) <20% no board seat",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.81",
+ "os_M": "0.841",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1482541,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021130",
+   "form": "8-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001641172-25-017820",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001641172-25-014377",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001641172-25-014235",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001641172-25-010831",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-009265",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-002000",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001493152-24-043833",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001002014-10-000070",
+   "form": "S-1",
+   "filedAt": "2010-01-29"
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "ticker": "CUPR",
+ "as_of": "2025-08-14",
+ "os_source": "20-F 2025-05-14 cover Class A O/S 7,365,000 acc=0001641172-25-010302",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.0
+  },
+  {
+   "name": "insiders hold Class B 14,085,000 only",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 7.365
+  },
+  {
+   "name": "all Class A public",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.37",
+ "os_M": "7.37",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1995704,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-020367",
+   "form": "6-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0001641172-25-017256",
+   "form": "6-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001641172-25-017049",
+   "form": "6-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001641172-25-013537",
+   "form": "6-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001641172-25-010302",
+   "form": "20-F",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001493152-24-009210",
+   "form": "F-1",
+   "filedAt": "2024-03-07"
+  }
+ ]
+}

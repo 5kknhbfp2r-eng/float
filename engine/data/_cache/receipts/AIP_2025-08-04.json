@@ -1,0 +1,59 @@
+{
+ "ticker": "AIP",
+ "as_of": "2025-08-04",
+ "os_source": "10-Q 2025-05-13 acc:0000950170-25-069210 cover page 41977728 shares",
+ "excluded": [
+  {
+   "name": "D&O group ex-options 11.63M (Bayview Legacy LLC CEO-controlled 9.91M incl)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "no passive >5% institutional listed",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "41.98",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1667011,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-137147",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001667011-25-000022",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001667011-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001193125-25-091349",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-25-066596",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001667011-25-000009",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001193125-21-289866",
+   "form": "S-1",
+   "filedAt": "2021-10-01"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "ticker": "ALTG",
+ "as_of": "2025-07-08",
+ "os_source": "10-Q 2025-05-07+DEF14A 2025-04-15",
+ "excluded": [
+  {
+   "name": "D&O group 6.38M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Mill Road 4.21M 13D kept(<20%)",
+   "shares_M": null
+  },
+  {
+   "name": "Voss 3.25M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Snowbird 2.06M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 2.01M 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "33.19",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1759824,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-092525",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0000950170-25-080984",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0000950170-25-065698",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-065693",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-062254",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0000950170-25-054270",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001615774-19-004062",
+   "form": "S-1",
+   "filedAt": "2019-03-14"
+  }
+ ]
+}

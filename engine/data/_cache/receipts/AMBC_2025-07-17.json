@@ -1,0 +1,67 @@
+{
+ "ticker": "AMBC",
+ "as_of": "2025-07-17",
+ "os_source": "10-Q 2025-05-12 acc:0000874501-25-000086",
+ "excluded": [
+  {
+   "name": "D&O group 3.16M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock 4.00M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 3.22M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Dimensional 2.60M 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "46.43",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 874501,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-155881",
+   "form": "8-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0000874501-25-000100",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0000874501-25-000095",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0000874501-25-000086",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000874501-25-000084",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000874501-25-000078",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0000950123-98-003259",
+   "form": "424B3",
+   "filedAt": "1998-04-01"
+  }
+ ]
+}

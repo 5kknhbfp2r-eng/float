@@ -1,0 +1,67 @@
+{
+ "ticker": "SGML",
+ "as_of": "2025-08-15",
+ "os_source": "carried from 2025-08-11; O/S~112.96M (13G/A implied)",
+ "excluded": [
+  {
+   "name": "Excluded=~30",
+   "shares_M": null
+  },
+  {
+   "name": "founder/A10 control group est",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=many",
+   "shares_M": null
+  },
+  {
+   "name": "public float >>20M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "112.96",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1848309,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-005445",
+   "form": "6-K",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001171843-25-005444",
+   "form": "6-K",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001171843-25-005219",
+   "form": "6-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001171843-25-004376",
+   "form": "6-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001171843-25-003584",
+   "form": "6-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001171843-25-003198",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001171843-25-001837",
+   "form": "40-F",
+   "filedAt": "2025-03-31"
+  }
+ ]
+}

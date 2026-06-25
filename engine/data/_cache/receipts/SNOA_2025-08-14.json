@@ -1,0 +1,59 @@
+{
+ "ticker": "SNOA",
+ "as_of": "2025-08-14",
+ "os_source": "O/S 10-Q 2025-08-07 (at 6/30/25) acc:0001683168-25-005753 = 1,642,765",
+ "excluded": [
+  {
+   "name": "Excluded=0.020184M D&O group ex-options (6 persons)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none; no 13D/13G >5% holders on file",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.62",
+ "os_M": "1.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1367083,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-005753",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001683168-25-005049",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001683168-25-002874",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001683168-25-002294",
+   "form": "8-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001683168-25-001857",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001683168-25-000611",
+   "form": "8-K",
+   "filedAt": "2025-01-30"
+  },
+  {
+   "accession": "0000950134-06-012612",
+   "form": "S-1",
+   "filedAt": "2006-07-03"
+  }
+ ]
+}

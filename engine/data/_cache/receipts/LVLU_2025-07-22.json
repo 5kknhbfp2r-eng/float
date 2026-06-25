@@ -1,0 +1,77 @@
+{
+ "ticker": "LVLU",
+ "as_of": "2025-07-22",
+ "os_source": "8-K 2025-06-26 acc:0001558370-25-008916 split + 10-Q 2025-05-14 acc:0001558370-25-007733 (pre-split 42.94M proxy basis)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.118
+  },
+  {
+   "name": "control group(HIG13.79+IVP7.55+CPPIB7.50)/15=1.92 + D&O2.93/15",
+   "shares_M": 0.195
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.75
+  },
+  {
+   "name": "public float post-split",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.75",
+ "os_M": "2.77",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1780201,
+ "depends_on_filings": [
+  {
+   "accession": "0001558370-25-009376",
+   "form": "8-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001558370-25-008916",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001558370-25-008550",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001558370-25-008395",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001558370-25-008190",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001558370-25-007733",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001558370-25-007739",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001140361-25-015420",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001193125-21-296901",
+   "form": "S-1",
+   "filedAt": "2021-10-12"
+  }
+ ]
+}

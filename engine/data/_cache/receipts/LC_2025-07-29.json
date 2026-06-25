@@ -1,0 +1,71 @@
+{
+ "ticker": "LC",
+ "as_of": "2025-07-29",
+ "os_source": "10-Q 2025-05-01: 114,199,832 shares",
+ "excluded": [
+  {
+   "name": "D&O_group_ex_options",
+   "shares_M": 3.17
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard",
+   "shares_M": 11.27
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 9.46
+  },
+  {
+   "name": "Dimensional",
+   "shares_M": 6.39
+  },
+  {
+   "name": "ARK",
+   "shares_M": 7.46
+  }
+ ],
+ "float_M": "111.03",
+ "os_M": "114.20",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1409970,
+ "depends_on_filings": [
+  {
+   "accession": "0001409970-25-000026",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001409970-25-000022",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001409970-25-000018",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001409970-25-000015",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001140361-25-015181",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001409970-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000891618-08-000318",
+   "form": "S-1",
+   "filedAt": "2008-06-20"
+  }
+ ]
+}

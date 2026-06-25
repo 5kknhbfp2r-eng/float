@@ -1,0 +1,71 @@
+{
+ "ticker": "AMRC",
+ "as_of": "2025-08-05",
+ "os_source": "10-Q cover 2025-08-05 acc:0001488139-25-000136; Class A O/S 34,703,659 as of Aug 1 2025 (listed class)",
+ "excluded": [
+  {
+   "name": "Excluded=5.652606M D&O group ClassA(incl founder Sakellaris, 15.6%)",
+   "shares_M": null
+  },
+  {
+   "name": "18.0M Class B(non-listed 5-vote, founder 100%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.845622M Macquarie(13G passive)",
+   "shares_M": null
+  },
+  {
+   "name": "1.738193M Neil Gagnon(passive adviser)",
+   "shares_M": null
+  },
+  {
+   "name": "public Class A float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.05",
+ "os_M": "34.70",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1488139,
+ "depends_on_filings": [
+  {
+   "accession": "0001488139-25-000136",
+   "form": "10-Q",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001488139-25-000134",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001488139-25-000124",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001488139-25-000092",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001488139-25-000087",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001488139-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0000950123-10-030934",
+   "form": "S-1",
+   "filedAt": "2010-03-31"
+  }
+ ]
+}

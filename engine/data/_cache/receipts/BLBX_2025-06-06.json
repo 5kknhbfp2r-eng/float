@@ -1,0 +1,85 @@
+{
+ "ticker": "BLBX",
+ "as_of": "2025-06-06",
+ "os_source": "10-Q 2025-05-15; DEF14A 2024-12-13 acc:0001717307-24-000036",
+ "excluded": [
+  {
+   "name": "Excluded=0.96M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O common group ex-options (Kepler control + others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.21M",
+   "shares_M": null
+  },
+  {
+   "name": "Kyle; 0.25M",
+   "shares_M": null
+  },
+  {
+   "name": "Chiang; 0.29M",
+   "shares_M": null
+  },
+  {
+   "name": "Quadrifoglio Holdings (all <20% no board)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.65",
+ "os_M": "3.60",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1567900,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-017714",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001437749-25-017091",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001437749-25-013946",
+   "form": "S-3/A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001437749-25-012090",
+   "form": "S-3",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001437749-25-006760",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001437749-25-003269",
+   "form": "8-K",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0001437749-25-002717",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001437749-24-037441",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-13"
+  },
+  {
+   "accession": "0001437749-21-023307",
+   "form": "S-1",
+   "filedAt": "2021-10-05"
+  }
+ ]
+}

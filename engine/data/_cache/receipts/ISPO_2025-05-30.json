@@ -1,0 +1,67 @@
+{
+ "ticker": "ISPO",
+ "as_of": "2025-05-30",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-08 acc 0001820566-25-000063 : 12,440,577 Class A shares (As of April 30, 2025)",
+ "excluded": [
+  {
+   "name": "D&O_group_exderiv",
+   "shares_M": 4.71
+  },
+  {
+   "name": "BrentHandler",
+   "shares_M": 1.01
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "StoneyLonesome",
+   "shares_M": 0.92
+  },
+  {
+   "name": "KleinerPerkins",
+   "shares_M": 0.59
+  }
+ ],
+ "float_M": "6.73",
+ "os_M": "12.44",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1820566,
+ "depends_on_filings": [
+  {
+   "accession": "0001820566-25-000063",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001820566-25-000058",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001820566-25-000050",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001820566-25-000046",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001820566-25-000045",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001820566-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-20-266392",
+   "form": "S-1",
+   "filedAt": "2020-10-08"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "ticker": "JFB",
+ "as_of": "2025-08-04",
+ "os_source": "O/S 10-Q filed 2025-05-14 acc:0000950170-25-071521 Class A 5,250,000 (listed; Class B 4M not listed)",
+ "excluded": [
+  {
+   "name": "Excluded=0.365M Basile CEO ClassA",
+   "shares_M": null
+  },
+  {
+   "name": "3.25M Basile Family Irrevocable Trust ClassA",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.36M Chartered Services LLC",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.64",
+ "os_M": "5.25",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2024306,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-071521",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-069468",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-047908",
+   "form": "10-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001493152-25-009645",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001493152-24-044316",
+   "form": "S-1",
+   "filedAt": "2024-11-08"
+  }
+ ]
+}

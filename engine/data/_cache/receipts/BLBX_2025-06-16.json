@@ -1,0 +1,69 @@
+{
+ "ticker": "BLBX",
+ "as_of": "2025-06-16",
+ "os_source": "10-Q 2025-05-15 acc:0001437749-25-017091",
+ "excluded": [
+  {
+   "name": "Kepler_common=0.598M+D&O_group=0.96M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kyle=0.208M,Chiang=0.250M,Quadrifoglio=0.288M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.65",
+ "os_M": "3.60",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1567900,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-017714",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001437749-25-017091",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001437749-25-013946",
+   "form": "S-3/A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001437749-25-012090",
+   "form": "S-3",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001437749-25-006760",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001437749-25-003269",
+   "form": "8-K",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0001437749-25-002717",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001437749-24-037441",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-13"
+  },
+  {
+   "accession": "0001437749-21-023307",
+   "form": "S-1",
+   "filedAt": "2021-10-05"
+  }
+ ]
+}

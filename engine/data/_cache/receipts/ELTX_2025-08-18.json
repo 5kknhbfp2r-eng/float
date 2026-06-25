@@ -1,0 +1,73 @@
+{
+ "ticker": "ELTX",
+ "as_of": "2025-08-18",
+ "os_source": "10-Q Q2 2025-08-07 acc:0001601485-25-000111 OS=16,338,284 as of Aug 5",
+ "excluded": [
+  {
+   "name": "Excluded=8.10M GKCC/Chudnovsky 5.42M actual+2.63M PFW",
+   "shares_M": null
+  },
+  {
+   "name": "other D&O 0.05M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=no passive institutions in proxy",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.24",
+ "os_M": "16.34",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1601485,
+ "depends_on_filings": [
+  {
+   "accession": "0001601485-25-000114",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001601485-25-000111",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001601485-25-000108",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001601485-25-000099",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001601485-25-000096",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001601485-25-000076",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001601485-25-000072",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001601485-25-000062",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001571049-14-001179",
+   "form": "S-1",
+   "filedAt": "2014-04-14"
+  }
+ ]
+}

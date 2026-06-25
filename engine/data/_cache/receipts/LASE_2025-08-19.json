@@ -1,0 +1,69 @@
+{
+ "ticker": "LASE",
+ "as_of": "2025-08-19",
+ "os_source": "10-K+2025-06-24+acc:0001641172-25-016194+8-K-2025-08-05-3M-shares",
+ "excluded": [
+  {
+   "name": "ICT=4.44M,Fonon=3.00M,FononQT=3.00M,D&O=0.35M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "public-float=6.49M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.49",
+ "os_M": "17.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1807887,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-024367",
+   "form": "10-Q",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001641172-25-022933",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001641172-25-021771",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001641172-25-020714",
+   "form": "8-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001641172-25-018116",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001641172-25-016392",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001641172-25-015262",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001493152-24-027589",
+   "form": "DEF 14A",
+   "filedAt": "2024-07-15"
+  },
+  {
+   "accession": "0001654954-21-012336",
+   "form": "S-1",
+   "filedAt": "2021-11-16"
+  }
+ ]
+}

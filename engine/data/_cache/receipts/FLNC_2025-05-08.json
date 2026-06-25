@@ -1,0 +1,62 @@
+{
+ "ticker": "FLNC",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: 10-Q acc(2025-05-08) cover : 130,718,873 Class A common outstanding May8-2025 (Class B-1 51,499,195 separate, held by AES)",
+ "excluded": [
+  {
+   "name": "SiemensAG",
+   "shares_M": 51.499
+  },
+  {
+   "name": "QatarHolding_QIA",
+   "shares_M": 14.668
+  },
+  {
+   "name": "D&O_group_exopt",
+   "shares_M": 1.189
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "63.36",
+ "os_M": "130.72",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1868941,
+ "depends_on_filings": [
+  {
+   "accession": "0001868941-25-000060",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001868941-25-000055",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001868941-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001868941-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0001868941-25-000007",
+   "form": "DEF 14A",
+   "filedAt": "2025-01-24"
+  },
+  {
+   "accession": "0001868941-25-000004",
+   "form": "8-K",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001104659-21-119966",
+   "form": "S-1",
+   "filedAt": "2021-09-28"
+  }
+ ]
+}

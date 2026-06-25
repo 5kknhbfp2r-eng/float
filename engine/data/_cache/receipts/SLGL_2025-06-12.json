@@ -1,0 +1,72 @@
+{
+ "ticker": "SLGL",
+ "as_of": "2025-06-12",
+ "os_source": "20-F 2025-04-29 acc:0001178913-25-001497 + 6-K reverse split 2025-05-05 acc:0001178913-25-001578",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.63
+  },
+  {
+   "name": "Arkin control (Arkin Dermatology 16.23M ord + M.Arkin 0.086M, post-split /10)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.247
+  },
+  {
+   "name": "Phoenix Holdings passive 13G (post-split);float 1.15",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.15",
+ "os_M": "2.79",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1684693,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-001933",
+   "form": "6-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001178913-25-001935",
+   "form": "424B3",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001178913-25-001925",
+   "form": "6-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001178913-25-001668",
+   "form": "424B3",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001178913-25-001578",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001178913-25-001497",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001178913-25-001318",
+   "form": "6-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001571049-17-007701",
+   "form": "F-1",
+   "filedAt": "2017-08-29"
+  }
+ ]
+}

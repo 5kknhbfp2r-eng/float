@@ -1,0 +1,58 @@
+{
+ "ticker": "RDIB",
+ "as_of": "2025-05-15",
+ "os_source": "OS_SOURCE: 10-K/A 2025-04-30 acc 0000716634-25-000020 : 1,680,590 Class B Voting shares outstanding (as of 2025-03-28); 10-Q 2025-05-15 confirms",
+ "excluded": [
+  {
+   "name": "Cotter family (Margaret+Ellen+Estate+Living Trust, dedup)",
+   "shares_M": 1.209
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Mark Cuban",
+   "shares_M": 0.172
+  },
+  {
+   "name": "GAMCO",
+   "shares_M": 0.12
+  }
+ ],
+ "float_M": "0.47",
+ "os_M": "1.68",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 716634,
+ "depends_on_filings": [
+  {
+   "accession": "0000716634-25-000030",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000716634-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0000716634-25-000002",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0000716634-24-000041",
+   "form": "8-K",
+   "filedAt": "2024-12-10"
+  },
+  {
+   "accession": "0000716634-24-000037",
+   "form": "8-K",
+   "filedAt": "2024-11-14"
+  },
+  {
+   "accession": "0000716634-24-000031",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-25"
+  }
+ ]
+}

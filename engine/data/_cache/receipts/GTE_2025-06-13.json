@@ -1,0 +1,63 @@
+{
+ "ticker": "GTE",
+ "as_of": "2025-06-13",
+ "os_source": "DEF14A 2025-03-18 acc:0001193125-25-056185 + 10-Q 2025-05-01 acc:0001273441-25-000011",
+ "excluded": [
+  {
+   "name": "Excluded=0.97M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O 13 persons real shares (Guidry 0.48M CEO/director)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Equinox 3.72M+Encompass 2.50M+Daniel Lau 2.06M+Christine Man 1.88M all passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "35.33",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1273441,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-044507",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001273441-25-000011",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001273441-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001104659-25-036136",
+   "form": "8-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001193125-25-056185",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001273441-25-000004",
+   "form": "8-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001144204-07-011482",
+   "form": "424B3",
+   "filedAt": "2007-03-07"
+  }
+ ]
+}

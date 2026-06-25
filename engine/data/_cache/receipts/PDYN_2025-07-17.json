@@ -1,0 +1,63 @@
+{
+ "ticker": "PDYN",
+ "as_of": "2025-07-17",
+ "os_source": "10-Q 2025-05-07 acc:0000950170-25-065781",
+ "excluded": [
+  {
+   "name": "D&O group(10 ex-Peterson) actual=3.79M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kerber 13D=2.36M(below 20% kept)",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 13G=3.09M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "30.1",
+ "os_M": "33.88",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1826681,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-093902",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0000950170-25-085118",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0000950170-25-074335",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0000950170-25-065781",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-056800",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0000950170-25-049394",
+   "form": "8-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001213900-20-043581",
+   "form": "S-1",
+   "filedAt": "2020-12-18"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "ticker": "INDV",
+ "as_of": "2025-07-31",
+ "os_source": "10-Q 2025-07-31 cover OS=124,769,820 ord as of 7/1/2025",
+ "excluded": [
+  {
+   "name": "D&O_group",
+   "shares_M": 1.002465
+  },
+  {
+   "name": "TwoSeas_13D",
+   "shares_M": 11.662308
+  },
+  {
+   "name": "Oaktree_13D",
+   "shares_M": 9.52198
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Deerfield",
+   "shares_M": 8.88316
+  },
+  {
+   "name": "GoldmanSachs",
+   "shares_M": 8.09271
+  }
+ ],
+ "float_M": "102.58",
+ "os_M": "124.77",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1625297,
+ "depends_on_filings": [
+  {
+   "accession": "0001625297-25-000050",
+   "form": "10-Q",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001193125-25-169947",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001625297-25-000046",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001625297-25-000042",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001193125-25-132699",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001625297-25-000035",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001625297-25-000032",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001625297-24-000017",
+   "form": "20-F",
+   "filedAt": "2024-03-06"
+  }
+ ]
+}

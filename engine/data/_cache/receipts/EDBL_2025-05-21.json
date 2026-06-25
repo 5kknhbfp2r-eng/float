@@ -1,0 +1,73 @@
+{
+ "ticker": "EDBL",
+ "as_of": "2025-05-21",
+ "os_source": "10-Q 2025-05-15 acc=0001477932-25-003815 cover : 1,655,264 shares of Common Stock outstanding as of May 5 2025 (post reverse splits; 5/21 8-K 1,999,200 is warrants-to-purchase not issued common)",
+ "excluded": [
+  {
+   "name": "D&O group (negligible <1%, stale Dec24 proxy)",
+   "shares_M": 0.039074
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Armistice Capital (9.99% blocker, passive 13G)=",
+   "shares_M": null
+  },
+  {
+   "name": "Riverside (9.99% blocker)=",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.62",
+ "os_M": "1.66",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1809750,
+ "depends_on_filings": [
+  {
+   "accession": "0001477932-25-004049",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001477932-25-003815",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001477932-25-003726",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001477932-25-003704",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001477932-25-002929",
+   "form": "8-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001477932-25-002543",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001477932-25-002434",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001477932-24-008260",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001477932-21-007698",
+   "form": "S-1",
+   "filedAt": "2021-11-01"
+  }
+ ]
+}

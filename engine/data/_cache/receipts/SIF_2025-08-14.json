@@ -1,0 +1,59 @@
+{
+ "ticker": "SIF",
+ "as_of": "2025-08-14",
+ "os_source": "10-K 2024-12-24 acc:0000090168-24-000060/DEF14A 2024-12-24 acc:0000090168-24-000062",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_1.74M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none_outside_5pct",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.43",
+ "os_M": "6.17",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 90168,
+ "depends_on_filings": [
+  {
+   "accession": "0000090168-25-000032",
+   "form": "10-Q",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0000090168-25-000033",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0000090168-25-000026",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000090168-25-000017",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0000090168-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0000090168-25-000003",
+   "form": "8-K",
+   "filedAt": "2025-02-03"
+  },
+  {
+   "accession": "0000090168-24-000062",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-24"
+  }
+ ]
+}

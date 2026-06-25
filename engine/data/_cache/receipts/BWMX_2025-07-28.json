@@ -1,0 +1,62 @@
+{
+ "ticker": "BWMX",
+ "as_of": "2025-07-28",
+ "os_source": "20-F 2025-04-29 acc:0001213900-25-036710",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 20.118
+  },
+  {
+   "name": "Campalier control 53.91%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 17.126
+  },
+  {
+   "name": "Other public shareholders 45.89%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "17.20",
+ "os_M": "37.32",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1788257,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-067968",
+   "form": "6-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001213900-25-067370",
+   "form": "6-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001213900-25-039166",
+   "form": "6-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001213900-25-036710",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-035085",
+   "form": "6-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001213900-19-023422",
+   "form": "F-1",
+   "filedAt": "2019-11-14"
+  }
+ ]
+}

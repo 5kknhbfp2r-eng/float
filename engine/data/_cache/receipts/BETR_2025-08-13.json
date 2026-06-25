@@ -1,0 +1,81 @@
+{
+ "ticker": "BETR",
+ "as_of": "2025-08-13",
+ "os_source": "Class A O/S 9,350,264 from 10-Q cover (period 2025-06-30) filed 2025-08-13 acc:0001628280-25-040157, as of 8/4/2025",
+ "excluded": [
+  {
+   "name": "Excluded=1.448M D&O group ClassA",
+   "shares_M": null
+  },
+  {
+   "name": "1.255M SoftBank/SVF II Beaver",
+   "shares_M": null
+  },
+  {
+   "name": "0.996M Pine Brook",
+   "shares_M": null
+  },
+  {
+   "name": "0.819M Thor/Novator group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.588M HOOPP passive pension",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.83",
+ "os_M": "9.35",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1835856,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-040157",
+   "form": "10-Q",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001628280-25-038583",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001628280-25-037873",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001628280-25-031582",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001628280-25-029190",
+   "form": "S-3/A",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001628280-25-026140",
+   "form": "S-3",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001628280-25-024900",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001628280-25-021122",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001104659-21-022166",
+   "form": "S-1",
+   "filedAt": "2021-02-12"
+  }
+ ]
+}

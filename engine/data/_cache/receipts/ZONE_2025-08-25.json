@@ -1,0 +1,93 @@
+{
+ "ticker": "ZONE",
+ "as_of": "2025-08-25",
+ "os_source": "10-K 2025-08-22 acc:0001213900-25-079975 cover: 11,175,846 class B O/S as of Aug 21 2025",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.34
+  },
+  {
+   "name": "D&O group class B 2,342,453 (Adams 493K direct + others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.46
+  },
+  {
+   "name": "Ansari/Bethor+Basestones 17.3%",
+   "shares_M": null
+  },
+  {
+   "name": "0.79",
+   "shares_M": null
+  },
+  {
+   "name": "Roskens/Burlington",
+   "shares_M": null
+  },
+  {
+   "name": "0.65",
+   "shares_M": null
+  },
+  {
+   "name": "Etherington/Oleta - all outside investors <20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.83",
+ "os_M": "11.18",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1956741,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-079975",
+   "form": "10-K",
+   "filedAt": "2025-08-22"
+  },
+  {
+   "accession": "0001213900-25-079585",
+   "form": "8-K",
+   "filedAt": "2025-08-22"
+  },
+  {
+   "accession": "0001213900-25-055851",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001213900-25-055239",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001213900-25-053508",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001213900-25-049460",
+   "form": "S-3/A",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001213900-25-043296",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-034693",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001013762-23-002911",
+   "form": "S-1",
+   "filedAt": "2023-10-10"
+  }
+ ]
+}

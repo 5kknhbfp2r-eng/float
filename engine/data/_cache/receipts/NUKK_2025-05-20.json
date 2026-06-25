@@ -1,0 +1,72 @@
+{
+ "ticker": "NUKK",
+ "as_of": "2025-05-20",
+ "os_source": "OS_SOURCE: 10-KT 2025-05-08 acc 0001213900-25-041141 cover : 5,026,363 Common Stock outstanding as of 2025-05-01",
+ "excluded": [
+  {
+   "name": "D&O group ex-warrants (Shalom 0.5 + 4 dirs 0.04 + Kotaieva/X Group 0.47)",
+   "shares_M": 1.01
+  },
+  {
+   "name": "Emil Assentato",
+   "shares_M": 0.6712
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "East Asia",
+   "shares_M": 0.381
+  },
+  {
+   "name": "Nukk Tracker Notes",
+   "shares_M": 0.2493
+  }
+ ],
+ "float_M": "3.35",
+ "os_M": "5.03",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1787518,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-044147",
+   "form": "S-1/A",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-043355",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-015333",
+   "form": "8-K",
+   "filedAt": "2025-02-19"
+  },
+  {
+   "accession": "0001213900-25-013798",
+   "form": "8-K",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001213900-25-013066",
+   "form": "PRE 14A",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0001213900-25-011694",
+   "form": "10-K",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0001213900-25-004193",
+   "form": "8-K",
+   "filedAt": "2025-01-16"
+  },
+  {
+   "accession": "0001213900-20-006275",
+   "form": "S-1",
+   "filedAt": "2020-03-13"
+  }
+ ]
+}

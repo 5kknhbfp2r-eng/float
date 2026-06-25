@@ -1,0 +1,76 @@
+{
+ "ticker": "ABVC",
+ "as_of": "2025-07-08",
+ "os_source": "13D 2025-06-03 acc:0001213900-25-050762 O/S 16,981,593 as of 5/22; DEF14A 2025-05-16 acc:0001213900-25-044910 table",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.76
+  },
+  {
+   "name": "D&O group ex-options;0.83",
+   "shares_M": null
+  },
+  {
+   "name": "YuanGene Corp Jiang-controlled",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.99
+  },
+  {
+   "name": "Spring Shares voting-proxied but public owners",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.39",
+ "os_M": "16.98",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1173313,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-051144",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-046831",
+   "form": "S-3",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001213900-25-044910",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001213900-25-038060",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001213900-25-037676",
+   "form": "10-Q",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-25-037654",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-25-032135",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001137892-03-000021",
+   "form": "424B1",
+   "filedAt": "2003-04-24"
+  }
+ ]
+}

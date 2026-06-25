@@ -1,0 +1,54 @@
+{
+ "ticker": "UPC",
+ "as_of": "2025-07-28",
+ "os_source": "6-K filed 2025-07-03 acc:0001213900-25-061480 O/S 563,338 as of Mar31 2025",
+ "excluded": [
+  {
+   "name": "Excluded=0.003467M Gang Lai/Sununion(CEO/chairman BVI control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.56M public float (4 US record holders incl Cede); 13G/A passive holder",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.56",
+ "os_M": "0.563",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1809616,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-061480",
+   "form": "6-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-036798",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-025300",
+   "form": "6-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001213900-25-022737",
+   "form": "6-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001213900-25-019406",
+   "form": "6-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001213900-20-022480",
+   "form": "F-1",
+   "filedAt": "2020-08-17"
+  }
+ ]
+}

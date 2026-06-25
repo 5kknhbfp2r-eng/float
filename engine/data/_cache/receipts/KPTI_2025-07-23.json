@@ -1,0 +1,67 @@
+{
+ "ticker": "KPTI",
+ "as_of": "2025-07-23",
+ "os_source": "10-Q 2025-05-12 cover acc:0000950170-25-069231 (O/S 8,639,904 @5/7/25)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.261
+  },
+  {
+   "name": "D&O group 13 persons 2.98%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.72
+  },
+  {
+   "name": "Affinity0.664+Highbridge0.650+Vanguard0.510+JWood0.458+Adage0.437 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.38",
+ "os_M": "8.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1503802,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-095167",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0000950170-25-079009",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0000950170-25-069231",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-069176",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-053511",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0000950170-25-025640",
+   "form": "8-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001047469-13-009519",
+   "form": "S-1",
+   "filedAt": "2013-10-04"
+  }
+ ]
+}

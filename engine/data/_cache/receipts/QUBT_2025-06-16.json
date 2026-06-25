@@ -1,0 +1,59 @@
+{
+ "ticker": "QUBT",
+ "as_of": "2025-06-16",
+ "os_source": "10-Q 2025-05-15 acc:unknown; carry-fwd from 2025-06-11",
+ "excluded": [
+  {
+   "name": "Excluded=carried",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=carried",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "140.9",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1758009,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-044341",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-041135",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-041110",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-032597",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001213900-25-029033",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001013762-25-002797",
+   "form": "8-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001213900-19-024482",
+   "form": "S-1",
+   "filedAt": "2019-11-23"
+  }
+ ]
+}

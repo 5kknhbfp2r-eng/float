@@ -1,0 +1,67 @@
+{
+ "ticker": "OPEN",
+ "as_of": "2025-08-22",
+ "os_source": "10-Q 2025-08-05 acc:0001801169-25-000063 + DEF14A 2025-06-16",
+ "excluded": [
+  {
+   "name": "D&O_1.96%=14.32M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard_86.26M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_47.05M",
+   "shares_M": null
+  },
+  {
+   "name": "Context_44.19M_passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "733.59",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1801169,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-031416",
+   "form": "8-K",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001801169-25-000074",
+   "form": "10-Q",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001801169-25-000073",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001801169-25-000069",
+   "form": "8-K",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001801169-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001140361-25-022644",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001104659-20-027165",
+   "form": "S-1",
+   "filedAt": "2020-02-28"
+  }
+ ]
+}

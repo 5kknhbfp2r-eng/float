@@ -1,0 +1,68 @@
+{
+ "ticker": "LPA",
+ "as_of": "2025-05-22",
+ "os_source": "OS_SOURCE: 424B3 05-06 acc 0001641172-25-008773 (O/S as of Apr 25 2025) : 31,622,311 ordinary outstanding = 31.62M",
+ "excluded": [
+  {
+   "name": "JREP_McDonald_control",
+   "shares_M": 26.312
+  },
+  {
+   "name": "HC_PropTech_sponsor",
+   "shares_M": 2.131
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.18",
+ "os_M": "31.62",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1997711,
+ "depends_on_filings": [
+  {
+   "accession": "0001997711-25-000061",
+   "form": "6-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001997711-25-000055",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001997711-25-000054",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001997711-25-000044",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-008773",
+   "form": "424B3",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001997711-25-000039",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001641172-25-002932",
+   "form": "20-F/A",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001997711-25-000030",
+   "form": "20-F",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001493152-24-009696",
+   "form": "424B3",
+   "filedAt": "2024-03-12"
+  }
+ ]
+}

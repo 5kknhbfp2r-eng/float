@@ -1,0 +1,77 @@
+{
+ "ticker": "URGN",
+ "as_of": "2025-06-12",
+ "os_source": "OS_SOURCE 10-Q 2025-05-12 acc:0001437749-25-015956=46,107,451 as of May 5 2025",
+ "excluded": [
+  {
+   "name": "Excluded=1.17M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 11 persons",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=44.94M",
+   "shares_M": null
+  },
+  {
+   "name": "float; all 5%+ 13G passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "44.94",
+ "os_M": "46.11",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1668243,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-015956",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-015955",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-006757",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001193125-25-030143",
+   "form": "8-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001193125-25-005649",
+   "form": "8-K",
+   "filedAt": "2025-01-14"
+  },
+  {
+   "accession": "0001193125-24-251712",
+   "form": "8-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001193125-24-234808",
+   "form": "8-K",
+   "filedAt": "2024-10-09"
+  },
+  {
+   "accession": "0001437749-24-021722",
+   "form": "DEF 14A",
+   "filedAt": "2024-07-01"
+  },
+  {
+   "accession": "0001193125-17-116003",
+   "form": "F-1",
+   "filedAt": "2017-04-07"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "ticker": "UFG",
+ "as_of": "2025-08-15",
+ "os_source": "20-F filed 2025-04-22 acc:0001641172-25-005704 Class A 9,765,000 + Class B 22,650,000",
+ "excluded": [
+  {
+   "name": "Excluded=22.65M Class B (founder Koh/Garden City, super-voting non-listed)",
+   "shares_M": null
+  },
+  {
+   "name": "4.41M Class A named affiliates (Thong Mei Sze 1.47M/Wong Chee How 1.47M/iCapital 1.47M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=~2.94M other pre-IPO Class A + 2.42M IPO public (small/unnamed, size-gated keep)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.36",
+ "os_M": "32.42",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2021688,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-011567",
+   "form": "6-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001641172-25-020358",
+   "form": "6-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0001641172-25-005756",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001641172-25-005704",
+   "form": "20-F",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001493152-25-005021",
+   "form": "6-K",
+   "filedAt": "2025-02-05"
+  },
+  {
+   "accession": "0001493152-24-042579",
+   "form": "F-1",
+   "filedAt": "2024-10-28"
+  }
+ ]
+}

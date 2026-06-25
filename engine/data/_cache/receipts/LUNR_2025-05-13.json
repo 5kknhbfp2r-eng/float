@@ -1,0 +1,58 @@
+{
+ "ticker": "LUNR",
+ "as_of": "2025-05-13",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-13 acc 0001844452-25-000043 cover (as of May 8 2025) : Class A 117,330,851 outstanding = 117.33M (traded class; Class C 61.3M founder control class excluded from Class A basis)",
+ "excluded": [
+  {
+   "name": "DO_group_ClassA",
+   "shares_M": 9.626
+  },
+  {
+   "name": "ClassC_founder_control",
+   "shares_M": 61.302
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "107.7",
+ "os_M": "117.33",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1844452,
+ "depends_on_filings": [
+  {
+   "accession": "0001844452-25-000043",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001844452-25-000040",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001844452-25-000030",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001844452-25-000016",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001844452-25-000011",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0001844452-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001213900-21-013804",
+   "form": "S-1",
+   "filedAt": "2021-03-05"
+  }
+ ]
+}

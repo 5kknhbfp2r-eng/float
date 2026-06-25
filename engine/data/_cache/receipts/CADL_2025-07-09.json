@@ -1,0 +1,73 @@
+{
+ "ticker": "CADL",
+ "as_of": "2025-07-09",
+ "os_source": "10-Q 2025-05-13+424B5 2025-06-24+DEF14A 2025-04-29",
+ "excluded": [
+  {
+   "name": "D&O real shares 5109014M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR 6318721",
+   "shares_M": null
+  },
+  {
+   "name": "Baker Bros 2981983",
+   "shares_M": null
+  }
+ ],
+ "float_M": "49.78",
+ "os_M": "54.89",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1841387,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-145405",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001193125-25-144204",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0000950170-25-087696",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0000950170-25-082705",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-078079",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0000950170-25-076458",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0000950170-25-069833",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-060093",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001193125-21-200639",
+   "form": "S-1",
+   "filedAt": "2021-06-25"
+  }
+ ]
+}

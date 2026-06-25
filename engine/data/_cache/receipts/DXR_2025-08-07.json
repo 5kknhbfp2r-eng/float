@@ -1,0 +1,54 @@
+{
+ "ticker": "DXR",
+ "as_of": "2025-08-07",
+ "os_source": "DEF14A 2025-06-06 acc:0001641172-25-013978 OS=4,962,245",
+ "excluded": [
+  {
+   "name": "Excluded=2.82M Estate Feldschuh 2.55M+other D&O 0.27M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none identified",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.14",
+ "os_M": "4.96",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 27367,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-022513",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001641172-25-017303",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001641172-25-013978",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001493152-24-028308",
+   "form": "8-K",
+   "filedAt": "2024-07-18"
+  },
+  {
+   "accession": "0001493152-24-022735",
+   "form": "8-K",
+   "filedAt": "2024-06-05"
+  },
+  {
+   "accession": "0001019056-12-000401",
+   "form": "10-K",
+   "filedAt": "2012-03-28"
+  }
+ ]
+}

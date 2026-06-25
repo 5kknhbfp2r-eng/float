@@ -1,0 +1,62 @@
+{
+ "ticker": "BTCT",
+ "as_of": "2025-07-10",
+ "os_source": "DEF 14A 2025-06-27 acc:0001213900-25-059086",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.017
+  },
+  {
+   "name": "D&O group BVI shells 16,535",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.416
+  },
+  {
+   "name": "Yun Feng Asset 415,602 passive 5%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.50",
+ "os_M": "7.52",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1796514,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-062757",
+   "form": "6-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001213900-25-059086",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001213900-25-040693",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001013762-25-003826",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001213900-25-015660",
+   "form": "6-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001213900-20-006523",
+   "form": "424B3",
+   "filedAt": "2020-03-16"
+  }
+ ]
+}

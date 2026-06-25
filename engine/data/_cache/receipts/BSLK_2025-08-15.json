@@ -1,0 +1,99 @@
+{
+ "ticker": "BSLK",
+ "as_of": "2025-08-15",
+ "os_source": "10-Q cover (filed 2025-08-12, acc 0001841125-25-000111): 2,061,779 O/S as of Aug 6 2025; +913,979 PIPE closing Aug 15 (8-K acc 0001841125-25-000113 / 424B3 acc 0001213900-25-076131) = ~2,975,758",
+ "excluded": [
+  {
+   "name": "DandO_group",
+   "shares_M": 0.384944
+  },
+  {
+   "name": "GoldenArrowSponsor",
+   "shares_M": 0.16133
+  },
+  {
+   "name": "FoundationCapital",
+   "shares_M": 0.115517
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BaillieGifford",
+   "shares_M": 0.12329
+  },
+  {
+   "name": "AndersonTemasek",
+   "shares_M": 0.123593
+  },
+  {
+   "name": "TopTier13G",
+   "shares_M": 0.124473
+  },
+  {
+   "name": "PIPEinvestors",
+   "shares_M": 0.913979
+  }
+ ],
+ "float_M": "2.31",
+ "os_M": "2.98",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1841125,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-076131",
+   "form": "424B3",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001213900-25-076128",
+   "form": "424B3",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001841125-25-000113",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001841125-25-000111",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-075168",
+   "form": "424B3",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-075166",
+   "form": "424B3",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001841125-25-000110",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001841125-25-000099",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001841125-25-000085",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001841125-25-000080",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001213900-21-011410",
+   "form": "S-1",
+   "filedAt": "2021-02-24"
+  }
+ ]
+}

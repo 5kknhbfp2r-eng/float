@@ -1,0 +1,66 @@
+{
+ "ticker": "NAMM",
+ "as_of": "2025-08-01",
+ "os_source": "20-F filed 2025-06-11 acc:0001213900-25-053289, O/S 53,677,429 as of June 5 2025; confirmed 424B3 2025-07-22 acc:0001213900-25-066380",
+ "excluded": [
+  {
+   "name": "Excluded=7.77M D&O group(incl Sikwila)",
+   "shares_M": null
+  },
+  {
+   "name": "4.89M Khumalo",
+   "shares_M": null
+  },
+  {
+   "name": "3.695M Hennessy sponsor",
+   "shares_M": null
+  },
+  {
+   "name": "34.21M Southern SelliBen family trust",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none passive present",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.12",
+ "os_M": "53.68",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2026514,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-066380",
+   "form": "424B3",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001213900-25-063703",
+   "form": "F-1/A",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001213900-25-057994",
+   "form": "F-1",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001213900-25-053289",
+   "form": "20-F",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001213900-25-051823",
+   "form": "6-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-024279",
+   "form": "424B3",
+   "filedAt": "2025-03-17"
+  }
+ ]
+}

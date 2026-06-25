@@ -1,0 +1,97 @@
+{
+ "ticker": "ATNF",
+ "as_of": "2025-08-12",
+ "os_source": "8-K 2025-08-05 acc:0001213900-25-072065 (PIPE close, 154,032,084 issued and outstanding); current O/S supersedes 10-Q 2025-07-23 (6.04M)",
+ "excluded": [
+  {
+   "name": "oldD&O",
+   "shares_M": 2.31
+  },
+  {
+   "name": "Rudisill_newChairman",
+   "shares_M": 4.81
+  },
+  {
+   "name": "Elray",
+   "shares_M": 2.64
+  },
+  {
+   "name": "new_dirs=~0.1",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "passivePIPE_13G_a",
+   "shares_M": 8.94
+  },
+  {
+   "name": "13G_b",
+   "shares_M": 11.32
+  },
+  {
+   "name": "13G_c",
+   "shares_M": 4.11
+  },
+  {
+   "name": "13G_d",
+   "shares_M": 7.21
+  },
+  {
+   "name": "AmTrust",
+   "shares_M": 0.51
+  }
+ ],
+ "float_M": "144",
+ "os_M": "154.03",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1690080,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-074637",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-074030",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001213900-25-072065",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001213900-25-068930",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001213900-25-067354",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001213900-25-066984",
+   "form": "10-Q",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-063799",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001213900-25-061804",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001213900-17-004247",
+   "form": "S-1",
+   "filedAt": "2017-04-26"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "ticker": "CEAD",
+ "as_of": "2025-06-12",
+ "os_source": "10-Q 2025-05-15 acc:0001482541-25-000042 + DEF14A 2024-11-06",
+ "excluded": [
+  {
+   "name": "D&O_ex_options=0.0225M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Finlinson=0.0672M,111Equity=0.0613M,Lind=0.0346M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.78",
+ "os_M": "0.8023",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1482541,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014377",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001641172-25-014235",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001641172-25-010831",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-009265",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-002000",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001493152-25-006050",
+   "form": "8-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001493152-25-002424",
+   "form": "S-3",
+   "filedAt": "2025-01-15"
+  },
+  {
+   "accession": "0001493152-24-043833",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001002014-10-000070",
+   "form": "S-1",
+   "filedAt": "2010-01-29"
+  }
+ ]
+}

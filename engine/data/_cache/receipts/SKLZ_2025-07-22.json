@@ -1,0 +1,89 @@
+{
+ "ticker": "SKLZ",
+ "as_of": "2025-07-22",
+ "os_source": "10-Q 2024-11-08 acc:0001801661-24-000141 (Class A 14,438,426 O/S as of Nov 6 2024)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.0
+  },
+  {
+   "name": "D&O group Class A;Excluded=ClassB 3.43",
+   "shares_M": null
+  },
+  {
+   "name": "unlisted founder super-voting",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.2
+  },
+  {
+   "name": "ARK;Kept",
+   "shares_M": 1.15
+  },
+  {
+   "name": "Atlas Venture;Kept",
+   "shares_M": 0.98
+  },
+  {
+   "name": "Wildcat (passive 5% funds)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "12.43",
+ "os_M": "14.44",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1801661,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-034862",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001801661-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001801661-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001801661-25-000009",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001801661-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0001801661-24-000153",
+   "form": "8-K",
+   "filedAt": "2024-12-11"
+  },
+  {
+   "accession": "0001801661-24-000141",
+   "form": "10-Q",
+   "filedAt": "2024-11-08"
+  },
+  {
+   "accession": "0001140361-24-043803",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-21"
+  },
+  {
+   "accession": "0001104659-20-016192",
+   "form": "S-1",
+   "filedAt": "2020-02-11"
+  }
+ ]
+}

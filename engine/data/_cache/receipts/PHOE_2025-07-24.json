@@ -1,0 +1,56 @@
+{
+ "ticker": "PHOE",
+ "as_of": "2025-07-24",
+ "os_source": "424B4 filed 2025-04-25 acc:0001641172-25-006131 (21,600,000 ordinary)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 15.6
+  },
+  {
+   "name": "Phoenix Prosperity Investment Ltd (Yeung control SPV)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.1
+  },
+  {
+   "name": "public IPO+resale;3.9",
+   "shares_M": null
+  },
+  {
+   "name": "dispersed pre-IPO holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.00",
+ "os_M": "21.60",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2035709,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-018672",
+   "form": "6-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001641172-25-014632",
+   "form": "6-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001641172-25-006750",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001493152-25-001972",
+   "form": "F-1",
+   "filedAt": "2025-01-13"
+  }
+ ]
+}

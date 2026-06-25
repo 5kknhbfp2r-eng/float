@@ -1,0 +1,34 @@
+{
+ "ticker": "BIYA",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: 424B4 2025-03-24 acc 0001013762-25-001683 + closing 6-K acc 0001013762-25-001614 : 12,500,000 post-IPO ordinary",
+ "excluded": [
+  {
+   "name": "PreIPO_affiliate_SPVs_and_DnO",
+   "shares_M": 10.0
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "2.50",
+ "os_M": "12.50",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1944712,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-037815",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001013762-25-001614",
+   "form": "6-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001213900-23-081813",
+   "form": "F-1",
+   "filedAt": "2023-10-31"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "OWLT",
+ "as_of": "2025-06-17",
+ "os_source": "10-Q 2025-05-08 cover (16.52M) acc:0001628280-25-023909",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.55
+  },
+  {
+   "name": "D&O+Eclipse control per 2025-06-02 derivation",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G funds",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.97",
+ "os_M": "16.52",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1816708,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-031614",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001628280-25-023909",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-023770",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-015465",
+   "form": "424B3",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001628280-25-012065",
+   "form": "S-3",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001628280-25-009814",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001628280-24-047594",
+   "form": "8-K",
+   "filedAt": "2024-11-13"
+  },
+  {
+   "accession": "0001628280-24-031085",
+   "form": "DEF 14A",
+   "filedAt": "2024-07-03"
+  },
+  {
+   "accession": "0001140361-20-018982",
+   "form": "S-1",
+   "filedAt": "2020-08-24"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "ticker": "DAIC",
+ "as_of": "2025-07-02",
+ "os_source": "8-K 2025-06-26 acc:0001213900-25-057972",
+ "excluded": [
+  {
+   "name": "carried_Jul01",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "carried from Jul 01 no change",
+   "shares_M": null
+  }
+ ],
+ "float_M": "16.88",
+ "os_M": "27.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2033770,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-057972",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001213900-25-004485",
+   "form": "424B3",
+   "filedAt": "2025-01-17"
+  }
+ ]
+}

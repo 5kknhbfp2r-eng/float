@@ -1,0 +1,74 @@
+{
+ "ticker": "JVA",
+ "as_of": "2025-06-16",
+ "os_source": "10-Q 2025-06-13 acc:0001641172-25-014979",
+ "excluded": [
+  {
+   "name": "Excl=D&O actual 0.72M (A.Gordon 0.31M, D.Gordon 0.37M, others 0.04M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Renaissance Tech 0.32M (passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.98",
+ "os_M": "5.71",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1007019,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014979",
+   "form": "10-Q",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-014982",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-002699",
+   "form": "424B3",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001641172-25-001174",
+   "form": "S-3/A",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001493152-25-011095",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001493152-25-010402",
+   "form": "S-3",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001493152-25-009038",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001493152-25-004606",
+   "form": "8-K",
+   "filedAt": "2025-02-03"
+  },
+  {
+   "accession": "0001493152-24-041177",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-15"
+  },
+  {
+   "accession": "0001007019-98-000007",
+   "form": "424B3",
+   "filedAt": "1998-10-02"
+  }
+ ]
+}

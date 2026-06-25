@@ -1,0 +1,79 @@
+{
+ "ticker": "BBGI",
+ "as_of": "2025-07-08",
+ "os_source": "carried from 2025-06-20; Class A O/S 957,876 (10-Q cover 2025-05-08); no intervening O/S change (8-K 6/26 annual-meeting/equity-plan only)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.264
+  },
+  {
+   "name": "D&O group Class A incl Beasley entities;0.008",
+   "shares_M": null
+  },
+  {
+   "name": "Bradley Beasley;0.001",
+   "shares_M": null
+  },
+  {
+   "name": "Robert Beasley;Class B 833,137 Beasley super-voting unlisted",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.08
+  },
+  {
+   "name": "GAMCO 8.4% passive;0.048",
+   "shares_M": null
+  },
+  {
+   "name": "Lappert 5%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.68",
+ "os_M": "0.96",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1099160,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-090386",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0000950170-25-066442",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-065608",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-060086",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-042635",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-24-257355",
+   "form": "8-K",
+   "filedAt": "2024-11-13"
+  },
+  {
+   "accession": "0000950133-99-003769",
+   "form": "S-1",
+   "filedAt": "1999-11-24"
+  }
+ ]
+}

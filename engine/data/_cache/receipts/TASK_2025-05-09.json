@@ -1,0 +1,75 @@
+{
+ "ticker": "TASK",
+ "as_of": "2025-05-09",
+ "os_source": "O/S 10-K filed 2025-03-06 acc 0001829864-25-000016: 19,964,102 Class A (Feb 27 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=4.667M D&O group Class A (Maddock 1.748M",
+   "shares_M": null
+  },
+  {
+   "name": "Weir 1.530M",
+   "shares_M": null
+  },
+  {
+   "name": "others)",
+   "shares_M": null
+  },
+  {
+   "name": "70.03M Class B unlisted",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.253M Think Investments",
+   "shares_M": null
+  },
+  {
+   "name": "1.772M Vanguard (passive 13G, no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "15.3",
+ "os_M": "19.96",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1829864,
+ "depends_on_filings": [
+  {
+   "accession": "0000950157-25-000390",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001829864-25-000076",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0000950157-25-000378",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001829864-25-000068",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001829864-25-000016",
+   "form": "10-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001829864-25-000008",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0001193125-21-113320",
+   "form": "S-1",
+   "filedAt": "2021-04-12"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "ticker": "BUR",
+ "as_of": "2025-06-30",
+ "os_source": "10-Q 2025-05-07 acc:0001714174-25-000127",
+ "excluded": [
+  {
+   "name": "D&O_group=19.526M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock=15.417M,Orbis=11.961M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "218.66",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1714174,
+ "depends_on_filings": [
+  {
+   "accession": "0001714174-25-000128",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001714174-25-000104",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001714174-25-000100",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001714174-25-000099",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001714174-25-000070",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001714174-25-000067",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  }
+ ]
+}

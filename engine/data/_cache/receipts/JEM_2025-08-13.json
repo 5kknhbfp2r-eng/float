@@ -1,0 +1,39 @@
+{
+ "ticker": "JEM",
+ "as_of": "2025-08-13",
+ "os_source": "424B4+2025-06-10+acc:0001641172-25-014455",
+ "excluded": [
+  {
+   "name": "JME-control=15.61M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "IPO-public=6.34M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.34",
+ "os_M": "21.95",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2018222,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-023374",
+   "form": "6-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001641172-25-014564",
+   "form": "6-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001493152-24-035152",
+   "form": "F-1",
+   "filedAt": "2024-09-05"
+  }
+ ]
+}

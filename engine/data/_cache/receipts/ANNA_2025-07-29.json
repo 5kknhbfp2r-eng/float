@@ -1,0 +1,67 @@
+{
+ "ticker": "ANNA",
+ "as_of": "2025-07-29",
+ "os_source": "10-Q 2025-05-15 acc:0001213900-25-044162 Class A 40,584,455 (carried from 2025-06-25)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.48
+  },
+  {
+   "name": "Nautilus direct ClassA Wilder;6.66",
+   "shares_M": null
+  },
+  {
+   "name": "Wilder Foundation",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive; Class C 25.99M non-economic non-listed",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.44",
+ "os_M": "40.58",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1845123,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-053944",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001213900-25-044162",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-044168",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-036382",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-026227",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001013762-25-001584",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001193125-21-091352",
+   "form": "S-1",
+   "filedAt": "2021-03-23"
+  }
+ ]
+}

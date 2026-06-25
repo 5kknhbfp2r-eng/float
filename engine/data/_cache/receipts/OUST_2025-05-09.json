@@ -1,0 +1,68 @@
+{
+ "ticker": "OUST",
+ "as_of": "2025-05-09",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-09 acc 0001628280-25-024281 cover : 53,794,970 common as of May 2 2025",
+ "excluded": [
+  {
+   "name": "D&O group ex-options",
+   "shares_M": 2.121
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard",
+   "shares_M": 3.479
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 3.073
+  }
+ ],
+ "float_M": "51.67",
+ "os_M": "53.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1816581,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-024281",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001193125-25-115994",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001193125-25-111604",
+   "form": "S-3",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001193125-25-103773",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001140361-25-016007",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-25-079079",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001193125-25-059238",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-20-209451",
+   "form": "S-1",
+   "filedAt": "2020-08-04"
+  }
+ ]
+}

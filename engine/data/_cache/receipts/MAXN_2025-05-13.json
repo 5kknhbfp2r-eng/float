@@ -1,0 +1,48 @@
+{
+ "ticker": "MAXN",
+ "as_of": "2025-05-13",
+ "os_source": "OS_SOURCE: 20-F 2025-04-30 acc 0001796898-25-000031 (O/S as of Apr 21 2025, post 1:100 reverse split) : 16,896,729 ordinary = 16.90M",
+ "excluded": [
+  {
+   "name": "TZE_Zhonghuan_control",
+   "shares_M": 9.959
+  },
+  {
+   "name": "DO_individuals",
+   "shares_M": 0.085
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "6.85",
+ "os_M": "16.90",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1796898,
+ "depends_on_filings": [
+  {
+   "accession": "0001796898-25-000031",
+   "form": "20-F",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001796898-25-000032",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001796898-25-000023",
+   "form": "6-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001796898-25-000020",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001796898-25-000018",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "ticker": "LFMD",
+ "as_of": "2025-08-04",
+ "os_source": "10-Q 2025-05-06 cover acc: 45,447,604 common",
+ "excluded": [
+  {
+   "name": "D&O_group_exOptions",
+   "shares_M": 7.77
+  },
+  {
+   "name": "founder_Schreiber_incl",
+   "shares_M": 2.85
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock_13G",
+   "shares_M": 2.48
+  }
+ ],
+ "float_M": "37.7",
+ "os_M": "45.45",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 948320,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-011523",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001641172-25-015270",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001641172-25-008864",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-008841",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-006539",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001641172-25-006444",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001144204-12-056821",
+   "form": "S-1",
+   "filedAt": "2012-10-18"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "ticker": "MB",
+ "as_of": "2025-07-10",
+ "os_source": "20-F 2025-05-15 acc:0001641172-25-010685 + 6-K 2025-05-16 acc:0001641172-25-011248 (over-allotment 155,000); O/S 17.155M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 9.016875
+  },
+  {
+   "name": "Galaxy Shine BVI founder SPV;3.448125",
+   "shares_M": null
+  },
+  {
+   "name": "Thrivors BVI control",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.69",
+ "os_M": "17.16",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2027265,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011248",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001641172-25-010685",
+   "form": "20-F",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-003839",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-24-044667",
+   "form": "F-1",
+   "filedAt": "2024-11-12"
+  }
+ ]
+}

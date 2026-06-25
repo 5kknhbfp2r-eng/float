@@ -1,0 +1,79 @@
+{
+ "ticker": "VERB",
+ "as_of": "2025-05-30",
+ "os_source": "O/S 10-Q cover 2025-05-13 acc:0001641172-25-009842: 1,417,955 common as of May 8 2025",
+ "excluded": [
+  {
+   "name": "Excluded=D&O actual-common 0.12M ex-options (Cutaia 60.9K + Geiskopf 60.2K + others; from 10-K 3/19/2025 table)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none disclosed (no 5% non-insider holders)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.30",
+ "os_M": "1.42",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1566610,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-009842",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-006232",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001641172-25-005161",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001493152-25-008984",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001493152-24-042606",
+   "form": "8-K",
+   "filedAt": "2024-10-28"
+  },
+  {
+   "accession": "0001493152-24-040836",
+   "form": "8-K",
+   "filedAt": "2024-10-11"
+  },
+  {
+   "accession": "0001493152-24-040317",
+   "form": "8-K",
+   "filedAt": "2024-10-07"
+  },
+  {
+   "accession": "0001493152-24-032857",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-16"
+  },
+  {
+   "accession": "0001493152-24-030110",
+   "form": "PRE 14A",
+   "filedAt": "2024-08-02"
+  },
+  {
+   "accession": "0001493152-23-023118",
+   "form": "DEF 14A",
+   "filedAt": "2023-06-30"
+  },
+  {
+   "accession": "0001165527-13-000330",
+   "form": "S-1",
+   "filedAt": "2013-04-08"
+  }
+ ]
+}

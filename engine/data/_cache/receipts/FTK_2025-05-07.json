@@ -1,0 +1,58 @@
+{
+ "ticker": "FTK",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: DEF14A 2025-04-02 acc / 10-K 2025-03-12 : 29,826,816 common (as of 3/20/25)",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 0.729
+  },
+  {
+   "name": "ProFrac Holdings",
+   "shares_M": 17.245
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "11.85",
+ "os_M": "29.83",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 928054,
+ "depends_on_filings": [
+  {
+   "accession": "0000928054-25-000036",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193125-25-100512",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0000928054-25-000025",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0000928054-25-000017",
+   "form": "10-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0000928054-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-03-10"
+  },
+  {
+   "accession": "0000928054-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-01-30"
+  },
+  {
+   "accession": "0001144204-05-041765",
+   "form": "424B3",
+   "filedAt": "2005-12-30"
+  }
+ ]
+}

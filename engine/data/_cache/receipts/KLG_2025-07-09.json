@@ -1,0 +1,74 @@
+{
+ "ticker": "KLG",
+ "as_of": "2025-07-09",
+ "os_source": "10-Q 2025-05-06: 86,262,725 shares",
+ "excluded": [
+  {
+   "name": "D&O_group_ex_options",
+   "shares_M": 1.841371
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "NTC",
+   "shares_M": 14.077876
+  },
+  {
+   "name": "WKK_Foundation",
+   "shares_M": 13.505159
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 10.126859
+  },
+  {
+   "name": "Vanguard",
+   "shares_M": 5.846072
+  },
+  {
+   "name": "KeyCorp",
+   "shares_M": 4.995093
+  },
+  {
+   "name": "Platin",
+   "shares_M": 4.331725
+  }
+ ],
+ "float_M": "84.42",
+ "os_M": "86.26",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1959348,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-022671",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001628280-25-022409",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001628280-25-012381",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001628280-25-004776",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001628280-24-052331",
+   "form": "8-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001628280-24-045996",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "ticker": "ATHR",
+ "as_of": "2025-07-24",
+ "os_source": "424B4+8-K 2025-04-11 acc:0001641172-25-003724",
+ "excluded": [
+  {
+   "name": "pre-IPO insiders 10.03M total",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "IPO offering 1.80M + OA 0.27M = 2.07M float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.07",
+ "os_M": "12.10",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2026353,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-008116",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001641172-25-005055",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001641172-25-003896",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-24-052454",
+   "form": "S-1",
+   "filedAt": "2024-12-30"
+  }
+ ]
+}

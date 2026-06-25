@@ -1,0 +1,54 @@
+{
+ "ticker": "CUPR",
+ "as_of": "2025-06-04",
+ "os_source": "20-F 2025-05-14 acc:0001641172-25-010302 cover: 7,365,000 Class A ordinary o/s @ May-14-2025 (listed); Class B 14,085,000 founder",
+ "excluded": [
+  {
+   "name": "Excluded=14.085M Class B (Cuprina Holding Pte founder vehicle, non-listed); 0 insider Class A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=7.365M public Class A (float; no >5% Class A holder)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.37",
+ "os_M": "7.37",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1995704,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013537",
+   "form": "6-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001641172-25-010302",
+   "form": "20-F",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-009201",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-009170",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-008637",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001493152-24-009210",
+   "form": "F-1",
+   "filedAt": "2024-03-07"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "ticker": "CTOR",
+ "as_of": "2025-06-27",
+ "os_source": "10-K/A 2025-01-27 acc:0001213900-25-007012 + 10-Q 2025-05-14 acc:0001213900-25-043359",
+ "excluded": [
+  {
+   "name": "Excluded=CitiusPharmaceuticals_66.05M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=(none)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.50",
+ "os_M": "71.55",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1851484,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-059084",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001213900-25-055182",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001213900-25-043359",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-043363",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-035575",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001213900-25-028621",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001213900-25-014351",
+   "form": "8-K",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001493152-24-001720",
+   "form": "DEF 14A",
+   "filedAt": "2024-01-08"
+  },
+  {
+   "accession": "0001493152-21-012185",
+   "form": "S-1",
+   "filedAt": "2021-05-18"
+  }
+ ]
+}

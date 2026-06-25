@@ -1,0 +1,89 @@
+{
+ "ticker": "ALTI",
+ "as_of": "2025-08-05",
+ "os_source": "DEF 14A 2025-04-29 acc:0001140361-25-016353; Class A O/S 99,052,995 (listed class; 10-Q 2025-03-31 acc:0001628280-25-024649)",
+ "excluded": [
+  {
+   "name": "Excluded=19.318581M Allianz",
+   "shares_M": null
+  },
+  {
+   "name": "18.11785M IlWaddi/Al-Thani",
+   "shares_M": null
+  },
+  {
+   "name": "10.426163M GGL/Yeung",
+   "shares_M": null
+  },
+  {
+   "name": "5.799234M Pangaea Three-B",
+   "shares_M": null
+  },
+  {
+   "name": "2.791483M D&O group ClassA",
+   "shares_M": null
+  },
+  {
+   "name": "45.110224M Class B(non-listed class)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public Class A float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "42.60",
+ "os_M": "99.05",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1838615,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-025568",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001140361-25-025566",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001628280-25-031817",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001628280-25-028673",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001140361-25-020757",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001140361-25-020513",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001628280-25-024649",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001140361-25-016353",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-21-007087",
+   "form": "S-1",
+   "filedAt": "2021-02-05"
+  }
+ ]
+}

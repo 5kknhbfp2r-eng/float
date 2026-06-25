@@ -1,0 +1,75 @@
+{
+ "ticker": "ISPO",
+ "as_of": "2025-06-02",
+ "os_source": "O/S 10-Q 2025-05-08 acc:0001820566-25-000063 = 12,440,577 Class A (post 20:1 reverse split incl Class B->A exchange); no intervening filing to 6/02",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.71
+  },
+  {
+   "name": "D&O group ex-derivatives incl Zamani control 4.42M;1.01",
+   "shares_M": null
+  },
+  {
+   "name": "Brent Handler co-founder",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.92
+  },
+  {
+   "name": "Stoney Lonesome HF passive 13D;0.59",
+   "shares_M": null
+  },
+  {
+   "name": "Kleiner Perkins passive 13D",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.73",
+ "os_M": "12.44",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1820566,
+ "depends_on_filings": [
+  {
+   "accession": "0001820566-25-000063",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001820566-25-000058",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001820566-25-000050",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001820566-25-000046",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001820566-25-000045",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001820566-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-20-266392",
+   "form": "S-1",
+   "filedAt": "2020-10-08"
+  }
+ ]
+}

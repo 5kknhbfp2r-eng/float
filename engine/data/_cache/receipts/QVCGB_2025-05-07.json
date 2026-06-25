@@ -1,0 +1,16 @@
+{
+ "ticker": "QVCGB",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: DEF 14A 2025-03-28 acc 0001104659-25-029074 record-date cover : 9,114,716 QVCGB shares",
+ "excluded": [
+  {
+   "name": "Gregory B. Maffei",
+   "shares_M": 8.346
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "0.77",
+ "os_M": "9.11",
+ "under_20M": "true",
+ "confidence": "high"
+}

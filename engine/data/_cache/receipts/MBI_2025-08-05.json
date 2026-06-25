@@ -1,0 +1,67 @@
+{
+ "ticker": "MBI",
+ "as_of": "2025-08-05",
+ "os_source": "DEF14A 2025-03-24; 10-Q 2025-05-08 O/S 50,370,625",
+ "excluded": [
+  {
+   "name": "Excluded=7.07M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 7,073,843",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=43.3M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 13F-NT passive; Wolf Hill 2880522 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "43.3",
+ "os_M": "50.37",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 814585,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-067046",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-067033",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001193125-25-061326",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0000950170-25-029064",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0000950170-25-019901",
+   "form": "8-K",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0000950170-24-123381",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0000950130-95-002745",
+   "form": "424B1",
+   "filedAt": "1995-12-20"
+  }
+ ]
+}

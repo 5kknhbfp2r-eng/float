@@ -1,0 +1,67 @@
+{
+ "ticker": "BIRD",
+ "as_of": "2025-06-10",
+ "os_source": "10-Q 2025-05-09 Class A O/S 5,456,072; DEF14A 2025-04-24 acc per dossier",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.17
+  },
+  {
+   "name": "D&O group Class A 170,861 ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.73
+  },
+  {
+   "name": "FMR/Fidelity Class A 727,514 passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.29",
+ "os_M": "5.46",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1653909,
+ "depends_on_filings": [
+  {
+   "accession": "0001653909-25-000032",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001653909-25-000026",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001653909-25-000023",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001653909-25-000014",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001653909-25-000020",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001628280-25-011965",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001628280-21-017824",
+   "form": "S-1",
+   "filedAt": "2021-08-31"
+  }
+ ]
+}

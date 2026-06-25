@@ -1,0 +1,71 @@
+{
+ "ticker": "ATNF",
+ "as_of": "2025-07-29",
+ "os_source": "10-Q cover 2025-07-23 acc:0001213900-25-066984 (As of 7/22/25: 6,039,208 common)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.58
+  },
+  {
+   "name": "D&O directly-owned ex-RSU/options;1.32",
+   "shares_M": null
+  },
+  {
+   "name": "Elray Resources control 13D common (voting-proxy block)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.51
+  },
+  {
+   "name": "AmTrust Financial 8.4% passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.1",
+ "os_M": "6.04",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1690080,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-067354",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001213900-25-066984",
+   "form": "10-Q",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-063799",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001213900-25-061804",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001213900-25-059970",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001213900-25-057898",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-17-004247",
+   "form": "S-1",
+   "filedAt": "2017-04-26"
+  }
+ ]
+}

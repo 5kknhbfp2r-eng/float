@@ -1,0 +1,64 @@
+{
+ "ticker": "CTNM",
+ "as_of": "2025-07-21",
+ "os_source": "Class A O/S 19.14M from 10-Q 2025-05-14 acc:0001437749-25-016835; reconfirmed 8-K 2025-06-26 acc:0001437749-25-021343 (19,142,377)",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group 0.20M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G funds",
+   "shares_M": null
+  }
+ ],
+ "float_M": "18.94",
+ "os_M": "19.14",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1855175,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-021343",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001437749-25-016835",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-016877",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-016871",
+   "form": "S-3",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-013528",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001437749-25-013334",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001437749-25-007998",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001193125-24-069256",
+   "form": "S-1",
+   "filedAt": "2024-03-15"
+  }
+ ]
+}

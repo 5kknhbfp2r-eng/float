@@ -1,0 +1,54 @@
+{
+ "ticker": "HSDT",
+ "as_of": "2025-05-02",
+ "os_source": "OS_SOURCE: DEF14A 2025-05-02 acc 0001104659-25-044128 : 528,061 shares post 1-for-15 reverse split (10-Q pre-split 7,920,928 /15)",
+ "excluded": [
+  {
+   "name": "D&O_group_actual_shares",
+   "shares_M": 0.0027
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "0.525",
+ "os_M": "0.528",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1610853,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-044128",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001558370-25-006120",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001558370-25-005939",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001558370-25-005510",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001558370-25-005150",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001558370-25-004488",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001183740-14-000218",
+   "form": "S-1",
+   "filedAt": "2014-07-11"
+  }
+ ]
+}

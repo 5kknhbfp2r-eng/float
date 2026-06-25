@@ -1,0 +1,69 @@
+{
+ "ticker": "WKSP",
+ "as_of": "2025-05-15",
+ "os_source": "OS_SOURCE: 10-Q cover filed 2025-05-15 acc=0001641172-25-010837 : 5,200,130 common shares as of 2025-05-15 (post 1-for-10 reverse split)",
+ "excluded": [
+  {
+   "name": "DnO_group_ex_options",
+   "shares_M": 0.2549
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Armistice_Capital",
+   "shares_M": 0.4922
+  }
+ ],
+ "float_M": "4.95",
+ "os_M": "5.20",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1096275,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-010837",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-010829",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-009709",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001641172-25-006589",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001062993-25-007745",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001641172-25-001309",
+   "form": "S-1",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001641172-25-000851",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001493152-24-042259",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-23"
+  },
+  {
+   "accession": "0001477932-15-004610",
+   "form": "S-1",
+   "filedAt": "2015-07-21"
+  }
+ ]
+}

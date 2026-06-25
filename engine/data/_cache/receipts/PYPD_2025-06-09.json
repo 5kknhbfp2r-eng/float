@@ -1,0 +1,71 @@
+{
+ "ticker": "PYPD",
+ "as_of": "2025-06-09",
+ "os_source": "20-F 2025-02-26 acc:0001213900-25-017412 (10,190,904 ord); 6-K 2025-05-14 acc:0001213900-25-042946 confirms 10,190,904 at 3/31",
+ "excluded": [
+  {
+   "name": "Excluded=0.169M D&O group(12 persons)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.03M Aurum",
+   "shares_M": null
+  },
+  {
+   "name": "1.02M AIGH",
+   "shares_M": null
+  },
+  {
+   "name": "0.55M Nir",
+   "shares_M": null
+  },
+  {
+   "name": "all passive 13G/F-3 warrant-capped, <20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.02",
+ "os_M": "10.19",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1611842,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-052320",
+   "form": "6-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001213900-25-049464",
+   "form": "6-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001213900-25-046437",
+   "form": "6-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001213900-25-042946",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-022433",
+   "form": "6-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001213900-25-017412",
+   "form": "20-F",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0001144204-14-060961",
+   "form": "F-1",
+   "filedAt": "2014-10-14"
+  }
+ ]
+}

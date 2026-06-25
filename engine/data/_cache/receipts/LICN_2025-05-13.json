@@ -1,0 +1,16 @@
+{
+ "ticker": "LICN",
+ "as_of": "2025-05-13",
+ "os_source": "OS_SOURCE: 20-F 2025-04-28 acc 0001213900-25-036244 (FY24, post 1:200 reverse split effective Mar 2025) : 716,825 Class A ordinary = 0.717M",
+ "excluded": [
+  {
+   "name": "DO_group_ClassA",
+   "shares_M": 0.001551
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "0.715",
+ "os_M": "0.717",
+ "under_20M": "true",
+ "confidence": "high"
+}

@@ -1,0 +1,78 @@
+{
+ "ticker": "VVPR",
+ "as_of": "2025-08-08",
+ "os_source": "424B4 2025-05-29 acc:0001641172-25-012832 (O/S prior 10,112,212; after offering max 28,912,212) + 6-K 2025-06-26 phase-1 PIPE $60.5M@$6.05~10M shares",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.18
+  },
+  {
+   "name": "Chin/Arowana D&O group (was 26.5% of 4.44M, diluted)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G Corley 0.635M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "18.93",
+ "os_M": "20.11",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1681348,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-011424",
+   "form": "424B3",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001641172-25-017870",
+   "form": "424B3",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001641172-25-017349",
+   "form": "6-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001641172-25-016637",
+   "form": "6-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001641172-25-015081",
+   "form": "424B3",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-012832",
+   "form": "424B4",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001641172-25-012657",
+   "form": "6-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-004574",
+   "form": "6-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001493152-24-050824",
+   "form": "20-F",
+   "filedAt": "2024-12-19"
+  },
+  {
+   "accession": "0001437749-16-042672",
+   "form": "424B3",
+   "filedAt": "2016-11-28"
+  }
+ ]
+}

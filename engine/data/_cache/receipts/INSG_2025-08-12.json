@@ -1,0 +1,63 @@
+{
+ "ticker": "INSG",
+ "as_of": "2025-08-12",
+ "os_source": "O/S 10-Q filed 2025-08-07 + DEF14A 2025-07-28 acc:0001022652... 15,042,827 common (post 1:10 split)",
+ "excluded": [
+  {
+   "name": "Excluded=2.188M D&O group ex-options(incl North Sound/Miller)",
+   "shares_M": null
+  },
+  {
+   "name": "2.145M Golden Harbor/Joe Lewis(Avery affil)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive/none material",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.71",
+ "os_M": "15.04",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1022652,
+ "depends_on_filings": [
+  {
+   "accession": "0001022652-25-000017",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001683168-25-005754",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001683168-25-005459",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001683168-25-003291",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001683168-25-003134",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001683168-25-003027",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950150-00-000617",
+   "form": "S-1",
+   "filedAt": "2000-07-28"
+  }
+ ]
+}

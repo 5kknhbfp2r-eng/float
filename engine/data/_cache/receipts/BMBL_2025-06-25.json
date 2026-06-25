@@ -1,0 +1,91 @@
+{
+ "ticker": "BMBL",
+ "as_of": "2025-06-25",
+ "os_source": "10-Q 2025-05-12 acc:0000950170-25-069174 cover Class A 103,291,424; DEF14A 2025-04-17",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 31.04
+  },
+  {
+   "name": "Stockholders Agreement group Class A 31,042,819",
+   "shares_M": null
+  },
+  {
+   "name": "0.52",
+   "shares_M": null
+  },
+  {
+   "name": "other D&O Class A 518,367",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 10.21
+  },
+  {
+   "name": "Vanguard",
+   "shares_M": null
+  },
+  {
+   "name": "9.92",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "6.38",
+   "shares_M": null
+  },
+  {
+   "name": "Ameriprise passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "71.73",
+ "os_M": "103.29",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1830043,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-146199",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001193125-25-137071",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-069174",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-065679",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-25-084347",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001193125-25-042459",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-21-009745",
+   "form": "S-1",
+   "filedAt": "2021-01-15"
+  }
+ ]
+}

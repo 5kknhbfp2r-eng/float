@@ -1,0 +1,44 @@
+{
+ "ticker": "HCAI",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: 424B4 2025-02-06 acc=0001213900-25-010702 (31.5M) + 6-K 2025-03-11 over-allotment 225K = 31.725M ordinary",
+ "excluded": [
+  {
+   "name": "pre-IPO founder/SPV holders",
+   "shares_M": 30.0
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "1.725",
+ "os_M": "31.725",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1958399,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-033405",
+   "form": "6-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001213900-25-026263",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001213900-25-022791",
+   "form": "6-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001213900-25-011310",
+   "form": "6-K",
+   "filedAt": "2025-02-07"
+  },
+  {
+   "accession": "0001213900-24-068783",
+   "form": "F-1",
+   "filedAt": "2024-08-14"
+  }
+ ]
+}

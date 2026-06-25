@@ -1,0 +1,66 @@
+{
+ "ticker": "DALN",
+ "as_of": "2025-07-10",
+ "os_source": "DEF14A 2025-03-26 acc:0001193125-25-064172 + 10-Q 2025-04-30 acc:0001413898-25-000027",
+ "excluded": [
+  {
+   "name": "Decherd=78165_SeriesA(control via SeriesB)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Covista 515K",
+   "shares_M": null
+  },
+  {
+   "name": "Allspring 425K",
+   "shares_M": null
+  },
+  {
+   "name": "Smith 266K",
+   "shares_M": null
+  },
+  {
+   "name": "Dolphin 244K passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.61",
+ "os_M": "4.74",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1413898,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-157392",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001413898-25-000029",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001413898-25-000027",
+   "form": "10-Q",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001413898-25-000025",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001413898-25-000021",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001193125-25-064172",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-26"
+  }
+ ]
+}

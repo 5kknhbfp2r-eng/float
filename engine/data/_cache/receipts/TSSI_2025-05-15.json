@@ -1,0 +1,21 @@
+{
+ "ticker": "TSSI",
+ "as_of": "2025-05-15",
+ "os_source": "O/S 10-Q cover 2025-05-15 acc:0001654954-25-005742: 25,020,498 as of May 13 2025",
+ "excluded": [
+  {
+   "name": "Excluded=4.46M D&O group ex-options (4,805,002 group less 341,667 options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Glen Ikeda 1.48M (5.93%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "20.56",
+ "os_M": "25.02",
+ "under_20M": "false",
+ "confidence": "high"
+}

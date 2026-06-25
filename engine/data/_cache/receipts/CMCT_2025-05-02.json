@@ -1,0 +1,64 @@
+{
+ "ticker": "CMCT",
+ "as_of": "2025-05-02",
+ "os_source": "10-K/A 2025-04-29 acc=0000908311-25-000030 cover : 754,607 common outstanding as of Apr 14 2025 (post 1:10 Jan + 1:25 Apr reverse splits)",
+ "excluded": [
+  {
+   "name": "D&O group incl CIM founders (Ressler/Shemesh/Kuba)",
+   "shares_M": 0.051388
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "0.70",
+ "os_M": "0.75",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 908311,
+ "depends_on_filings": [
+  {
+   "accession": "0000908311-25-000027",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000908311-25-000024",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0000908311-25-000023",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001628280-25-016239",
+   "form": "8-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0000908311-25-000019",
+   "form": "8-K",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0000908311-25-000017",
+   "form": "10-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0000908311-25-000015",
+   "form": "8-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0001104659-25-021357",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0000950134-96-003193",
+   "form": "424B1",
+   "filedAt": "1996-06-27"
+  }
+ ]
+}

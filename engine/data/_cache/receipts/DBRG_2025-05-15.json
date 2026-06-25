@@ -1,0 +1,67 @@
+{
+ "ticker": "DBRG",
+ "as_of": "2025-05-15",
+ "os_source": "10-Q 2025-05-01 acc=0001679688-25-000043 cover : 176,116,333 Class A common (ticker class) + 149,571 Class B outstanding",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 6.372698
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "The Vanguard Group",
+   "shares_M": 17.098253
+  },
+  {
+   "name": "Wafra Inc",
+   "shares_M": 17.111399
+  },
+  {
+   "name": "BlackRock Inc",
+   "shares_M": 12.066848
+  }
+ ],
+ "float_M": "",
+ "os_M": "176.12",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1679688,
+ "depends_on_filings": [
+  {
+   "accession": "0001679688-25-000043",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001679688-25-000040",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001558370-25-004974",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001679688-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001679688-24-000107",
+   "form": "8-K",
+   "filedAt": "2024-11-01"
+  },
+  {
+   "accession": "0001679688-24-000092",
+   "form": "8-K",
+   "filedAt": "2024-08-07"
+  },
+  {
+   "accession": "0001047469-16-016831",
+   "form": "424B3",
+   "filedAt": "2016-11-18"
+  }
+ ]
+}

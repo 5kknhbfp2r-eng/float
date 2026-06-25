@@ -1,0 +1,64 @@
+{
+ "ticker": "ZCAR",
+ "as_of": "2025-05-05",
+ "os_source": "OS_SOURCE: S-1 filed 2025-05-06 acc=0001213900-25-039778 stating 3,673,235 shares of Common Stock issued and outstanding as of 2025-04-30 (point-in-time, reconciles 1-for-100 Oct-2024 + 1-for-20 Mar-2025 serial reverse splits and PIPE Third Closing) : 3.673M",
+ "excluded": [
+  {
+   "name": "DandO_group",
+   "shares_M": 0.005
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.67",
+ "os_M": "3.67",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1854275,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-039778",
+   "form": "S-1",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-034202",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001213900-25-029037",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001213900-25-028665",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001013762-25-000768",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001213900-25-025152",
+   "form": "8-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001213900-25-014437",
+   "form": "10-Q",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001213900-25-005022",
+   "form": "DEF 14A",
+   "filedAt": "2025-01-21"
+  },
+  {
+   "accession": "0001104659-21-123571",
+   "form": "S-1",
+   "filedAt": "2021-10-06"
+  }
+ ]
+}

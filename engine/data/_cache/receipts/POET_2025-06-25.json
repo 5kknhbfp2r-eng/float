@@ -1,0 +1,77 @@
+{
+ "ticker": "POET",
+ "as_of": "2025-06-25",
+ "os_source": "13G/A 2025-05-15 O/S 78,069,801 @3/31/25 acc:0001104659-25-049564 + 6-K 6,000,000 shares May offering acc:0001171843-25-003409",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.5
+  },
+  {
+   "name": "D&O subtotal 501,567 (<1%, incl 60d options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 8.64
+  },
+  {
+   "name": "MMCAP/MM Asset 13G passive 9.99%; 6M strategic-investor 7%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "83.57",
+ "os_M": "84.07",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1437424,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-004068",
+   "form": "6-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001171843-25-003409",
+   "form": "6-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001171843-25-003351",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001171843-25-003309",
+   "form": "6-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001171843-25-003209",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-010435",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-002143",
+   "form": "20-F",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001493152-24-011806",
+   "form": "20-F",
+   "filedAt": "2024-03-28"
+  },
+  {
+   "accession": "0001493152-23-010387",
+   "form": "20-F",
+   "filedAt": "2023-03-31"
+  }
+ ]
+}

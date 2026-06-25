@@ -1,0 +1,71 @@
+{
+ "ticker": "GAUZ",
+ "as_of": "2025-07-11",
+ "os_source": "20-F acc 0001213900-25-022437 Item 6/7 + 6-K acc 0001213900-25-042261 ex99-2 (O/S 18,733,937 @ Mar 31 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=Infinity Holding Ventures 2.136 ordinary (board seat via Babitsky)",
+   "shares_M": null
+  },
+  {
+   "name": "Blue-Red Capital 0.934 (board seat via Klein)",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 1.138",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Ibex Partners 3.68 (13G passive 19.4%)",
+   "shares_M": null
+  },
+  {
+   "name": "Olive Tree 1.32 (13G passive 7.0%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "14.53",
+ "os_M": "18.73",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1781446,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-061356",
+   "form": "6-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-061387",
+   "form": "F-3",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-042261",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-022437",
+   "form": "20-F",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001213900-25-022740",
+   "form": "6-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001213900-24-109501",
+   "form": "6-K",
+   "filedAt": "2024-12-17"
+  },
+  {
+   "accession": "0001213900-24-032677",
+   "form": "F-1",
+   "filedAt": "2024-04-12"
+  }
+ ]
+}

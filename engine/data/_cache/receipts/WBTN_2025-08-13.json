@@ -1,0 +1,67 @@
+{
+ "ticker": "WBTN",
+ "as_of": "2025-08-13",
+ "os_source": "10-Q 2025-05-14 acc:0001997859-25-000067",
+ "excluded": [
+  {
+   "name": "NAVER=80.35M",
+   "shares_M": null
+  },
+  {
+   "name": "LYCorp=31.43M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O actual=0.64M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR=8.03M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "17.75",
+ "os_M": "130.17",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1997859,
+ "depends_on_filings": [
+  {
+   "accession": "0001997859-25-000102",
+   "form": "10-Q",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001997859-25-000096",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001997859-25-000083",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001997859-25-000077",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001997859-25-000062",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001997859-25-000052",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-24-151708",
+   "form": "S-1",
+   "filedAt": "2024-05-31"
+  }
+ ]
+}

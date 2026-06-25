@@ -1,0 +1,62 @@
+{
+ "ticker": "TIGR",
+ "as_of": "2025-06-25",
+ "os_source": "20-F 2025-04-23 acc:0000950170-25-056953 (169,686,712 ADS = 2,545,300,680 Class A out as of 3/31/2025; ADS=15 Class A)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 20.15
+  },
+  {
+   "name": "D&O group 302.24M Class A /15 ADS (incl founder Tianhua Wu via Tiger Family Trust)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 8.23
+  },
+  {
+   "name": "Xiaomi 123.41M Class A /15 ADS 4.56% strategic passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "149.54",
+ "os_M": "169.69",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1756699,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-079308",
+   "form": "6-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0000950170-25-056953",
+   "form": "20-F",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0000950170-25-040707",
+   "form": "6-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0000950170-24-124460",
+   "form": "6-K",
+   "filedAt": "2024-11-12"
+  },
+  {
+   "accession": "0000950170-24-117918",
+   "form": "6-K",
+   "filedAt": "2024-10-29"
+  },
+  {
+   "accession": "0001047469-19-000627",
+   "form": "F-1",
+   "filedAt": "2019-02-22"
+  }
+ ]
+}

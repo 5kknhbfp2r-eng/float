@@ -1,0 +1,68 @@
+{
+ "ticker": "MFH",
+ "as_of": "2025-06-11",
+ "os_source": "20-F 2025-04-30 acc:0001641172-25-007755 (O/S 63,686,563 ord as of Apr15-2025)",
+ "excluded": [
+  {
+   "name": "Excluded=0.017M D&O (Daye 16,666)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=14.25M Apollo Multi-Asset (22.4%, non-control PIPE fund)",
+   "shares_M": null
+  },
+  {
+   "name": "all <10% principal holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "63.67",
+ "os_M": "63.69",
+ "under_20M": "false",
+ "confidence": "medium",
+ "cik": 1527762,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014705",
+   "form": "6-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001641172-25-013828",
+   "form": "6-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001641172-25-011993",
+   "form": "6-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-011703",
+   "form": "F-3",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-011245",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001641172-25-008118",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001641172-25-007755",
+   "form": "20-F",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001047469-15-000132",
+   "form": "F-1",
+   "filedAt": "2015-01-09"
+  }
+ ]
+}

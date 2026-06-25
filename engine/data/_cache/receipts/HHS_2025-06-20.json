@@ -1,0 +1,62 @@
+{
+ "ticker": "HHS",
+ "as_of": "2025-06-20",
+ "os_source": "DEF14A 2025-04-08 + 10-Q 2025-05-15 acc:0000045919-25-000028 + 13D 2025-05-31 acc:0000902664-25-002600 + 13D 2024-12-06 (Radoff)",
+ "excluded": [
+  {
+   "name": "Excluded=3.45M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O 674,654 + Harte estate 13D 660,816 + Rosenbach 13D 2,118,635",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.28M",
+   "shares_M": null
+  },
+  {
+   "name": "William Blair 13G 660,845 + Westerly Holdings 620,590 passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.91",
+ "os_M": "7.36",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 45919,
+ "depends_on_filings": [
+  {
+   "accession": "0000045919-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000045919-25-000028",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000045919-25-000026",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000045919-25-000023",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000045919-25-000012",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0000045919-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  }
+ ]
+}

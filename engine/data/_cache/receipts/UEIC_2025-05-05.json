@@ -1,0 +1,66 @@
+{
+ "ticker": "UEIC",
+ "as_of": "2025-05-05",
+ "os_source": "O/S DEF 14A 2025-04-14 acc:0000101984-25-000069: 13,145,083 common as of Apr 1 2025",
+ "excluded": [
+  {
+   "name": "Excluded=D&O 0.73M ex-options",
+   "shares_M": null
+  },
+  {
+   "name": "Toro18/Immersion/Singer 1.54M (11.8% activist, director board seat)",
+   "shares_M": null
+  },
+  {
+   "name": "Kent Lake 1.13M (8.6% activist, cooperation agmt board nominee, 13D/A 5/5)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Ameriprise 0.79M (6.0% 13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Leviticus 0.75M (5.7% 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "9.74",
+ "os_M": "13.15",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 101984,
+ "depends_on_filings": [
+  {
+   "accession": "0000101984-25-000081",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0000101984-25-000072",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000101984-25-000069",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0000101984-25-000042",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0000101984-25-000038",
+   "form": "10-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0000101984-25-000029",
+   "form": "8-K",
+   "filedAt": "2025-02-20"
+  }
+ ]
+}

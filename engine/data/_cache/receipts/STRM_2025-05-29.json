@@ -1,0 +1,81 @@
+{
+ "ticker": "STRM",
+ "as_of": "2025-05-29",
+ "os_source": "O/S 10-K filed 2025-05-02 acc 0001437749-25-014208: 4,264,482 (post 1:15 split, Jan 31 2025)",
+ "excluded": [
+  {
+   "name": "Excluded=1.339M D&O group /15 (Tamarack 0.414M",
+   "shares_M": null
+  },
+  {
+   "name": "Harbert 0.338M",
+   "shares_M": null
+  },
+  {
+   "name": "Tee Green 0.226M",
+   "shares_M": null
+  },
+  {
+   "name": "other insiders)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=GCI Partners 3,917,082/15=0.261M passive (no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.93",
+ "os_M": "4.26",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1008586,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-018850",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001437749-25-014208",
+   "form": "10-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001437749-25-014128",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001437749-25-009908",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001437749-24-037631",
+   "form": "8-K",
+   "filedAt": "2024-12-16"
+  },
+  {
+   "accession": "0001437749-24-035494",
+   "form": "8-K",
+   "filedAt": "2024-11-15"
+  },
+  {
+   "accession": "0001437749-24-030089",
+   "form": "8-K",
+   "filedAt": "2024-09-26"
+  },
+  {
+   "accession": "0001437749-24-027203",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-19"
+  },
+  {
+   "accession": "0001104659-19-066045",
+   "form": "424B3",
+   "filedAt": "2019-11-21"
+  }
+ ]
+}

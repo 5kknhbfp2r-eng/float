@@ -1,0 +1,79 @@
+{
+ "ticker": "SNES",
+ "as_of": "2025-06-26",
+ "os_source": "424B5 2025-06-25 acc:0001213900-25-057475",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real_0.0002M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=non-affiliates_2.015M_per_424B5",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.02",
+ "os_M": "2.02",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1680378,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-057472",
+   "form": "424B3",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-056745",
+   "form": "S-3/A",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001213900-25-054911",
+   "form": "S-3",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001628280-25-030453",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001628280-25-023925",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-023782",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-039298",
+   "form": "S-3",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001628280-25-020246",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001628280-25-012340",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001628280-25-011846",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001144204-16-124776",
+   "form": "S-1",
+   "filedAt": "2016-09-21"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "ticker": "AGEN",
+ "as_of": "2025-06-04",
+ "os_source": "10-Q 2025-05-12 acc:0000950170-25-069396",
+ "excluded": [
+  {
+   "name": "Excluded=0.30M D&O pure shares",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.58M BlackRock(13G),2.15M Vanguard(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "26.27",
+ "os_M": "26.56",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1098972,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-081674",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0000950170-25-069396",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001193125-25-117894",
+   "form": "S-3",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-068564",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-061030",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0000950170-25-036829",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0000950170-25-027947",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0000950135-99-005451",
+   "form": "S-1",
+   "filedAt": "1999-11-30"
+  }
+ ]
+}

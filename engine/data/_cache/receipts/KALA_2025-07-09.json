@@ -1,0 +1,77 @@
+{
+ "ticker": "KALA",
+ "as_of": "2025-07-09",
+ "os_source": "10-Q 2025-05-14 cover (6,452,398 as of May 13 2025)",
+ "excluded": [
+  {
+   "name": "DandO_group",
+   "shares_M": 0.486183
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BakerBros",
+   "shares_M": 1.201894
+  },
+  {
+   "name": "SROne",
+   "shares_M": 0.64964
+  },
+  {
+   "name": "Cormorant",
+   "shares_M": 0.649127
+  }
+ ],
+ "float_M": "5.97",
+ "os_M": "6.45",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1479419,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-066593",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001558370-25-007763",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001558370-25-007664",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-034210",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001558370-25-004080",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001104659-25-011852",
+   "form": "8-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001104659-25-009107",
+   "form": "424B3",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001558370-24-006097",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-29"
+  },
+  {
+   "accession": "0001047469-17-004207",
+   "form": "S-1",
+   "filedAt": "2017-06-23"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "ticker": "XCUR",
+ "as_of": "2025-07-03",
+ "os_source": "10-K 2025-03-18 acc:0001698530-25-000019; O/S=6,317,771",
+ "excluded": [
+  {
+   "name": "Excluded=HiTron3333.3K_control",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=DGP424.6K_13D+SangSang433.3K_13G+other_public",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.98",
+ "os_M": "6.32",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1698530,
+ "depends_on_filings": [
+  {
+   "accession": "0001698530-25-000056",
+   "form": "10-Q",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001698530-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001698530-25-000047",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001698530-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001698530-25-000035",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001698530-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001698530-25-000017",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001698530-24-000134",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-02"
+  },
+  {
+   "accession": "0001628280-17-011891",
+   "form": "S-1",
+   "filedAt": "2017-11-28"
+  }
+ ]
+}

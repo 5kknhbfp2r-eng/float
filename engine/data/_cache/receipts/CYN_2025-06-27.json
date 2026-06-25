@@ -1,0 +1,69 @@
+{
+ "ticker": "CYN",
+ "as_of": "2025-06-27",
+ "os_source": "10-K 2025-03-06 acc:0001213900-25-021260",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real_0.001M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BiggerCapital_0.73M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.75",
+ "os_M": "1.75",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1874097,
+ "depends_on_filings": [
+  {
+   "accession": "0001174947-25-000969",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001213900-25-052228",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-041094",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-041070",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-035576",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001213900-25-020738",
+   "form": "8-K",
+   "filedAt": "2025-03-05"
+  },
+  {
+   "accession": "0001213900-25-018855",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001213900-25-001186",
+   "form": "DEF 14A",
+   "filedAt": "2025-01-06"
+  },
+  {
+   "accession": "0001213900-21-046495",
+   "form": "S-1",
+   "filedAt": "2021-09-03"
+  }
+ ]
+}

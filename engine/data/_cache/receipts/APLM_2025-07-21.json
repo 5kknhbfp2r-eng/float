@@ -1,0 +1,70 @@
+{
+ "ticker": "APLM",
+ "as_of": "2025-07-21",
+ "os_source": "20-F 2025-04-03 acc:0000950170-25-050531 Class A 1,103,348 (carried from 2025-07-09)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.094
+  },
+  {
+   "name": "D&O group ex-options;0.101",
+   "shares_M": null
+  },
+  {
+   "name": "Maxpro sponsor",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.133
+  },
+  {
+   "name": "Hung-Wen Chen 13G;0.074",
+   "shares_M": null
+  },
+  {
+   "name": "Tiger Brokers",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.91",
+ "os_M": "1.10",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1944885,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-050531",
+   "form": "20-F",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0000950170-25-050508",
+   "form": "6-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001193125-25-067867",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001193125-24-282519",
+   "form": "6-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001193125-24-274340",
+   "form": "6-K",
+   "filedAt": "2024-12-10"
+  },
+  {
+   "accession": "0001193125-23-053978",
+   "form": "424B3",
+   "filedAt": "2023-02-28"
+  }
+ ]
+}

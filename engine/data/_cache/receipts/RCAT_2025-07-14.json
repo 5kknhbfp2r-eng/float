@@ -1,0 +1,67 @@
+{
+ "ticker": "RCAT",
+ "as_of": "2025-07-14",
+ "os_source": "10-Q filing 2025-05-14 acc:0001641172-25-011957 os=90.92M; 8-K offering 2025-06-18 acc:0001641172-25-015576 +6.45M",
+ "excluded": [
+  {
+   "name": "Excluded=13.56M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options (Thompson 12.65M real, others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0M",
+   "shares_M": null
+  },
+  {
+   "name": "No >5% non-D&O holder",
+   "shares_M": null
+  }
+ ],
+ "float_M": "83.81",
+ "os_M": "97.36",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 748268,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015694",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-015576",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001641172-25-011957",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-010350",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-006475",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001641172-25-005508",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001554795-17-000052",
+   "form": "S-1",
+   "filedAt": "2017-02-09"
+  }
+ ]
+}

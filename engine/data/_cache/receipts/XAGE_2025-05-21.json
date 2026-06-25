@@ -1,0 +1,74 @@
+{
+ "ticker": "XAGE",
+ "as_of": "2025-05-21",
+ "os_source": "OS_SOURCE: 10-Q cover filed 2025-05-15 acc=0000950170-25-072858 : 1,003,995 common as of 2025-05-12 (post 1-for-30 reverse split)",
+ "excluded": [
+  {
+   "name": "DnO_group_exopt_postsplit",
+   "shares_M": 0.162
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "0.84",
+ "os_M": "1.00",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1842939,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-075865",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0000950170-25-074635",
+   "form": "424B3",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0000950170-25-072858",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072931",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-068593",
+   "form": "424B3",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-068578",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-25-053526",
+   "form": "424B3",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0000950170-25-053506",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0000950170-25-017159",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0000950170-25-017157",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0001213900-21-013445",
+   "form": "S-1",
+   "filedAt": "2021-03-04"
+  }
+ ]
+}

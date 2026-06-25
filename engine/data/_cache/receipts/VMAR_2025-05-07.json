@@ -1,0 +1,21 @@
+{
+ "ticker": "VMAR",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: 6-K mgmt circular ex99-2 filed 2025-04-04 acc=0001104659-25-032306 record date 2025-03-27 : 10,400,665 common shares",
+ "excluded": [
+  {
+   "name": "DnO_group",
+   "shares_M": 0.062
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "KPAC_Holdings",
+   "shares_M": 0.18
+  }
+ ],
+ "float_M": "10.34",
+ "os_M": "10.40",
+ "under_20M": "true",
+ "confidence": "med"
+}

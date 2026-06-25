@@ -1,0 +1,77 @@
+{
+ "ticker": "OPAD",
+ "as_of": "2025-08-28",
+ "os_source": "S-1 2025-08-21 acc:0001193125-25-185288 + DEF14A 2025-06-27 acc:0001193125-25-151236",
+ "excluded": [
+  {
+   "name": "LLCapital+Sella=9.82M",
+   "shares_M": null
+  },
+  {
+   "name": "FirstAmerican=5.12M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_other=1.20M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kemnay_1.38M_13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "14.44",
+ "os_M": "30.58",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1825024,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-191263",
+   "form": "8-K",
+   "filedAt": "2025-08-28"
+  },
+  {
+   "accession": "0001193125-25-185288",
+   "form": "S-1",
+   "filedAt": "2025-08-21"
+  },
+  {
+   "accession": "0000950170-25-102132",
+   "form": "10-Q",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001193125-25-172625",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001193125-25-165608",
+   "form": "8-K",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001193125-25-163477",
+   "form": "8-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001193125-25-156274",
+   "form": "8-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001193125-25-151236",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001193125-20-254527",
+   "form": "S-1",
+   "filedAt": "2020-09-25"
+  }
+ ]
+}

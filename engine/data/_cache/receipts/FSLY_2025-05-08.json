@@ -1,0 +1,67 @@
+{
+ "ticker": "FSLY",
+ "as_of": "2025-05-08",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-07 acc=0001517413-25-000111 cover : 144.8M Class A (DEF14A 144,686,238)",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 9.642
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard",
+   "shares_M": 13.433
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 11.333
+  },
+  {
+   "name": "Legal & General",
+   "shares_M": 7.826
+  }
+ ],
+ "float_M": "135.16",
+ "os_M": "144.8",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1517413,
+ "depends_on_filings": [
+  {
+   "accession": "0001517413-25-000111",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001517413-25-000109",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001140361-25-015174",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001517413-25-000027",
+   "form": "8-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001517413-24-000244",
+   "form": "8-K",
+   "filedAt": "2024-12-05"
+  },
+  {
+   "accession": "0001517413-24-000214",
+   "form": "8-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001193125-19-111675",
+   "form": "S-1",
+   "filedAt": "2019-04-19"
+  }
+ ]
+}

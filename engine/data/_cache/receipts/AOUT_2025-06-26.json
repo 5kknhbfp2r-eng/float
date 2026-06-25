@@ -1,0 +1,59 @@
+{
+ "ticker": "AOUT",
+ "as_of": "2025-06-26",
+ "os_source": "10-K 2025-06-26 acc:0001808997-25-000014, DEF14A 2024-10-11",
+ "excluded": [
+  {
+   "name": "Excluded=0.557M D&O pure shares",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.12M Hallador(13G),0.85M Dimensional(13G),0.84M Polar(13G),0.73M Alexander(13G),0.70M Vanguard(13G),0.66M Engine(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "12.20",
+ "os_M": "12.76",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1808997,
+ "depends_on_filings": [
+  {
+   "accession": "0001808997-25-000014",
+   "form": "10-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001808997-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0000950170-25-034596",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0000950170-24-133838",
+   "form": "8-K",
+   "filedAt": "2024-12-06"
+  },
+  {
+   "accession": "0000950170-24-133670",
+   "form": "8-K",
+   "filedAt": "2024-12-05"
+  },
+  {
+   "accession": "0000950170-24-132289",
+   "form": "8-K",
+   "filedAt": "2024-12-02"
+  },
+  {
+   "accession": "0000950170-24-114380",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-11"
+  }
+ ]
+}

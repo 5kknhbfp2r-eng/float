@@ -1,0 +1,73 @@
+{
+ "ticker": "STSS",
+ "as_of": "2025-06-04",
+ "os_source": "10-Q 2025-05-15 cover acc:0001641172-25-010894 (O/S 1,019,078 as of 5/15) + DEF14A acc table",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.006
+  },
+  {
+   "name": "D&O group ex-options (post-split, ~5972 sh, <1%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=13G holder passive; float ~1.01M = nearly all O/S",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.01",
+ "os_M": "1.02",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1737995,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013536",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001641172-25-012002",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-010894",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-008966",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001641172-25-008754",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-007892",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001641172-25-006796",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001493152-25-005899",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001493152-22-007279",
+   "form": "S-1",
+   "filedAt": "2022-03-18"
+  }
+ ]
+}

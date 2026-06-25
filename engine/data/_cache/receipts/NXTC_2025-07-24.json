@@ -1,0 +1,81 @@
+{
+ "ticker": "NXTC",
+ "as_of": "2025-07-24",
+ "os_source": "S-3 2025-07-18 acc:0001104659-25-069012; 8-K 2025-07-14 acc:0001558370-25-009214 (1:12 split); 8-K 2025-06-16 acc:0001558370-25-008633 (PIPE 4,063,633); DEF14A 2025-04-25 acc:0001104659-25-038880",
+ "excluded": [
+  {
+   "name": "Sofinnova_post-split=0.223M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_real_post-split=0.039M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Affinity_0.192M",
+   "shares_M": null
+  },
+  {
+   "name": "Pfizer_0.164M",
+   "shares_M": null
+  },
+  {
+   "name": "Simcere_0.339M (all passive, no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.41",
+ "os_M": "2.68",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1661059,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-069012",
+   "form": "S-3",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001558370-25-009214",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001558370-25-009163",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001558370-25-008789",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001558370-25-008633",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001558370-25-006111",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001558370-25-006106",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001104659-25-038880",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001047469-19-002203",
+   "form": "S-1",
+   "filedAt": "2019-04-12"
+  }
+ ]
+}

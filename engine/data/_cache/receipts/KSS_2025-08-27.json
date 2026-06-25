@@ -1,0 +1,69 @@
+{
+ "ticker": "KSS",
+ "as_of": "2025-08-27",
+ "os_source": "10-Q+2025-06-06+acc:0000950170-25-083079",
+ "excluded": [
+  {
+   "name": "D&O-group=1.13M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock=18.14M-13G-passive,Vanguard=12.59M-13G-passive,DimFund=5.80M-13G-passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "110.91",
+ "os_M": "112.04",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 885639,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-189105",
+   "form": "8-K",
+   "filedAt": "2025-08-27"
+  },
+  {
+   "accession": "0000950170-25-107443",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0000950170-25-083079",
+   "form": "10-Q",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001193125-25-132274",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001193125-25-129976",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001193125-25-121073",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-25-119951",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001558370-25-004025",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0000950131-96-005001",
+   "form": "424B4",
+   "filedAt": "1996-10-10"
+  }
+ ]
+}

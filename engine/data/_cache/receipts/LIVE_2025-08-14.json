@@ -1,0 +1,67 @@
+{
+ "ticker": "LIVE",
+ "as_of": "2025-08-14",
+ "os_source": "DEF14A 2025-04-xx; 10-Q 2025-08-08 O/S 3,071,656",
+ "excluded": [
+  {
+   "name": "Excluded=1.64M",
+   "shares_M": null
+  },
+  {
+   "name": "Jon Isaac D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.43M",
+   "shares_M": null
+  },
+  {
+   "name": "Kingston 582817 passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.43",
+ "os_M": "3.07",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1045742,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-039322",
+   "form": "10-Q",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001628280-25-038699",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001628280-25-034232",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001628280-25-033285",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001628280-25-027021",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001628280-25-024487",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000950170-23-022750",
+   "form": "424B3",
+   "filedAt": "2023-05-17"
+  }
+ ]
+}

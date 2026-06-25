@@ -1,0 +1,77 @@
+{
+ "ticker": "SONN",
+ "as_of": "2025-07-07",
+ "os_source": "10-Q 2025-05-13 acc:0001641172-25-009857 (3,165,810 common o/s May 12 2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.007
+  },
+  {
+   "name": "D&O group ex-warrants scaled /12 post-split",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.375pre-split",
+   "shares_M": null
+  },
+  {
+   "name": "Armistice passive HF",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.15",
+ "os_M": "3.17",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1106838,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-017478",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001641172-25-013264",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001641172-25-009857",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-002696",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001641172-25-002119",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001641172-25-000691",
+   "form": "8-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001493152-25-010876",
+   "form": "8-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001493152-24-033167",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-19"
+  },
+  {
+   "accession": "0001144204-11-001019",
+   "form": "S-1",
+   "filedAt": "2011-01-06"
+  }
+ ]
+}

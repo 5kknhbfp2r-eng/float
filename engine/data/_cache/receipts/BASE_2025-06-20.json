@@ -1,0 +1,83 @@
+{
+ "ticker": "BASE",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-06-04; DEF14A 2025-04-16 acc:0001628280-25-021291",
+ "excluded": [
+  {
+   "name": "Excluded=8.38M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group (incl North Bridge VC+board and GPI PE+board)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=4.96M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 13G; 3.57M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 13G; 4.21M",
+   "shares_M": null
+  },
+  {
+   "name": "Haveli 13D no board; 3.03M",
+   "shares_M": null
+  },
+  {
+   "name": "Accel VC no board; 2.74M",
+   "shares_M": null
+  },
+  {
+   "name": "Hood River",
+   "shares_M": null
+  }
+ ],
+ "float_M": "45.7",
+ "os_M": "54.08",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1845022,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-143735",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001845022-25-000064",
+   "form": "10-Q",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001845022-25-000060",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001845022-25-000036",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001845022-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0001845022-24-000110",
+   "form": "8-K",
+   "filedAt": "2024-12-03"
+  },
+  {
+   "accession": "0001193125-21-194292",
+   "form": "S-1",
+   "filedAt": "2021-06-21"
+  }
+ ]
+}

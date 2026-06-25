@@ -1,0 +1,72 @@
+{
+ "ticker": "ECOR",
+ "as_of": "2025-08-13",
+ "os_source": "10-Q 2025-08-06 OS=7,583,445; DEF14A 2025-07-17",
+ "excluded": [
+  {
+   "name": "Excluded=1.10M D&O group beneficial",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=AWM 0.77M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Theofilos 0.76M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Zhang Tianyi 0.73M 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.48",
+ "os_M": "7.58",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1560258,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-022432",
+   "form": "10-Q",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001641172-25-022427",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001641172-25-020216",
+   "form": "S-3/A",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001641172-25-020045",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001641172-25-009039",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001641172-25-008177",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001193805-25-000419",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001193125-18-169701",
+   "form": "S-1",
+   "filedAt": "2018-05-21"
+  }
+ ]
+}

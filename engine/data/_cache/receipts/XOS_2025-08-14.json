@@ -1,0 +1,88 @@
+{
+ "ticker": "XOS",
+ "as_of": "2025-08-14",
+ "os_source": "10-Q 2025-08-13 acc:0001819493-25-000128 cover: 8,690,583 common O/S as of Aug 7 2025",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.41
+  },
+  {
+   "name": "D&O group ex-RSU/warrant (Semler 232938,Sordoni 902426,Mattson 164583,Rapp 48987,others)",
+   "shares_M": null
+  },
+  {
+   "name": "1.79",
+   "shares_M": null
+  },
+  {
+   "name": "Emerald Green Trust 1,791,530 Semler-family control 13D",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.64
+  },
+  {
+   "name": "Aljomaih direct 643375 strategic<20%",
+   "shares_M": null
+  },
+  {
+   "name": "0.66",
+   "shares_M": null
+  },
+  {
+   "name": "YA II PN 659404 passive 13G/SEPA",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.49",
+ "os_M": "8.69",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1819493,
+ "depends_on_filings": [
+  {
+   "accession": "0001819493-25-000131",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001213900-25-076702",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001819493-25-000128",
+   "form": "10-Q",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001819493-25-000127",
+   "form": "8-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001819493-25-000093",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001819493-25-000078",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001819493-25-000062",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001213900-20-027399",
+   "form": "S-1",
+   "filedAt": "2020-09-18"
+  }
+ ]
+}

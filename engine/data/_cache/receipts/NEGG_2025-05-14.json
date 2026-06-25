@@ -1,0 +1,57 @@
+{
+ "ticker": "NEGG",
+ "as_of": "2025-05-14",
+ "os_source": "OS_SOURCE: 20-F 2025-04-28 acc cover : 19,478,394 Common Shares outstanding (post 20:1 combination eff 2025-04-07)",
+ "excluded": [
+  {
+   "name": "Zhitao He/Digital Grid ex-options",
+   "shares_M": 11.168
+  },
+  {
+   "name": "Fred Chang/Tekhill ex-options",
+   "shares_M": 5.971
+  },
+  {
+   "name": "other D&O",
+   "shares_M": 0.752
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "1.59",
+ "os_M": "19.48",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1474627,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-036055",
+   "form": "20-F",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001213900-25-035774",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001213900-25-034343",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001213900-25-029400",
+   "form": "6-K",
+   "filedAt": "2025-04-07"
+  },
+  {
+   "accession": "0001013762-25-000315",
+   "form": "6-K",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001193125-09-231825",
+   "form": "S-1",
+   "filedAt": "2009-11-12"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "CRMD",
+ "as_of": "2025-06-23",
+ "os_source": "10-Q 2025-05-06 acc:0001214659-25-xxx",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_3.78M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock_4.57M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_2.83M",
+   "shares_M": null
+  },
+  {
+   "name": "Abdalkader_3.54M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "63.93",
+ "os_M": "67.71",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1410098,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-056415",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001213900-25-039908",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-039903",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-036108",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001213900-25-034219",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001213900-25-029629",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001144204-09-062141",
+   "form": "S-1",
+   "filedAt": "2009-11-25"
+  }
+ ]
+}

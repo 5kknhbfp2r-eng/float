@@ -1,0 +1,67 @@
+{
+ "ticker": "BIOA",
+ "as_of": "2025-08-29",
+ "os_source": "10-Q cover 2025-08-06 = 35,850,037 common O/S; DEF 14A 2025-04-17 acc:0000950170-25-055371",
+ "excluded": [
+  {
+   "name": "Excluded=8.030M D&O group (incl Sofinnova/Healy, Longitude/Enright)",
+   "shares_M": null
+  },
+  {
+   "name": "3.233M a16z (dir Pande)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.630M Cormorant (passive)",
+   "shares_M": null
+  },
+  {
+   "name": "1.799M Khosla (passive, no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "24.59",
+ "os_M": "35.85",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1709941,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-104176",
+   "form": "10-Q",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0000950170-25-104151",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0000950170-25-083746",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0000950170-25-081409",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0000950170-25-064547",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-055371",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001193125-24-212046",
+   "form": "S-1",
+   "filedAt": "2024-09-03"
+  }
+ ]
+}

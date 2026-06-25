@@ -1,0 +1,58 @@
+{
+ "ticker": "ALLT",
+ "as_of": "2025-05-12",
+ "os_source": "OS_SOURCE: 20-F 2025-03-27 0001178913-25-001069 : 39,692,814 ordinary (Mar 3 2025)",
+ "excluded": [
+  {
+   "name": "D&O_group_incl_LynrockPaul",
+   "shares_M": 9.4
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "QVT",
+   "shares_M": 3.56
+  },
+  {
+   "name": "Kanen",
+   "shares_M": 4.25
+  }
+ ],
+ "float_M": "30.30",
+ "os_M": "39.69",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1365767,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-001686",
+   "form": "6-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001178913-25-001069",
+   "form": "20-F",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001178913-25-000597",
+   "form": "6-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0001178913-24-003964",
+   "form": "6-K",
+   "filedAt": "2024-12-11"
+  },
+  {
+   "accession": "0001178913-24-003756",
+   "form": "6-K",
+   "filedAt": "2024-11-19"
+  },
+  {
+   "accession": "0000950123-06-013225",
+   "form": "F-1",
+   "filedAt": "2006-10-31"
+  }
+ ]
+}

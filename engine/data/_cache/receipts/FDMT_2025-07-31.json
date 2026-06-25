@@ -1,0 +1,79 @@
+{
+ "ticker": "FDMT",
+ "as_of": "2025-07-31",
+ "os_source": "10-Q 2025-05-08 45,793,942 shares issued and outstanding",
+ "excluded": [
+  {
+   "name": "D&O_group_ex_options",
+   "shares_M": 1.829197
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "RA_Capital",
+   "shares_M": 4.564867
+  },
+  {
+   "name": "BVF",
+   "shares_M": 2.670642
+  },
+  {
+   "name": "GoldmanSachs",
+   "shares_M": 4.423435
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 3.615316
+  },
+  {
+   "name": "Venrock",
+   "shares_M": 2.952371
+  },
+  {
+   "name": "Vanguard",
+   "shares_M": 2.767717
+  }
+ ],
+ "float_M": "43.96",
+ "os_M": "45.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1650648,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-092964",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0000950170-25-088482",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0000950170-25-067040",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-067013",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-016307",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-030020",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-19-258924",
+   "form": "S-1",
+   "filedAt": "2019-09-30"
+  }
+ ]
+}

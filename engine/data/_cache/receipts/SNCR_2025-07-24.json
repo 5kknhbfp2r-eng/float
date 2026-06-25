@@ -1,0 +1,82 @@
+{
+ "ticker": "SNCR",
+ "as_of": "2025-07-24",
+ "os_source": "10-Q 2025-05-06 acc:0001131554-25-000055 (11,497,976 common o/s as of May 5 2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.26
+  },
+  {
+   "name": "D&O group ex-options 19.9% incl Rendino/180 Degree 0.889 control",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.59
+  },
+  {
+   "name": "Allspring passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "9.24",
+ "os_M": "11.50",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1131554,
+ "depends_on_filings": [
+  {
+   "accession": "0001131554-25-000073",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001131554-25-000069",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001131554-25-000055",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001131554-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001140361-25-016310",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001131554-25-000043",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001131554-25-000034",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001131554-25-000028",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001140361-24-022050",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-25"
+  },
+  {
+   "accession": "0000950123-06-002345",
+   "form": "S-1",
+   "filedAt": "2006-02-28"
+  }
+ ]
+}

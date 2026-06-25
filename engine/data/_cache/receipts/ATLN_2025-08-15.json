@@ -1,0 +1,73 @@
+{
+ "ticker": "ATLN",
+ "as_of": "2025-08-15",
+ "os_source": "DEF14A+2025-05-13; Q2 10-Q+2025-08-13+acc:0001605888-25-000031; 13D+2025-05-15+acc:0000912282-25-000542",
+ "excluded": [
+  {
+   "name": "D&O_group=7.96M",
+   "shares_M": null
+  },
+  {
+   "name": "SPP_Credit_13D=21.98M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "None_notable",
+   "shares_M": null
+  }
+ ],
+ "float_M": "24.62",
+ "os_M": "54.56",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1605888,
+ "depends_on_filings": [
+  {
+   "accession": "0001605888-25-000031",
+   "form": "10-Q",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001605888-25-000027",
+   "form": "8-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001213900-25-062079",
+   "form": "424B3",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001213900-25-056432",
+   "form": "S-3",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001605888-25-000017",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001605888-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001213900-25-018768",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001213900-25-003018",
+   "form": "8-K",
+   "filedAt": "2025-01-13"
+  },
+  {
+   "accession": "0001144204-19-020603",
+   "form": "S-1",
+   "filedAt": "2019-04-22"
+  }
+ ]
+}

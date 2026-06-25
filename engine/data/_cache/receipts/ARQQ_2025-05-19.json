@@ -1,0 +1,21 @@
+{
+ "ticker": "ARQQ",
+ "as_of": "2025-05-19",
+ "os_source": "OS_SOURCE: 13D/A 2025-02-10 (per Issuer prospectus, Jan 27 2025) : 12,746,713 ordinary",
+ "excluded": [
+  {
+   "name": "D&O_group_incl_Manfredi_Heritage",
+   "shares_M": 6.22
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Ropemaker",
+   "shares_M": 1.4
+  }
+ ],
+ "float_M": "6.53",
+ "os_M": "12.75",
+ "under_20M": "true",
+ "confidence": "med"
+}

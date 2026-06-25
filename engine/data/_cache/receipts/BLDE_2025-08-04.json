@@ -1,0 +1,67 @@
+{
+ "ticker": "BLDE",
+ "as_of": "2025-08-04",
+ "os_source": "DEF14A+2025-03-24; Q1 10-Q+2025-05-12+acc:0001779128-25-000042",
+ "excluded": [
+  {
+   "name": "D&O_group=12.79M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Steele_ExpCo_13G=12.42M",
+   "shares_M": null
+  },
+  {
+   "name": "ARK13G=7.96M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock13G=4.16M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "68.23",
+ "os_M": "81.02",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1779128,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-073338",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001779128-25-000042",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001779128-25-000039",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001779128-25-000037",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-010039",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001779128-25-000007",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0001047469-19-004833",
+   "form": "S-1",
+   "filedAt": "2019-08-23"
+  }
+ ]
+}

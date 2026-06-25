@@ -1,0 +1,71 @@
+{
+ "ticker": "DTIL",
+ "as_of": "2025-06-25",
+ "os_source": "10-Q 2025-05-15 acc:0001357874-25-xxx + DEF14A 2025-04-15",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_0.48M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=ReadoutCapital_0.93M",
+   "shares_M": null
+  },
+  {
+   "name": "AquiloCapital_0.79M",
+   "shares_M": null
+  },
+  {
+   "name": "Lynx1Capital_0.77M",
+   "shares_M": null
+  },
+  {
+   "name": "TangCapital_0.62M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.07",
+ "os_M": "10.55",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1357874,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-080564",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0000950170-25-071991",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072016",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-071551",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001140361-25-013867",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0000950170-25-044764",
+   "form": "8-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001193125-19-061192",
+   "form": "S-1",
+   "filedAt": "2019-03-01"
+  }
+ ]
+}

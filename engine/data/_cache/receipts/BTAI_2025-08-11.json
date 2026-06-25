@@ -1,0 +1,77 @@
+{
+ "ticker": "BTAI",
+ "as_of": "2025-08-11",
+ "os_source": "8-K 2025-08-11 acc:0001104659-25-076214 + DEF14A 2024-12-30 acc:0001720893-24-000000",
+ "excluded": [
+  {
+   "name": "Excluded=BioXcel_LLC_480K",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_other_5K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Armistice_warrants_only",
+   "shares_M": null
+  },
+  {
+   "name": "Oaktree_warrants_only",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.22",
+ "os_M": "13.71",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1720893,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-076214",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001104659-25-075915",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001104659-25-074514",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001104659-25-072900",
+   "form": "8-K",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001104659-25-069149",
+   "form": "8-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0001104659-25-067951",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001558370-25-007269",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-24-132508",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-30"
+  },
+  {
+   "accession": "0001047469-18-000756",
+   "form": "S-1",
+   "filedAt": "2018-02-12"
+  }
+ ]
+}

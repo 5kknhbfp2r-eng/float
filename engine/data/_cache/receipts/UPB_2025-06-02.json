@@ -1,0 +1,87 @@
+{
+ "ticker": "UPB",
+ "as_of": "2025-06-02",
+ "os_source": "10-Q 2025-05-06 acc:0000950170-25-063957 (53,793,703 common as of 5/2/2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 7.53
+  },
+  {
+   "name": "D&O group incl dir Chimovits/OrbiMed 10.6% board-VC;5.49",
+   "shares_M": null
+  },
+  {
+   "name": "AI Upstream LLC Access Industries dir Ratcliffe board-VC",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 7.18
+  },
+  {
+   "name": "FMR 13.4% passive 13G;3.39",
+   "shares_M": null
+  },
+  {
+   "name": "Altshuler;3.29",
+   "shares_M": null
+  },
+  {
+   "name": "Decheng;2.80",
+   "shares_M": null
+  },
+  {
+   "name": "TCG;2.72",
+   "shares_M": null
+  },
+  {
+   "name": "HBM",
+   "shares_M": null
+  }
+ ],
+ "float_M": "40.77",
+ "os_M": "53.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 2022626,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-063957",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-063954",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-055372",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000950170-25-037619",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0000950170-24-122784",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001193125-24-237580",
+   "form": "8-K",
+   "filedAt": "2024-10-15"
+  },
+  {
+   "accession": "0001193125-24-221372",
+   "form": "S-1",
+   "filedAt": "2024-09-18"
+  }
+ ]
+}

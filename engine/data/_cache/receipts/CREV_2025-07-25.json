@@ -1,0 +1,76 @@
+{
+ "ticker": "CREV",
+ "as_of": "2025-07-25",
+ "os_source": "20-F 2025-05-30 acc:0001140361-25-020877 O/S 1,885,184 (carry from 2025-05-15)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.0566
+  },
+  {
+   "name": "D&O group 3.0%;0.134",
+   "shares_M": null
+  },
+  {
+   "name": "Daniel Hennessy SPAC sponsor 7.1%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.695
+  },
+  {
+   "name": "public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.69",
+ "os_M": "1.89",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1960208,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-027341",
+   "form": "6-K",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001140361-25-026035",
+   "form": "6-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001140361-25-024668",
+   "form": "6-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001140361-25-022484",
+   "form": "6-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001140361-25-021782",
+   "form": "6-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001140361-25-021293",
+   "form": "6-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001140361-25-020877",
+   "form": "20-F",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001140361-23-043399",
+   "form": "424B3",
+   "filedAt": "2023-09-08"
+  }
+ ]
+}

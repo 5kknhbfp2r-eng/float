@@ -1,0 +1,77 @@
+{
+ "ticker": "TMC",
+ "as_of": "2025-06-18",
+ "os_source": "10-Q 2025-05-14 acc:0001410578-25-001269 (362,186,002 as of 5/13) + 8-K 6/16 acc:0001104659-25-059701 (+19,623,376) + 8-K 6/17 acc:0001104659-25-060347 (+19,900,000) = 401.71M",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 89.36
+  },
+  {
+   "name": "D&O group actual-common ex-options incl dir Karkar/ERAS Capital (DEF14A 2025-04-18)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 54.53
+  },
+  {
+   "name": "Allseas Group 15.1% strategic <20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "312.35",
+ "os_M": "401.71",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1798562,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-060347",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001104659-25-060346",
+   "form": "424B3",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001104659-25-059701",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001104659-25-056465",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001104659-25-053875",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001410578-25-001269",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-048499",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-036264",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001213900-20-006690",
+   "form": "S-1",
+   "filedAt": "2020-03-17"
+  }
+ ]
+}

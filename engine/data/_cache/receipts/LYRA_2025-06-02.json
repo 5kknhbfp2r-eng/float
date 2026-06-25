@@ -1,0 +1,63 @@
+{
+ "ticker": "LYRA",
+ "as_of": "2025-06-02",
+ "os_source": "DEF 14A 2025-04-04 + 10-Q 2025-05-06",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_2.195M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Perceptive_12.76M",
+   "shares_M": null
+  },
+  {
+   "name": "NorthBridge_5.89M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "65.52",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1327273,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-132774",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001193125-25-122485",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0000950170-25-064495",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-064475",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193125-25-072918",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0000950170-25-038742",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0001193125-20-065213",
+   "form": "S-1",
+   "filedAt": "2020-03-06"
+  }
+ ]
+}

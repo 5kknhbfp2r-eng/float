@@ -1,0 +1,91 @@
+{
+ "ticker": "BBGI",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-08 cover (acc per dossier): Class A 957,876 outstanding (listed); Class B 833,137 Beasley super-voting (not listed)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.264
+  },
+  {
+   "name": "D&O group Class A incl Beasley entities",
+   "shares_M": null
+  },
+  {
+   "name": "0.009",
+   "shares_M": null
+  },
+  {
+   "name": "Bradley+Robert Beasley Class A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.08
+  },
+  {
+   "name": "GAMCO/Gabelli passive 13D/G",
+   "shares_M": null
+  },
+  {
+   "name": "0.048",
+   "shares_M": null
+  },
+  {
+   "name": "Lappert 5%",
+   "shares_M": null
+  },
+  {
+   "name": "0.68",
+   "shares_M": null
+  },
+  {
+   "name": "public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.68",
+ "os_M": "0.96",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1099160,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-066442",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-065608",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-060086",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-042635",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193125-24-257355",
+   "form": "8-K",
+   "filedAt": "2024-11-13"
+  },
+  {
+   "accession": "0000950170-24-121469",
+   "form": "8-K",
+   "filedAt": "2024-11-05"
+  },
+  {
+   "accession": "0000950133-99-003769",
+   "form": "S-1",
+   "filedAt": "1999-11-24"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "ACHR",
+ "as_of": "2025-05-13",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-12 (acc latest periodic) : 548,881,477 Class A",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 42.14
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Stellantis",
+   "shares_M": 73.24
+  }
+ ],
+ "float_M": "506.74",
+ "os_M": "548.88",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1824502,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-024755",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-024657",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001140361-25-016681",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001628280-25-016541",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001628280-25-008625",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001104659-25-011476",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001213900-20-029955",
+   "form": "S-1",
+   "filedAt": "2020-10-02"
+  }
+ ]
+}

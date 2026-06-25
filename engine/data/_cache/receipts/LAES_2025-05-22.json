@@ -1,0 +1,59 @@
+{
+ "ticker": "LAES",
+ "as_of": "2025-05-22",
+ "os_source": "OS_SOURCE: 424B5 2025-05-06 acc 0001193805-25-000612 : 104,508,901 ordinary as of May 5 + 10,000,000 offering closed = 114,508,901 ordinary",
+ "excluded": [
+  {
+   "name": "WISeKey",
+   "shares_M": 6.0012
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "108.5",
+ "os_M": "114.51",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1951222,
+ "depends_on_filings": [
+  {
+   "accession": "0001193805-25-000711",
+   "form": "6-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001193805-25-000695",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001193805-25-000692",
+   "form": "6-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001193805-25-000654",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001193805-25-000610",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193805-25-000591",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001193805-25-000334",
+   "form": "20-F",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001193805-23-000183",
+   "form": "F-1",
+   "filedAt": "2023-02-10"
+  }
+ ]
+}

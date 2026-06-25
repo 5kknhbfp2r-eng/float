@@ -1,0 +1,85 @@
+{
+ "ticker": "BGLC",
+ "as_of": "2025-07-01",
+ "os_source": "10-Q 2025-05-15+DEF14A 2025-02-27+8-K 2025-04-03 rev split",
+ "excluded": [
+  {
+   "name": "Lai 125K",
+   "shares_M": null
+  },
+  {
+   "name": "Wong 103K",
+   "shares_M": null
+  },
+  {
+   "name": "Liew 167K",
+   "shares_M": null
+  },
+  {
+   "name": "D&O 1.3K=396K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Chi Yuen Leong 122K",
+   "shares_M": null
+  },
+  {
+   "name": "Kim Hai Wong 104K",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.40",
+ "os_M": "1.80",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1737523,
+ "depends_on_filings": [
+  {
+   "accession": "0001477932-25-004754",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001477932-25-003821",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001477932-25-003114",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001477932-25-002574",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001477932-25-002406",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001477932-25-001958",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001477932-25-001531",
+   "form": "8-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0001477932-25-001335",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001551163-19-000018",
+   "form": "S-1",
+   "filedAt": "2019-01-29"
+  }
+ ]
+}

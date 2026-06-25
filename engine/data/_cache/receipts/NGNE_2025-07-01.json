@@ -1,0 +1,91 @@
+{
+ "ticker": "NGNE",
+ "as_of": "2025-07-01",
+ "os_source": "10-Q 2025-05-09 acc:0001404644-25-000041",
+ "excluded": [
+  {
+   "name": "D&O_real=1.301M",
+   "shares_M": null
+  },
+  {
+   "name": "McMinn=1.250M",
+   "shares_M": null
+  },
+  {
+   "name": "Mikail=0.051M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "passive_13G=EcoR1_1.44M",
+   "shares_M": null
+  },
+  {
+   "name": "Redmile_1.44M",
+   "shares_M": null
+  },
+  {
+   "name": "RTW_1.43M",
+   "shares_M": null
+  },
+  {
+   "name": "Samsara_1.73M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_1.01M",
+   "shares_M": null
+  },
+  {
+   "name": "Casdin_1.30M",
+   "shares_M": null
+  },
+  {
+   "name": "Commodore_0.80M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.55",
+ "os_M": "14.85",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1404644,
+ "depends_on_filings": [
+  {
+   "accession": "0001404644-25-000070",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001404644-25-000053",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001404644-25-000049",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001404644-25-000041",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001404644-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001404644-25-000034",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-14-024524",
+   "form": "S-1",
+   "filedAt": "2014-01-28"
+  }
+ ]
+}

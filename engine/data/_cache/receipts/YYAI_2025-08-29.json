@@ -1,0 +1,73 @@
+{
+ "ticker": "YYAI",
+ "as_of": "2025-08-29",
+ "os_source": "10-K 2025-08-13 acc:0001641172-25-023612 + DEF 14C 2025-07-29 acc:0001641172-25-021308: 14,563,019 O/S as of Jul 3 2025",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 8.13
+  },
+  {
+   "name": "Hongyu Zhou 8,127,572 YYEM control 55.8%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none (no other 5% holders; rest of D&O hold 0)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.44",
+ "os_M": "14.56",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1674440,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-025896",
+   "form": "8-K",
+   "filedAt": "2025-08-29"
+  },
+  {
+   "accession": "0001641172-25-025343",
+   "form": "8-K",
+   "filedAt": "2025-08-25"
+  },
+  {
+   "accession": "0001641172-25-025086",
+   "form": "8-K",
+   "filedAt": "2025-08-21"
+  },
+  {
+   "accession": "0001641172-25-023612",
+   "form": "10-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001641172-25-019713",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001641172-25-018693",
+   "form": "424B3",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001641172-25-017616",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001493152-24-017592",
+   "form": "DEF 14A",
+   "filedAt": "2024-05-02"
+  },
+  {
+   "accession": "0001674440-16-000002",
+   "form": "S-1",
+   "filedAt": "2016-11-07"
+  }
+ ]
+}

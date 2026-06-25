@@ -1,0 +1,73 @@
+{
+ "ticker": "AVTX",
+ "as_of": "2025-07-31",
+ "os_source": "carried from 2025-07-17; common O/S 10,827,620; no intervening filing 7/17-7/31",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.34
+  },
+  {
+   "name": "D&O group directly-owned ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=9.99%-capped passive funds (BVF/Ikarian/RA Capital/OrbiMed/Deep Track) + Affinity + Crutcher",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.49",
+ "os_M": "10.83",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1534120,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-032232",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001628280-25-032011",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001628280-25-031818",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001628280-25-029639",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001628280-25-029225",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001628280-25-024436",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-024435",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-021311",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001047469-15-005421",
+   "form": "S-1",
+   "filedAt": "2015-06-12"
+  }
+ ]
+}

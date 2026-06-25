@@ -1,0 +1,75 @@
+{
+ "ticker": "PENG",
+ "as_of": "2025-07-09",
+ "os_source": "10-Q 2025-07-08 acc:0000950170-25-065781",
+ "excluded": [
+  {
+   "name": "D&O group(13)=1.382M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock 13G=8.28M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 13G=6.84M",
+   "shares_M": null
+  },
+  {
+   "name": "FMR 13G=6.45M",
+   "shares_M": null
+  },
+  {
+   "name": "StateStreet 13G=3.39M",
+   "shares_M": null
+  },
+  {
+   "name": "Crosslink 13G=3.13M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "51.02",
+ "os_M": "52.4",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1616533,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-034541",
+   "form": "10-Q",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001628280-25-034510",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001193125-25-147869",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001193125-25-142059",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001193125-25-110748",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001628280-25-016180",
+   "form": "8-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001193125-17-148091",
+   "form": "S-1",
+   "filedAt": "2017-04-28"
+  }
+ ]
+}

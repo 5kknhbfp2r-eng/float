@@ -1,0 +1,74 @@
+{
+ "ticker": "BAFN",
+ "as_of": "2025-08-25",
+ "os_source": "10-Q cover 2025-08-11 acc:0001649739-25-000238 = 4,134,127 common O/S",
+ "excluded": [
+  {
+   "name": "Excluded=0.610M D&O group (610,488 shares ex-options, incl dir Mark Berset 282,483)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=no passive 5%+ institutions",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.52",
+ "os_M": "4.13",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1649739,
+ "depends_on_filings": [
+  {
+   "accession": "0001649739-25-000238",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001649739-25-000232",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001649739-25-000228",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001649739-25-000225",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001649739-25-000213",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001649739-25-000134",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001649739-25-000131",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001649739-25-000110",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001649739-24-000125",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-05"
+  },
+  {
+   "accession": "0001193125-21-157662",
+   "form": "S-1",
+   "filedAt": "2021-05-11"
+  }
+ ]
+}

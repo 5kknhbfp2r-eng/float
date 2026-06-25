@@ -1,0 +1,77 @@
+{
+ "ticker": "ACFN",
+ "as_of": "2025-07-28",
+ "os_source": "10-Q 2025-05-08 acc:0001641172-25-009174 O/S 2,491,130; DEF14A 2024-08-02 acc:table",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.836
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.142
+  },
+  {
+   "name": "Joel Sklar 13G passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.66",
+ "os_M": "2.49",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 880984,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-020654",
+   "form": "8-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001641172-25-009174",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-009172",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-003400",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001641172-25-000858",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001493152-25-009326",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001493152-25-001317",
+   "form": "8-K",
+   "filedAt": "2025-01-08"
+  },
+  {
+   "accession": "0001493152-24-029985",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-02"
+  },
+  {
+   "accession": "0000891554-01-503069",
+   "form": "424B3",
+   "filedAt": "2001-06-12"
+  }
+ ]
+}

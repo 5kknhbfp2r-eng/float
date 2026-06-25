@@ -1,0 +1,78 @@
+{
+ "ticker": "TBPH",
+ "as_of": "2025-06-02",
+ "os_source": "10-Q 2025-05-12 acc:0001558370-25-007398 (O/S 50,001,332 as of 2025-05-02)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 3.56
+  },
+  {
+   "name": "D&O group ex-options (DEF14A 2025-04-10)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 9.51
+  },
+  {
+   "name": "Madison Avenue 19.0% passive 13G;7.46",
+   "shares_M": null
+  },
+  {
+   "name": "Weiss 14.9% 13D;4.76",
+   "shares_M": null
+  },
+  {
+   "name": "Newtyn 13G;3.71",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 13G;2.76",
+   "shares_M": null
+  },
+  {
+   "name": "Irenic 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "46.44",
+ "os_M": "50.00",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1583107,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-055100",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001104659-25-051050",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001558370-25-007398",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001104659-25-046137",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001104659-25-033819",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001104659-25-017438",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  }
+ ]
+}

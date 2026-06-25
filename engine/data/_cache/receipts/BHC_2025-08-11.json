@@ -1,0 +1,81 @@
+{
+ "ticker": "BHC",
+ "as_of": "2025-08-11",
+ "os_source": "10-Q cover 2025-07-30 = 369,790,319 common O/S; DEF 14A 2025-04-02 acc:0001140361-25-011851 5% table",
+ "excluded": [
+  {
+   "name": "Excluded=34.72M Icahn Group",
+   "shares_M": null
+  },
+  {
+   "name": "26.44M Paulson&Co (dir)",
+   "shares_M": null
+  },
+  {
+   "name": "36.61M Meruelo (9.91%)",
+   "shares_M": null
+  },
+  {
+   "name": "~3M other D&O",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=27.64M GoldenTree Asset Mgmt (passive 7.48%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "269",
+ "os_M": "369.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 885590,
+ "depends_on_filings": [
+  {
+   "accession": "0000885590-25-000032",
+   "form": "10-Q",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0000885590-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001193125-25-167131",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001193125-25-163860",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001193125-25-157612",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001193125-25-149731",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0000950103-25-007605",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001140361-25-011851",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0000950123-97-008336",
+   "form": "F-1/A",
+   "filedAt": "1997-10-07"
+  }
+ ]
+}

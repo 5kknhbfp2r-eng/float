@@ -1,0 +1,73 @@
+{
+ "ticker": "ARTL",
+ "as_of": "2025-06-30",
+ "os_source": "10-Q 2025-05-13; DEF14A 2024-11-08",
+ "excluded": [
+  {
+   "name": "Excluded=0.027M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 26,726 shares",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none (no 5%+ holders)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.25",
+ "os_M": "3.28",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1621221,
+ "depends_on_filings": [
+  {
+   "accession": "0001640334-25-001062",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001640334-25-001046",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001640334-25-000935",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001640334-25-000825",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001640334-25-000732",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001640334-25-000719",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001640334-24-001915",
+   "form": "8-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001640334-24-001670",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-08"
+  },
+  {
+   "accession": "0001557240-14-000578",
+   "form": "S-1",
+   "filedAt": "2014-10-08"
+  }
+ ]
+}

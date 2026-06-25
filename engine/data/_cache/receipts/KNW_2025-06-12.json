@@ -1,0 +1,79 @@
+{
+ "ticker": "KNW",
+ "as_of": "2025-06-12",
+ "os_source": "13G Jun12 acc:0001161697-25-000190; 10-Q May14 acc:0001654954-25-005607",
+ "excluded": [
+  {
+   "name": "Excl=D&O actual ~0.05M post-split",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Struve 0.74M (13G passive), Baszucki 0.43M (13G passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.38",
+ "os_M": "7.43",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1074828,
+ "depends_on_filings": [
+  {
+   "accession": "0001654954-25-006660",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001654954-25-006583",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001654954-25-005607",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001654954-25-002090",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001654954-25-001992",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001654954-25-001790",
+   "form": "8-K",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001654954-25-001652",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0001654954-25-000543",
+   "form": "DEF 14A",
+   "filedAt": "2025-01-17"
+  },
+  {
+   "accession": "0001654954-25-000176",
+   "form": "PRE 14A",
+   "filedAt": "2025-01-07"
+  },
+  {
+   "accession": "0001654954-24-012732",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-07"
+  },
+  {
+   "accession": "0001199835-11-000430",
+   "form": "S-1",
+   "filedAt": "2011-06-28"
+  }
+ ]
+}

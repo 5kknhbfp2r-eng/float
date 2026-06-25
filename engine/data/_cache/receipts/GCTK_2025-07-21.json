@@ -1,0 +1,69 @@
+{
+ "ticker": "GCTK",
+ "as_of": "2025-07-21",
+ "os_source": "8-K acc 0001641172-25-015194 (1:60 reverse split eff 6/13, O/S 34,047,337 -> 567,456) + DEF14A acc 0001641172-25-006348; carried from 2025-06-25, 8-Ks 6/25+7/08 Reg FD only",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group common 2,948,827 pre-split /60 = 0.049 (incl dir Ballantyne Rev Trust 2.744M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=no passive >5% holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.52",
+ "os_M": "0.57",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1506983,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-018104",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001641172-25-016387",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001641172-25-015194",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001641172-25-014803",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001641172-25-013543",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001641172-25-012287",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001641172-25-010384",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-006348",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001144204-11-048873",
+   "form": "S-1",
+   "filedAt": "2011-08-22"
+  }
+ ]
+}

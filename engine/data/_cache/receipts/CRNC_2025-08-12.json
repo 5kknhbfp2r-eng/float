@@ -1,0 +1,76 @@
+{
+ "ticker": "CRNC",
+ "as_of": "2025-08-12",
+ "os_source": "10-Q 2025-08-06 acc:0001628280-25-038378 + DEF14A 2024-12-31 acc:0000950170-24-141600",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_264K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Van_Berkom_3937K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "AmericanCapital_3879K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_3304K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_3112K(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "43.264",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1768267,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-038378",
+   "form": "10-Q",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001628280-25-038336",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0000950170-25-065725",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-042711",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0000950170-25-022216",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0000950170-25-015394",
+   "form": "8-K",
+   "filedAt": "2025-02-06"
+  },
+  {
+   "accession": "0000950170-24-141600",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-31"
+  },
+  {
+   "accession": "0001193125-19-267782",
+   "form": "S-1",
+   "filedAt": "2019-10-15"
+  }
+ ]
+}

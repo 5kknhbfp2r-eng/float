@@ -1,0 +1,84 @@
+{
+ "ticker": "INV",
+ "as_of": "2025-08-04",
+ "os_source": "DEF14A+2025-05-09+acc:0001628280-25-024060",
+ "excluded": [
+  {
+   "name": "D&O-group-ex-options=9.65M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "WE-INN=9.24M-kept,Ascent=3.54M-kept,CastleKnight=3.95M-13G-kept,Glockner=overlap-Donnally",
+   "shares_M": null
+  }
+ ],
+ "float_M": "41.12",
+ "os_M": "53.49",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 2001557,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-034041",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001628280-25-034040",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001628280-25-034034",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001628280-25-034030",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001628280-25-033968",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001628280-25-033614",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001628280-25-025892",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001628280-25-025932",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001628280-25-024060",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001628280-25-020657",
+   "form": "PRE 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001628280-25-017703",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001140361-24-040744",
+   "form": "424B3",
+   "filedAt": "2024-09-10"
+  }
+ ]
+}

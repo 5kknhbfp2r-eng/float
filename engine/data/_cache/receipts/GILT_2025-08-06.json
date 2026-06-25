@@ -1,0 +1,72 @@
+{
+ "ticker": "GILT",
+ "as_of": "2025-08-06",
+ "os_source": "O/S 57,017,032 ordinary from 20-F 2025-03-27 acc:0001178913-25-001071 cover + 13G 2025-07-17 acc:0001213900-25-065037 (57,017,032 as of 2025-07-14); ordinary shares trade directly (GILT), not ADS",
+ "excluded": [
+  {
+   "name": "Excluded=0.85M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options (2.26M incl 1.41M options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Phoenix Holdings 10.58M (18.56%, passive insurance/pension 13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Yelin Lapidot 3.07M (passive); float ~56M >>20M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "56.17",
+ "os_M": "57.02",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 897322,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-002648",
+   "form": "6-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001178913-25-002548",
+   "form": "6-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001178913-25-002513",
+   "form": "6-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001178913-25-002439",
+   "form": "6-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001178913-25-002419",
+   "form": "6-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0001178913-25-002396",
+   "form": "6-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001178913-25-001071",
+   "form": "20-F",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0000950123-02-006731",
+   "form": "424B3",
+   "filedAt": "2002-07-02"
+  }
+ ]
+}

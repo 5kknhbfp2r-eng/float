@@ -1,0 +1,72 @@
+{
+ "ticker": "NEO",
+ "as_of": "2025-08-29",
+ "os_source": "10-Q 2025-07-29 acc:0001077183-25-000026",
+ "excluded": [
+  {
+   "name": "D&O_group_2.4%=3.07M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock_19.98M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_14.17M",
+   "shares_M": null
+  },
+  {
+   "name": "BrownAdvisory_9.54M_passive_13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "128.68",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1077183,
+ "depends_on_filings": [
+  {
+   "accession": "0001077183-25-000162",
+   "form": "8-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001077183-25-000154",
+   "form": "10-Q",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001077183-25-000151",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001077183-25-000145",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001077183-25-000109",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001077183-25-000074",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001077183-25-000068",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001077183-08-000016",
+   "form": "S-1/A",
+   "filedAt": "2008-06-02"
+  }
+ ]
+}

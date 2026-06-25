@@ -1,0 +1,69 @@
+{
+ "ticker": "CBIO",
+ "as_of": "2025-06-18",
+ "os_source": "8-K 2025-06-18 acc:0001104659-25-060714 merger",
+ "excluded": [
+  {
+   "name": "Fairmount=3.124M,D&O_direct=0.380M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR=1.414M,Venrock=1.388M,BVF=1.388M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.39",
+ "os_M": "13.89",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1253689,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-060714",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001104659-25-057078",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001104659-25-054587",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001558370-25-007780",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-048564",
+   "form": "424B3",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-040386",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001558370-25-001517",
+   "form": "8-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0001558370-24-004448",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-01"
+  },
+  {
+   "accession": "0001193125-13-391443",
+   "form": "S-1",
+   "filedAt": "2013-10-04"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "ticker": "GPUS",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: DEF14A 2025-05-02 acc=0001214659-25-006877 : 1,706,356 Class A (record date)",
+ "excluded": [
+  {
+   "name": "insider Class A (Ault&Co 8,249 + Ault 500 + Nisser 2)",
+   "shares_M": 0.009
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "1.70",
+ "os_M": "1.71",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 896493,
+ "depends_on_filings": [
+  {
+   "accession": "0001214659-25-006956",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001214659-25-006877",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001214659-25-006887",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001214659-25-006709",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001214659-25-006375",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001214659-25-005868",
+   "form": "10-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0000891618-96-003082",
+   "form": "424B1",
+   "filedAt": "1996-12-17"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "ticker": "BSLK",
+ "as_of": "2025-08-19",
+ "os_source": "O/S: 10-Q acc 0001841125-25-000111 cover 'As of August 6, 2025, 2,061,779 shares' + 8-K acc 0001841125-25-000116 PIPE 913,979 sh closed 2025-08-15",
+ "excluded": [
+  {
+   "name": "Excluded=0.385M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.161M Golden Arrow Sponsor(control)",
+   "shares_M": null
+  },
+  {
+   "name": "0.116M Foundation Capital(pre-IPO VC)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.914M PIPE investors(passive 4.99/9.99 caps)",
+   "shares_M": null
+  },
+  {
+   "name": "Top Tier 0.124M(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Baillie Gifford 0.123M(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.31",
+ "os_M": "2.98",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1841125,
+ "depends_on_filings": [
+  {
+   "accession": "0001841125-25-000116",
+   "form": "8-K",
+   "filedAt": "2025-08-19"
+  },
+  {
+   "accession": "0001213900-25-076131",
+   "form": "424B3",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001213900-25-076128",
+   "form": "424B3",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001841125-25-000113",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001841125-25-000111",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-075168",
+   "form": "424B3",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001213900-25-075166",
+   "form": "424B3",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001841125-25-000110",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001841125-25-000099",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001841125-25-000085",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001213900-21-011410",
+   "form": "S-1",
+   "filedAt": "2021-02-24"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "AGRI",
+ "as_of": "2025-07-29",
+ "os_source": "10-Q 2025-05-15 acc:0001641172-25-010961 O/S 2,865,646; DEF14A 2025-05-02 acc:0001641172-25-008444 table",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.266
+  },
+  {
+   "name": "D&O group common ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.154
+  },
+  {
+   "name": "Alto Opportunity Master Fund passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.60",
+ "os_M": "2.87",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1826397,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014101",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001641172-25-010961",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-009082",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001641172-25-008444",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001641172-25-008121",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001641172-25-006275",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001493152-20-023737",
+   "form": "S-1",
+   "filedAt": "2020-12-16"
+  }
+ ]
+}

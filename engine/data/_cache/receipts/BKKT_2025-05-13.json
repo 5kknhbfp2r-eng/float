@@ -1,0 +1,58 @@
+{
+ "ticker": "BKKT",
+ "as_of": "2025-05-13",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-12 acc 0001628280-25-024743 cover : 6,734,323 Class A (as of 2025-05-09)",
+ "excluded": [
+  {
+   "name": "DnO_group_ClassA",
+   "shares_M": 0.311473
+  },
+  {
+   "name": "ICE_ClassA",
+   "shares_M": 0.649934
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "5.77",
+ "os_M": "6.73",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1820302,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-024743",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-024702",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001628280-25-020274",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001628280-25-018854",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001628280-25-015682",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001628280-25-013900",
+   "form": "8-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001193125-20-240106",
+   "form": "S-1",
+   "filedAt": "2020-09-04"
+  }
+ ]
+}

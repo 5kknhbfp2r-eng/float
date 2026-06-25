@@ -1,0 +1,72 @@
+{
+ "ticker": "TZUP",
+ "as_of": "2025-05-13",
+ "os_source": "O/S DEF 14C 2025-05-12 acc:0001641172-25-009745: 9,504,314 common as of Apr 28 2025 record date",
+ "excluded": [
+  {
+   "name": "Excluded=3.46M D&O actual-common ex-options",
+   "shares_M": null
+  },
+  {
+   "name": "Lupinelli 1.40M non-voting locked-up pre-IPO insider",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Joe Thomas 0.73M (7.7%)",
+   "shares_M": null
+  },
+  {
+   "name": "Andrew Haag/HGR 0.94M (9.9%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.64",
+ "os_M": "9.50",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1853825,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-009858",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-008779",
+   "form": "S-3/A",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-005251",
+   "form": "PRE 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001641172-25-000545",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001493152-25-011013",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001493152-25-009872",
+   "form": "10-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001493152-25-009509",
+   "form": "8-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0001721868-21-000252",
+   "form": "S-1",
+   "filedAt": "2021-04-29"
+  }
+ ]
+}

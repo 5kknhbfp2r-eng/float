@@ -1,0 +1,73 @@
+{
+ "ticker": "CISS",
+ "as_of": "2025-06-20",
+ "os_source": "20-F 2025-04-28 acc:0001193125-25-100539 O/S 780,768 common @ Apr-15-2025 (no intervening filing 5/16-6/20)",
+ "excluded": [
+  {
+   "name": "Excluded=0.0956M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.0429M Pandora Consultants",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=common public ~0.64M; Imperial holds preferred only",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.64",
+ "os_M": "0.78",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1951067,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-121676",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-25-121689",
+   "form": "424B3",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-25-121688",
+   "form": "424B3",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-25-121685",
+   "form": "424B3",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001193125-25-100539",
+   "form": "20-F",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-25-073399",
+   "form": "6-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001193125-25-070972",
+   "form": "6-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001193125-25-052572",
+   "form": "6-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001193125-23-099236",
+   "form": "F-1",
+   "filedAt": "2023-04-12"
+  }
+ ]
+}

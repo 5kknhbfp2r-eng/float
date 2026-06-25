@@ -1,0 +1,81 @@
+{
+ "ticker": "FOXX",
+ "as_of": "2025-07-17",
+ "os_source": "10-Q acc 0001213900-25-043597 filed 2025-05-15 (common O/S 6,780,597 @ May 14 2025) + 10-K 2024-10-24 Item 12",
+ "excluded": [
+  {
+   "name": "Excluded=Acri Sponsor 2.156 (CFO control)",
+   "shares_M": null
+  },
+  {
+   "name": "BRR Investment 2.312 (31.8% 13D)",
+   "shares_M": null
+  },
+  {
+   "name": "New Bay Capital 0.700 (holdco)",
+   "shares_M": null
+  },
+  {
+   "name": "BR Technologies 0.664 (holdco)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none material (no passive 5% funds in table)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.95",
+ "os_M": "6.78",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2013807,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-051966",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-043597",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-040241",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-024794",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001213900-25-016221",
+   "form": "8-K",
+   "filedAt": "2025-02-22"
+  },
+  {
+   "accession": "0001213900-25-011903",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001213900-25-006111",
+   "form": "424B3",
+   "filedAt": "2025-01-24"
+  },
+  {
+   "accession": "0001213900-24-090457",
+   "form": "10-K",
+   "filedAt": "2024-10-24"
+  },
+  {
+   "accession": "0001013762-24-002164",
+   "form": "424B3",
+   "filedAt": "2024-07-29"
+  }
+ ]
+}

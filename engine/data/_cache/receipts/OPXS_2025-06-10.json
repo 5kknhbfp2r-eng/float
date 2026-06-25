@@ -1,0 +1,75 @@
+{
+ "ticker": "OPXS",
+ "as_of": "2025-06-10",
+ "os_source": "DEF 14A 2025-01-17 acc:none + 10-Q 2025-05-13 O/S 6,873,938",
+ "excluded": [
+  {
+   "name": "Excluded=2.16M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 5 persons (Schoening 0.94M, Judd 0.88M, Malhotra 0.12M, Lehmann 0.17M, Hawkins 0.04M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.78M",
+   "shares_M": null
+  },
+  {
+   "name": "Topline Capital 13G 11.3%; 0.44M",
+   "shares_M": null
+  },
+  {
+   "name": "Punch 13G 6.4%; 0.42M",
+   "shares_M": null
+  },
+  {
+   "name": "Galileo 13G 5.4%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.72",
+ "os_M": "6.87",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1397016,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-012121",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-009853",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-009855",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001493152-25-008014",
+   "form": "8-K",
+   "filedAt": "2025-02-24"
+  },
+  {
+   "accession": "0001493152-25-002755",
+   "form": "DEF 14A",
+   "filedAt": "2025-01-17"
+  },
+  {
+   "accession": "0001493152-24-007544",
+   "form": "8-K",
+   "filedAt": "2024-02-22"
+  },
+  {
+   "accession": "0001144204-09-028216",
+   "form": "S-1",
+   "filedAt": "2009-05-19"
+  }
+ ]
+}

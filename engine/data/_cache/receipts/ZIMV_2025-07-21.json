@@ -1,0 +1,49 @@
+{
+ "ticker": "ZIMV",
+ "as_of": "2025-07-21",
+ "os_source": "DEF14A/10-Q cover",
+ "excluded": [
+  {
+   "name": "DandO_actual",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "26.3",
+ "os_M": "27.85",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1876588,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-161550",
+   "form": "8-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0000950170-25-069777",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-066986",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001193125-25-115963",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001193125-25-061931",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0000950170-25-038769",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  }
+ ]
+}

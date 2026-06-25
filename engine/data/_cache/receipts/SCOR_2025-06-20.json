@@ -1,0 +1,83 @@
+{
+ "ticker": "SCOR",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-08 acc:0001158172-25-000029 (Common 4,947,375 outstanding post 1:20 split)",
+ "excluded": [
+  {
+   "name": "Excluded=0.574M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.110M Cerberus common",
+   "shares_M": null
+  },
+  {
+   "name": "0.008M Charter common",
+   "shares_M": null
+  },
+  {
+   "name": "95.78M Series B non-listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.566M WPP",
+   "shares_M": null
+  },
+  {
+   "name": "0.415M 180 Degree Capital",
+   "shares_M": null
+  },
+  {
+   "name": "0.310M Westerly",
+   "shares_M": null
+  },
+  {
+   "name": "0.284M Larson Trust (passive/<20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.26",
+ "os_M": "4.95",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1158172,
+ "depends_on_filings": [
+  {
+   "accession": "0001158172-25-000029",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001158172-25-000025",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193125-25-107113",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001158172-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001158172-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001158172-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-01-31"
+  },
+  {
+   "accession": "0000950133-07-001479",
+   "form": "S-1",
+   "filedAt": "2007-03-31"
+  }
+ ]
+}

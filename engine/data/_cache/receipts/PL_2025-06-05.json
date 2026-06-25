@@ -1,0 +1,67 @@
+{
+ "ticker": "PL",
+ "as_of": "2025-06-05",
+ "os_source": "10-Q 2025-06-04 cover Class A 278,937,702 acc:edgar-PL-10Q",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 36.17
+  },
+  {
+   "name": "D&O group Class A incl founders Marshall+Schingler (also 100% Class B)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 31.94
+  },
+  {
+   "name": "Google 13G;Vanguard 15.56;BlackRock 15.70;DFJ 17.33 all passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "242.76",
+ "os_M": "278.94",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1836833,
+ "depends_on_filings": [
+  {
+   "accession": "0001836833-25-000063",
+   "form": "10-Q",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001836833-25-000062",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001836833-25-000056",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001836833-25-000055",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001836833-25-000039",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001836833-25-000017",
+   "form": "8-K",
+   "filedAt": "2025-01-29"
+  },
+  {
+   "accession": "0001193125-21-046545",
+   "form": "S-1",
+   "filedAt": "2021-02-17"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "ticker": "BBLG",
+ "as_of": "2025-06-27",
+ "os_source": "10-Q 2025-05-12 cover 3,271,042 pre-split + 8-K 2025-06-06 (acc 0001641172-25-013937) 1-for-6 reverse split => ~545,174 post-split O/S",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.0007
+  },
+  {
+   "name": "D&O group directly-owned ex-options (4,026 pre-split /6)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.54
+  },
+  {
+   "name": "public float (no non-D&O 5% holders in proxy)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.54",
+ "os_M": "0.55",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1419554,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-016664",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001641172-25-016302",
+   "form": "S-3",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001641172-25-016289",
+   "form": "S-1",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001641172-25-013937",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001641172-25-013084",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001641172-25-009746",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001641172-25-005775",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001641172-25-003880",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-14-003664",
+   "form": "S-1",
+   "filedAt": "2014-11-12"
+  }
+ ]
+}

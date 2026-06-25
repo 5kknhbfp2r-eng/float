@@ -1,0 +1,78 @@
+{
+ "ticker": "IDR",
+ "as_of": "2025-07-10",
+ "os_source": "10-Q 2025-05-08: 14,052,872 shares",
+ "excluded": [
+  {
+   "name": "JohnSwallow",
+   "shares_M": 0.93
+  },
+  {
+   "name": "GrantBrackebusch",
+   "shares_M": 0.133
+  },
+  {
+   "name": "KevinShiell",
+   "shares_M": 0.056
+  },
+  {
+   "name": "RichardBeaven",
+   "shares_M": 0.004
+  },
+  {
+   "name": "CarolynTurner",
+   "shares_M": 0.001
+  },
+  {
+   "name": "RobertMorgan",
+   "shares_M": 0.038
+  },
+  {
+   "name": "MoniqueHayes",
+   "shares_M": 0.035
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "passiveKept",
+   "shares_M": 0.0
+  }
+ ],
+ "float_M": "12.855",
+ "os_M": "14.053",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1030192,
+ "depends_on_filings": [
+  {
+   "accession": "0001654954-25-007633",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001654954-25-005891",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001654954-25-005224",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001654954-25-005284",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001654954-25-003624",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001654954-25-002608",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  }
+ ]
+}

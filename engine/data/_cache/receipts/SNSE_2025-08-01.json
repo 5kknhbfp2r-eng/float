@@ -1,0 +1,59 @@
+{
+ "ticker": "SNSE",
+ "as_of": "2025-08-01",
+ "os_source": "O/S 10-Q 2025-05-06 (25,208,068 as of 5/2) /20 reverse split (8-K 2025-06-13 acc:0001193125-25-140329 eff 6/16) = 1,260,403",
+ "excluded": [
+  {
+   "name": "Excluded=4.183918M-pre-split D&O group ex-options incl Cambrian 3,653,120 (Peyer dir/CEO board control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=4.426M-pre-split H&S Investments 17.6% passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.05",
+ "os_M": "1.26",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1829802,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-157113",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001193125-25-140329",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001193125-25-125484",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000950170-25-064525",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193125-25-113299",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-053033",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001193125-21-010054",
+   "form": "S-1",
+   "filedAt": "2021-01-15"
+  }
+ ]
+}

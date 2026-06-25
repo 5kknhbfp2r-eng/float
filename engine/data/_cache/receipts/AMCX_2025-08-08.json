@@ -1,0 +1,81 @@
+{
+ "ticker": "AMCX",
+ "as_of": "2025-08-08",
+ "os_source": "10-Q cover 2025-08-08 acc:0001514991-25-000034; Class A O/S 31,899,405 as of Aug 1 2025 (listed class)",
+ "excluded": [
+  {
+   "name": "Excluded=1.074594M Dolan Family Group ClassA",
+   "shares_M": null
+  },
+  {
+   "name": "11.484408M Class B(non-listed super-voting, Dolan 100%)",
+   "shares_M": null
+  },
+  {
+   "name": "~0.13M residual non-Dolan D&O ClassA",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.291758M BlackRock(passive 13G)",
+   "shares_M": null
+  },
+  {
+   "name": "public Class A float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "30.70",
+ "os_M": "31.90",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1514991,
+ "depends_on_filings": [
+  {
+   "accession": "0001514991-25-000034",
+   "form": "10-Q",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001514991-25-000031",
+   "form": "8-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001514991-25-000028",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001514991-25-000024",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001514991-25-000021",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001193125-25-137075",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001514991-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001193125-25-095068",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-12-265037",
+   "form": "424B3",
+   "filedAt": "2012-06-08"
+  }
+ ]
+}

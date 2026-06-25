@@ -1,0 +1,67 @@
+{
+ "ticker": "RNAZ",
+ "as_of": "2025-07-23",
+ "os_source": "DEF 14A 2025-07-15 acc:0001104659-25-068095 os=833,683 (post 1-for-28 reverse split May15 2025); 10-Q Mar31 23,341,336 pre-split",
+ "excluded": [
+  {
+   "name": "Excluded=0.001M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O ~799 shares (<0.1%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.83M",
+   "shares_M": null
+  },
+  {
+   "name": "no institutional holders post-split",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.83",
+ "os_M": "0.83",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1829635,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-068095",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001104659-25-059362",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001558370-25-007759",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-045598",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001104659-25-044596",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001104659-25-044126",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001104659-21-029169",
+   "form": "S-1",
+   "filedAt": "2021-02-26"
+  }
+ ]
+}

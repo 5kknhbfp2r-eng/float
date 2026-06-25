@@ -1,0 +1,73 @@
+{
+ "ticker": "ACTU",
+ "as_of": "2025-07-17",
+ "os_source": "10-Q 2025-05-15+8-K 2025-06-26 PIPE",
+ "excluded": [
+  {
+   "name": "Bios Equity 10.05M",
+   "shares_M": null
+  },
+  {
+   "name": "Kairos/Thomson 2.68M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "William Blair etc (none present)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.47",
+ "os_M": "20.20",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1652935,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-004766",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001683168-25-004258",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001683168-25-004117",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001683168-25-003995",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001683168-25-003705",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001683168-25-003163",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001683168-25-002638",
+   "form": "424B3",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001683168-25-002344",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001104659-24-065172",
+   "form": "S-1",
+   "filedAt": "2024-05-24"
+  }
+ ]
+}

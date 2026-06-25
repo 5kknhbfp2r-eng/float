@@ -1,0 +1,54 @@
+{
+ "ticker": "CKX",
+ "as_of": "2025-06-23",
+ "os_source": "DEF14A 2025-04-10 + 10-Q 2025-05-12 acc:0000352955-25-000009",
+ "excluded": [
+  {
+   "name": "D&O_ex_unissued_RSUs=0.277M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Ottley_Properties=0.370M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.78",
+ "os_M": "2.053",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 352955,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-016442",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001437749-25-016019",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-011606",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001437749-24-023081",
+   "form": "8-K",
+   "filedAt": "2024-07-19"
+  },
+  {
+   "accession": "0001437749-24-016255",
+   "form": "8-K",
+   "filedAt": "2024-05-13"
+  },
+  {
+   "accession": "0001437749-24-012449",
+   "form": "8-K",
+   "filedAt": "2024-04-18"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "NDRA",
+ "as_of": "2025-07-07",
+ "os_source": "10-Q 2025-05-15 acc:0001654954-25-005770",
+ "excluded": [
+  {
+   "name": "D&O=0.007M",
+   "shares_M": null
+  },
+  {
+   "name": "others negligible",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "float=0.554M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.55",
+ "os_M": "0.56",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1681682,
+ "depends_on_filings": [
+  {
+   "accession": "0001654954-25-006811",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001654954-25-006282",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001654954-25-005770",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001654954-25-005768",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001654954-25-003611",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001654954-24-014793",
+   "form": "8-K",
+   "filedAt": "2024-11-22"
+  },
+  {
+   "accession": "0001654954-24-014547",
+   "form": "8-K",
+   "filedAt": "2024-11-15"
+  },
+  {
+   "accession": "0001654954-24-011972",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-16"
+  },
+  {
+   "accession": "0001654954-16-004197",
+   "form": "S-1",
+   "filedAt": "2016-11-19"
+  }
+ ]
+}

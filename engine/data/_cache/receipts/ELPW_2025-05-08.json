@@ -1,0 +1,55 @@
+{
+ "ticker": "ELPW",
+ "as_of": "2025-05-08",
+ "os_source": "20-F 2024-11-27 acc=0001493152-24-048069 : 50,056,114 ordinary (44,278,677 Class A + 5,777,437 Class B) outstanding as of Nov 21 2024; Feb-2025 13Gs confirm unchanged; ticker=Class A; O/S basis Class A 44,278,677",
+ "excluded": [
+  {
+   "name": "Zibo Yingke Jinwutong VC",
+   "shares_M": 8.028939
+  },
+  {
+   "name": "Shenzhen Jinpenglong",
+   "shares_M": 6.70053
+  },
+  {
+   "name": "Xingzheng Investment Mgmt",
+   "shares_M": 6.62267
+  },
+  {
+   "name": "Jiupaiyuanjiang/Ganzhou",
+   "shares_M": 4.715145
+  },
+  {
+   "name": "Pingtan Yingke Jiatai VC",
+   "shares_M": 3.711739
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "14.50",
+ "os_M": "44.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2015691,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-005341",
+   "form": "6-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001641172-25-000505",
+   "form": "6-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001493152-24-048069",
+   "form": "20-F",
+   "filedAt": "2024-11-27"
+  },
+  {
+   "accession": "0001493152-24-039086",
+   "form": "424B3",
+   "filedAt": "2024-10-02"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "QMCO",
+ "as_of": "2025-05-19",
+ "os_source": "OS_SOURCE: 424B3 2025-04-29 acc 0001628280-25-020689 : 6,949,763 common outstanding Mar 18 2025 (post 1-for-20 split)",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 0.294326
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "LongFocusCapital",
+   "shares_M": 0.458041
+  },
+  {
+   "name": "ADKSohoFund",
+   "shares_M": 0.382718
+  }
+ ],
+ "float_M": "6.66",
+ "os_M": "6.95",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 709283,
+ "depends_on_filings": [
+  {
+   "accession": "0000709283-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000709283-25-000011",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001628280-25-020689",
+   "form": "424B3",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001628280-25-018394",
+   "form": "S-3",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0000709283-25-000007",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001193125-25-072468",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001193125-25-065483",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0000709283-25-000003",
+   "form": "10-Q",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001012870-99-002034",
+   "form": "424B3",
+   "filedAt": "1999-06-23"
+  }
+ ]
+}

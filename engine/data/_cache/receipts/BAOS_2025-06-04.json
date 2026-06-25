@@ -1,0 +1,78 @@
+{
+ "ticker": "BAOS",
+ "as_of": "2025-06-04",
+ "os_source": "20-F 2025-04-29 Item 6.E (acc 0001410578-25-000994): 1,534,487 ordinary shares O/S as of 4/28/25; NOT ADS (zero ADS mentions); 6-K 5/13 only CFO change",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.344
+  },
+  {
+   "name": "An Rui Tai BVI 22.40% control (incl dir Gong)",
+   "shares_M": null
+  },
+  {
+   "name": "0.156",
+   "shares_M": null
+  },
+  {
+   "name": "PBCY Investment (Pubang Landscape strategic parent)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.097
+  },
+  {
+   "name": "Deng Guan BVI 6.3% individual",
+   "shares_M": null
+  },
+  {
+   "name": "1.03",
+   "shares_M": null
+  },
+  {
+   "name": "public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.03",
+ "os_M": "1.53",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1811216,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-047864",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001410578-25-000994",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001104659-25-021737",
+   "form": "6-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0001104659-25-003075",
+   "form": "6-K",
+   "filedAt": "2025-01-13"
+  },
+  {
+   "accession": "0001410578-24-001651",
+   "form": "6-K",
+   "filedAt": "2024-09-27"
+  },
+  {
+   "accession": "0001104659-20-082691",
+   "form": "F-1",
+   "filedAt": "2020-07-10"
+  }
+ ]
+}

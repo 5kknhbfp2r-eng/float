@@ -1,0 +1,73 @@
+{
+ "ticker": "PRTG",
+ "as_of": "2025-06-25",
+ "os_source": "6-K 2025-06-09 Compedica 27.4% => O/S ~2.28M acc:0001171843-25-003779; confirmed 20-F 2025-07-25 O/S 2,278,622",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.625
+  },
+  {
+   "name": "Compedica 27.4% strategic restricted;0.175 Bailey;0.153 Mellon;0.036 SalvaRx (post 1:20 split)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.29",
+ "os_M": "2.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1095435,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-004092",
+   "form": "6-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001171843-25-004093",
+   "form": "424B3",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001171843-25-003780",
+   "form": "424B3",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001171843-25-003779",
+   "form": "6-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001171843-25-003523",
+   "form": "424B3",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001171843-25-003519",
+   "form": "6-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001171843-25-002525",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001171843-24-004800",
+   "form": "20-F",
+   "filedAt": "2024-08-14"
+  },
+  {
+   "accession": "0001095435-10-000004",
+   "form": "F-1",
+   "filedAt": "2010-02-16"
+  }
+ ]
+}

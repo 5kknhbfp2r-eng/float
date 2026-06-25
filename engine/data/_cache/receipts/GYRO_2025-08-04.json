@@ -1,0 +1,67 @@
+{
+ "ticker": "GYRO",
+ "as_of": "2025-08-04",
+ "os_source": "DEF 14A 2024-09-09 acc:0001437749-24-028729; 10-Q 2025-05-05",
+ "excluded": [
+  {
+   "name": "Excluded=0.27M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 7 persons",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.93M",
+   "shares_M": null
+  },
+  {
+   "name": "passive incl GAMCO 0.43M kept",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.93",
+ "os_M": "2.20",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1589061,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-024553",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001437749-25-014377",
+   "form": "10-Q",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001437749-24-031299",
+   "form": "8-K",
+   "filedAt": "2024-10-16"
+  },
+  {
+   "accession": "0001437749-24-031068",
+   "form": "8-K",
+   "filedAt": "2024-10-11"
+  },
+  {
+   "accession": "0001437749-24-030773",
+   "form": "8-K",
+   "filedAt": "2024-10-07"
+  },
+  {
+   "accession": "0001437749-24-028729",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-09"
+  },
+  {
+   "accession": "0001571049-14-002798",
+   "form": "424B3",
+   "filedAt": "2014-07-01"
+  }
+ ]
+}

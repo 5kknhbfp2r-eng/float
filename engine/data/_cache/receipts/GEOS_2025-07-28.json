@@ -1,0 +1,80 @@
+{
+ "ticker": "GEOS",
+ "as_of": "2025-07-28",
+ "os_source": "10-Q 2025-05-09: 12,801,952 shares outstanding",
+ "excluded": [
+  {
+   "name": "D&O group ex-options",
+   "shares_M": 941667.0
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "DisciplinedGrowthInvestors",
+   "shares_M": 1556040.0
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 755496.0
+  },
+  {
+   "name": "Tieton",
+   "shares_M": 720892.0
+  },
+  {
+   "name": "MoorsCabot",
+   "shares_M": 747300.0
+  },
+  {
+   "name": "Vanguard",
+   "shares_M": 739242.0
+  }
+ ],
+ "float_M": "11.86",
+ "os_M": "12.80",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1001115,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-015711",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001437749-25-015576",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-006029",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001437749-25-002980",
+   "form": "8-K",
+   "filedAt": "2025-02-06"
+  },
+  {
+   "accession": "0001437749-25-002907",
+   "form": "8-K",
+   "filedAt": "2025-02-05"
+  },
+  {
+   "accession": "0001437749-25-000808",
+   "form": "8-K",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001437749-24-038442",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-27"
+  },
+  {
+   "accession": "0000950129-97-004010",
+   "form": "S-1",
+   "filedAt": "1997-09-30"
+  }
+ ]
+}

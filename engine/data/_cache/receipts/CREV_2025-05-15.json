@@ -1,0 +1,53 @@
+{
+ "ticker": "CREV",
+ "as_of": "2025-05-15",
+ "os_source": "20-F 2025-05-14 acc=0001140361-25-018960 : 1,885,184 ordinary shares outstanding as of June 30 2024 (June FY-end; post 10:1 consolidation; OIC penny-warrant dilution is unexercised/fully-diluted only)",
+ "excluded": [
+  {
+   "name": "D&O group",
+   "shares_M": 0.056587
+  },
+  {
+   "name": "Daniel Hennessy (Twin Ridge SPAC sponsor)",
+   "shares_M": 0.134
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "1.69",
+ "os_M": "1.89",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1960208,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-018960",
+   "form": "20-F",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001140361-25-018993",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001140361-25-018383",
+   "form": "6-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001140361-25-009329",
+   "form": "6-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001140361-25-008105",
+   "form": "6-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001140361-23-043399",
+   "form": "424B3",
+   "filedAt": "2023-09-08"
+  }
+ ]
+}

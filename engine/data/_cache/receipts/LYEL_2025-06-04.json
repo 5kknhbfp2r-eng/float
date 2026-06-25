@@ -1,0 +1,75 @@
+{
+ "ticker": "LYEL",
+ "as_of": "2025-06-04",
+ "os_source": "DEF 14A 2025-04-21 acc:0001628280-25-? + 10-Q 2025-05-13",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_66.4M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=ARCH_36.4M",
+   "shares_M": null
+  },
+  {
+   "name": "GSK_30.3M",
+   "shares_M": null
+  },
+  {
+   "name": "MilkyWay_20.2M",
+   "shares_M": null
+  },
+  {
+   "name": "Foresite_19.5M",
+   "shares_M": null
+  },
+  {
+   "name": "Gemini_15.1M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "295.28",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1806952,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-129448",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001193125-25-123970",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001628280-25-025135",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001628280-25-025128",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001140361-25-014721",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001193125-25-070521",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001193125-21-172500",
+   "form": "S-1",
+   "filedAt": "2021-05-25"
+  }
+ ]
+}

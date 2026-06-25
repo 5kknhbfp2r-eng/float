@@ -1,0 +1,63 @@
+{
+ "ticker": "INKT",
+ "as_of": "2025-07-11",
+ "os_source": "10-Q 2025-05-15 cover OS 3,985,657",
+ "excluded": [
+  {
+   "name": "DandO_group",
+   "shares_M": 0.892
+  },
+  {
+   "name": "Agenus_parent",
+   "shares_M": 2.177
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "GKCC_13G_kept",
+   "shares_M": 0.464
+  }
+ ],
+ "float_M": "0.917",
+ "os_M": "3.986",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1840229,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-087888",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0000950170-25-072789",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001171843-25-003207",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-061041",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001171843-25-001513",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001193125-25-009595",
+   "form": "8-K",
+   "filedAt": "2025-01-21"
+  },
+  {
+   "accession": "0001193125-21-271914",
+   "form": "S-1",
+   "filedAt": "2021-09-14"
+  }
+ ]
+}

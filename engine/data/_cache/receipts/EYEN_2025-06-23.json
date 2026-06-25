@@ -1,0 +1,73 @@
+{
+ "ticker": "EYEN",
+ "as_of": "2025-06-23",
+ "os_source": "424B5 2025-06-02 acc:0001104659-25-055420 + 10-Q 2025-05-19 acc:0001410578-25-001361",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real_0.05M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Armistice_0.11M",
+   "shares_M": null
+  },
+  {
+   "name": "ATM_float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.89",
+ "os_M": "3.94",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1682639,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-056679",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001410578-25-001361",
+   "form": "10-Q",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001104659-25-050528",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001104659-25-044238",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001104659-25-044223",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001104659-25-039396",
+   "form": "424B3",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001104659-25-036116",
+   "form": "S-3",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001104659-24-130974",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001571049-17-008733",
+   "form": "S-1",
+   "filedAt": "2017-12-19"
+  }
+ ]
+}

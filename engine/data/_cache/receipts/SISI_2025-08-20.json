@@ -1,0 +1,81 @@
+{
+ "ticker": "SISI",
+ "as_of": "2025-08-20",
+ "os_source": "DEF 14C 2025-07-15 acc:0001641172-25-019641 O/S=45,030,730",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.21
+  },
+  {
+   "name": "D&O group ex-options per DEF14A 2024-10-04",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 5.04
+  },
+  {
+   "name": "Shanchun Huang 11.2% non-insider;4.00",
+   "shares_M": null
+  },
+  {
+   "name": "Wei Zhang 8.9%;all consenting holders <20% non-D&O",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "45.03",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1300734,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021606",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001641172-25-018397",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001641172-25-016061",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001641172-25-015968",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-014639",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001641172-25-013236",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001641172-25-010889",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001493152-24-039565",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-04"
+  },
+  {
+   "accession": "0001144204-15-016470",
+   "form": "S-1",
+   "filedAt": "2015-03-16"
+  }
+ ]
+}

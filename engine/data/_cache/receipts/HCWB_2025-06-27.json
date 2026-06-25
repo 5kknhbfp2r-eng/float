@@ -1,0 +1,77 @@
+{
+ "ticker": "HCWB",
+ "as_of": "2025-06-27",
+ "os_source": "424B4 2025-05-15 acc:0001193125-25-120468 + 8-K 2025-05-20 acc:0000950170-25-075235 + 13D 2025-06-13 acc:0000950170-25-086261 + 8-K 2025-06-13 acc:0000950170-25-086258",
+ "excluded": [
+  {
+   "name": "Excluded=0.47M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O updated 472,305 (Wong 501,911 per 13D; Garrett~20K; others; minus Winer resigned)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.96M",
+   "shares_M": null
+  },
+  {
+   "name": "Armistice passive institutional (exercising pre-funded warrants)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.96",
+ "os_M": "2.43",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1828673,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-090183",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0000950170-25-089035",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0000950170-25-086258",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0000950170-25-082005",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0000950170-25-081404",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0000950170-25-079766",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0000950170-25-072833",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-058961",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-21-173753",
+   "form": "S-1",
+   "filedAt": "2021-05-26"
+  }
+ ]
+}

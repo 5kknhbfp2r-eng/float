@@ -1,0 +1,63 @@
+{
+ "ticker": "SERV",
+ "as_of": "2025-08-27",
+ "os_source": "10-Q filing 2025-08-07 acc:0001832483-25-000089",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_group_3.13M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Postmates_Uber_5.30M",
+   "shares_M": null
+  },
+  {
+   "name": "passive_institutions",
+   "shares_M": null
+  }
+ ],
+ "float_M": "56.75",
+ "os_M": "59.88",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1832483,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-077711",
+   "form": "8-K",
+   "filedAt": "2025-08-18"
+  },
+  {
+   "accession": "0001832483-25-000089",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001832483-25-000087",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001832483-25-000046",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001832483-25-000037",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-015733",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001213900-23-077089",
+   "form": "S-1",
+   "filedAt": "2023-09-15"
+  }
+ ]
+}

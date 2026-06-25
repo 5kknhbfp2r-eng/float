@@ -1,0 +1,68 @@
+{
+ "ticker": "SLGL",
+ "as_of": "2025-08-21",
+ "os_source": "O/S POS AM 2025-08-15 (as of Aug 8) acc:0001178913-25-002949 = 2,785,787",
+ "excluded": [
+  {
+   "name": "Excluded=1.750113M M.Arkin Dermatology control (ex 200K unexercised warrant shares)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Phoenix Holdings passive 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Armistice warrants 4.99%-capped not O/S",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.04",
+ "os_M": "2.79",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1684693,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-002946",
+   "form": "6-K",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001178913-25-001935",
+   "form": "424B3",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001178913-25-001933",
+   "form": "6-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001178913-25-001925",
+   "form": "6-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001178913-25-001668",
+   "form": "424B3",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001178913-25-001578",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001178913-25-001497",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001571049-17-007701",
+   "form": "F-1",
+   "filedAt": "2017-08-29"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "ticker": "IMXI",
+ "as_of": "2025-08-11",
+ "os_source": "10-Q+2025-06-30+10Q-Q2",
+ "excluded": [
+  {
+   "name": "D&O-group=1.54M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock=2.55M,Vanguard=2.18M,VossCapital=2.16M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "27.92",
+ "os_M": "29.42",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1683695,
+ "depends_on_filings": [
+  {
+   "accession": "0001683695-25-000100",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001140361-25-030254",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001683695-25-000098",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001140361-25-029957",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001683695-25-000095",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001683695-25-000082",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001683695-25-000061",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001683695-25-000058",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-16-019671",
+   "form": "S-1",
+   "filedAt": "2016-12-23"
+  }
+ ]
+}

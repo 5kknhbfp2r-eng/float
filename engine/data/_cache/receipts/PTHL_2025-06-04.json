@@ -1,0 +1,52 @@
+{
+ "ticker": "PTHL",
+ "as_of": "2025-06-04",
+ "os_source": "20-F 2025-03-20 Class A O/S 6,582,000 + 424B4 2024-09-06 IPO 2,250,000 Class A acc:0001213900-25-025558",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.332
+  },
+  {
+   "name": "pre-IPO Class A: THEIA 0.972;BANYAN 0.960;Cheng Hoe Tan 0.720;MIGHTY 0.600;ACCELERATION 0.540;DYL 0.540 (+Class B 7.668M founder ZJW/Zhang)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.25
+  },
+  {
+   "name": "public IPO float Class A",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.25",
+ "os_M": "6.58",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1970544,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-025558",
+   "form": "20-F",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001213900-24-087845",
+   "form": "6-K",
+   "filedAt": "2024-10-15"
+  },
+  {
+   "accession": "0001213900-24-076951",
+   "form": "6-K",
+   "filedAt": "2024-09-09"
+  },
+  {
+   "accession": "0001013762-23-003243",
+   "form": "F-1",
+   "filedAt": "2023-10-11"
+  }
+ ]
+}

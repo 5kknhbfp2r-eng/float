@@ -1,0 +1,77 @@
+{
+ "ticker": "LYFT",
+ "as_of": "2025-05-09",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-08 acc 0001759509-25-000088 cover (as of May 5 2025) : Class A 412,105,246 outstanding = 412.11M",
+ "excluded": [
+  {
+   "name": "DO_group_ClassA",
+   "shares_M": 4.65
+  },
+  {
+   "name": "founder_ClassB",
+   "shares_M": 8.531
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard",
+   "shares_M": 32.117
+  },
+  {
+   "name": "Fidelity",
+   "shares_M": 30.638
+  }
+ ],
+ "float_M": "407.5",
+ "os_M": "412.11",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1759509,
+ "depends_on_filings": [
+  {
+   "accession": "0001759509-25-000088",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001759509-25-000084",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001759509-25-000052",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001759509-25-000031",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001759509-25-000009",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0001759509-24-000121",
+   "form": "8-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001759509-24-000114",
+   "form": "8-K",
+   "filedAt": "2024-09-04"
+  },
+  {
+   "accession": "0001759509-24-000055",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-25"
+  },
+  {
+   "accession": "0001193125-19-059849",
+   "form": "S-1",
+   "filedAt": "2019-03-01"
+  }
+ ]
+}

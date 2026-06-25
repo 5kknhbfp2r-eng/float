@@ -1,0 +1,69 @@
+{
+ "ticker": "QLGN",
+ "as_of": "2025-07-16",
+ "os_source": "10-K 2025-06-30 acc:0001641172-25-017212 cover June 26 2025 1,635,475",
+ "excluded": [
+  {
+   "name": "D&O group(6)=0M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.64",
+ "os_M": "1.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1460702,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-019844",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001641172-25-017212",
+   "form": "10-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001641172-25-016253",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001641172-25-011530",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001641172-25-008110",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001493152-25-003982",
+   "form": "8-K",
+   "filedAt": "2025-01-28"
+  },
+  {
+   "accession": "0001493152-24-052099",
+   "form": "8-K",
+   "filedAt": "2024-12-26"
+  },
+  {
+   "accession": "0001493152-24-035543",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-09"
+  },
+  {
+   "accession": "0001571049-15-002195",
+   "form": "S-1",
+   "filedAt": "2015-03-23"
+  }
+ ]
+}

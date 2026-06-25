@@ -1,0 +1,46 @@
+{
+ "ticker": "ANPA",
+ "as_of": "2025-07-09",
+ "os_source": "424B4 2025-07-09 acc:0001213900-25-062147",
+ "excluded": [
+  {
+   "name": "Elixir Tech 3.88M",
+   "shares_M": null
+  },
+  {
+   "name": "Up&Up 2.38M",
+   "shares_M": null
+  },
+  {
+   "name": "Greentown 1.66M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O 0.76M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "none (IPO offering 1.25M = float)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.25",
+ "os_M": "12.50",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2031688,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-062390",
+   "form": "6-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001213900-25-021100",
+   "form": "F-1",
+   "filedAt": "2025-03-06"
+  }
+ ]
+}

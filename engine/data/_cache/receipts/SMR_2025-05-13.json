@@ -1,0 +1,59 @@
+{
+ "ticker": "SMR",
+ "as_of": "2025-05-13",
+ "os_source": "OS_SOURCE: 10-Q filed 2025-05-12 : 133,031,072 Class A common shares outstanding",
+ "excluded": [
+  {
+   "name": "DandO_group_ClassA_exOptRSU",
+   "shares_M": 1.05
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Fluor_and_JapanNuScale_holdonly_ClassB",
+   "shares_M": 0.0
+  }
+ ],
+ "float_M": "131.98",
+ "os_M": "133.03",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1822966,
+ "depends_on_filings": [
+  {
+   "accession": "0001822966-25-000088",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001822966-25-000086",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001822966-25-000061",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001822966-25-000059",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001822966-25-000026",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001822966-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0001104659-20-108959",
+   "form": "S-1",
+   "filedAt": "2020-09-25"
+  }
+ ]
+}

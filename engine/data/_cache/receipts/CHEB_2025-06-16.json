@@ -1,0 +1,73 @@
+{
+ "ticker": "CHEB",
+ "as_of": "2025-06-16",
+ "os_source": "10-Q 2025-05-15 acc:0001213900-25-044187 cover: 8,935,000 Cl A (incl 8,625,000 redeemable) + 2,875,000 Cl B = 11,810,000 O/S",
+ "excluded": [
+  {
+   "name": "Excluded=2.875M Cl B founder/sponsor",
+   "shares_M": null
+  },
+  {
+   "name": "0.31M PP Cl A sponsor",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=8.625M public redeemable Cl A (float)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.63",
+ "os_M": "11.81",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2016420,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-050797",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001213900-25-047520",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001213900-25-044187",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-044433",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-038236",
+   "form": "424B3",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001213900-25-036416",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-028512",
+   "form": "424B3",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001013762-25-003509",
+   "form": "10-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001213900-24-042128",
+   "form": "S-1",
+   "filedAt": "2024-05-13"
+  }
+ ]
+}

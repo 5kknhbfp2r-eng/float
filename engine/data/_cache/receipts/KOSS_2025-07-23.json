@@ -1,0 +1,64 @@
+{
+ "ticker": "KOSS",
+ "as_of": "2025-07-23",
+ "os_source": "10-Q 2025-05-08 acc:0000056701-25-000007 + DEF14A 2024-08-29",
+ "excluded": [
+  {
+   "name": "Excluded=MJKoss3.858M+JCKossJr0.195M+Leveen0.01M+Sweasy0.03M=4.094M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public_remaining5.28M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.28",
+ "os_M": "9.38",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 56701,
+ "depends_on_filings": [
+  {
+   "accession": "0000056701-25-000017",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000056701-25-000015",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000898432-25-000322",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000056701-25-000006",
+   "form": "8-K",
+   "filedAt": "2025-01-30"
+  },
+  {
+   "accession": "0000056701-24-000041",
+   "form": "8-K",
+   "filedAt": "2024-10-31"
+  },
+  {
+   "accession": "0000056701-24-000036",
+   "form": "8-K",
+   "filedAt": "2024-10-21"
+  },
+  {
+   "accession": "0000056701-24-000030",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-29"
+  },
+  {
+   "accession": "0000950134-04-019114",
+   "form": "424B3",
+   "filedAt": "2004-12-10"
+  }
+ ]
+}

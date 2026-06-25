@@ -1,0 +1,85 @@
+{
+ "ticker": "BMNR",
+ "as_of": "2025-06-30",
+ "os_source": "424B4 2025-06-06 acc:0001683168-25-004278 shares O/S after offering 6,160,170; PIPE 55.56M closes ~7/3 excluded",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.96
+  },
+  {
+   "name": "D&O group after-offering 2,959,333",
+   "shares_M": null
+  },
+  {
+   "name": "0.35",
+   "shares_M": null
+  },
+  {
+   "name": "Sam Jorgensen ex-officer 351,136",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.0
+  },
+  {
+   "name": "no passive institutions present",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.85",
+ "os_M": "6.16",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1829311,
+ "depends_on_filings": [
+  {
+   "accession": "0001683168-25-004802",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001683168-25-004583",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001683168-25-004380",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001683168-25-004278",
+   "form": "424B4",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001683168-25-004151",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001683168-25-004057",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001683168-25-002541",
+   "form": "10-Q",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001683168-24-008555",
+   "form": "10-K",
+   "filedAt": "2024-12-09"
+  },
+  {
+   "accession": "0001683168-22-005159",
+   "form": "S-1",
+   "filedAt": "2022-07-27"
+  }
+ ]
+}

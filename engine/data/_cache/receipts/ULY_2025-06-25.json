@@ -1,0 +1,78 @@
+{
+ "ticker": "ULY",
+ "as_of": "2025-06-25",
+ "os_source": "10-Q 2025-05-14 acc:0000950170-25-070947 post-1for12-split",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_post-split_0.13M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Mithaq_0.10M",
+   "shares_M": null
+  },
+  {
+   "name": "Iron_Gate_0.08M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.11",
+ "os_M": "1.24",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1603652,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-077378",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0000950170-25-070947",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-070338",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-066641",
+   "form": "424B3",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0000950170-25-063525",
+   "form": "S-3/A",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0000950170-25-055855",
+   "form": "S-3",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0000950170-25-043949",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0000950170-25-038354",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0000950170-25-024957",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001193125-23-187340",
+   "form": "424B3",
+   "filedAt": "2023-07-14"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+# --- secrets: NEVER commit ---
+capi.txt
+sapi.txt
+**/capi.txt
+**/sapi.txt
+mapi.txt
+dbapi.txt
+
+# --- large / reproducible caches (re-fetchable from EDGAR; kept on disk, not in git) ---
+engine/data/_cache/filing_text/
+engine/data/_cache/edgar_submissions/
+engine/data/_cache/scans/
+engine/data/_cache/dossiers/
+engine/data/_cache/company_tickers.json
+engine/data/_cache/secapi_ticker_cik.json
+engine/data/*.parquet
+# NOTE: engine/data/_cache/receipts/ and manifests/ ARE committed (derivation audit + reuse layer)
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- agent scratch / stray working files ---
+tmp_*
+*.jpg
+*.tmp
+claude.txt
+*.output

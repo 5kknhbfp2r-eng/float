@@ -1,0 +1,85 @@
+{
+ "ticker": "BRLS",
+ "as_of": "2025-06-06",
+ "os_source": "10-Q 2025-05-20 acc:0001213900-25-045956 O/S 21,381,852; 10-K/A 2025-04-30 acc:0001213900-25-037087 table base 21,378,890",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 10.8
+  },
+  {
+   "name": "D&O group 10,797,301",
+   "shares_M": null
+  },
+  {
+   "name": "5.30",
+   "shares_M": null
+  },
+  {
+   "name": "Oxus Capital Pte 5,302,477 sponsor 25%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.0
+  },
+  {
+   "name": "no passive 13G in current table",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.28",
+ "os_M": "21.38",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1852973,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-047973",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001213900-25-045956",
+   "form": "10-Q",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-045949",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-001158",
+   "form": "8-K",
+   "filedAt": "2025-01-06"
+  },
+  {
+   "accession": "0001628280-24-047970",
+   "form": "8-K",
+   "filedAt": "2024-11-14"
+  },
+  {
+   "accession": "0001628280-24-037891",
+   "form": "8-K",
+   "filedAt": "2024-08-20"
+  },
+  {
+   "accession": "0001213900-24-060523",
+   "form": "8-K",
+   "filedAt": "2024-07-10"
+  },
+  {
+   "accession": "0001213900-23-088665",
+   "form": "DEF 14A",
+   "filedAt": "2023-11-20"
+  },
+  {
+   "accession": "0001213900-21-038735",
+   "form": "S-1",
+   "filedAt": "2021-07-26"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "ticker": "DLO",
+ "as_of": "2025-08-13",
+ "os_source": "O/S: 20-F FY2024 acc 0000950170-25-058197 'As of December 31, 2024 ... 151,420,944 Class A common shares and 134,054,192 Class B ... issued ... outstanding' (ex 18,754,887 treasury); total 285,475,136",
+ "excluded": [
+  {
+   "name": "Excluded=63.91M General Atlantic(control,board)",
+   "shares_M": null
+  },
+  {
+   "name": "2.18M Fogel(founder/dir)",
+   "shares_M": null
+  },
+  {
+   "name": "1.09M Bzurovski(founder/dir)",
+   "shares_M": null
+  },
+  {
+   "name": "5.65M Azar(dir)",
+   "shares_M": null
+  },
+  {
+   "name": "134.05M ClassB(non-listed founder)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=16.35M Balague(13G,public-float per company)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "78.6",
+ "os_M": "285.48",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1846832,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-108015",
+   "form": "6-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0000950103-25-007708",
+   "form": "6-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0000950170-25-071516",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-058197",
+   "form": "20-F",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0000950103-25-003804",
+   "form": "6-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0000950170-25-029045",
+   "form": "6-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0000950170-25-024484",
+   "form": "6-K",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0000950170-24-033510",
+   "form": "20-F",
+   "filedAt": "2024-03-19"
+  },
+  {
+   "accession": "0000950170-23-011942",
+   "form": "20-F",
+   "filedAt": "2023-04-05"
+  },
+  {
+   "accession": "0000950170-22-006790",
+   "form": "20-F",
+   "filedAt": "2022-05-02"
+  },
+  {
+   "accession": "0000950103-21-006779",
+   "form": "F-1",
+   "filedAt": "2021-05-05"
+  }
+ ]
+}

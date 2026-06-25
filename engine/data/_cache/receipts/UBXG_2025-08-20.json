@@ -1,0 +1,64 @@
+{
+ "ticker": "UBXG",
+ "as_of": "2025-08-20",
+ "os_source": "carry from 2025-05-14; 424B2 2025-03-26 acc:0001013762-25-002721 post-offering 16,885,607 + later issuances ~20.78M",
+ "excluded": [
+  {
+   "name": "Excluded=7.73M D&O group (BVI founder shells Superego/Columbus/EvolutionUp/Infinite Fission)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none material (no passive 5% holders; 5%-greater=None)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.05",
+ "os_M": "20.78",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1888525,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-068942",
+   "form": "6-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001213900-25-066999",
+   "form": "6-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001213900-25-059684",
+   "form": "6-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001213900-25-045427",
+   "form": "6-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001213900-25-033404",
+   "form": "6-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001213900-25-033401",
+   "form": "6-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001213900-24-092312",
+   "form": "20-F",
+   "filedAt": "2024-10-30"
+  },
+  {
+   "accession": "0001213900-22-004277",
+   "form": "F-1",
+   "filedAt": "2022-01-28"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "CDT",
+ "as_of": "2025-06-02",
+ "os_source": "10-Q 2025-05-14 acc:0001641172-25-010405 cover 11,961,460 pre-split; 8-K acc:0001641172-25-011183 1-for-15 split eff 5/19/25 -> ~797K",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.03
+  },
+  {
+   "name": "D&O group 459,790/15",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.12
+  },
+  {
+   "name": "Sarborg 16.35% sub-20%",
+   "shares_M": null
+  },
+  {
+   "name": "0.07",
+   "shares_M": null
+  },
+  {
+   "name": "A.G.P. placement agent 9.63%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.77",
+ "os_M": "0.80",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1896212,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011183",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001641172-25-010405",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-008854",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-006259",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001641172-25-006224",
+   "form": "8-K",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001641172-25-005036",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001493152-22-000566",
+   "form": "S-1",
+   "filedAt": "2022-01-06"
+  }
+ ]
+}

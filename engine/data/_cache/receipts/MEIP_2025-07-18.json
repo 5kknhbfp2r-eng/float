@@ -1,0 +1,67 @@
+{
+ "ticker": "MEIP",
+ "as_of": "2025-07-18",
+ "os_source": "DEF14A 2024-12-20 acc:0000950170-24-139131; 10-Q 2025-05-13 acc:0000950170-25-070276",
+ "excluded": [
+  {
+   "name": "Anson_13D=1.09M",
+   "shares_M": null
+  },
+  {
+   "name": "CableCar_13D=0.61M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_group=0.21M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Vanguard_13G=0.39M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.75",
+ "os_M": "6.66",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1262104,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-070276",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-070298",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-035544",
+   "form": "8-K",
+   "filedAt": "2025-03-07"
+  },
+  {
+   "accession": "0000950170-25-018820",
+   "form": "8-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0000950170-25-011790",
+   "form": "8-K",
+   "filedAt": "2025-01-31"
+  },
+  {
+   "accession": "0000950170-24-139131",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0000950123-03-010789",
+   "form": "S-1",
+   "filedAt": "2003-09-25"
+  }
+ ]
+}

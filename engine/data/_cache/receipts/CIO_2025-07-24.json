@@ -1,0 +1,67 @@
+{
+ "ticker": "CIO",
+ "as_of": "2025-07-24",
+ "os_source": "10-Q 2025-05-02+DEF14A 2025-03-12",
+ "excluded": [
+  {
+   "name": "D&O 1747822M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Newtyn 3938000",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 3584637",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 2063397",
+   "shares_M": null
+  }
+ ],
+ "float_M": "38.61",
+ "os_M": "40.36",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1593222,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-163765",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001193125-25-112764",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0000950170-25-062248",
+   "form": "10-Q",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0000950170-25-062247",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001193125-25-080234",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001193125-25-052437",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001193125-14-146057",
+   "form": "424B4",
+   "filedAt": "2014-04-16"
+  }
+ ]
+}

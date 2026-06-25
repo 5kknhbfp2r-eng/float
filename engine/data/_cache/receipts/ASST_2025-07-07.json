@@ -1,0 +1,73 @@
+{
+ "ticker": "ASST",
+ "as_of": "2025-07-07",
+ "os_source": "10-Q Class B cover 2025-05-15 acc:0001213900-25-044239 (As of 5/12/25: Class B 14,772,044)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.55
+  },
+  {
+   "name": "D&O group Class B (proxy 311k + grants);Class A 1.0M held by Asset Entities Holdings LLC control (unlisted class)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G holders",
+   "shares_M": null
+  }
+ ],
+ "float_M": "14.2",
+ "os_M": "14.77",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1920406,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-061470",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-047570",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001213900-25-046468",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001213900-25-044239",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-040419",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001213900-25-039258",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001213900-25-025600",
+   "form": "8-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001213900-24-071597",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-22"
+  },
+  {
+   "accession": "0001213900-22-053816",
+   "form": "S-1",
+   "filedAt": "2022-09-02"
+  }
+ ]
+}

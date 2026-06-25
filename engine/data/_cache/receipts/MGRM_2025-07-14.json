@@ -1,0 +1,81 @@
+{
+ "ticker": "MGRM",
+ "as_of": "2025-07-14",
+ "os_source": "DEF14A 2024-11-08; 10-Q 2025-05-14 acc:0001410578-25-001264; 8-K 2025-07-08 acc:0001104659-25-066301 Series_D_conversion",
+ "excluded": [
+  {
+   "name": "Sexson_4.01M",
+   "shares_M": null
+  },
+  {
+   "name": "Unis_3.53M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_other",
+   "shares_M": null
+  },
+  {
+   "name": "MtSinai_2.36M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "ProDex_1.83M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.73",
+ "os_M": "39.63",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1769759,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-067801",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001104659-25-067582",
+   "form": "8-K",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001104659-25-066301",
+   "form": "8-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001410578-25-001264",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-040475",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001104659-25-024195",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001104659-25-022972",
+   "form": "8-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001104659-24-115637",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-08"
+  },
+  {
+   "accession": "0001410578-23-001504",
+   "form": "S-1",
+   "filedAt": "2023-07-27"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "ticker": "GHLD",
+ "as_of": "2025-06-18",
+ "os_source": "10-Q 2025-05-08 acc:0001821160-25-000035 (Class A 21,877,157 as of May 1 2025); ownership DEF14A 2025-04-14 acc:0001821160-25-000028-ish",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group Class A 8.12M (McGarry 4.71M",
+   "shares_M": null
+  },
+  {
+   "name": "Schmidt 2.64M",
+   "shares_M": null
+  },
+  {
+   "name": "others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Bayview 1.50M",
+   "shares_M": null
+  },
+  {
+   "name": "Blocker 1.17M",
+   "shares_M": null
+  },
+  {
+   "name": "Rish 1.11M",
+   "shares_M": null
+  },
+  {
+   "name": "Scott 1.22M (passive 13G Class A)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.75",
+ "os_M": "21.88",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1821160,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-060481",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001821160-25-000039",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001104659-25-052513",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001821160-25-000035",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001821160-25-000033",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001821160-25-000020",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001193125-20-261446",
+   "form": "S-1",
+   "filedAt": "2020-10-01"
+  }
+ ]
+}

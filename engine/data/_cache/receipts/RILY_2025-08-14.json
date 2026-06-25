@@ -1,0 +1,81 @@
+{
+ "ticker": "RILY",
+ "as_of": "2025-08-14",
+ "os_source": "carried from 2025-07-17 DEF 14A 2024-05-10",
+ "excluded": [
+  {
+   "name": "Excluded=9.93M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 9.93M (Bryant Riley 6.73M + Kelleher + others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock 2.88M",
+   "shares_M": null
+  },
+  {
+   "name": "Asher 2.56M",
+   "shares_M": null
+  },
+  {
+   "name": "MILFAM 1.82M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "20.49",
+ "os_M": "30.50",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1464790,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-075744",
+   "form": "8-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001213900-25-061210",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001213900-25-051802",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-048338",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001213900-25-046915",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001213900-25-029055",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001628280-25-007082",
+   "form": "10-Q",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001213900-24-041725",
+   "form": "DEF 14A",
+   "filedAt": "2024-05-10"
+  },
+  {
+   "accession": "0001193125-09-202908",
+   "form": "424B3",
+   "filedAt": "2009-10-02"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "ticker": "CORZ",
+ "as_of": "2025-06-26",
+ "os_source": "10-Q 2025-05-07 acc:0001628280-25-023242 cover May-2-2025",
+ "excluded": [
+  {
+   "name": "D&O_group=4.089M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock=15.548M,Beryl=15.492M,Vanguard=19.379M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "297.82",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1839341,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-027960",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001628280-25-026294",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001628280-25-025065",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001628280-25-023242",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001628280-25-023161",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001628280-25-021837",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001628280-25-016974",
+   "form": "424B3",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001193125-25-065652",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001213900-21-003775",
+   "form": "S-1",
+   "filedAt": "2021-01-22"
+  }
+ ]
+}

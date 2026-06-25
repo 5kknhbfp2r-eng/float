@@ -1,0 +1,71 @@
+{
+ "ticker": "VSAT",
+ "as_of": "2025-08-04",
+ "os_source": "DEF14A 2025-07-25 acc:0001104659-25-041232",
+ "excluded": [
+  {
+   "name": "D&O group=2.903M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock=14.76M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard=14.65M",
+   "shares_M": null
+  },
+  {
+   "name": "Baupost=10.19M",
+   "shares_M": null
+  },
+  {
+   "name": "WPTriton=8.11M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "134.18",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 797721,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-165436",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-25"
+  },
+  {
+   "accession": "0001193125-25-140346",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0000950170-25-077138",
+   "form": "10-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001193125-25-125076",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001193125-25-123143",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001193125-25-117767",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0000936392-96-000824",
+   "form": "S-1",
+   "filedAt": "1996-10-01"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "ticker": "MENS",
+ "as_of": "2025-07-02",
+ "os_source": "424B4 2025-06-18 acc:0001213900-25-055414",
+ "excluded": [
+  {
+   "name": "pre-IPO_insiders=73.36M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "public_offering=2.67M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.67",
+ "os_M": "76.03",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1954488,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-055711",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001213900-23-068470",
+   "form": "F-1",
+   "filedAt": "2023-08-17"
+  }
+ ]
+}

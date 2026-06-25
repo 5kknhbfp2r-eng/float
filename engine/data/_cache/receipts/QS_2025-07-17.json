@@ -1,0 +1,67 @@
+{
+ "ticker": "QS",
+ "as_of": "2025-07-17",
+ "os_source": "Class A O/S 515.69M per 10-Q 2025-04-25 (carried from 2025-07-08; 8-K 2025-07-09 acc:0000950170-25-094793 = lease termination, no O/S impact)",
+ "excluded": [
+  {
+   "name": "Excluded=68.24M Volkswagen",
+   "shares_M": null
+  },
+  {
+   "name": "16.69M Jagdeep Singh founder",
+   "shares_M": null
+  },
+  {
+   "name": "8.87M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=29.4M Vanguard passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "421.9",
+ "os_M": "515.69",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1811414,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-094793",
+   "form": "8-K",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0000950170-25-083249",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-065715",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-058706",
+   "form": "10-Q",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0000950170-25-058125",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0000950170-25-057423",
+   "form": "8-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001564590-20-028794",
+   "form": "S-1",
+   "filedAt": "2020-06-09"
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "MPAA",
+ "as_of": "2025-08-11",
+ "os_source": "10-Q 2025-08-11 + DEF14A 2025-07-29 acc:0000918251-25-000026",
+ "excluded": [
+  {
+   "name": "D&O_14ppl_ex_options=0.961M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "PCM_2.50M",
+   "shares_M": null
+  },
+  {
+   "name": "Bison_3.02M",
+   "shares_M": null
+  },
+  {
+   "name": "325Cap_2.02M_passive_13F",
+   "shares_M": null
+  }
+ ],
+ "float_M": "18.39",
+ "os_M": "19.35",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 918251,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-030212",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001140361-25-030003",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001140361-25-027660",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001140361-25-022376",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001140361-25-021867",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001140361-25-003643",
+   "form": "8-K",
+   "filedAt": "2025-02-10"
+  },
+  {
+   "accession": "0000950117-97-001974",
+   "form": "424B4",
+   "filedAt": "1997-11-20"
+  }
+ ]
+}

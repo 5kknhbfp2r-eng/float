@@ -1,0 +1,69 @@
+{
+ "ticker": "YOSH",
+ "as_of": "2025-07-17",
+ "os_source": "10-Q 2025-05-15 acc:0001641172-25-010730 (cover Class A 1,662,245 as of 5/14/2025)",
+ "excluded": [
+  {
+   "name": "Excluded=0.632M D&O-group Class A (Chae 617,100 founder)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public Class A ~1.03M; no non-affiliate >5pct holder",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.03",
+ "os_M": "1.66",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1898604,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-019639",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001641172-25-015848",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-014825",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001641172-25-014770",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001641172-25-014335",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001641172-25-012905",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001641172-25-010730",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-005906",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001493152-22-002176",
+   "form": "S-1",
+   "filedAt": "2022-01-25"
+  }
+ ]
+}

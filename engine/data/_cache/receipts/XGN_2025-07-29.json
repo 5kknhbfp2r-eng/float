@@ -1,0 +1,69 @@
+{
+ "ticker": "XGN",
+ "as_of": "2025-07-29",
+ "os_source": "DEF14A 2025-04-30 acc:0001193125-25-105576; 10-Q 2025-07-29 acc:0001274737-25-000063; O/S=17,640,328",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_actual2253.7K(incl_HIG1696.3K_board_seat)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=NMSIC1758.9K+Tullis1515.8K+RTW1504.6K+Lytton1153.5K_all_13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "15.39",
+ "os_M": "17.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1274737,
+ "depends_on_filings": [
+  {
+   "accession": "0001274737-25-000063",
+   "form": "10-Q",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001274737-25-000061",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001274737-25-000055",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001628280-25-032393",
+   "form": "S-3",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001274737-25-000036",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001193125-25-116881",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001193125-25-115946",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001193125-25-105576",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001193125-14-347178",
+   "form": "S-1",
+   "filedAt": "2014-09-19"
+  }
+ ]
+}

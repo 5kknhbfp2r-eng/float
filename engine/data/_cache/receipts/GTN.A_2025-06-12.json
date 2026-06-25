@@ -1,0 +1,77 @@
+{
+ "ticker": "GTN.A",
+ "as_of": "2025-06-12",
+ "os_source": "DEF14A 2025-03-27 acc:0001437749-25-009605 + 10-Q 2025-05-08 acc:0001437749-25-015405",
+ "excluded": [
+  {
+   "name": "Excluded=8.87M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 15 persons 8,867,552 Class A (92.5%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.72M",
+   "shares_M": null
+  },
+  {
+   "name": "Atlantic American 880K (Howell-controlled but not in D&O group count; note possible overlap)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.72",
+ "os_M": "9.59",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 43196,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-019117",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001437749-25-015405",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-015255",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-015254",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-015250",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001437749-25-015140",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001437749-25-010195",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001437749-25-009605",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0000912057-96-009303",
+   "form": "S-1/A",
+   "filedAt": "1996-05-13"
+  }
+ ]
+}

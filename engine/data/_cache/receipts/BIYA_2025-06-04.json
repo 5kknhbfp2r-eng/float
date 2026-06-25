@@ -1,0 +1,52 @@
+{
+ "ticker": "BIYA",
+ "as_of": "2025-06-04",
+ "os_source": "20-F 2025-05-13 acc:0001213900-25-042694 O/S 12,520,000 (4/1/25); 424B4 IPO offering 2,500,000",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 10.02
+  },
+  {
+   "name": "pre-IPO BVI SPVs+D&O group ex IPO offering",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.5
+  },
+  {
+   "name": "public IPO offering shares",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.50",
+ "os_M": "12.52",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1944712,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-042694",
+   "form": "20-F",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-037815",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001013762-25-001614",
+   "form": "6-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001213900-23-081813",
+   "form": "F-1",
+   "filedAt": "2023-10-31"
+  }
+ ]
+}

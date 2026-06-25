@@ -1,0 +1,88 @@
+{
+ "ticker": "BGM",
+ "as_of": "2025-06-10",
+ "os_source": "6-K 2025-05-20 (acc 0001104659-25-050665): Wonder Dragon close 5/16, seller 38,165,290 Class A = 20.75% => total O/S ~183.9M; Class A listed (NOT ADS); 20-F/A 2025-05-08 ownership table",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 69.99
+  },
+  {
+   "name": "CISG Holdings (AIX Inc strategic parent ~43% Class A)",
+   "shares_M": null
+  },
+  {
+   "name": "3.03",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group Class A (Chairman Xin/Ahanzhai)",
+   "shares_M": null
+  },
+  {
+   "name": "38.17",
+   "shares_M": null
+  },
+  {
+   "name": "Wonder Dragon seller (locked 60mo, 20.75%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 52.7
+  },
+  {
+   "name": "public Class A free float (Class B 20M founder not listed)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "52.7",
+ "os_M": "183.9",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1779578,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-053583",
+   "form": "6-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001104659-25-050665",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001104659-25-045898",
+   "form": "20-F/A",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001104659-25-044861",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-25-039783",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001104659-25-037197",
+   "form": "6-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001410578-25-000636",
+   "form": "20-F/A",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001104659-19-059119",
+   "form": "F-1",
+   "filedAt": "2019-11-02"
+  }
+ ]
+}

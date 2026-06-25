@@ -1,0 +1,33 @@
+{
+ "ticker": "CUPR",
+ "as_of": "2025-05-02",
+ "os_source": "424B4 2025-04-10 acc=0001641172-25-003511 : 6,915,000 Class A Ordinary Shares outstanding immediately after IPO (3,915,000 pre-IPO + 3,000,000 IPO); ticker=Class A; total 21M incl 14,085,000 Class B",
+ "excluded": [
+  {
+   "name": "Pre-IPO locked-up Class A holders (non-D&O early investors)",
+   "shares_M": 3.915
+  },
+  {
+   "name": "Cuprina Holding Pte Ltd (Class B SPV, 0 Class A)",
+   "shares_M": 0.0
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.00",
+ "os_M": "6.92",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1995704,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-003758",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-24-009210",
+   "form": "F-1",
+   "filedAt": "2024-03-07"
+  }
+ ]
+}

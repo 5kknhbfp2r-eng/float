@@ -1,0 +1,59 @@
+{
+ "ticker": "INLX",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-13 acc:0001641172-25-009938",
+ "excluded": [
+  {
+   "name": "Excl=D&O group ex-options 1.14M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Robert F. Taglich 0.49M (11.6% actual, not D&O, under 20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.13",
+ "os_M": "4.26",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1081745,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013193",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001641172-25-012697",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-009938",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-009944",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001641172-25-009687",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001641172-25-007700",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001144204-13-032054",
+   "form": "S-1",
+   "filedAt": "2013-05-29"
+  }
+ ]
+}

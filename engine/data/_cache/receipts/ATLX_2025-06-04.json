@@ -1,0 +1,67 @@
+{
+ "ticker": "ATLX",
+ "as_of": "2025-06-04",
+ "os_source": "10-Q 2025-05-09 acc:0001641172-25-009443; DEF14A 2025-04-15 acc:0001641172-25-004852",
+ "excluded": [
+  {
+   "name": "Excluded=5.96M",
+   "shares_M": null
+  },
+  {
+   "name": "Fogassa 5.26M control + other D&O 0.70M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.87M",
+   "shares_M": null
+  },
+  {
+   "name": "Mitsui strategic <20% no board",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.06",
+ "os_M": "16.01",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1540684,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013016",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001641172-25-012729",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-009443",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001641172-25-004852",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001493152-25-011161",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001493152-24-048192",
+   "form": "8-K",
+   "filedAt": "2024-11-29"
+  },
+  {
+   "accession": "0001540684-12-000001",
+   "form": "S-1",
+   "filedAt": "2012-04-09"
+  }
+ ]
+}

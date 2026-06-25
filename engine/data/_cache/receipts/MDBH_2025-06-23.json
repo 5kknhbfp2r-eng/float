@@ -1,0 +1,59 @@
+{
+ "ticker": "MDBH",
+ "as_of": "2025-06-23",
+ "os_source": "10-Q 2025-05-12 acc:0001641172-25-009686 Class A O/S 4,950,632; DEF 14A acc 2024-10-28 D&O",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group Class A 0.161M ex-RSUs (Marlett/DiGiandomenico/Meline et al); Class B 5.0M founder super-voting not in listed class",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public Class A float ~4.79M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.79",
+ "os_M": "4.95",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1934642,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013270",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001641172-25-009686",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001641172-25-003688",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-24-049974",
+   "form": "8-K",
+   "filedAt": "2024-12-13"
+  },
+  {
+   "accession": "0001493152-24-042701",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-28"
+  },
+  {
+   "accession": "0001493152-24-026466",
+   "form": "8-K",
+   "filedAt": "2024-07-08"
+  },
+  {
+   "accession": "0001493152-22-031441",
+   "form": "S-1",
+   "filedAt": "2022-11-10"
+  }
+ ]
+}

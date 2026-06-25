@@ -1,0 +1,64 @@
+{
+ "ticker": "WBUY",
+ "as_of": "2025-06-30",
+ "os_source": "O/S Class A 1,045,336 = F-1 2025-06-25 acc:0001213900-25-057745 (pre-offering cover)",
+ "excluded": [
+  {
+   "name": "Excluded=0 (insiders hold only Class B 21.40M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Class A 1.05M public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.05",
+ "os_M": "1.05",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1946703,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-059259",
+   "form": "6-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001213900-25-058605",
+   "form": "6-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001213900-25-057745",
+   "form": "F-1",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-054479",
+   "form": "6-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001213900-25-051351",
+   "form": "6-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001213900-25-047784",
+   "form": "F-3",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001213900-25-033933",
+   "form": "20-F",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001640334-23-000746",
+   "form": "F-1",
+   "filedAt": "2023-05-03"
+  }
+ ]
+}

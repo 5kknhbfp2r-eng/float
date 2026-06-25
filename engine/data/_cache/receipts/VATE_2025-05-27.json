@@ -1,0 +1,63 @@
+{
+ "ticker": "VATE",
+ "as_of": "2025-05-27",
+ "os_source": "O/S 10-Q cover 2025-05-06 acc:0001006837-25-000045: 13,283,218 common as of May 2 2025 (post 1:10 reverse split)",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group 7.47M incl Glazer/Lancer 6.81M (51% control)",
+   "shares_M": null
+  },
+  {
+   "name": "Percy Rockdale/Gorzynski 1.04M (13D control affiliate, 100% preferred)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Whitefort Capital 1.03M (7.6% hedge fund, no board seat)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.77",
+ "os_M": "13.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1006837,
+ "depends_on_filings": [
+  {
+   "accession": "0001006837-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001006837-25-000050",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001006837-25-000045",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001006837-25-000044",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001006837-25-000033",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001006837-25-000020",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0000950109-96-005554",
+   "form": "S-1",
+   "filedAt": "1996-08-27"
+  }
+ ]
+}

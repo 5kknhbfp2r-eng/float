@@ -1,0 +1,59 @@
+{
+ "ticker": "ADPT",
+ "as_of": "2025-06-25",
+ "os_source": "10-Q 2025-05-01 acc:0000950170-25-061897",
+ "excluded": [
+  {
+   "name": "Excluded=9.71M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=29.99M Viking(13G),14.4M Rubric(13G),11.4M BlackRock(13G),10.6M Vanguard(13G),9.4M ARK(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "138.0",
+ "os_M": "147.8",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1478320,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-140017",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0000950170-25-061897",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950170-25-061851",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001193125-25-103752",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-017915",
+   "form": "8-K",
+   "filedAt": "2025-02-11"
+  },
+  {
+   "accession": "0000950170-24-123369",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001193125-19-161447",
+   "form": "S-1",
+   "filedAt": "2019-05-30"
+  }
+ ]
+}

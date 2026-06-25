@@ -1,0 +1,29 @@
+{
+ "ticker": "VBIX",
+ "as_of": "2025-07-14",
+ "os_source": "8-K filed 2025-07-14 acc:0001641172-25-019503 PP of 848,763 shares closed Jul14; base O/S 9,212,473 (S-1 2025-06-20) = 10,061,236",
+ "excluded": [
+  {
+   "name": "Excluded=2.819M Gix Internet(control parent)",
+   "shares_M": null
+  },
+  {
+   "name": "0.105M D&O group",
+   "shares_M": null
+  },
+  {
+   "name": "0.005M Eliyahu(director PP)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=7.13M public float incl passive PP accredited/QIB investors; MMCAP/Capitalink/MRM 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.13",
+ "os_M": "10.06",
+ "under_20M": "true",
+ "confidence": "med"
+}

@@ -1,0 +1,65 @@
+{
+ "ticker": "GDEV",
+ "as_of": "2025-05-05",
+ "os_source": "OS_SOURCE: 20-F 2025-03-31 acc=0001104659-25-029853 Item7 : 18,130,090 ordinary (ADS 1:1)",
+ "excluded": [
+  {
+   "name": "Everix Investments",
+   "shares_M": 7.44
+  },
+  {
+   "name": "Andrey Fadeev",
+   "shares_M": 3.979
+  },
+  {
+   "name": "Boris Gertsovskiy",
+   "shares_M": 2.731
+  },
+  {
+   "name": "Kismet Sponsor",
+   "shares_M": 1.788
+  },
+  {
+   "name": "residual D&O",
+   "shares_M": 0.085
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "2.11",
+ "os_M": "18.13",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1848739,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-029853",
+   "form": "20-F",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001104659-25-029862",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001104659-25-016738",
+   "form": "6-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0001104659-25-015907",
+   "form": "6-K",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001104659-25-012548",
+   "form": "6-K",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0001104659-21-098229",
+   "form": "424B3",
+   "filedAt": "2021-07-30"
+  }
+ ]
+}

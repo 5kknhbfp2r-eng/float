@@ -1,0 +1,58 @@
+{
+ "ticker": "RUM",
+ "as_of": "2025-05-09",
+ "os_source": "OS_SOURCE: DEF 14A 2025-04-25 acc 0001213900-25-035545 (as-converted) + 10-Q 2025-05-08 : 338,632,399 economic shares (Class A 214.8M + ExchangeCo 123.69M)",
+ "excluded": [
+  {
+   "name": "D&O group as-converted ex-options",
+   "shares_M": 121.88
+  },
+  {
+   "name": "Tether Holdings",
+   "shares_M": 103.33
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "113.4",
+ "os_M": "338.63",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1830081,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-041074",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-041047",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-25-035545",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001213900-25-030304",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0001013762-25-001859",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001213900-25-011371",
+   "form": "8-K",
+   "filedAt": "2025-02-07"
+  },
+  {
+   "accession": "0001213900-21-005460",
+   "form": "S-1",
+   "filedAt": "2021-01-29"
+  }
+ ]
+}

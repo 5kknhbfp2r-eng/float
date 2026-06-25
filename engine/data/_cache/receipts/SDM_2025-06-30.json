@@ -1,0 +1,51 @@
+{
+ "ticker": "SDM",
+ "as_of": "2025-06-30",
+ "os_source": "424B4 IPO prospectus 2025-05-05 acc:0001213900-25-039463",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 10.5
+  },
+  {
+   "name": "Sam Wai Hong D&O/ChinaInvest+Winwin;4.448948",
+   "shares_M": null
+  },
+  {
+   "name": "BOBO Worldwide BVI shell Wei Liya;4.135",
+   "shares_M": null
+  },
+  {
+   "name": "Liao Junhui pre-IPO",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public IPO float 7.42",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.42",
+ "os_M": "26.5",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2014955,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-040672",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001213900-25-040159",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-24-096783",
+   "form": "F-1",
+   "filedAt": "2024-11-12"
+  }
+ ]
+}

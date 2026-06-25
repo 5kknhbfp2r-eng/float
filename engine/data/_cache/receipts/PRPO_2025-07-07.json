@@ -1,0 +1,59 @@
+{
+ "ticker": "PRPO",
+ "as_of": "2025-07-07",
+ "os_source": "10-Q 2025-05-14 acc:0001140361-25-016610",
+ "excluded": [
+  {
+   "name": "D&O group(11) actual=0.077M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Eklund 13G=0.084M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.42",
+ "os_M": "1.49",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1043961,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-060236",
+   "form": "8-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001104659-25-049371",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001558370-25-007776",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-25-045024",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001140361-25-016610",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001104659-25-033457",
+   "form": "8-K",
+   "filedAt": "2025-04-09"
+  },
+  {
+   "accession": "0000912057-00-010980",
+   "form": "S-1",
+   "filedAt": "2000-03-10"
+  }
+ ]
+}

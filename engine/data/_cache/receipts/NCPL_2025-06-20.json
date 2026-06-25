@@ -1,0 +1,69 @@
+{
+ "ticker": "NCPL",
+ "as_of": "2025-06-20",
+ "os_source": "424B5 2025-06-23 acc:0001641172-25-016008 (O/S 2,280,825; non-affiliate 2,250,674 as of June 20 ref)",
+ "excluded": [
+  {
+   "name": "Excluded=0.030M affiliates (2,280,825-2,250,674)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.251M non-affiliate public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.25",
+ "os_M": "2.28",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1414767,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014907",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001641172-25-008705",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001641172-25-008684",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001641172-25-004883",
+   "form": "S-1",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001641172-25-001772",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001641172-25-001051",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001493152-25-010560",
+   "form": "10-Q",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001493152-24-031333",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-12"
+  },
+  {
+   "accession": "0001721868-22-000119",
+   "form": "S-1",
+   "filedAt": "2022-02-11"
+  }
+ ]
+}

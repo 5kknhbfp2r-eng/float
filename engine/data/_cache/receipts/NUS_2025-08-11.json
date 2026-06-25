@@ -1,0 +1,63 @@
+{
+ "ticker": "NUS",
+ "as_of": "2025-08-11",
+ "os_source": "10-Q 2025-08-07 acc:0001140361-25-029673",
+ "excluded": [
+  {
+   "name": "D&O_ex_options=0.644M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock_4.59M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_3.94M_passive_13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "49.50",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1021561,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-029673",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001140361-25-029613",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001140361-25-020939",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001140361-25-017961",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001140361-25-012306",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001140361-25-007278",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0000950109-96-005995",
+   "form": "S-1",
+   "filedAt": "1996-09-16"
+  }
+ ]
+}

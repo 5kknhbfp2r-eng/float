@@ -1,0 +1,72 @@
+{
+ "ticker": "YAAS",
+ "as_of": "2025-06-30",
+ "os_source": "O/S Class A 24,604,693 = 424B4 2024-12-23 acc:0001493152-24-051790 ('outstanding after offering 24,604,693'; 22,304,693 pre-IPO per 20-F + 2,300,000 IPO); trades ordinary not ADS",
+ "excluded": [
+  {
+   "name": "Excluded=Youxin XHB 3.943M",
+   "shares_M": null
+  },
+  {
+   "name": "Youxin HW 2.262M (founder-control SPVs, voting trust)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Suzhou GSR 3.208M",
+   "shares_M": null
+  },
+  {
+   "name": "Kaitai 1.673M",
+   "shares_M": null
+  },
+  {
+   "name": "SHENGKAI 1.875M",
+   "shares_M": null
+  },
+  {
+   "name": "BAIYAN 1.875M",
+   "shares_M": null
+  },
+  {
+   "name": "WXING 1.875M",
+   "shares_M": null
+  },
+  {
+   "name": "WonderFerns 2.344M",
+   "shares_M": null
+  },
+  {
+   "name": "IPO+other public ~5.55M (passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "18.40",
+ "os_M": "24.60",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1964946,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-008133",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001493152-25-004300",
+   "form": "20-F",
+   "filedAt": "2025-01-30"
+  },
+  {
+   "accession": "0001493152-24-051966",
+   "form": "6-K",
+   "filedAt": "2024-12-26"
+  },
+  {
+   "accession": "0001493152-23-032000",
+   "form": "F-1",
+   "filedAt": "2023-09-07"
+  }
+ ]
+}

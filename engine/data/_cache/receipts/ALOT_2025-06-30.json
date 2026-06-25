@@ -1,0 +1,64 @@
+{
+ "ticker": "ALOT",
+ "as_of": "2025-06-30",
+ "os_source": "10-Q 2025-06-06 acc:0000950170-25-083139, PRE14A 2025-05-08 acc:0001193125-25-116143",
+ "excluded": [
+  {
+   "name": "Excluded=1.10M D&O pure shares",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.693M Askeladden(13D,<20%),0.535M Juniper(in D&O),0.517M Dimensional(13G),0.496M Punch(passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.50",
+ "os_M": "7.60",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 8146,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-152062",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001193125-25-141165",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001193125-25-140787",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001193125-25-140034",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0000950170-25-083139",
+   "form": "10-Q",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001193125-25-135323",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001193125-25-122538",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001193125-25-116143",
+   "form": "PRE 14A",
+   "filedAt": "2025-05-08"
+  }
+ ]
+}

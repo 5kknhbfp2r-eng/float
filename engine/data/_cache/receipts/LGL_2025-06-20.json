@@ -1,0 +1,63 @@
+{
+ "ticker": "LGL",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-15 acc:0001437749-25-017244",
+ "excluded": [
+  {
+   "name": "Excl=D&O group 1.02M (Marc Gabelli 0.85M Venator+direct)",
+   "shares_M": null
+  },
+  {
+   "name": "Mario Gabelli 1.04M (non-D&O family control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Bard Associates 0.53M (9.8% passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.31",
+ "os_M": "5.37",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 61004,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-019435",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001437749-25-019381",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001437749-25-017244",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001437749-25-017246",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001437749-25-013896",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001437749-25-012200",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000921895-08-001848",
+   "form": "424B3",
+   "filedAt": "2008-06-20"
+  }
+ ]
+}

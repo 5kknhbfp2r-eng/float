@@ -1,0 +1,52 @@
+{
+ "ticker": "BMGL",
+ "as_of": "2025-05-14",
+ "os_source": "OS_SOURCE: 424B4 2025-02-25 acc 0001493152-25-008234 + DT-confirmed over-allotment : 18,785,750 post-IPO ordinary",
+ "excluded": [
+  {
+   "name": "Rainforest_Capital_VCC",
+   "shares_M": 10.174579
+  },
+  {
+   "name": "DnO_group",
+   "shares_M": 0.029412
+  },
+  {
+   "name": "Meng+Yip+Tan_affiliated",
+   "shares_M": 2.53409
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "6.05",
+ "os_M": "18.79",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2004489,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-007765",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001641172-25-005570",
+   "form": "6-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001641172-25-003702",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001641172-25-002778",
+   "form": "6-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001493152-24-036168",
+   "form": "F-1",
+   "filedAt": "2024-09-13"
+  }
+ ]
+}

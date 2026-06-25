@@ -1,0 +1,58 @@
+{
+ "ticker": "TOYO",
+ "as_of": "2025-07-31",
+ "os_source": "20-F filed 2025-05-12 acc:0001213900-25-042062 O/S 46,595,743 less 11,287,703 earnout = 35,308,040",
+ "excluded": [
+  {
+   "name": "Excluded=27.41M Ryu/WAG/BestToYo(founder control)",
+   "shares_M": null
+  },
+  {
+   "name": "0.03M Hickey(director)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=3.27M N.A.GLOBAL(13G passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.87",
+ "os_M": "35.31",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1985273,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-045950",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-042062",
+   "form": "20-F",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001213900-25-038020",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001213900-24-111157",
+   "form": "6-K",
+   "filedAt": "2024-12-20"
+  },
+  {
+   "accession": "0001213900-24-104083",
+   "form": "6-K",
+   "filedAt": "2024-11-29"
+  },
+  {
+   "accession": "0001213900-24-027208",
+   "form": "424B3",
+   "filedAt": "2024-03-28"
+  }
+ ]
+}

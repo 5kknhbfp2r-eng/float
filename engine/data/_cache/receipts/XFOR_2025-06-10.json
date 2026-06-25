@@ -1,0 +1,75 @@
+{
+ "ticker": "XFOR",
+ "as_of": "2025-06-10",
+ "os_source": "O/S common 5,788,686 = 10-Q 2025-05-01 acc:0001628280-25-021358 (cover 'as of April 28 2025', post 1-for-30 reverse split)",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group 0.137M (4,120,524 pre-split /30, incl options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Bain LS 0.588M",
+   "shares_M": null
+  },
+  {
+   "name": "Growth Equity/NEA 0.587M",
+   "shares_M": null
+  },
+  {
+   "name": "Acorn 0.595M",
+   "shares_M": null
+  },
+  {
+   "name": "OrbiMed 0.383M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 0.374M (all passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.65",
+ "os_M": "5.79",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1501697,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-021358",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001628280-25-021304",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001628280-25-019926",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001628280-25-019507",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001628280-25-018389",
+   "form": "8-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001628280-25-014601",
+   "form": "8-K",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001193125-17-315505",
+   "form": "S-1",
+   "filedAt": "2017-10-20"
+  }
+ ]
+}

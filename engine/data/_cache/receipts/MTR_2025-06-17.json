@@ -1,0 +1,62 @@
+{
+ "ticker": "MTR",
+ "as_of": "2025-06-17",
+ "os_source": "10-Q 2025-05-15 acc:0001104659-25-049448",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.0
+  },
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.86M",
+   "shares_M": null
+  },
+  {
+   "name": "all-units",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.86",
+ "os_M": "1.86",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 313364,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-050451",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001104659-25-049448",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001104659-25-036350",
+   "form": "8-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001104659-25-029944",
+   "form": "10-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001104659-25-026652",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001104659-25-014769",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  }
+ ]
+}

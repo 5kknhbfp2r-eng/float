@@ -1,0 +1,79 @@
+{
+ "ticker": "YHC",
+ "as_of": "2025-07-16",
+ "os_source": "DEF14A 2025-05-05 acc:0001213900-25-039435; 13D_Leshner 2025-07-14 acc:0002076128-25-000002; O/S~1,064,913 derived from 13D",
+ "excluded": [
+  {
+   "name": "Excluded=Leshner605.9K(>20%_activist_13D)+D&O_actual5.8K",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public_float_453.2K",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.45",
+ "os_M": "1.06",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1843165,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-064703",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001213900-25-051152",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-042634",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-039435",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001213900-25-035096",
+   "form": "PRE 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001213900-25-035074",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001213900-25-033739",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001213900-25-032640",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001213900-25-029127",
+   "form": "8-K",
+   "filedAt": "2025-04-05"
+  },
+  {
+   "accession": "0001213900-24-102848",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-26"
+  },
+  {
+   "accession": "0001213900-23-049050",
+   "form": "S-1",
+   "filedAt": "2023-06-15"
+  }
+ ]
+}

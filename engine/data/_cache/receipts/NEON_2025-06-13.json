@@ -1,0 +1,67 @@
+{
+ "ticker": "NEON",
+ "as_of": "2025-06-13",
+ "os_source": "DEF14A 2025-04-30 acc:0001213900-25-037606; 10-Q 2025-05-14 acc:0001213900-25-043002",
+ "excluded": [
+  {
+   "name": "Excluded=3.67M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O-group-no-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.27M",
+   "shares_M": null
+  },
+  {
+   "name": "Avanza-Pension-passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.11",
+ "os_M": "16.78",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 87050,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-053858",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001213900-25-043002",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-042999",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-037606",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001213900-25-030450",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001013762-25-001268",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001213900-16-016745",
+   "form": "424B3",
+   "filedAt": "2016-09-13"
+  }
+ ]
+}

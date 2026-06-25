@@ -1,0 +1,63 @@
+{
+ "ticker": "NUWE",
+ "as_of": "2025-07-16",
+ "os_source": "DEF 14A filed 2025-07-14 acc:0001539497-25-001825 (O/S 527,158 as of June 30, 2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.027
+  },
+  {
+   "name": "D&O group as-a-group 26,641 shares (Erb+officers/directors, ex-options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G financing funds (Jun 2025 offering investors)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.50",
+ "os_M": "0.53",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1506492,
+ "depends_on_filings": [
+  {
+   "accession": "0001539497-25-001825",
+   "form": "DEF 14A",
+   "filedAt": "2025-07-14"
+  },
+  {
+   "accession": "0001140361-25-024517",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001140361-25-023368",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001140361-25-021870",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001140361-25-020182",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001140361-25-018676",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001047469-12-007239",
+   "form": "S-1",
+   "filedAt": "2012-07-17"
+  }
+ ]
+}

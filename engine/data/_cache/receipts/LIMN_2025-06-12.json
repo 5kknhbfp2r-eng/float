@@ -1,0 +1,55 @@
+{
+ "ticker": "LIMN",
+ "as_of": "2025-06-12",
+ "os_source": "8-K 2025-05-06 acc:0001104659-25-045127 + 10-Q 2025-05-31 acc:0001410578-25-001388",
+ "excluded": [
+  {
+   "name": "Excluded=ChrisKim_Valetudo_6.169M",
+   "shares_M": null
+  },
+  {
+   "name": "IrisAcqHoldings_Sponsor_6.9M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Feelux_4.0M",
+   "shares_M": null
+  },
+  {
+   "name": "Ewon_1.5M",
+   "shares_M": null
+  },
+  {
+   "name": "Nongae_1.47M",
+   "shares_M": null
+  },
+  {
+   "name": "RedPeony_1.47M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "12.95",
+ "os_M": "26.01",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1971387,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-056421",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001104659-25-045127",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-24-087965",
+   "form": "424B3",
+   "filedAt": "2024-08-10"
+  }
+ ]
+}

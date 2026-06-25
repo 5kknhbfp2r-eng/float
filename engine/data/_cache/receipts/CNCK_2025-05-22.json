@@ -1,0 +1,67 @@
+{
+ "ticker": "CNCK",
+ "as_of": "2025-05-22",
+ "os_source": "20-F 2024-12-16 acc=0001213900-24-109398 : 129,703,076 Ordinary Shares issued and outstanding (de-SPAC close 12/10/24); XBRL EntityCommonStock 130,814,526 at 3/31/2025",
+ "excluded": [
+  {
+   "name": "Monex Group Inc (parent)",
+   "shares_M": 109.09791
+  },
+  {
+   "name": "Koichiro Wada (co-founder)",
+   "shares_M": 9.700464
+  },
+  {
+   "name": "D&O group/Simanson-TBCP",
+   "shares_M": 4.195973
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "6.70",
+ "os_M": "129.70",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1913847,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-046039",
+   "form": "424B3",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-042255",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-041581",
+   "form": "6-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001213900-25-040231",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001213900-25-030417",
+   "form": "424B3",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001213900-25-028099",
+   "form": "6-K",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0001213900-24-109398",
+   "form": "20-F",
+   "filedAt": "2024-12-16"
+  },
+  {
+   "accession": "0001213900-24-096915",
+   "form": "424B3",
+   "filedAt": "2024-11-12"
+  }
+ ]
+}

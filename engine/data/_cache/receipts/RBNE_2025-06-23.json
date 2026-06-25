@@ -1,0 +1,49 @@
+{
+ "ticker": "RBNE",
+ "as_of": "2025-06-23",
+ "os_source": "424B5 2025-06-20 acc:0001140361-25-023119 (4,211,731 + 763,000 = 4,974,731 post); serial 424B5 6/17,6/18,6/20",
+ "excluded": [
+  {
+   "name": "Excluded=1.296M Pani Corp/Panagiotidis(control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2,588,000 cumulative RD institutions + prior public float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.68",
+ "os_M": "4.97",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2039060,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-023123",
+   "form": "6-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001140361-25-022952",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001140361-25-022760",
+   "form": "6-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001140361-25-015423",
+   "form": "F-3",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001140361-25-013888",
+   "form": "20-F",
+   "filedAt": "2025-04-15"
+  }
+ ]
+}

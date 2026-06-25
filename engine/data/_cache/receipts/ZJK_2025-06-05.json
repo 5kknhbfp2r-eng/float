@@ -1,0 +1,70 @@
+{
+ "ticker": "ZJK",
+ "as_of": "2025-06-05",
+ "os_source": "Ordinary O/S 61.38M from 20-F 2025-04-28 Item7 (as of 4/24/25, acc:0001731122-25-000613); no ADS rescale (trades ordinary, ~1:1 vs DT)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 38.664
+  },
+  {
+   "name": "Ning Ding via DNR Technology BVI founder;11.724",
+   "shares_M": null
+  },
+  {
+   "name": "Kai Huang via Vimisci Holding BVI director (D&O group 50.388M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 3.0
+  },
+  {
+   "name": "Jinshan Intl BVI 4.89%;3.0",
+   "shares_M": null
+  },
+  {
+   "name": "Newmicro Holding BVI 4.89% (pre-IPO SPVs <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.99",
+ "os_M": "61.38",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1941506,
+ "depends_on_filings": [
+  {
+   "accession": "0001731122-25-000790",
+   "form": "6-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001731122-25-000781",
+   "form": "6-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001731122-25-000619",
+   "form": "6-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001731122-25-000613",
+   "form": "20-F",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001731122-25-000456",
+   "form": "6-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001731122-24-000992",
+   "form": "F-1",
+   "filedAt": "2024-06-21"
+  }
+ ]
+}

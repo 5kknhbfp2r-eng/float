@@ -1,0 +1,93 @@
+{
+ "ticker": "SATS",
+ "as_of": "2025-06-05",
+ "os_source": "10-Q 2025-05-09 acc:0001558370-25-007050 (Class A 155,048,676 outstanding)",
+ "excluded": [
+  {
+   "name": "Excluded=15.96M Ergen group Class A(ex-opt)",
+   "shares_M": null
+  },
+  {
+   "name": "6.26M other insiders",
+   "shares_M": null
+  },
+  {
+   "name": "131.35M Class B non-listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=20.76M BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "13.7M Vanguard",
+   "shares_M": null
+  },
+  {
+   "name": "13.42M Dodge&Cox",
+   "shares_M": null
+  },
+  {
+   "name": "13.37M FMR",
+   "shares_M": null
+  },
+  {
+   "name": "8.94M Loomis (passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "133.0",
+ "os_M": "155.05",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1415404,
+ "depends_on_filings": [
+  {
+   "accession": "0001415404-25-000024",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001415404-25-000017",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001415404-25-000014",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001415404-25-000010",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001558370-25-007050",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001104659-25-046470",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001415404-25-000006",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001558370-25-003470",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001104659-23-115292",
+   "form": "424B3",
+   "filedAt": "2023-11-07"
+  }
+ ]
+}

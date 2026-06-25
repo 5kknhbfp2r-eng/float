@@ -1,0 +1,76 @@
+{
+ "ticker": "NUKK",
+ "as_of": "2025-06-13",
+ "os_source": "10-Q 2025-05-23 cover acc:0001213900-25-047386 (O/S 5,013,863)",
+ "excluded": [
+  {
+   "name": "Excluded=1.01M D&O ex-options",
+   "shares_M": null
+  },
+  {
+   "name": "0.67M Assentato founder-control 14%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.38M East Asia derivative",
+   "shares_M": null
+  },
+  {
+   "name": "0.25M Nukk Notes",
+   "shares_M": null
+  },
+  {
+   "name": "public float 3.33M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.33",
+ "os_M": "5.01",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1787518,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-047386",
+   "form": "10-Q",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001213900-25-044147",
+   "form": "S-1/A",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-043355",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-015333",
+   "form": "8-K",
+   "filedAt": "2025-02-19"
+  },
+  {
+   "accession": "0001213900-25-013798",
+   "form": "8-K",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001213900-25-013066",
+   "form": "PRE 14A",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0001213900-25-004193",
+   "form": "8-K",
+   "filedAt": "2025-01-16"
+  },
+  {
+   "accession": "0001213900-20-006275",
+   "form": "S-1",
+   "filedAt": "2020-03-13"
+  }
+ ]
+}

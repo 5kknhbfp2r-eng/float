@@ -1,0 +1,87 @@
+{
+ "ticker": "COGT",
+ "as_of": "2025-07-07",
+ "os_source": "DEF14A 2025-04-22 acc:0001193125-25-089237 + 10-Q 2025-05-06 acc:0000950170-25-064005",
+ "excluded": [
+  {
+   "name": "Fairmount=11.83M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O=8.95M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "FMR 16.57M",
+   "shares_M": null
+  },
+  {
+   "name": "Commodore 10.5M",
+   "shares_M": null
+  },
+  {
+   "name": "Point72 9.99M",
+   "shares_M": null
+  },
+  {
+   "name": "Kynam 9.24M",
+   "shares_M": null
+  },
+  {
+   "name": "TCG 6.96M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 6.76M",
+   "shares_M": null
+  },
+  {
+   "name": "Venrock 6.45M passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "113.86",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1622229,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-155811",
+   "form": "8-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001193125-25-138813",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001193125-25-135337",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0000950170-25-064005",
+   "form": "10-Q",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-063987",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001193125-25-089237",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001193125-18-068918",
+   "form": "S-1",
+   "filedAt": "2018-03-02"
+  }
+ ]
+}

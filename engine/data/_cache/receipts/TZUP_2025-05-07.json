@@ -1,0 +1,29 @@
+{
+ "ticker": "TZUP",
+ "as_of": "2025-05-07",
+ "os_source": "O/S PRE 14A 2025-04-17 acc:0001641172-25-005251: 9,479,709 common as of Apr 15 2025",
+ "excluded": [
+  {
+   "name": "Excluded=3.46M D&O actual-common ex-options",
+   "shares_M": null
+  },
+  {
+   "name": "Lupinelli 1.40M non-voting locked-up pre-IPO insider",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Joe Thomas 0.73M (7.7%)",
+   "shares_M": null
+  },
+  {
+   "name": "Andrew Haag/HGR 0.94M (9.9%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.62",
+ "os_M": "9.48",
+ "under_20M": "true",
+ "confidence": "med"
+}

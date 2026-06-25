@@ -1,0 +1,69 @@
+{
+ "ticker": "METCB",
+ "as_of": "2025-08-14",
+ "os_source": "O/S 10-Q filed 2025-08-01 acc:0001558370-25-009974 Class B 10,714,900 (cover ~Jul31); Aug offering 10.67M was Class A per 424B5 acc:0001104659-25-074893",
+ "excluded": [
+  {
+   "name": "Excluded=3.812M D&O group ClassB(14 persons, incl Yorktown via Lawrence/Leidel fn7)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive/none material ClassB",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.90",
+ "os_M": "10.71",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1687187,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-075179",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001104659-25-074557",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001104659-25-073643",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001558370-25-009974",
+   "form": "10-Q",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001558370-25-009901",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001104659-25-072699",
+   "form": "8-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001104659-25-071434",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001104659-25-041856",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001193125-16-807449",
+   "form": "S-1",
+   "filedAt": "2016-12-29"
+  }
+ ]
+}

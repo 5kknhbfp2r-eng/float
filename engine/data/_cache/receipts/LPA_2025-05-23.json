@@ -1,0 +1,20 @@
+{
+ "ticker": "LPA",
+ "as_of": "2025-05-23",
+ "os_source": "OS_SOURCE: 424B3 05-06 acc 0001641172-25-008773 (O/S as of Apr 25 2025) : 31,622,311 ordinary outstanding = 31.62M",
+ "excluded": [
+  {
+   "name": "JREP_McDonald_control",
+   "shares_M": 26.312
+  },
+  {
+   "name": "HC_PropTech_sponsor",
+   "shares_M": 2.131
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.18",
+ "os_M": "31.62",
+ "under_20M": "true",
+ "confidence": "high"
+}

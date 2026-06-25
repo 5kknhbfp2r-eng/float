@@ -1,0 +1,69 @@
+{
+ "ticker": "XXII",
+ "as_of": "2025-07-16",
+ "os_source": "424B3 2025-07-02 acc:0001641172-25-017570 (500,331 O/S as of 6/18); carried from 07-11",
+ "excluded": [
+  {
+   "name": "Excluded=~0M D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 9.99pct funds",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.50",
+ "os_M": "0.50",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1347858,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-019708",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001641172-25-017570",
+   "form": "424B3",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001641172-25-016229",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001641172-25-015905",
+   "form": "S-3",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-015296",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001641172-25-014543",
+   "form": "DEF 14A",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001641172-25-012097",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001558370-25-007482",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001002014-06-000072",
+   "form": "424B3",
+   "filedAt": "2006-01-24"
+  }
+ ]
+}

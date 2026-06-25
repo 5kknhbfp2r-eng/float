@@ -1,0 +1,39 @@
+{
+ "ticker": "EGG",
+ "as_of": "2025-07-03",
+ "os_source": "424B4 2025-06-18 + 6-K 2025-06-20 (overallotment confirmed)",
+ "excluded": [
+  {
+   "name": "FooCheeWengDesmond_ClassB=15.75M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.272",
+ "os_M": "12.522",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1982961,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015863",
+   "form": "6-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-015493",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001641172-25-001072",
+   "form": "F-1",
+   "filedAt": "2025-03-28"
+  }
+ ]
+}

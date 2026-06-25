@@ -1,0 +1,42 @@
+{
+ "ticker": "ARAI",
+ "as_of": "2025-06-10",
+ "os_source": "424B4 2025-05-15 acc:0001641172-25-010892; 10-Q 2025-06-05 acc:0001641172-25-013826",
+ "excluded": [
+  {
+   "name": "Excluded=24.98M",
+   "shares_M": null
+  },
+  {
+   "name": "pre-IPO insiders (O/S minus IPO offering)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=4.86M",
+   "shares_M": null
+  },
+  {
+   "name": "IPO public offering",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.86",
+ "os_M": "29.84",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1818274,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013204",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001493152-24-051854",
+   "form": "S-1",
+   "filedAt": "2024-12-26"
+  }
+ ]
+}

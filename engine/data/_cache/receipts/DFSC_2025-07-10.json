@@ -1,0 +1,64 @@
+{
+ "ticker": "DFSC",
+ "as_of": "2025-07-10",
+ "os_source": "O/S 530,364 Common from Q2 MD&A 6-K 2025-05-16 acc:0001062993-25-009593 ex99.2 (post 21:1 consolidation eff 4/24); consol confirmed 6-K 2025-04-23 acc:0001062993-25-007816",
+ "excluded": [
+  {
+   "name": "Excluded=D&O group 0.006M (133,101 pre-consol /21)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public float; no 5% holder per 20-F",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.52",
+ "os_M": "0.53",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1889823,
+ "depends_on_filings": [
+  {
+   "accession": "0001062993-25-012154",
+   "form": "6-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001062993-25-011873",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001062993-25-009625",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001062993-25-009593",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001062993-25-008966",
+   "form": "6-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001062993-25-007816",
+   "form": "6-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001062993-24-021234",
+   "form": "20-F",
+   "filedAt": "2024-12-28"
+  },
+  {
+   "accession": "0001062993-22-018067",
+   "form": "F-1",
+   "filedAt": "2022-08-16"
+  }
+ ]
+}

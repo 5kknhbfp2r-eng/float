@@ -1,0 +1,75 @@
+{
+ "ticker": "GBIO",
+ "as_of": "2025-08-12",
+ "os_source": "O/S 6.735M from 10-Q 2025-08-12 acc:0001558370-25-011226 cover (6,735,544 as of 2025-07-31, post 1-for-10 reverse split eff 2025-07-18); ownership from DEF14A 2025-04-23 acc:0001558370-25-005263 (pre-split, /10)",
+ "excluded": [
+  {
+   "name": "Excluded=1.164M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options(Atlas/Rhodes LP 0.828M + direct 0.278M + trust 0.057M + spouse 0.001M, post-split)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=T.Rowe 0.935M",
+   "shares_M": null
+  },
+  {
+   "name": "ModernaTX 0.586M",
+   "shares_M": null
+  },
+  {
+   "name": "FMR 0.463M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 0.342M (all passive 13G/strategic <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.57",
+ "os_M": "6.74",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1733294,
+ "depends_on_filings": [
+  {
+   "accession": "0001558370-25-011226",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001558370-25-011223",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001558370-25-009290",
+   "form": "8-K",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001558370-25-008432",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001558370-25-006734",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001558370-25-005263",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-20-150059",
+   "form": "S-1",
+   "filedAt": "2020-05-22"
+  }
+ ]
+}

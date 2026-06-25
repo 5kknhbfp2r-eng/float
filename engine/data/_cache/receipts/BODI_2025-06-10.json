@@ -1,0 +1,103 @@
+{
+ "ticker": "BODI",
+ "as_of": "2025-06-10",
+ "os_source": "10-Q 2025-05-15 acc:0000950170-25-072601 cover Class A 4,276,212 (5/7/25)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.33
+  },
+  {
+   "name": "D&O other-dir Class A",
+   "shares_M": null
+  },
+  {
+   "name": "0.24",
+   "shares_M": null
+  },
+  {
+   "name": "Jon Congdon co-founder",
+   "shares_M": null
+  },
+  {
+   "name": "0.68",
+   "shares_M": null
+  },
+  {
+   "name": "Raine Entities sponsor-affiliate 15.8%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.0
+  },
+  {
+   "name": "no passive 13G institution in table",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.10",
+ "os_M": "4.28",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1826889,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-083082",
+   "form": "424B3",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-083074",
+   "form": "424B3",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-083042",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-072601",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072634",
+   "form": "424B3",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072623",
+   "form": "424B3",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-071373",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001193125-25-091354",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0000950170-25-053295",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0000950170-25-051107",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001213900-20-030635",
+   "form": "S-1",
+   "filedAt": "2020-10-08"
+  }
+ ]
+}

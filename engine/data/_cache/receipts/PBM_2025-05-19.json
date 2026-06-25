@@ -1,0 +1,11 @@
+{
+ "ticker": "PBM",
+ "as_of": "2025-05-19",
+ "os_source": "OS_SOURCE: 6-K 2025-05-06 acc 0001213900-25-040150 : ~583,263 post 1-for-7.97 split",
+ "excluded": [],
+ "kept_13g": [],
+ "float_M": "0.58",
+ "os_M": "0.58",
+ "under_20M": "true",
+ "confidence": "med"
+}

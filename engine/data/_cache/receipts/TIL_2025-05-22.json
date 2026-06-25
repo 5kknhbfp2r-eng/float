@@ -1,0 +1,79 @@
+{
+ "ticker": "TIL",
+ "as_of": "2025-05-22",
+ "os_source": "O/S 10-Q filed 2025-05-13 + DEF14A: 6,558,927 common (Apr 2 2025, post 1:20 split)",
+ "excluded": [
+  {
+   "name": "Excluded=3.386M D&O group (Crouch 2.579M incl CVV",
+   "shares_M": null
+  },
+  {
+   "name": "McGaughy/CPMG 0.417M",
+   "shares_M": null
+  },
+  {
+   "name": "Laumas 0.341M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.585M Vivo",
+   "shares_M": null
+  },
+  {
+   "name": "0.440M BML",
+   "shares_M": null
+  },
+  {
+   "name": "0.356M Boxer",
+   "shares_M": null
+  },
+  {
+   "name": "0.346M Perceptive (passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "3.17",
+ "os_M": "6.56",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1789769,
+ "depends_on_filings": [
+  {
+   "accession": "0001789769-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001789769-25-000051",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001789769-25-000050",
+   "form": "8-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001789769-25-000034",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001789769-25-000024",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001789769-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001193125-21-060613",
+   "form": "S-1",
+   "filedAt": "2021-02-26"
+  }
+ ]
+}

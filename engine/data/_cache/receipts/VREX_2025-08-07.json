@@ -1,0 +1,67 @@
+{
+ "ticker": "VREX",
+ "as_of": "2025-08-07",
+ "os_source": "10-Q 2025-08-07 acc:0001681622-25-000084",
+ "excluded": [
+  {
+   "name": "D&O group=1.788M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock=3.93M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard=3.48M",
+   "shares_M": null
+  },
+  {
+   "name": "Pzena=3.89M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "41.5",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1681622,
+ "depends_on_filings": [
+  {
+   "accession": "0001681622-25-000084",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001681622-25-000083",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001681622-25-000061",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001681622-25-000050",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001681622-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-02-14"
+  },
+  {
+   "accession": "0001681622-25-000013",
+   "form": "8-K",
+   "filedAt": "2025-02-06"
+  },
+  {
+   "accession": "0001104659-24-132504",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-30"
+  }
+ ]
+}

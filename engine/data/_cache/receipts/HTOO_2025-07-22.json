@@ -1,0 +1,76 @@
+{
+ "ticker": "HTOO",
+ "as_of": "2025-07-22",
+ "os_source": "6-K 2025-07-10 (1:35 consolidation eff 7/11): 783,376 Class A Ord O/S; no issuance to 7/22",
+ "excluded": [
+  {
+   "name": "Ilustrato/Link",
+   "shares_M": 0.0458
+  },
+  {
+   "name": "Schwarz",
+   "shares_M": 0.0183
+  },
+  {
+   "name": "Chaves",
+   "shares_M": 0.0064
+  },
+  {
+   "name": "Lundetrae",
+   "shares_M": 0.0006
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.71",
+ "os_M": "0.78",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1819794,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-066340",
+   "form": "6-K",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001213900-25-064924",
+   "form": "6-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001213900-25-064463",
+   "form": "6-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001213900-25-062528",
+   "form": "6-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001213900-25-057835",
+   "form": "6-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001213900-25-054030",
+   "form": "424B3",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001213900-25-041617",
+   "form": "20-F",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001213900-20-036193",
+   "form": "424B3",
+   "filedAt": "2020-11-10"
+  }
+ ]
+}

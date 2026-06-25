@@ -1,0 +1,93 @@
+{
+ "ticker": "BZAI",
+ "as_of": "2025-07-18",
+ "os_source": "S-1 2025-07-18 acc:0001193125-25-160671 (O/S as of 7/14/2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 14.82
+  },
+  {
+   "name": "D&O group 14.6%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 17.72
+  },
+  {
+   "name": "Ava 17.4%;9.91",
+   "shares_M": null
+  },
+  {
+   "name": "Sponsor 9.7%;9.20",
+   "shares_M": null
+  },
+  {
+   "name": "DENSO 9.0%;7.44",
+   "shares_M": null
+  },
+  {
+   "name": "Rizvi 7.3%;6.35",
+   "shares_M": null
+  },
+  {
+   "name": "Anderson 6.2%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "86.86",
+ "os_M": "101.68",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1871638,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-160671",
+   "form": "S-1",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001193125-25-160625",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001193125-25-160177",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001193125-25-159935",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0001193125-25-158997",
+   "form": "8-K",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001193125-25-156597",
+   "form": "424B3",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0000950170-25-071593",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001104659-24-124698",
+   "form": "DEFM14A",
+   "filedAt": "2024-12-02"
+  },
+  {
+   "accession": "0001104659-21-107433",
+   "form": "S-1",
+   "filedAt": "2021-08-18"
+  }
+ ]
+}

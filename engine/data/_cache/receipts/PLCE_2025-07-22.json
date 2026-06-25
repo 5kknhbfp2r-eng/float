@@ -1,0 +1,63 @@
+{
+ "ticker": "PLCE",
+ "as_of": "2025-07-22",
+ "os_source": "10-Q 2025-06-11 acc:0001628280-25-030703",
+ "excluded": [
+  {
+   "name": "MithaqCapital 13D=13.697M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group(9)=0.137M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Quinn 13G=1.212M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "8.33",
+ "os_M": "22.17",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1041859,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-065797",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001628280-25-030703",
+   "form": "10-Q",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001104659-25-057362",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001104659-25-046767",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001104659-25-045611",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000930413-25-001282",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0000899681-97-000316",
+   "form": "S-1",
+   "filedAt": "1997-07-18"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "ticker": "CMCL",
+ "as_of": "2025-05-19",
+ "os_source": "20-F 2025-05-16 acc=0001171843-25-003266 : 19,294,784 shares issued and outstanding (Item 7 register, as at May 5/8 2025)",
+ "excluded": [
+  {
+   "name": "D&O group (incl. Toziyana/Gapare)",
+   "shares_M": 2.700901
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Shining Capital Holding II",
+   "shares_M": 1.922858
+  },
+  {
+   "name": "Allan Gray",
+   "shares_M": 1.104376
+  }
+ ],
+ "float_M": "16.59",
+ "os_M": "19.29",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 766011,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-003287",
+   "form": "6-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001171843-25-003266",
+   "form": "20-F",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001171843-25-003267",
+   "form": "6-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001171843-25-003203",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001171843-25-003065",
+   "form": "6-K",
+   "filedAt": "2025-05-12"
+  }
+ ]
+}

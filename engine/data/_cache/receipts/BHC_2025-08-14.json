@@ -1,0 +1,67 @@
+{
+ "ticker": "BHC",
+ "as_of": "2025-08-14",
+ "os_source": "PRE14A+2025-08-13; Q2 10-Q+2025-07-30+acc:0000885590-25-000032",
+ "excluded": [
+  {
+   "name": "D&O_group=36.23M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Paulson_passive=32.79M",
+   "shares_M": null
+  },
+  {
+   "name": "Nomura_13G=23.40M",
+   "shares_M": null
+  },
+  {
+   "name": "GT_Partners_13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "269",
+ "os_M": "369.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 885590,
+ "depends_on_filings": [
+  {
+   "accession": "0001140361-25-030703",
+   "form": "PRE 14A",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0000885590-25-000032",
+   "form": "10-Q",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0000885590-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001193125-25-167131",
+   "form": "8-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001193125-25-163860",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001193125-25-157612",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0000950123-97-008336",
+   "form": "F-1/A",
+   "filedAt": "1997-10-07"
+  }
+ ]
+}

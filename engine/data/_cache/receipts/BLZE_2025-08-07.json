@@ -1,0 +1,68 @@
+{
+ "ticker": "BLZE",
+ "as_of": "2025-08-07",
+ "os_source": "DEF14A+2025-04-14; Q2 10-Q+2025-08-07+acc:0001628280-25-038603",
+ "excluded": [
+  {
+   "name": "D&O_group=2.18M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock13G=2.86M",
+   "shares_M": null
+  },
+  {
+   "name": "AWM13G=2.78M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "54.28",
+ "os_M": "56.46",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1462056,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-038603",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001628280-25-038582",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001628280-25-031146",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001628280-25-029519",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001628280-25-028814",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001628280-25-023132",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001140361-25-013748",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001193125-21-301141",
+   "form": "S-1",
+   "filedAt": "2021-10-18"
+  }
+ ]
+}

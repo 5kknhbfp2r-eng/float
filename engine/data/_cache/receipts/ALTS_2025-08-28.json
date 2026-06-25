@@ -1,0 +1,69 @@
+{
+ "ticker": "ALTS",
+ "as_of": "2025-08-28",
+ "os_source": "424B5 2025-08-11 acc:0001641172-25-022915 post-offering OS=121609376; carried from 2025-08-13",
+ "excluded": [
+  {
+   "name": "D&O group 0.686M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "100M registered offering public float; no new O/S change through Aug 28",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "121.61",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 862861,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-024661",
+   "form": "8-K",
+   "filedAt": "2025-08-18"
+  },
+  {
+   "accession": "0001628280-25-039914",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001641172-25-023107",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001641172-25-022905",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001641172-25-022551",
+   "form": "S-3/A",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001641172-25-021868",
+   "form": "S-3",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001628280-25-035754",
+   "form": "8-K",
+   "filedAt": "2025-07-23"
+  },
+  {
+   "accession": "0001628280-24-045294",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-05"
+  },
+  {
+   "accession": "0000897101-96-000959",
+   "form": "424B1",
+   "filedAt": "1996-11-12"
+  }
+ ]
+}

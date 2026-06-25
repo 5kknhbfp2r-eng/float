@@ -1,0 +1,71 @@
+{
+ "ticker": "BALY",
+ "as_of": "2025-07-01",
+ "os_source": "10-Q cover 2025-05-12 acc:0001747079-25-000088 (As of 4/30/25: 49,013,195 common)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 35.79
+  },
+  {
+   "name": "Standard General/Soohyung Kim control block (Standard RI+SG CQ Gaming+direct);0.70",
+   "shares_M": null
+  },
+  {
+   "name": "other D&O (Papanier/Reeves/Eaton)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 4.95
+  },
+  {
+   "name": "Noel Hayden 10.2% passive 13G no board seat",
+   "shares_M": null
+  }
+ ],
+ "float_M": "12.52",
+ "os_M": "49.01",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1747079,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-060402",
+   "form": "8-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001747079-25-000098",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001747079-25-000088",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001747079-25-000085",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001747079-25-000080",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001747079-25-000071",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001144204-19-005838",
+   "form": "424B3",
+   "filedAt": "2019-02-08"
+  }
+ ]
+}

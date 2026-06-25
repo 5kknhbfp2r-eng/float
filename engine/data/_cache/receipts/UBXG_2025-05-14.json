@@ -1,0 +1,72 @@
+{
+ "ticker": "UBXG",
+ "as_of": "2025-05-14",
+ "os_source": "OS_SOURCE: 6-K filed 2025-04-18 acc 0001213900-25-033401 : 20,784,142 Ordinary Shares outstanding",
+ "excluded": [
+  {
+   "name": "JianChen_founder_Superego+Columbus+direct",
+   "shares_M": 7.592
+  },
+  {
+   "name": "MingfeiLiu_EvolutionUp",
+   "shares_M": 0.067
+  },
+  {
+   "name": "QingcaiLi_InfiniteFission",
+   "shares_M": 0.071
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "13.05",
+ "os_M": "20.78",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1888525,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-033404",
+   "form": "6-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001213900-25-033401",
+   "form": "6-K",
+   "filedAt": "2025-04-18"
+  },
+  {
+   "accession": "0001213900-25-018174",
+   "form": "F-1/A",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001213900-25-007544",
+   "form": "F-1/A",
+   "filedAt": "2025-01-28"
+  },
+  {
+   "accession": "0001213900-25-002662",
+   "form": "F-1",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001213900-24-109787",
+   "form": "6-K",
+   "filedAt": "2024-12-17"
+  },
+  {
+   "accession": "0001213900-24-105662",
+   "form": "6-K",
+   "filedAt": "2024-12-04"
+  },
+  {
+   "accession": "0001213900-24-092312",
+   "form": "20-F",
+   "filedAt": "2024-10-30"
+  },
+  {
+   "accession": "0001213900-22-004277",
+   "form": "F-1",
+   "filedAt": "2022-01-28"
+  }
+ ]
+}

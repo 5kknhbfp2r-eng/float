@@ -1,0 +1,67 @@
+{
+ "ticker": "TDOC",
+ "as_of": "2025-06-23",
+ "os_source": "10-Q 2025-05-01 acc:0001477449-25-000049",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_shares+RSUs_0.57M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock_18.22M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_17.51M",
+   "shares_M": null
+  },
+  {
+   "name": "Point72_12.47M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "174.87",
+ "os_M": "175.43",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1477449,
+ "depends_on_filings": [
+  {
+   "accession": "0001477449-25-000063",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001477449-25-000049",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001477449-25-000047",
+   "form": "8-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001477449-25-000040",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001477449-25-000002",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0001477449-24-000224",
+   "form": "8-K",
+   "filedAt": "2024-10-30"
+  },
+  {
+   "accession": "0001047469-15-005109",
+   "form": "S-1",
+   "filedAt": "2015-05-29"
+  }
+ ]
+}

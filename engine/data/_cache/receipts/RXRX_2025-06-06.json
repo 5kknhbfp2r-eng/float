@@ -1,0 +1,75 @@
+{
+ "ticker": "RXRX",
+ "as_of": "2025-06-06",
+ "os_source": "10-Q 2025-05-05 acc:0001601830-25-000075 (Class A 399,150,820 as of 3/31/25)",
+ "excluded": [
+  {
+   "name": "Excluded=27.18M D&O group Class A",
+   "shares_M": null
+  },
+  {
+   "name": "6.84M Class B non-listed",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=32.35M ARK",
+   "shares_M": null
+  },
+  {
+   "name": "24.86M Baillie Gifford",
+   "shares_M": null
+  },
+  {
+   "name": "23.44M BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "24.27M Vanguard (passive)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "372.0",
+ "os_M": "399.15",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1601830,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-116989",
+   "form": "8-K",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001601830-25-000075",
+   "form": "10-Q",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001601830-25-000074",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001601830-25-000062",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001601830-25-000040",
+   "form": "8-K",
+   "filedAt": "2025-03-18"
+  },
+  {
+   "accession": "0001601830-25-000034",
+   "form": "8-K",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001193125-21-089610",
+   "form": "S-1",
+   "filedAt": "2021-03-22"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "ticker": "VENU",
+ "as_of": "2025-05-27",
+ "os_source": "OS_SOURCE: 10-Q filed 2025-05-15 : 37,503,341 shares voting Common Stock outstanding",
+ "excluded": [
+  {
+   "name": "DandO_group_exOptWarr",
+   "shares_M": 10.012
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "27.49",
+ "os_M": "37.50",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1770501,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011257",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001641172-25-010885",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-009129",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-006040",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001641172-25-002135",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001641172-25-001676",
+   "form": "10-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001493152-24-030358",
+   "form": "S-1",
+   "filedAt": "2024-08-06"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "ticker": "CINT",
+ "as_of": "2025-05-14",
+ "os_source": "OS_SOURCE: 20-F 2025-03-28 acc 0001554855-25-000232 : 22,498,572 Class A outstanding (Q1 6-K 0001292814-25-002059 issued 23,602,836 less 1,564,054 treasury)",
+ "excluded": [
+  {
+   "name": "Gon",
+   "shares_M": 0.066392
+  },
+  {
+   "name": "Martins",
+   "shares_M": 0.082196
+  },
+  {
+   "name": "Guicardi",
+   "shares_M": 0.085775
+  },
+  {
+   "name": "OtherOandD",
+   "shares_M": 0.075282
+  },
+  {
+   "name": "Advent",
+   "shares_M": 0.556699
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "TRowePrice",
+   "shares_M": 3.857993
+  },
+  {
+   "name": "BWGestao",
+   "shares_M": 2.599342
+  },
+  {
+   "name": "WCM",
+   "shares_M": 1.448203
+  },
+  {
+   "name": "BrasilCapital",
+   "shares_M": 1.146033
+  }
+ ],
+ "float_M": "21.63",
+ "os_M": "22.50",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1868995,
+ "depends_on_filings": [
+  {
+   "accession": "0001292814-25-002059",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001292814-25-001816",
+   "form": "6-K",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001554855-25-000232",
+   "form": "20-F",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001292814-25-001129",
+   "form": "6-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001292814-25-000828",
+   "form": "6-K",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001104659-21-126789",
+   "form": "F-1",
+   "filedAt": "2021-10-15"
+  }
+ ]
+}

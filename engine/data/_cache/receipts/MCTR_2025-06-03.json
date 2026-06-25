@@ -1,0 +1,61 @@
+{
+ "ticker": "MCTR",
+ "as_of": "2025-06-03",
+ "os_source": "424B4 2025-01-22 acc:0001213900-25-005354; 6-K 2025-01-30 acc:0001213900-25-008109",
+ "excluded": [
+  {
+   "name": "Excluded=11.25M",
+   "shares_M": null
+  },
+  {
+   "name": "pre-IPO-insiders",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.30M",
+   "shares_M": null
+  },
+  {
+   "name": "company-IPO-shares,1.75M",
+   "shares_M": null
+  },
+  {
+   "name": "selling-shareholder-secondary",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.05",
+ "os_M": "15.30",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1969928,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-024183",
+   "form": "6-K",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001213900-25-008109",
+   "form": "6-K",
+   "filedAt": "2025-01-30"
+  },
+  {
+   "accession": "0001213900-25-006514",
+   "form": "6-K",
+   "filedAt": "2025-01-24"
+  },
+  {
+   "accession": "0001213900-25-005565",
+   "form": "6-K",
+   "filedAt": "2025-01-22"
+  },
+  {
+   "accession": "0001213900-24-023012",
+   "form": "F-1",
+   "filedAt": "2024-03-15"
+  }
+ ]
+}

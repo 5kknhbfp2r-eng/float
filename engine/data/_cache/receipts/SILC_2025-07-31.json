@@ -1,0 +1,72 @@
+{
+ "ticker": "SILC",
+ "as_of": "2025-07-31",
+ "os_source": "Ordinary O/S: 20-F 2025-04-29 acc:0001178913-25-001515 (5,696,565 ordinary @3/31/25); no issuance in 6-Ks thru 7/31",
+ "excluded": [
+  {
+   "name": "Excluded=0.293M D&O group incl founder Avi Eizenman 277k (ex-options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.51M Systematic(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "0.39M First Wilshire(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "0.33M Avanza Pension(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.40",
+ "os_M": "5.70",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 916793,
+ "depends_on_filings": [
+  {
+   "accession": "0001178913-25-002551",
+   "form": "6-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001178913-25-002308",
+   "form": "6-K",
+   "filedAt": "2025-07-07"
+  },
+  {
+   "accession": "0001178913-25-002272",
+   "form": "6-K",
+   "filedAt": "2025-07-01"
+  },
+  {
+   "accession": "0001178913-25-002202",
+   "form": "6-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001178913-25-001984",
+   "form": "6-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001178913-25-001586",
+   "form": "6-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001178913-25-001515",
+   "form": "20-F",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001178913-07-001370",
+   "form": "424B3",
+   "filedAt": "2007-07-06"
+  }
+ ]
+}

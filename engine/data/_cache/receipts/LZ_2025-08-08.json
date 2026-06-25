@@ -1,0 +1,67 @@
+{
+ "ticker": "LZ",
+ "as_of": "2025-08-08",
+ "os_source": "DEF14A 2025-04-22; 10-Q 2025-08-07 O/S 180,249,374 as-of Jul-31",
+ "excluded": [
+  {
+   "name": "Excluded=10.95M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=169.3M",
+   "shares_M": null
+  },
+  {
+   "name": "Francisco Partners 15.8% passive 13G; TCV 9% passive 13G; Vanguard; BlackRock",
+   "shares_M": null
+  }
+ ],
+ "float_M": "169.3",
+ "os_M": "180.25",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1286139,
+ "depends_on_filings": [
+  {
+   "accession": "0001286139-25-000087",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001286139-25-000085",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001628280-25-035220",
+   "form": "8-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001286139-25-000076",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001286139-25-000054",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-25-089176",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001047469-12-005763",
+   "form": "S-1",
+   "filedAt": "2012-05-11"
+  }
+ ]
+}

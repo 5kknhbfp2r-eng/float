@@ -1,0 +1,63 @@
+{
+ "ticker": "RGC",
+ "as_of": "2025-07-03",
+ "os_source": "O/S 13,012,866 ordinary x 38-for-1 forward split = 494.49M; split per 6-K 2025-06-02 acc:0001213900-25-049674; founder block per SCHEDULE 13D/A 2025-03-13 acc:0001213900-25-023407; base ownership 20-F 2024-10-25 acc:0001213900-24-090791",
+ "excluded": [
+  {
+   "name": "Excluded=426.43M Yat-Gai Au/Regencell(BVI) founder (86.2%, x38)",
+   "shares_M": null
+  },
+  {
+   "name": "~0.58M other D&O",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Digital Mobile Venture (Samuel Chen, passive 13G <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "67.48",
+ "os_M": "494.49",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1829667,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-059294",
+   "form": "6-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001213900-25-059287",
+   "form": "6-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001213900-25-054936",
+   "form": "6-K",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001213900-25-049674",
+   "form": "6-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001213900-25-003587",
+   "form": "6-K",
+   "filedAt": "2025-01-15"
+  },
+  {
+   "accession": "0001213900-24-090791",
+   "form": "20-F",
+   "filedAt": "2024-10-25"
+  },
+  {
+   "accession": "0001213900-21-016917",
+   "form": "F-1",
+   "filedAt": "2021-03-22"
+  }
+ ]
+}

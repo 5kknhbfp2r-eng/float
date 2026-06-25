@@ -1,0 +1,93 @@
+{
+ "ticker": "ARRY",
+ "as_of": "2025-08-15",
+ "os_source": "DEF14A+2025-04-08+acc:0001820721-25-000xxx; Q2 10-Q+2025-08-07+acc:0001820721-25-000085",
+ "excluded": [
+  {
+   "name": "D&O_group=0.69M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock13G=15.37M",
+   "shares_M": null
+  },
+  {
+   "name": "HillCity13G=14.27M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard13G=13.89M",
+   "shares_M": null
+  },
+  {
+   "name": "GMO13G=11.16M",
+   "shares_M": null
+  },
+  {
+   "name": "Schroder13G=8.88M",
+   "shares_M": null
+  },
+  {
+   "name": "Norges13G=7.68M",
+   "shares_M": null
+  },
+  {
+   "name": "Point7213G=7.61M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "152.03",
+ "os_M": "152.72",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1820721,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-180827",
+   "form": "8-K",
+   "filedAt": "2025-08-14"
+  },
+  {
+   "accession": "0001820721-25-000085",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001820721-25-000082",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001193125-25-151274",
+   "form": "8-K",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001193125-25-146131",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001193125-25-145247",
+   "form": "8-K",
+   "filedAt": "2025-06-24"
+  },
+  {
+   "accession": "0001193125-25-142342",
+   "form": "8-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0001140361-25-012865",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001193125-20-251336",
+   "form": "S-1",
+   "filedAt": "2020-09-22"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "ticker": "MARPS",
+ "as_of": "2025-06-17",
+ "os_source": "10-Q 2025-05-14 acc:0000950170-25-071172",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.0
+  },
+  {
+   "name": "none",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.00M",
+   "shares_M": null
+  },
+  {
+   "name": "all units",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.00",
+ "os_M": "2.00",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 62362,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-074009",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0000950170-25-071172",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-022062",
+   "form": "8-K",
+   "filedAt": "2025-02-18"
+  },
+  {
+   "accession": "0000950170-24-127831",
+   "form": "8-K",
+   "filedAt": "2024-11-18"
+  },
+  {
+   "accession": "0000950170-24-098910",
+   "form": "8-K",
+   "filedAt": "2024-08-20"
+  },
+  {
+   "accession": "0000950170-24-062192",
+   "form": "8-K",
+   "filedAt": "2024-05-20"
+  },
+  {
+   "accession": "0001193125-24-038176",
+   "form": "8-K",
+   "filedAt": "2024-02-16"
+  },
+  {
+   "accession": "0001193125-22-031727",
+   "form": "DEF 14A",
+   "filedAt": "2022-02-09"
+  },
+  {
+   "accession": "0001193125-22-011236",
+   "form": "PRE 14A",
+   "filedAt": "2022-01-18"
+  },
+  {
+   "accession": "0001144204-14-019416",
+   "form": "DEF 14A",
+   "filedAt": "2014-03-31"
+  },
+  {
+   "accession": "0001144204-14-015120",
+   "form": "PRE 14A",
+   "filedAt": "2014-03-12"
+  }
+ ]
+}

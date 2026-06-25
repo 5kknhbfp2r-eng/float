@@ -1,0 +1,43 @@
+{
+ "ticker": "NNNN",
+ "as_of": "2025-06-20",
+ "os_source": "20-F 2025-04-28 acc:0001213900-25-035802 (Class A 43,891,200 listed; Class B 100M unlisted)",
+ "excluded": [
+  {
+   "name": "Excluded=2.10M CVC/J.Howard control SPV",
+   "shares_M": null
+  },
+  {
+   "name": "2.10M Northwestern/M.Martinez control SPV",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=39.69M Class A public float; D&O 0 direct",
+   "shares_M": null
+  }
+ ],
+ "float_M": "39.69",
+ "os_M": "43.89",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1982708,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-035802",
+   "form": "20-F",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001213900-25-016129",
+   "form": "6-K",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001213900-24-114129",
+   "form": "F-1",
+   "filedAt": "2024-12-31"
+  }
+ ]
+}

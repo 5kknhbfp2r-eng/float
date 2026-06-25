@@ -1,0 +1,75 @@
+{
+ "ticker": "OSCR",
+ "as_of": "2025-05-07",
+ "os_source": "OS_SOURCE: DEF 14A 2025-04-25 acc 0001140361-25-015601 cover : 218,993,334 Class A common (record date)",
+ "excluded": [
+  {
+   "name": "D&O group Class A incl Thrive",
+   "shares_M": 21.05
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Dragoneer",
+   "shares_M": 22.22
+  },
+  {
+   "name": "Vanguard",
+   "shares_M": 18.41
+  },
+  {
+   "name": "BlackRock",
+   "shares_M": 14.35
+  },
+  {
+   "name": "Deerfield",
+   "shares_M": 11.835
+  },
+  {
+   "name": "T.RowePrice",
+   "shares_M": 11.66
+  }
+ ],
+ "float_M": "197.94",
+ "os_M": "218.99",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1568651,
+ "depends_on_filings": [
+  {
+   "accession": "0001568651-25-000012",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001140361-25-015601",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-25-043364",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0001568651-25-000008",
+   "form": "10-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001568651-25-000005",
+   "form": "8-K",
+   "filedAt": "2025-02-04"
+  },
+  {
+   "accession": "0001568651-24-000029",
+   "form": "8-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001193125-21-030955",
+   "form": "S-1",
+   "filedAt": "2021-02-05"
+  }
+ ]
+}

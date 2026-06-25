@@ -1,0 +1,74 @@
+{
+ "ticker": "AIM",
+ "as_of": "2025-07-28",
+ "os_source": "10-Q 2025-05-15 acc:0001641172-25-011033",
+ "excluded": [
+  {
+   "name": "D&O group 6.80M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "no 5pct passive institutions listed",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "76.42",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 946644,
+ "depends_on_filings": [
+  {
+   "accession": "0001493152-25-011441",
+   "form": "8-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001641172-25-020534",
+   "form": "S-1/A",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001493152-25-011234",
+   "form": "S-1/A",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001641172-25-016918",
+   "form": "S-3/A",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001641172-25-015861",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-014899",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001641172-25-011033",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-007954",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001641172-25-002408",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-02"
+  },
+  {
+   "accession": "0000891092-96-000138",
+   "form": "S-1",
+   "filedAt": "1996-07-26"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "ticker": "ALMU",
+ "as_of": "2025-06-25",
+ "os_source": "10-Q 2025-05-09 acc:0001213900-25-041444",
+ "excluded": [
+  {
+   "name": "Excluded=2.07M D&O pure shares",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=2.72M Tompkins(ex-director),0.98M McCarthy",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.73",
+ "os_M": "15.80",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1828805,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-043057",
+   "form": "424B3",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-043055",
+   "form": "424B3",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-043053",
+   "form": "424B3",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-041444",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001213900-25-040671",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001013762-25-004217",
+   "form": "8-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001013762-25-003468",
+   "form": "424B4",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001213900-25-025109",
+   "form": "8-K",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0001213900-25-017442",
+   "form": "8-K",
+   "filedAt": "2025-02-26"
+  },
+  {
+   "accession": "0001213900-24-106744",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-09"
+  },
+  {
+   "accession": "0001213900-21-045671",
+   "form": "S-1",
+   "filedAt": "2021-08-30"
+  }
+ ]
+}

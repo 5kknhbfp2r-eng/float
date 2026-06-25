@@ -1,0 +1,75 @@
+{
+ "ticker": "SNDX",
+ "as_of": "2025-08-05",
+ "os_source": "DEF14A 2025-04-01/10-Q 2025-08-04 acc:CIK1395937",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_real_1.08M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock_8.79M",
+   "shares_M": null
+  },
+  {
+   "name": "Kynam_8.52M",
+   "shares_M": null
+  },
+  {
+   "name": "GS_5.95M",
+   "shares_M": null
+  },
+  {
+   "name": "MS_5.36M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_4.34M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "84.98",
+ "os_M": "86.06",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1395937,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-101985",
+   "form": "10-Q",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0000950170-25-101974",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0000950170-25-090205",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0000950170-25-073555",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0000950170-25-063514",
+   "form": "8-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0000950170-25-048472",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001193125-14-118735",
+   "form": "S-1",
+   "filedAt": "2014-03-27"
+  }
+ ]
+}

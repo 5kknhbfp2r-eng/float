@@ -1,0 +1,59 @@
+{
+ "ticker": "RCAT",
+ "as_of": "2025-06-04",
+ "os_source": "DEF14A 2025-04-28 acc:unknown; 10-Q 2025-05-14 acc:unknown",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_13.92M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public_float_77M+",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "90.92",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 748268,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011957",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001641172-25-010350",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-006475",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001641172-25-005508",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001641172-25-003905",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001641172-25-003746",
+   "form": "8-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001554795-17-000052",
+   "form": "S-1",
+   "filedAt": "2017-02-09"
+  }
+ ]
+}

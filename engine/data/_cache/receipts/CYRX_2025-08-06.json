@@ -1,0 +1,87 @@
+{
+ "ticker": "CYRX",
+ "as_of": "2025-08-06",
+ "os_source": "DEF14A 2025-04-25 acc:0001124524-25-000000 + 10-Q 2025-05-08",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_actual_1452K(ex_3921K_options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Blackstone_453K_common(13G_PE)",
+   "shares_M": null
+  },
+  {
+   "name": "Cadian_4927K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Brown_Capital_4459K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Morgan_Stanley_4142K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "ICS_3731K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock_3569K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_2839K(13G)",
+   "shares_M": null
+  },
+  {
+   "name": "Alger_2567K(13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "50.137",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1124524,
+ "depends_on_filings": [
+  {
+   "accession": "0001104659-25-074314",
+   "form": "8-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001558370-25-008613",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001104659-25-058019",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001558370-25-007012",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001104659-25-045557",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001140361-25-015777",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001144204-08-004678",
+   "form": "424B3",
+   "filedAt": "2008-01-29"
+  }
+ ]
+}

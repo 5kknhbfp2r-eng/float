@@ -1,0 +1,64 @@
+{
+ "ticker": "MAAS",
+ "as_of": "2025-06-24",
+ "os_source": "6-K 2025-06-18 acc:0001213900-25-055432 (1:90 reverse split; post-split Class A 8,583,869 listed) + 13D/A acc:0001213900-25-041091",
+ "excluded": [
+  {
+   "name": "Excluded=control Class B 6.67M + Highest Performances/Min Zhou Class A ~1.6M post-split + other pre-IPO insiders",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public Class A float ~1.19M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.19",
+ "os_M": "8.58",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1750264,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-055432",
+   "form": "6-K",
+   "filedAt": "2025-06-18"
+  },
+  {
+   "accession": "0000950127-25-000082",
+   "form": "424B3",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001213900-25-050784",
+   "form": "6-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001213900-25-045632",
+   "form": "6-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-042307",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-041061",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001213900-24-098740",
+   "form": "20-F",
+   "filedAt": "2024-11-15"
+  },
+  {
+   "accession": "0001213900-18-016402",
+   "form": "F-1",
+   "filedAt": "2018-11-21"
+  }
+ ]
+}

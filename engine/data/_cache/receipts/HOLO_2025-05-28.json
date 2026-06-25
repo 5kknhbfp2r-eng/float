@@ -1,0 +1,21 @@
+{
+ "ticker": "HOLO",
+ "as_of": "2025-05-28",
+ "os_source": "OS_SOURCE: 424B5 2025-04-23 acc 0001829126-25-002849 : 81,992,848 total ordinary shares (post 40:1 consolidation 2025-04-21)",
+ "excluded": [
+  {
+   "name": "AffiliatesTotal",
+   "shares_M": 0.83
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "NonAffiliateFloat",
+   "shares_M": 81.16
+  }
+ ],
+ "float_M": "81.16",
+ "os_M": "81.99",
+ "under_20M": "false",
+ "confidence": "med"
+}

@@ -1,0 +1,67 @@
+{
+ "ticker": "MIND",
+ "as_of": "2025-06-23",
+ "os_source": "DEF14A 2025-05-30 acc:926423; 10-Q 2025-06-11",
+ "excluded": [
+  {
+   "name": "Excluded=0.17M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O-group-ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=7.80M",
+   "shares_M": null
+  },
+  {
+   "name": "public",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.80",
+ "os_M": "7.97",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 926423,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-020082",
+   "form": "10-Q",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001437749-25-019991",
+   "form": "8-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001437749-25-019418",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001437749-25-018984",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001437749-25-017422",
+   "form": "8-K",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0001437749-25-012695",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0000912057-96-014975",
+   "form": "424B3",
+   "filedAt": "1996-07-18"
+  }
+ ]
+}

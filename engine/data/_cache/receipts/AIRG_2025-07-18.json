@@ -1,0 +1,76 @@
+{
+ "ticker": "AIRG",
+ "as_of": "2025-07-18",
+ "os_source": "DEF14A 2025-04-29 acc:0000950170-25-060347",
+ "excluded": [
+  {
+   "name": "D&O actual shares 0.75M (ex-options)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "William Blair 0.84M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Marathon 0.73M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "Ameriprise 0.62M 13G",
+   "shares_M": null
+  },
+  {
+   "name": "First Eagle 0.60M 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "11.04",
+ "os_M": "11.79",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1272842,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-096328",
+   "form": "8-K",
+   "filedAt": "2025-07-16"
+  },
+  {
+   "accession": "0000950170-25-086011",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0000950170-25-065872",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001193125-25-115073",
+   "form": "S-3",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-065883",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-060347",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-029108",
+   "form": "8-K",
+   "filedAt": "2025-02-27"
+  },
+  {
+   "accession": "0001193125-16-649405",
+   "form": "S-1",
+   "filedAt": "2016-07-15"
+  }
+ ]
+}

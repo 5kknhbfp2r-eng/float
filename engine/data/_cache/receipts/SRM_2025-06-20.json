@@ -1,0 +1,77 @@
+{
+ "ticker": "SRM",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-08 acc:0001641172-25-009334",
+ "excluded": [
+  {
+   "name": "Excluded=Safety_Shot_3.44M",
+   "shares_M": null
+  },
+  {
+   "name": "Jordan_Schur_1.75M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_ex-options_1.45M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none_above_5pct_that_is_passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.61",
+ "os_M": "17.24",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1956744,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015738",
+   "form": "8-K",
+   "filedAt": "2025-06-20"
+  },
+  {
+   "accession": "0001641172-25-015300",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001641172-25-015183",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001641172-25-012794",
+   "form": "S-3",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001641172-25-012625",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-009334",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-006582",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001493152-24-047016",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-20"
+  },
+  {
+   "accession": "0001493152-23-019337",
+   "form": "S-1",
+   "filedAt": "2023-05-26"
+  }
+ ]
+}

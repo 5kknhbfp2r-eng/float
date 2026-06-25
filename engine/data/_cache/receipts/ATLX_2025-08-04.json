@@ -1,0 +1,59 @@
+{
+ "ticker": "ATLX",
+ "as_of": "2025-08-04",
+ "os_source": "DEF14A+2025-04-15+acc:0001641172-25-004852; 10-Q+2025-08-04+acc:0001641172-25-021996",
+ "excluded": [
+  {
+   "name": "D&O_group=5.96M(Fogassa5.26M+others)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Mitsui13D=1.87M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "13.62",
+ "os_M": "19.58",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1540684,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021996",
+   "form": "10-Q",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001641172-25-013016",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001641172-25-012729",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-004852",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001493152-25-011161",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001493152-24-048192",
+   "form": "8-K",
+   "filedAt": "2024-11-29"
+  },
+  {
+   "accession": "0001540684-12-000001",
+   "form": "S-1",
+   "filedAt": "2012-04-09"
+  }
+ ]
+}

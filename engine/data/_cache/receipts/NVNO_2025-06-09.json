@@ -1,0 +1,81 @@
+{
+ "ticker": "NVNO",
+ "as_of": "2025-06-09",
+ "os_source": "DEF 14A 2024-11-19 acc:0001140361-24-047305 + 10-Q 2025-04-30 O/S 17,536,000",
+ "excluded": [
+  {
+   "name": "Excluded=0.05M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O direct ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=1.87M",
+   "shares_M": null
+  },
+  {
+   "name": "Perceptive 13G; 1.29M",
+   "shares_M": null
+  },
+  {
+   "name": "Nantahala 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "17.48",
+ "os_M": "17.54",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1661053,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011729",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-007908",
+   "form": "10-Q",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001641172-25-005547",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001493152-25-009904",
+   "form": "S-3/A",
+   "filedAt": "2025-03-12"
+  },
+  {
+   "accession": "0001493152-25-008758",
+   "form": "S-3",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001493152-24-051926",
+   "form": "8-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001140361-24-047305",
+   "form": "DEF 14A",
+   "filedAt": "2024-11-19"
+  },
+  {
+   "accession": "0001493152-24-038828",
+   "form": "8-K",
+   "filedAt": "2024-09-30"
+  },
+  {
+   "accession": "0001493152-17-010302",
+   "form": "S-1",
+   "filedAt": "2017-09-06"
+  }
+ ]
+}

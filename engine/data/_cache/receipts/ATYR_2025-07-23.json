@@ -1,0 +1,63 @@
+{
+ "ticker": "ATYR",
+ "as_of": "2025-07-23",
+ "os_source": "carried from 2025-06-03; O/S 89.0M from 10-Q cover 2025-05-07; no intervening O/S filing (only passive 13G 7/18)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.4
+  },
+  {
+   "name": "D&O directly-owned ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G holders (Federated, FMR, Point72)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "87.6",
+ "os_M": "89.0",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1339970,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-065640",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-065611",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-064413",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-041992",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0000950170-25-038703",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0000950170-24-139633",
+   "form": "8-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001193125-15-120170",
+   "form": "S-1",
+   "filedAt": "2015-04-06"
+  }
+ ]
+}

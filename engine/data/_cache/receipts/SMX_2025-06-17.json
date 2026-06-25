@@ -1,0 +1,73 @@
+{
+ "ticker": "SMX",
+ "as_of": "2025-06-17",
+ "os_source": "20-F 2025-05-14 acc:0001641172-25-010399 + 6-K 1:4.1 split eff 6/16 acc:0001641172-25-014807",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.674
+  },
+  {
+   "name": "D&O group ex-options 674331 ord pre-split (Alon+Sternberg real); post-split basis /4.1",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public; float 0.97M post-split",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.97",
+ "os_M": "1.13",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1940674,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014807",
+   "form": "6-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001641172-25-012270",
+   "form": "F-1/A",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001641172-25-011743",
+   "form": "F-1",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-010997",
+   "form": "20-F/A",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-010399",
+   "form": "20-F",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001641172-25-009243",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001641172-25-008635",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001641172-25-006333",
+   "form": "6-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-23-010946",
+   "form": "424B3",
+   "filedAt": "2023-01-19"
+  }
+ ]
+}

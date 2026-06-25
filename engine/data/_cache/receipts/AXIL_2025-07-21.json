@@ -1,0 +1,73 @@
+{
+ "ticker": "AXIL",
+ "as_of": "2025-07-21",
+ "os_source": "10-Q 2025-04-08+DEF14A 2024-10-24",
+ "excluded": [
+  {
+   "name": "Toghraie/Intrepid 1246700+Vasquez proxy 1275000+other D&O 63667=2585367M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Shircoo 534510",
+   "shares_M": null
+  },
+  {
+   "name": "Dunne/Hundt/Ohri small",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.06",
+ "os_M": "6.65",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1718500,
+ "depends_on_filings": [
+  {
+   "accession": "0001520138-25-000158",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001520138-25-000113",
+   "form": "10-Q",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001520138-25-000114",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001520138-25-000078",
+   "form": "8-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001520138-25-000030",
+   "form": "8-K",
+   "filedAt": "2025-01-08"
+  },
+  {
+   "accession": "0001520138-24-000459",
+   "form": "8-K",
+   "filedAt": "2024-12-18"
+  },
+  {
+   "accession": "0001520138-24-000453",
+   "form": "8-K",
+   "filedAt": "2024-12-12"
+  },
+  {
+   "accession": "0001520138-24-000391",
+   "form": "DEF 14A",
+   "filedAt": "2024-10-24"
+  },
+  {
+   "accession": "0001213900-17-010353",
+   "form": "S-1",
+   "filedAt": "2017-10-06"
+  }
+ ]
+}

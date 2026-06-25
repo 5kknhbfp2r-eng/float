@@ -1,0 +1,83 @@
+{
+ "ticker": "ATYR",
+ "as_of": "2025-06-03",
+ "os_source": "10-Q 2025-05-07 cover (acc 0000950170-25-065640): 89,004,436 common O/S; no reverse split effected",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 1.4
+  },
+  {
+   "name": "D&O group directly-owned (ex-options/acquirable)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 14.67
+  },
+  {
+   "name": "Federated Hermes passive 13G 16.5%",
+   "shares_M": null
+  },
+  {
+   "name": "8.78",
+   "shares_M": null
+  },
+  {
+   "name": "FMR passive 13G",
+   "shares_M": null
+  },
+  {
+   "name": "5.04",
+   "shares_M": null
+  },
+  {
+   "name": "Point72 passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "87.6",
+ "os_M": "89.0",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1339970,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-065640",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-065611",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0000950170-25-064413",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0000950170-25-041992",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-19"
+  },
+  {
+   "accession": "0000950170-25-038703",
+   "form": "8-K",
+   "filedAt": "2025-03-13"
+  },
+  {
+   "accession": "0000950170-24-139633",
+   "form": "8-K",
+   "filedAt": "2024-12-23"
+  },
+  {
+   "accession": "0001193125-15-120170",
+   "form": "S-1",
+   "filedAt": "2015-04-06"
+  }
+ ]
+}

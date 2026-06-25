@@ -1,0 +1,81 @@
+{
+ "ticker": "SATL",
+ "as_of": "2025-05-02",
+ "os_source": "OS_SOURCE: 10-K 2025-03-26 acc 0001628280-25-014951 cover : 83,474,479 Class A shares outstanding as of March 14, 2025",
+ "excluded": [
+  {
+   "name": "Mnuchin/Liberty (real shares ex-warrants)",
+   "shares_M": 20.0
+  },
+  {
+   "name": "D&O others ex-options",
+   "shares_M": 0.927
+  },
+  {
+   "name": "Cantor Fitzgerald sponsor",
+   "shares_M": 13.914
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Pitanga Invest (13G)",
+   "shares_M": 10.594
+  },
+  {
+   "name": "Hannover Holdings (13D)",
+   "shares_M": 7.514
+  }
+ ],
+ "float_M": "48.63",
+ "os_M": "83.47",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1874315,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-012004",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001437749-25-011571",
+   "form": "8-K",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001437749-25-011418",
+   "form": "8-K",
+   "filedAt": "2025-04-08"
+  },
+  {
+   "accession": "0001628280-25-014951",
+   "form": "10-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001437749-25-009269",
+   "form": "8-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001437749-25-009180",
+   "form": "424B3",
+   "filedAt": "2025-03-25"
+  },
+  {
+   "accession": "0001437749-25-008985",
+   "form": "6-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001628280-24-016229",
+   "form": "20-F",
+   "filedAt": "2024-04-15"
+  },
+  {
+   "accession": "0001193125-21-328453",
+   "form": "424B3",
+   "filedAt": "2021-11-13"
+  }
+ ]
+}

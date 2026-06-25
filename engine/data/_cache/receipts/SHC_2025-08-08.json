@@ -1,0 +1,75 @@
+{
+ "ticker": "SHC",
+ "as_of": "2025-08-08",
+ "os_source": "DEF14A 2025-04-10/10-Q 2025-08-08 acc:0001822479-25-000044",
+ "excluded": [
+  {
+   "name": "Excluded=WarburgPincus_73.82M",
+   "shares_M": null
+  },
+  {
+   "name": "GTCR_49.22M",
+   "shares_M": null
+  },
+  {
+   "name": "Petras_9.73M",
+   "shares_M": null
+  },
+  {
+   "name": "other_D&O_1M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Darsana_20M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard_14.75M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "150.00",
+ "os_M": "284.05",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1822479,
+ "depends_on_filings": [
+  {
+   "accession": "0001822479-25-000044",
+   "form": "10-Q",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001822479-25-000041",
+   "form": "8-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001822479-25-000036",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001822479-25-000028",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001822479-25-000022",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001104659-25-033563",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001193125-20-275568",
+   "form": "S-1",
+   "filedAt": "2020-10-23"
+  }
+ ]
+}

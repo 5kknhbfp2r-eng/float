@@ -1,0 +1,63 @@
+{
+ "ticker": "FUFU",
+ "as_of": "2025-08-15",
+ "os_source": "20-F 2025-04-21 acc=0001213900-25-033733: 163,106,615 ordinary (28,106,615 Cl A + 135,000,000 Cl B) @Mar31; 424B5 2025-06-10 acc=0001213900-25-053161 ATM $150M Class A",
+ "excluded": [
+  {
+   "name": "ChipringClassB_LeoLu",
+   "shares_M": 135.0
+  },
+  {
+   "name": "Antdelta_BitMain",
+   "shares_M": 11.5
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "18.5",
+ "os_M": "165.0",
+ "under_20M": "true",
+ "confidence": "low",
+ "cik": 1921158,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-077015",
+   "form": "6-K",
+   "filedAt": "2025-08-15"
+  },
+  {
+   "accession": "0001213900-25-071768",
+   "form": "6-K",
+   "filedAt": "2025-08-05"
+  },
+  {
+   "accession": "0001213900-25-061902",
+   "form": "F-3",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001213900-25-061898",
+   "form": "6-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001213900-25-053220",
+   "form": "6-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001213900-25-051345",
+   "form": "6-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001213900-25-033733",
+   "form": "20-F",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001213900-24-011273",
+   "form": "424B3",
+   "filedAt": "2024-02-08"
+  }
+ ]
+}

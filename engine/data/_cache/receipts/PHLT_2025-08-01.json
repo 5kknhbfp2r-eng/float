@@ -1,0 +1,71 @@
+{
+ "ticker": "PHLT",
+ "as_of": "2025-08-01",
+ "os_source": "DEF 14A 2025-04-24 / 10-Q 2025-05-09",
+ "excluded": [
+  {
+   "name": "Excluded=22.94M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 7.18M + Prescott Capital 13D 15.76M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=First Light 11.74M",
+   "shares_M": null
+  },
+  {
+   "name": "Topline 6.65M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 4.50M (all passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "55.37",
+ "os_M": "78.31",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1550695,
+ "depends_on_filings": [
+  {
+   "accession": "0001550695-25-000062",
+   "form": "8-K",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001550695-25-000061",
+   "form": "8-K",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001628280-25-032619",
+   "form": "8-K",
+   "filedAt": "2025-06-23"
+  },
+  {
+   "accession": "0001550695-25-000033",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001550695-25-000029",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001550695-25-000011",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001193125-12-293718",
+   "form": "S-1",
+   "filedAt": "2012-07-03"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "ticker": "DYNX",
+ "as_of": "2025-07-21",
+ "os_source": "Class A 16.6M + Class B 5.53M from 10-Q 2025-05-14 cover acc:0001213900-25-043273",
+ "excluded": [
+  {
+   "name": "Excluded=Class B founder shares 5.53M (sponsor DynamixCore/Bernatova)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public redeemable Class A 16.60M (incl K2 1.0M, Linden 1.04M passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "16.60",
+ "os_M": "22.13",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 2028699,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-065907",
+   "form": "8-K",
+   "filedAt": "2025-07-21"
+  },
+  {
+   "accession": "0001213900-25-043273",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001213900-25-025227",
+   "form": "10-K",
+   "filedAt": "2025-03-20"
+  },
+  {
+   "accession": "0001213900-25-011067",
+   "form": "8-K",
+   "filedAt": "2025-02-07"
+  },
+  {
+   "accession": "0001213900-24-106482",
+   "form": "8-K",
+   "filedAt": "2024-12-06"
+  },
+  {
+   "accession": "0001213900-24-105128",
+   "form": "8-K",
+   "filedAt": "2024-12-03"
+  },
+  {
+   "accession": "0001213900-24-059845",
+   "form": "S-1",
+   "filedAt": "2024-07-08"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "ANNA",
+ "as_of": "2025-06-25",
+ "os_source": "10-Q 2025-05-15 cover: 40,584,455 Class A common O/S (listed class); Class C 25,994,400 non-economic voting (not listed)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 4.48
+  },
+  {
+   "name": "Nautilus Resources direct Class A (Wilder control)",
+   "shares_M": null
+  },
+  {
+   "name": "6.66",
+   "shares_M": null
+  },
+  {
+   "name": "John&Susan Wilder Foundation Class A (Wilder control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 29.44
+  },
+  {
+   "name": "public Class A free float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.44",
+ "os_M": "40.58",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1845123,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-053944",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001213900-25-044162",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-044168",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001213900-25-036382",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-026227",
+   "form": "8-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001013762-25-001584",
+   "form": "8-K",
+   "filedAt": "2025-03-24"
+  },
+  {
+   "accession": "0001193125-21-091352",
+   "form": "S-1",
+   "filedAt": "2021-03-23"
+  }
+ ]
+}

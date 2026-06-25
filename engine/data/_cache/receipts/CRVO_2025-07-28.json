@@ -1,0 +1,59 @@
+{
+ "ticker": "CRVO",
+ "as_of": "2025-07-28",
+ "os_source": "Carried O/S 8.70M from 10-Q 2025-05-12 acc:0001437749-25-015966",
+ "excluded": [
+  {
+   "name": "Excluded=D&O ex-options 2.90M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G funds",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.80",
+ "os_M": "8.70",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1053691,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-023646",
+   "form": "8-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001437749-25-021278",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001437749-25-017613",
+   "form": "8-K",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001437749-25-015966",
+   "form": "10-Q",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-016131",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001437749-25-013543",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950147-99-001166",
+   "form": "424B3",
+   "filedAt": "1999-10-29"
+  }
+ ]
+}

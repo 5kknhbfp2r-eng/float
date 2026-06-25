@@ -1,0 +1,48 @@
+{
+ "ticker": "EMPG",
+ "as_of": "2025-08-29",
+ "os_source": "424B4 2025-07-02 acc:0001641172-25-017589 OS=8,331,250 post-greenshoe",
+ "excluded": [
+  {
+   "name": "Excluded=6.75M pre-IPO insiders",
+   "shares_M": null
+  },
+  {
+   "name": "Yeoh Chee Wei 5.13M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public offering 1.58M float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.58",
+ "os_M": "8.33",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 2005569,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021842",
+   "form": "6-K",
+   "filedAt": "2025-08-01"
+  },
+  {
+   "accession": "0001641172-25-021680",
+   "form": "6-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001641172-25-017824",
+   "form": "6-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001493152-24-036431",
+   "form": "F-1",
+   "filedAt": "2024-09-16"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "ticker": "NAKA",
+ "as_of": "2025-06-11",
+ "os_source": "10-Q 2025-05-08 acc:0001641172-25-009328; 8-K 2025-05-27 acc:0001641172-25-012417; DEF14A 2024-09-19 acc:0001493152-24-037086",
+ "excluded": [
+  {
+   "name": "Excluded=2.99M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O-group-ex-options-Pickett-39pct",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.25M",
+   "shares_M": null
+  },
+  {
+   "name": "Gus-Doodle-13G,0.35M",
+   "shares_M": null
+  },
+  {
+   "name": "Sally-Alicia-13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.48",
+ "os_M": "7.47",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1946573,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-012559",
+   "form": "424B3",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-012417",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001641172-25-012333",
+   "form": "424B3",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001213900-25-047050",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001641172-25-011937",
+   "form": "424B3",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001641172-25-011917",
+   "form": "8-K",
+   "filedAt": "2025-05-21"
+  },
+  {
+   "accession": "0001213900-25-045969",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-009328",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001493152-24-037086",
+   "form": "DEF 14A",
+   "filedAt": "2024-09-19"
+  },
+  {
+   "accession": "0001493152-23-033236",
+   "form": "S-1",
+   "filedAt": "2023-09-20"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "ticker": "ADN",
+ "as_of": "2025-08-15",
+ "os_source": "DEF14A 2024-12-10; 10-K 2025-06-06 acc:0001829126-25-004289; 10-Q 2025-08-12 acc:0001829126-25-006102; O/S=2,636,508",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_actual98.2K(DeCastro74.7K+Coffey23.5K)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Gregoriou212.3K_former_CEO_no_board_<20%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.54",
+ "os_M": "2.64",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1744494,
+ "depends_on_filings": [
+  {
+   "accession": "0001829126-25-006102",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001829126-25-006101",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001829126-25-005927",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001829126-25-004892",
+   "form": "8-K",
+   "filedAt": "2025-07-03"
+  },
+  {
+   "accession": "0001829126-25-003930",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001829126-25-002729",
+   "form": "8-K",
+   "filedAt": "2025-04-17"
+  },
+  {
+   "accession": "0001829126-25-002674",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001829126-24-008194",
+   "form": "DEF 14A",
+   "filedAt": "2024-12-10"
+  },
+  {
+   "accession": "0001140361-18-041301",
+   "form": "S-1",
+   "filedAt": "2018-10-25"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "COUR",
+ "as_of": "2025-07-24",
+ "os_source": "DEF14A 2025-03-31 acc:0001651562-25-000032 + 10-Q 2025-05-01 acc:0001651562-25-000035",
+ "excluded": [
+  {
+   "name": "D&O=27.7M(incl NEA board-nominee)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "BlackRock 14.19M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 11.15M",
+   "shares_M": null
+  },
+  {
+   "name": "Morgan Stanley 9.35M",
+   "shares_M": null
+  },
+  {
+   "name": "BaillieGifford 9.12M",
+   "shares_M": null
+  },
+  {
+   "name": "Caledonia 8.40M passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "161.3",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1651562,
+ "depends_on_filings": [
+  {
+   "accession": "0001651562-25-000045",
+   "form": "8-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001651562-25-000040",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001651562-25-000035",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001651562-25-000032",
+   "form": "8-K",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001651562-25-000026",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001651562-25-000006",
+   "form": "8-K",
+   "filedAt": "2025-02-03"
+  },
+  {
+   "accession": "0001193125-21-071525",
+   "form": "S-1",
+   "filedAt": "2021-03-05"
+  }
+ ]
+}

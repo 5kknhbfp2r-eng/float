@@ -1,0 +1,76 @@
+{
+ "ticker": "CTNM",
+ "as_of": "2025-06-20",
+ "os_source": "10-Q 2025-05-14 acc:0001437749-25-016835 Class A 19,142,377 o/s (listed class); Class B 6,729,172 non-listed",
+ "excluded": [
+  {
+   "name": "Excluded=0.199M D&O group ex-options (BO 2.157M less 1.958M options); Class B 6.73M non-listed not in listed-class float",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G JJDC 1.979M",
+   "shares_M": null
+  },
+  {
+   "name": "Suvretta 1.72M",
+   "shares_M": null
+  },
+  {
+   "name": "Franklin 1.446M",
+   "shares_M": null
+  },
+  {
+   "name": "Perceptive 1.441M (all <20%, in Class A float)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "18.94",
+ "os_M": "19.14",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1855175,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-016835",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-016877",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-016871",
+   "form": "S-3",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-013528",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001437749-25-013334",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001437749-25-007998",
+   "form": "8-K",
+   "filedAt": "2025-03-17"
+  },
+  {
+   "accession": "0001437749-25-006457",
+   "form": "8-K",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001193125-24-069256",
+   "form": "S-1",
+   "filedAt": "2024-03-15"
+  }
+ ]
+}

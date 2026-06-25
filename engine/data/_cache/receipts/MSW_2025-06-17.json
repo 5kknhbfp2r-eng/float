@@ -1,0 +1,64 @@
+{
+ "ticker": "MSW",
+ "as_of": "2025-06-17",
+ "os_source": "13D/A Feb-2025 acc:0002028403-25-000004 + 424B4 (O/S 12,975,000)",
+ "excluded": [
+  {
+   "name": "Excluded=10.75M Chi Ming Lam founder/control (82.8%)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=public IPO float 2.225M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.23",
+ "os_M": "12.98",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1956166,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-013206",
+   "form": "6-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001641172-25-012210",
+   "form": "6-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001641172-25-003751",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-25-011101",
+   "form": "6-K",
+   "filedAt": "2025-03-21"
+  },
+  {
+   "accession": "0001493152-25-009802",
+   "form": "6-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001493152-25-001876",
+   "form": "6-K",
+   "filedAt": "2025-01-13"
+  },
+  {
+   "accession": "0001493152-24-033838",
+   "form": "20-F",
+   "filedAt": "2024-08-26"
+  },
+  {
+   "accession": "0001493152-23-022215",
+   "form": "F-1",
+   "filedAt": "2023-06-23"
+  }
+ ]
+}

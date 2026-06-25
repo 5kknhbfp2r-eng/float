@@ -1,0 +1,77 @@
+{
+ "ticker": "TOPS",
+ "as_of": "2025-06-04",
+ "os_source": "20-F 2025-04-14 acc:0001140361-25-013743 (4,626,197 common out as of 12/31/2024)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 2.93
+  },
+  {
+   "name": "3 Sororibus Trust (Pistiolis family);0.44",
+   "shares_M": null
+  },
+  {
+   "name": "Evangelos Pistiolis CEO/Director direct",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none material",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.26",
+ "os_M": "4.63",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1296484,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-003665",
+   "form": "6-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001171843-25-002204",
+   "form": "6-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001140361-25-013743",
+   "form": "20-F",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001140361-24-048679",
+   "form": "6-K",
+   "filedAt": "2024-12-06"
+  },
+  {
+   "accession": "0001140361-24-045664",
+   "form": "6-K",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001140361-24-016527",
+   "form": "20-F",
+   "filedAt": "2024-03-29"
+  },
+  {
+   "accession": "0001140361-23-015498",
+   "form": "20-F",
+   "filedAt": "2023-03-31"
+  },
+  {
+   "accession": "0001171843-22-003396",
+   "form": "20-F/A",
+   "filedAt": "2022-05-06"
+  },
+  {
+   "accession": "0001047469-04-022711",
+   "form": "F-1",
+   "filedAt": "2004-07-07"
+  }
+ ]
+}

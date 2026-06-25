@@ -1,0 +1,85 @@
+{
+ "ticker": "APPS",
+ "as_of": "2025-06-17",
+ "os_source": "10-K 2025-06-16 acc:0001628280-25-031628; DEF14A 2024-07-15",
+ "excluded": [
+  {
+   "name": "Excluded=4.4M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=12.8M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 13G; 7.3M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 13G; 6.0M",
+   "shares_M": null
+  },
+  {
+   "name": "Tennor Holding strategic",
+   "shares_M": null
+  }
+ ],
+ "float_M": "102.6",
+ "os_M": "106.98",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 317788,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-031628",
+   "form": "10-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001628280-25-031557",
+   "form": "8-K",
+   "filedAt": "2025-06-16"
+  },
+  {
+   "accession": "0001628280-25-028361",
+   "form": "8-K",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001628280-25-004027",
+   "form": "8-K",
+   "filedAt": "2025-02-05"
+  },
+  {
+   "accession": "0001628280-24-045814",
+   "form": "8-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001628280-24-038529",
+   "form": "8-K",
+   "filedAt": "2024-08-27"
+  },
+  {
+   "accession": "0001628280-24-035601",
+   "form": "8-K",
+   "filedAt": "2024-08-07"
+  },
+  {
+   "accession": "0001628280-24-031898",
+   "form": "DEF 14A",
+   "filedAt": "2024-07-15"
+  },
+  {
+   "accession": "0000950117-00-000707",
+   "form": "424B4",
+   "filedAt": "2000-03-24"
+  }
+ ]
+}

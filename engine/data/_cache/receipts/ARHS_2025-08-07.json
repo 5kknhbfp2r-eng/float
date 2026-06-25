@@ -1,0 +1,72 @@
+{
+ "ticker": "ARHS",
+ "as_of": "2025-08-07",
+ "os_source": "10-Q cover 2025-08-07 acc:0001875444-25-000135 ClassA 53,859,215 as of 7/31/25",
+ "excluded": [
+  {
+   "name": "Excluded=2.034101M D&O-group ClassA",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Wasatch 12.06M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 5.01M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock 4.04M (passive 13G)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "51.83",
+ "os_M": "53.86",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1875444,
+ "depends_on_filings": [
+  {
+   "accession": "0001875444-25-000135",
+   "form": "10-Q",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001875444-25-000133",
+   "form": "8-K",
+   "filedAt": "2025-08-07"
+  },
+  {
+   "accession": "0001875444-25-000121",
+   "form": "8-K",
+   "filedAt": "2025-07-02"
+  },
+  {
+   "accession": "0001875444-25-000111",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001875444-25-000085",
+   "form": "8-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001875444-25-000081",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001193125-25-077328",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-10"
+  },
+  {
+   "accession": "0001193125-21-291002",
+   "form": "S-1",
+   "filedAt": "2021-10-04"
+  }
+ ]
+}

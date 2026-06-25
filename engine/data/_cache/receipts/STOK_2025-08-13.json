@@ -1,0 +1,73 @@
+{
+ "ticker": "STOK",
+ "as_of": "2025-08-13",
+ "os_source": "10-Q 2025-08-12 acc:0000950170-25-107332",
+ "excluded": [
+  {
+   "name": "D&O_options=2.89M",
+   "shares_M": null
+  },
+  {
+   "name": "Skorpios_kept=6.91M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "D&O_actual=2.56M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "52.16",
+ "os_M": "54.72",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1623526,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-107332",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0000950170-25-107275",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001193125-25-177433",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001193125-25-157364",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001193125-25-157072",
+   "form": "S-3",
+   "filedAt": "2025-07-09"
+  },
+  {
+   "accession": "0001193125-25-134882",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001193125-25-134447",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001193125-25-089188",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001193125-19-155301",
+   "form": "S-1",
+   "filedAt": "2019-05-23"
+  }
+ ]
+}

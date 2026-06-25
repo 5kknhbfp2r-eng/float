@@ -1,0 +1,93 @@
+{
+ "ticker": "FBYD",
+ "as_of": "2025-06-18",
+ "os_source": "Class A O/S 37,231,505 as of 6/16/2025 from POS AM acc:0001213900-25-055204 (10-Q cover 37,226,927); control holdings from 10-K/A acc:0000950170-25-061128 (as of 4/30/2025)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 25.031204
+  },
+  {
+   "name": "Infinite Acquisitions 67.2% Demerau control;2.095087",
+   "shares_M": null
+  },
+  {
+   "name": "Katmandu Ventures (Demerau family);2.531733",
+   "shares_M": null
+  },
+  {
+   "name": "Tillman's Corner Trust;2.586535",
+   "shares_M": null
+  },
+  {
+   "name": "Judith Demerau;0.03471",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group Class A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  },
+  {
+   "name": "no passive institution holds Class A",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.95",
+ "os_M": "37.23",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1937987,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-081730",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-047381",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000950170-25-072750",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072762",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072757",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-060215",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0000950170-25-056792",
+   "form": "8-K",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0001213900-24-037237",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-29"
+  },
+  {
+   "accession": "0001213900-23-077041",
+   "form": "424B3",
+   "filedAt": "2023-09-15"
+  }
+ ]
+}

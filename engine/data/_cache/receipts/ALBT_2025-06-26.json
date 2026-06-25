@@ -1,0 +1,69 @@
+{
+ "ticker": "ALBT",
+ "as_of": "2025-06-26",
+ "os_source": "S-3 2025-06-12 acc:0001213900-25-053991 + DEF14A 2024-08-28 acc:0001213900-24-073756",
+ "excluded": [
+  {
+   "name": "Excluded=0.376M D&O pure shares (post\u00f715 split)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.294M Mast Hill(<20%,convertible)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.76",
+ "os_M": "2.13",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1630212,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-058049",
+   "form": "8-K",
+   "filedAt": "2025-06-26"
+  },
+  {
+   "accession": "0001213900-25-053991",
+   "form": "S-3",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001213900-25-051193",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-047391",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001213900-25-042738",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001213900-25-036394",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-25-031754",
+   "form": "8-K",
+   "filedAt": "2025-04-15"
+  },
+  {
+   "accession": "0001213900-24-073383",
+   "form": "DEF 14A",
+   "filedAt": "2024-08-28"
+  },
+  {
+   "accession": "0001558891-15-000024",
+   "form": "S-1",
+   "filedAt": "2015-02-18"
+  }
+ ]
+}

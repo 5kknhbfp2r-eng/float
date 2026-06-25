@@ -1,0 +1,67 @@
+{
+ "ticker": "GES",
+ "as_of": "2025-08-20",
+ "os_source": "DEF 14A 2025-05-16 acc:0000912463; 8-K vote 2025-06-11 acc:0000912463-25-000049",
+ "excluded": [
+  {
+   "name": "Excluded=22.58M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O-ex-options 17.68M + Maurice Marciano 4.90M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=29.43M",
+   "shares_M": null
+  },
+  {
+   "name": "passive institutions",
+   "shares_M": null
+  }
+ ],
+ "float_M": "29.43",
+ "os_M": "52.01",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 912463,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-183789",
+   "form": "8-K",
+   "filedAt": "2025-08-20"
+  },
+  {
+   "accession": "0000912463-25-000048",
+   "form": "10-Q",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0000912463-25-000049",
+   "form": "8-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0000912463-25-000034",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001193125-25-121303",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-16"
+  },
+  {
+   "accession": "0000912463-25-000018",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0000912057-96-010703",
+   "form": "S-1",
+   "filedAt": "1996-05-24"
+  }
+ ]
+}

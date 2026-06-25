@@ -1,0 +1,66 @@
+{
+ "ticker": "KRNT",
+ "as_of": "2025-05-14",
+ "os_source": "OS_SOURCE: 20-F 2025-03-27 acc 0001013762-25-003018 : 45,327,503 ordinary shares outstanding (excl 5,773,222 treasury) as of Feb 28 2025",
+ "excluded": [
+  {
+   "name": "D&O_group",
+   "shares_M": 0.45
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "MorganStanley",
+   "shares_M": 3.56
+  },
+  {
+   "name": "Artisan",
+   "shares_M": 3.33
+  },
+  {
+   "name": "Senvest",
+   "shares_M": 4.23
+  },
+  {
+   "name": "ChicagoCapital",
+   "shares_M": 2.49
+  }
+ ],
+ "float_M": "44.9",
+ "os_M": "45.33",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1625791,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-043350",
+   "form": "6-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001013762-25-003018",
+   "form": "20-F",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0001213900-25-012502",
+   "form": "6-K",
+   "filedAt": "2025-02-12"
+  },
+  {
+   "accession": "0001213900-24-110299",
+   "form": "6-K",
+   "filedAt": "2024-12-19"
+  },
+  {
+   "accession": "0001213900-24-094784",
+   "form": "6-K",
+   "filedAt": "2024-11-06"
+  },
+  {
+   "accession": "0001615774-15-000363",
+   "form": "F-1",
+   "filedAt": "2015-02-25"
+  }
+ ]
+}

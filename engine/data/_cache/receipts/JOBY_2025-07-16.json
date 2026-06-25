@@ -1,0 +1,64 @@
+{
+ "ticker": "JOBY",
+ "as_of": "2025-07-16",
+ "os_source": "10-Q 2025-05-07 acc:0001819848-25-000336 + 8-K 2025-05-27 acc:0001819848-25-000352 (tranche-1 close)",
+ "excluded": [
+  {
+   "name": "Excluded=Bevirt94.4M+Sciarra58.7M+Toyota128.5M+Hoffman30.8M+Thompson29.6M+Saluja40.5M=382.5M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Baillie_Gifford53.9M+Vanguard40.4M+other_passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "841.50",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1819848,
+ "depends_on_filings": [
+  {
+   "accession": "0001819848-25-000404",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001819848-25-000384",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001819848-25-000365",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001819848-25-000352",
+   "form": "8-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001819848-25-000338",
+   "form": "10-Q",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001819848-25-000336",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001819848-25-000328",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001213900-20-024426",
+   "form": "S-1",
+   "filedAt": "2020-08-31"
+  }
+ ]
+}

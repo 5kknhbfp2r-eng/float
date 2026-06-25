@@ -1,0 +1,84 @@
+{
+ "ticker": "SUPX",
+ "as_of": "2025-07-30",
+ "os_source": "6-K 2025-07-24 acc:0001213900-25-067115 (22,169,854 ordinary o/s); carried from 7/29",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 8.833
+  },
+  {
+   "name": "OPS Holdings control SPV;Excluded",
+   "shares_M": 0.527
+  },
+  {
+   "name": "D&O ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.0
+  },
+  {
+   "name": "Yue Xi;Kept",
+   "shares_M": 2.0
+  },
+  {
+   "name": "Set Hero;Kept",
+   "shares_M": 0.99
+  },
+  {
+   "name": "Sun Tao",
+   "shares_M": null
+  }
+ ],
+ "float_M": "12.81",
+ "os_M": "22.17",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1897087,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-068933",
+   "form": "6-K",
+   "filedAt": "2025-07-30"
+  },
+  {
+   "accession": "0001213900-25-067858",
+   "form": "6-K",
+   "filedAt": "2025-07-28"
+  },
+  {
+   "accession": "0001213900-25-067115",
+   "form": "6-K",
+   "filedAt": "2025-07-24"
+  },
+  {
+   "accession": "0001213900-25-064862",
+   "form": "6-K",
+   "filedAt": "2025-07-17"
+  },
+  {
+   "accession": "0001213900-25-061900",
+   "form": "6-K",
+   "filedAt": "2025-07-08"
+  },
+  {
+   "accession": "0001213900-25-049694",
+   "form": "6-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001213900-24-095132",
+   "form": "20-F",
+   "filedAt": "2024-11-07"
+  },
+  {
+   "accession": "0001213900-22-039099",
+   "form": "F-1",
+   "filedAt": "2022-07-13"
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "ticker": "SSYS",
+ "as_of": "2025-08-19",
+ "os_source": "F-3 2025-08-13 acc:0001628280-25-040089 O/S ~85,081,621 ord ex treasury; ownership 20-F 2025-03-06 acc:0001628280-25-010800",
+ "excluded": [
+  {
+   "name": "Excluded=9.70 Nano Dimension 13D activist",
+   "shares_M": null
+  },
+  {
+   "name": "1.0 D&O est",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=6.19 Rubric 13F",
+   "shares_M": null
+  },
+  {
+   "name": "4.48 Neuberger 13F",
+   "shares_M": null
+  },
+  {
+   "name": "3.60 Phoenix 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "74.4",
+ "os_M": "85.08",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1517396,
+ "depends_on_filings": [
+  {
+   "accession": "0001628280-25-040087",
+   "form": "6-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001628280-25-040089",
+   "form": "F-3",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001628280-25-040001",
+   "form": "6-K",
+   "filedAt": "2025-08-13"
+  },
+  {
+   "accession": "0001628280-25-039388",
+   "form": "424B3",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001628280-25-034887",
+   "form": "F-3",
+   "filedAt": "2025-07-15"
+  },
+  {
+   "accession": "0001628280-25-023630",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-023455",
+   "form": "6-K",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001628280-25-010800",
+   "form": "20-F",
+   "filedAt": "2025-03-06"
+  },
+  {
+   "accession": "0001628280-24-010213",
+   "form": "20-F",
+   "filedAt": "2024-03-11"
+  },
+  {
+   "accession": "0001213900-23-017015",
+   "form": "20-F",
+   "filedAt": "2023-03-03"
+  },
+  {
+   "accession": "0001047469-12-003133",
+   "form": "F-1",
+   "filedAt": "2012-03-22"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "ticker": "FBYD",
+ "as_of": "2025-06-25",
+ "os_source": "carried from 2025-06-18; Class A O/S 37,231,505 (6/16/2025) unchanged per 424B3 acc:0001213900-25-057855 (resale only, no primary issuance)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 25.031204
+  },
+  {
+   "name": "Infinite control;2.095087",
+   "shares_M": null
+  },
+  {
+   "name": "Katmandu;2.531733",
+   "shares_M": null
+  },
+  {
+   "name": "Tillman's Corner Trust;2.586535",
+   "shares_M": null
+  },
+  {
+   "name": "Judith Demerau;0.03471",
+   "shares_M": null
+  },
+  {
+   "name": "D&O",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none",
+   "shares_M": null
+  },
+  {
+   "name": "no passive Class A holder",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.95",
+ "os_M": "37.23",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1937987,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-057855",
+   "form": "424B3",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0000950170-25-081730",
+   "form": "8-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001213900-25-047381",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000950170-25-072750",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072762",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-072757",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0000950170-25-060215",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001213900-24-037237",
+   "form": "DEF 14A",
+   "filedAt": "2024-04-29"
+  },
+  {
+   "accession": "0001213900-23-077041",
+   "form": "424B3",
+   "filedAt": "2023-09-15"
+  }
+ ]
+}

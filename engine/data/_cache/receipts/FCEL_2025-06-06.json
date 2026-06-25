@@ -1,0 +1,81 @@
+{
+ "ticker": "FCEL",
+ "as_of": "2025-06-06",
+ "os_source": "O/S 22,790,931 outstanding as of June 2, 2025 from 10-Q cover acc:0001558370-25-008463; ownership from DEF14A acc (2025-02-21), 1-for-30 reverse split (Nov 8 2024) already reflected",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.07386
+  },
+  {
+   "name": "all directors and executive officers as a group (13 persons), <1%",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 1.167585
+  },
+  {
+   "name": "BlackRock 5.52% passive 13G;1.110789",
+   "shares_M": null
+  },
+  {
+   "name": "Legal & General 5.25% passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "22.72",
+ "os_M": "22.79",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 886128,
+ "depends_on_filings": [
+  {
+   "accession": "0001558370-25-008463",
+   "form": "10-Q",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001558370-25-008461",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001558370-25-006508",
+   "form": "8-K",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001104659-25-041391",
+   "form": "S-3",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0001558370-25-005823",
+   "form": "8-K",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001558370-25-005071",
+   "form": "8-K",
+   "filedAt": "2025-04-21"
+  },
+  {
+   "accession": "0001104659-25-031683",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001558370-25-001307",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0000950123-00-003725",
+   "form": "424B4",
+   "filedAt": "2000-04-17"
+  }
+ ]
+}

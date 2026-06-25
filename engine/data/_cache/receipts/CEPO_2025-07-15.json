@@ -1,0 +1,57 @@
+{
+ "ticker": "CEPO",
+ "as_of": "2025-07-15",
+ "os_source": "10-Q 2025-05-15 acc:0001213900-25-044272 (cover 20.5M Cl A + 5M Cl B)",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 5.5
+  },
+  {
+   "name": "Sponsor Cantor EP Holdings 5M Cl B + 0.5M Cl A",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 20.0
+  },
+  {
+   "name": "Public redeemable Class A (float)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "20.00",
+ "os_M": "25.50",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 2027708,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-044272",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001013762-25-004142",
+   "form": "10-K",
+   "filedAt": "2025-03-28"
+  },
+  {
+   "accession": "0001213900-25-003834",
+   "form": "8-K",
+   "filedAt": "2025-01-15"
+  },
+  {
+   "accession": "0001213900-25-002656",
+   "form": "8-K",
+   "filedAt": "2025-01-10"
+  },
+  {
+   "accession": "0001213900-24-093516",
+   "form": "S-1",
+   "filedAt": "2024-11-01"
+  }
+ ]
+}

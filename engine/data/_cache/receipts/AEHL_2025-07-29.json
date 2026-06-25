@@ -1,0 +1,71 @@
+{
+ "ticker": "AEHL",
+ "as_of": "2025-07-29",
+ "os_source": "F-3 2025-07-22 acc:0001641172-25-020601 Class A 2,616,577; 20-F 2025-05-01 acc:0001641172-25-008020 table",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.023
+  },
+  {
+   "name": "D&O group;0.001",
+   "shares_M": null
+  },
+  {
+   "name": "Weilai Zhang founder ClassA;0.076",
+   "shares_M": null
+  },
+  {
+   "name": "Seener/Di Wu affiliate ClassA post-split",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive only; Class B 2.56M non-listed excluded from float",
+   "shares_M": null
+  }
+ ],
+ "float_M": "2.52",
+ "os_M": "2.62",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1470683,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-021279",
+   "form": "6-K",
+   "filedAt": "2025-07-29"
+  },
+  {
+   "accession": "0001641172-25-020601",
+   "form": "F-3",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001641172-25-008020",
+   "form": "20-F",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001641172-25-002513",
+   "form": "6-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001641172-25-001501",
+   "form": "6-K",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001493152-25-007742",
+   "form": "6-K",
+   "filedAt": "2025-02-20"
+  },
+  {
+   "accession": "0001144204-09-058607",
+   "form": "424B3",
+   "filedAt": "2009-11-13"
+  }
+ ]
+}

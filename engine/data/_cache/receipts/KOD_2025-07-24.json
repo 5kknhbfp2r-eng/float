@@ -1,0 +1,59 @@
+{
+ "ticker": "KOD",
+ "as_of": "2025-07-24",
+ "os_source": "carried_from_2025-07-23",
+ "excluded": [
+  {
+   "name": "Excluded=same_as_Jul23",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=same_as_Jul23",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "52.73",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1468748,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-134149",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0000950170-25-071523",
+   "form": "10-Q",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-071474",
+   "form": "8-K",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0000950170-25-056722",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-22"
+  },
+  {
+   "accession": "0000950170-25-046067",
+   "form": "8-K",
+   "filedAt": "2025-03-27"
+  },
+  {
+   "accession": "0000950170-24-127029",
+   "form": "8-K",
+   "filedAt": "2024-11-14"
+  },
+  {
+   "accession": "0001193125-18-269221",
+   "form": "S-1",
+   "filedAt": "2018-09-07"
+  }
+ ]
+}

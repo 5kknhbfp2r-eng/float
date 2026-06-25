@@ -1,0 +1,44 @@
+{
+ "ticker": "CCCM",
+ "as_of": "2025-06-13",
+ "os_source": "424B4 2025-05-19 + 8-K 2025-05-23 acc:0001213900-25-047390",
+ "excluded": [
+  {
+   "name": "founder_shares=6.15M,private_placement=0.705M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "public_redeemable=25.0M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "31.86",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 2056263,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-052142",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-047390",
+   "form": "8-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0001213900-25-046062",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001213900-25-035663",
+   "form": "S-1",
+   "filedAt": "2025-04-25"
+  }
+ ]
+}

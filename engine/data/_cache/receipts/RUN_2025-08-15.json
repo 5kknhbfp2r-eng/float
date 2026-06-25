@@ -1,0 +1,75 @@
+{
+ "ticker": "RUN",
+ "as_of": "2025-08-15",
+ "os_source": "DEF 14A 2025-04-29 / 10-Q 2025-08-06 acc:0001469367-25-000148",
+ "excluded": [
+  {
+   "name": "Excluded=4.82M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O real (Fenster 1.34M + Jurich+LLC 2.54M + others 0.94M)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=BlackRock 42.26M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 22.02M",
+   "shares_M": null
+  },
+  {
+   "name": "Greenvale 13.50M",
+   "shares_M": null
+  },
+  {
+   "name": "Alyeska 12.03M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "230.73",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1469367,
+ "depends_on_filings": [
+  {
+   "accession": "0001469367-25-000148",
+   "form": "10-Q",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001469367-25-000147",
+   "form": "8-K",
+   "filedAt": "2025-08-06"
+  },
+  {
+   "accession": "0001469367-25-000129",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001469367-25-000103",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001469367-25-000094",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-29"
+  },
+  {
+   "accession": "0001469367-25-000065",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001193125-15-234545",
+   "form": "S-1",
+   "filedAt": "2015-06-25"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "ticker": "SBET",
+ "as_of": "2025-06-16",
+ "os_source": "S-3ASR 2025-06-12 acc:0001641172-25-014878; 8-K 2025-05-30 acc:0001641172-25-013081 (PIPE 58.7M+10.4M warrants); 13D 2025-06-07 acc:0001641172-25-014202",
+ "excluded": [
+  {
+   "name": "Excluded=D&O_0.52M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=JaneStreet_4.91M",
+   "shares_M": null
+  },
+  {
+   "name": "Consensys_6.47M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "60.91",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1981535,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-014970",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-013718",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001641172-25-013081",
+   "form": "8-K",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001641172-25-011794",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-011766",
+   "form": "424B4",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-011329",
+   "form": "S-1/A",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001641172-25-010881",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-001704",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001493152-23-038300",
+   "form": "424B3",
+   "filedAt": "2023-10-25"
+  }
+ ]
+}

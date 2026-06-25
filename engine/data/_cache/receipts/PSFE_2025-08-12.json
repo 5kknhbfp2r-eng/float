@@ -1,0 +1,59 @@
+{
+ "ticker": "PSFE",
+ "as_of": "2025-08-12",
+ "os_source": "20-F 2025-03-04 cover O/S 59,888,304 post 1:12 split as of 12/31/24 acc:0000950170-25-032340",
+ "excluded": [
+  {
+   "name": "ShareholdersAgmtGroup=28.01(CVC+Blackstone+Cannae+FNF+Foley+founder, board-nominee control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "DnO=<1%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "31.87",
+ "os_M": "59.89",
+ "under_20M": "false",
+ "confidence": "med",
+ "cik": 1833835,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-106911",
+   "form": "6-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0000950170-25-076636",
+   "form": "6-K",
+   "filedAt": "2025-05-23"
+  },
+  {
+   "accession": "0000950170-25-070391",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-069778",
+   "form": "6-K",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0000950170-25-053270",
+   "form": "6-K",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0000950170-25-032340",
+   "form": "20-F",
+   "filedAt": "2025-03-04"
+  },
+  {
+   "accession": "0001193125-21-060869",
+   "form": "424B3",
+   "filedAt": "2021-02-26"
+  }
+ ]
+}

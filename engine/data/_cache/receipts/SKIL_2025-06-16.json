@@ -1,0 +1,63 @@
+{
+ "ticker": "SKIL",
+ "as_of": "2025-06-16",
+ "os_source": "10-Q 2025-06-09 acc:0001437749-25-019846 carried",
+ "excluded": [
+  {
+   "name": "Excluded=MIH_Learning_3.06M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O_ex-warrants_0.86M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=Paradice_0.66M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.43",
+ "os_M": "8.35",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1774675,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-019846",
+   "form": "10-Q",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001437749-25-019845",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0001437749-25-019568",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001437749-25-018830",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-29"
+  },
+  {
+   "accession": "0001437749-25-017817",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001437749-25-011910",
+   "form": "8-K",
+   "filedAt": "2025-04-14"
+  },
+  {
+   "accession": "0001144204-19-030479",
+   "form": "S-1",
+   "filedAt": "2019-06-10"
+  }
+ ]
+}

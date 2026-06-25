@@ -1,0 +1,71 @@
+{
+ "ticker": "HUSA",
+ "as_of": "2025-06-17",
+ "os_source": "O/S 8-K 2025-05-28 (1-for-10 split eff 6/6) acc:0001641172-25-012740 -> ~1,568,653 post-split",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.006
+  },
+  {
+   "name": "D&O hold options-only,real common ~0.006M pre-split",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 2.18
+  },
+  {
+   "name": "BFH 13.6% passive 13G;1.30",
+   "shares_M": null
+  },
+  {
+   "name": "3i 8.1% passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "1.57",
+ "os_M": "1.57",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1156041,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-015108",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001641172-25-012740",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001641172-25-009427",
+   "form": "10-Q",
+   "filedAt": "2025-05-09"
+  },
+  {
+   "accession": "0001641172-25-006364",
+   "form": "8-K",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001641172-25-003763",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-11"
+  },
+  {
+   "accession": "0001493152-25-008837",
+   "form": "8-K",
+   "filedAt": "2025-03-03"
+  },
+  {
+   "accession": "0000899243-01-502002",
+   "form": "424B1",
+   "filedAt": "2001-12-17"
+  }
+ ]
+}

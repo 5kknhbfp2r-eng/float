@@ -1,0 +1,67 @@
+{
+ "ticker": "WVVI",
+ "as_of": "2025-06-20",
+ "os_source": "OS_SOURCE DEF14A 2025-05-30 acc:0001199835-25-000168=4,964,529 common",
+ "excluded": [
+  {
+   "name": "Excluded=0.42M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O 9 persons 421,715 real",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=4.54M",
+   "shares_M": null
+  },
+  {
+   "name": "float; Riccardi 7.8% no current board role; Thoma 6.8% 13G/A passive",
+   "shares_M": null
+  }
+ ],
+ "float_M": "4.54",
+ "os_M": "4.96",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 838875,
+ "depends_on_filings": [
+  {
+   "accession": "0001199835-25-000210",
+   "form": "S-3",
+   "filedAt": "2025-06-17"
+  },
+  {
+   "accession": "0001199835-25-000188",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001199835-25-000171",
+   "form": "8-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001199835-25-000168",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-30"
+  },
+  {
+   "accession": "0001199835-25-000153",
+   "form": "8-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001199835-25-000138",
+   "form": "10-Q",
+   "filedAt": "2025-05-13"
+  },
+  {
+   "accession": "0001199835-25-000034",
+   "form": "8-K",
+   "filedAt": "2025-02-13"
+  }
+ ]
+}

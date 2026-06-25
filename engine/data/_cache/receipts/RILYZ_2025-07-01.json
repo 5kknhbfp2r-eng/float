@@ -1,0 +1,77 @@
+{
+ "ticker": "RILYZ",
+ "as_of": "2025-07-01",
+ "os_source": "10-Q 2025-02-21 (for Sep30 2024) acc:0001628280-25-007082 Note12 5.25% Notes due Aug2028 principal 05.483M",
+ "excluded": [
+  {
+   "name": "Excluded=0M",
+   "shares_M": null
+  },
+  {
+   "name": "none (exchange-listed notes, no equity insider exclusion)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=16.22M",
+   "shares_M": null
+  },
+  {
+   "name": "all units publicly traded",
+   "shares_M": null
+  }
+ ],
+ "float_M": "16.22",
+ "os_M": "16.22",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1464790,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-051802",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001213900-25-048338",
+   "form": "8-K",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001213900-25-046915",
+   "form": "8-K",
+   "filedAt": "2025-05-22"
+  },
+  {
+   "accession": "0001213900-25-029055",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  },
+  {
+   "accession": "0001213900-25-027230",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001213900-25-024189",
+   "form": "8-K",
+   "filedAt": "2025-03-14"
+  },
+  {
+   "accession": "0001628280-25-007082",
+   "form": "10-Q",
+   "filedAt": "2025-02-21"
+  },
+  {
+   "accession": "0001213900-24-041725",
+   "form": "DEF 14A",
+   "filedAt": "2024-05-10"
+  },
+  {
+   "accession": "0001193125-09-202908",
+   "form": "424B3",
+   "filedAt": "2009-10-02"
+  }
+ ]
+}

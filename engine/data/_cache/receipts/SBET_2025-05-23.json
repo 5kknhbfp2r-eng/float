@@ -1,0 +1,79 @@
+{
+ "ticker": "SBET",
+ "as_of": "2025-05-23",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-15 acc 0001641172-25-010881 (659,684 post 1:12 split) + 34,000 from 424B4 2025-05-20 = ~698,498",
+ "excluded": [
+  {
+   "name": "D&O group (post-split)",
+   "shares_M": 0.043
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Alpha Capital (passive)",
+   "shares_M": 0.046
+  }
+ ],
+ "float_M": "0.66",
+ "os_M": "0.70",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1981535,
+ "depends_on_filings": [
+  {
+   "accession": "0001641172-25-011794",
+   "form": "8-K",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-011766",
+   "form": "424B4",
+   "filedAt": "2025-05-20"
+  },
+  {
+   "accession": "0001641172-25-011329",
+   "form": "S-1/A",
+   "filedAt": "2025-05-19"
+  },
+  {
+   "accession": "0001641172-25-010881",
+   "form": "10-Q",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001641172-25-008765",
+   "form": "S-1/A",
+   "filedAt": "2025-05-06"
+  },
+  {
+   "accession": "0001641172-25-008476",
+   "form": "S-1",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001641172-25-008368",
+   "form": "8-K",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0001641172-25-005887",
+   "form": "8-K",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001641172-25-002496",
+   "form": "8-K",
+   "filedAt": "2025-04-03"
+  },
+  {
+   "accession": "0001641172-25-001704",
+   "form": "DEF 14A",
+   "filedAt": "2025-03-31"
+  },
+  {
+   "accession": "0001493152-23-038300",
+   "form": "424B3",
+   "filedAt": "2023-10-25"
+  }
+ ]
+}

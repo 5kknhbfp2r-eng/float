@@ -1,0 +1,21 @@
+{
+ "ticker": "SBET",
+ "as_of": "2025-05-27",
+ "os_source": "OS_SOURCE: 10-Q 2025-05-15 acc 0001641172-25-010881 (659,684 post 1:12 split) + 34,000 from 424B4 2025-05-20 = ~698,498; no PIPE filing <= as_of",
+ "excluded": [
+  {
+   "name": "D&O group (post-split)",
+   "shares_M": 0.043
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Alpha Capital (passive)",
+   "shares_M": 0.046
+  }
+ ],
+ "float_M": "0.66",
+ "os_M": "0.70",
+ "under_20M": "true",
+ "confidence": "med"
+}

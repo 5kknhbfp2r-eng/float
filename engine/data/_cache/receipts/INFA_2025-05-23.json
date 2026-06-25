@@ -1,0 +1,67 @@
+{
+ "ticker": "INFA",
+ "as_of": "2025-05-23",
+ "os_source": "OS_SOURCE: DEF14A 2025-04-28 / 10-Q 2025-05-08 : 257,674,620 Class A common shares outstanding",
+ "excluded": [
+  {
+   "name": "Permira",
+   "shares_M": 82.24
+  },
+  {
+   "name": "CPP",
+   "shares_M": 64.38
+  },
+  {
+   "name": "D&O_group",
+   "shares_M": 7.15
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Wellington",
+   "shares_M": 13.16
+  }
+ ],
+ "float_M": "103.9",
+ "os_M": "257.67",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1868778,
+ "depends_on_filings": [
+  {
+   "accession": "0001868778-25-000014",
+   "form": "10-Q",
+   "filedAt": "2025-05-08"
+  },
+  {
+   "accession": "0001868778-25-000011",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001628280-25-020261",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-28"
+  },
+  {
+   "accession": "0001628280-25-012034",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001868778-25-000004",
+   "form": "8-K",
+   "filedAt": "2025-02-13"
+  },
+  {
+   "accession": "0001628280-24-046843",
+   "form": "8-K",
+   "filedAt": "2024-11-12"
+  },
+  {
+   "accession": "0001193125-21-289749",
+   "form": "S-1",
+   "filedAt": "2021-10-01"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "ZETA",
+ "as_of": "2025-06-23",
+ "os_source": "Class A O/S 211.45M from 10-Q cover 2025-05-02 (as of 4/25/25, acc:0000950170-25-062262); ownership DEF14A 2025-04-30 acc:0000950170-25-061112",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 6.67
+  },
+  {
+   "name": "D&O Class A group ex-options (DEF14A)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 14.83
+  },
+  {
+   "name": "BlackRock 13G/A;19.03",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard 13G;10.92",
+   "shares_M": null
+  },
+  {
+   "name": "Feinberg 13G/A (all passive <20%)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "204.78",
+ "os_M": "211.45",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1851003,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-083747",
+   "form": "8-K",
+   "filedAt": "2025-06-09"
+  },
+  {
+   "accession": "0000950170-25-062262",
+   "form": "10-Q",
+   "filedAt": "2025-05-02"
+  },
+  {
+   "accession": "0000950170-25-061812",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950170-25-061112",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-30"
+  },
+  {
+   "accession": "0000950170-25-026629",
+   "form": "8-K",
+   "filedAt": "2025-02-25"
+  },
+  {
+   "accession": "0000950170-24-134508",
+   "form": "8-K",
+   "filedAt": "2024-12-09"
+  },
+  {
+   "accession": "0001193125-21-130521",
+   "form": "S-1",
+   "filedAt": "2021-04-26"
+  }
+ ]
+}

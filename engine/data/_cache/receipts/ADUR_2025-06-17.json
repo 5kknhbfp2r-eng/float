@@ -1,0 +1,49 @@
+{
+ "ticker": "ADUR",
+ "as_of": "2025-06-17",
+ "os_source": "424B4 2024-11-08 acc:0001062993-24-018657",
+ "excluded": [
+  {
+   "name": "Excluded=11.11M D&O incl Vicus 9.66M CEO",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=none significant",
+   "shares_M": null
+  }
+ ],
+ "float_M": "17.1",
+ "os_M": "28.17",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1863934,
+ "depends_on_filings": [
+  {
+   "accession": "0001062993-25-011431",
+   "form": "6-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001062993-25-011355",
+   "form": "6-K",
+   "filedAt": "2025-06-11"
+  },
+  {
+   "accession": "0001062993-25-011298",
+   "form": "6-K",
+   "filedAt": "2025-06-10"
+  },
+  {
+   "accession": "0001062993-25-011038",
+   "form": "6-K",
+   "filedAt": "2025-06-04"
+  },
+  {
+   "accession": "0001062993-24-014023",
+   "form": "F-1",
+   "filedAt": "2024-07-22"
+  }
+ ]
+}

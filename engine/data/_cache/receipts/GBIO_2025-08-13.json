@@ -1,0 +1,63 @@
+{
+ "ticker": "GBIO",
+ "as_of": "2025-08-13",
+ "os_source": "O/S 6.735M from 10-Q 2025-08-12 acc:0001558370-25-011226 (carried from 2025-08-12, no intervening filing)",
+ "excluded": [
+  {
+   "name": "Excluded=1.164M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group ex-options (post-split)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G T.Rowe/Moderna/FMR/BlackRock",
+   "shares_M": null
+  }
+ ],
+ "float_M": "5.57",
+ "os_M": "6.74",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1733294,
+ "depends_on_filings": [
+  {
+   "accession": "0001558370-25-011226",
+   "form": "10-Q",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001558370-25-011223",
+   "form": "8-K",
+   "filedAt": "2025-08-12"
+  },
+  {
+   "accession": "0001558370-25-009290",
+   "form": "8-K",
+   "filedAt": "2025-07-18"
+  },
+  {
+   "accession": "0001558370-25-008432",
+   "form": "8-K",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001558370-25-006734",
+   "form": "8-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001558370-25-005263",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-20-150059",
+   "form": "S-1",
+   "filedAt": "2020-05-22"
+  }
+ ]
+}

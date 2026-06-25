@@ -1,0 +1,75 @@
+{
+ "ticker": "ARCT",
+ "as_of": "2025-08-13",
+ "os_source": "DEF14A+2025-04-25+acc:0001193805-25-000561",
+ "excluded": [
+  {
+   "name": "D&O_ex_opt=2.85M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Federated13G=4.71M",
+   "shares_M": null
+  },
+  {
+   "name": "BlackRock13G=2.74M",
+   "shares_M": null
+  },
+  {
+   "name": "Nikko13G=2.32M",
+   "shares_M": null
+  },
+  {
+   "name": "ARK13G=2.05M",
+   "shares_M": null
+  },
+  {
+   "name": "Vanguard13G=1.46M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "24.27",
+ "os_M": "27.12",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1768224,
+ "depends_on_filings": [
+  {
+   "accession": "0000950170-25-106560",
+   "form": "10-Q",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001193805-25-001175",
+   "form": "8-K",
+   "filedAt": "2025-08-11"
+  },
+  {
+   "accession": "0001193805-25-000946",
+   "form": "8-K",
+   "filedAt": "2025-06-30"
+  },
+  {
+   "accession": "0001193805-25-000820",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001193805-25-000630",
+   "form": "8-K",
+   "filedAt": "2025-05-12"
+  },
+  {
+   "accession": "0001193805-25-000561",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-25"
+  },
+  {
+   "accession": "0001193125-19-105243",
+   "form": "424B3",
+   "filedAt": "2019-04-12"
+  }
+ ]
+}

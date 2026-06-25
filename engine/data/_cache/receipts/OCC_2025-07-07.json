@@ -1,0 +1,63 @@
+{
+ "ticker": "OCC",
+ "as_of": "2025-07-07",
+ "os_source": "10-Q 2025-06-05 acc:0001437749-25-019494",
+ "excluded": [
+  {
+   "name": "D&O group(6)=1.953M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Weschler 13G=0.77M",
+   "shares_M": null
+  },
+  {
+   "name": "Goode=0.12M",
+   "shares_M": null
+  }
+ ],
+ "float_M": "6.28",
+ "os_M": "8.23",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 1000230,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-019730",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001437749-25-019494",
+   "form": "10-Q",
+   "filedAt": "2025-06-05"
+  },
+  {
+   "accession": "0001437749-25-009360",
+   "form": "8-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0001437749-25-007034",
+   "form": "8-K",
+   "filedAt": "2025-03-11"
+  },
+  {
+   "accession": "0001437749-25-005577",
+   "form": "DEF 14A",
+   "filedAt": "2025-02-28"
+  },
+  {
+   "accession": "0001437749-24-038343",
+   "form": "8-K",
+   "filedAt": "2024-12-26"
+  },
+  {
+   "accession": "0000916641-01-500604",
+   "form": "S-1",
+   "filedAt": "2001-06-22"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "ticker": "EPWK",
+ "as_of": "2025-05-23",
+ "os_source": "OS_SOURCE: 424B4 IPO acc 0001575872-25-000131 + 6-K acc 0001575872-25-000167 : ClassA 18,351,494 + over-allot 412,500 = 18,763,994 (float = 2,750,000 + 412,500 offering = 3,162,500)",
+ "excluded": [
+  {
+   "name": "FounderHuang_ClassB",
+   "shares_M": 3.556
+  },
+  {
+   "name": "ResaleSelling_locked",
+   "shares_M": 2.5
+  }
+ ],
+ "kept_13g": [],
+ "float_M": "3.16",
+ "os_M": "18.76",
+ "under_20M": "true",
+ "confidence": "high"
+}

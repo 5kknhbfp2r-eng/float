@@ -1,0 +1,53 @@
+{
+ "ticker": "NTHI",
+ "as_of": "2025-07-10",
+ "os_source": "10-Q 2025-05-09 acc:0001829126-25-003527; 13D 2025-04-25 acc:0001829126-25-002957",
+ "excluded": [
+  {
+   "name": "Heshmatpour+AFH+HCWG+daughter=6.488M",
+   "shares_M": null
+  },
+  {
+   "name": "Chen=3.110M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "HCWG_LLC=1.024M (insider entity, excluded via Heshmatpour)",
+   "shares_M": null
+  }
+ ],
+ "float_M": "9.43",
+ "os_M": "19.03",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1979414,
+ "depends_on_filings": [
+  {
+   "accession": "0001829126-25-005008",
+   "form": "8-K",
+   "filedAt": "2025-07-10"
+  },
+  {
+   "accession": "0001829126-25-004450",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001829126-25-004324",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0001829126-25-004186",
+   "form": "8-K",
+   "filedAt": "2025-06-03"
+  },
+  {
+   "accession": "0001829126-23-008101",
+   "form": "S-1",
+   "filedAt": "2023-12-18"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "ticker": "PHAT",
+ "as_of": "2025-06-06",
+ "os_source": "DEF 14A 2025-04-23 acc:0000950170-25-057326 + 10-Q 2025-05-01 acc:0000950170-25-061440 O/S 69,648,287",
+ "excluded": [
+  {
+   "name": "Excluded=16.05M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O group 10 persons 23% incl Topper/Frazier 12.8M",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=7.46M",
+   "shares_M": null
+  },
+  {
+   "name": "Medicxi 13G 10.7%; 7.42M",
+   "shares_M": null
+  },
+  {
+   "name": "Prudential 13G 10.7%; 3.50M",
+   "shares_M": null
+  },
+  {
+   "name": "Carlyle 13G 5.0%",
+   "shares_M": null
+  }
+ ],
+ "float_M": "",
+ "os_M": "69.65",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1783183,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-137094",
+   "form": "8-K",
+   "filedAt": "2025-06-06"
+  },
+  {
+   "accession": "0000950170-25-061440",
+   "form": "10-Q",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001193125-25-108726",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0000950170-25-057326",
+   "form": "DEF 14A",
+   "filedAt": "2025-04-23"
+  },
+  {
+   "accession": "0001193125-25-082089",
+   "form": "8-K",
+   "filedAt": "2025-04-16"
+  },
+  {
+   "accession": "0001193125-25-069748",
+   "form": "8-K",
+   "filedAt": "2025-04-01"
+  },
+  {
+   "accession": "0001193125-19-258922",
+   "form": "S-1",
+   "filedAt": "2019-09-30"
+  }
+ ]
+}

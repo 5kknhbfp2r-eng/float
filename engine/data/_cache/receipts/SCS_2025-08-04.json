@@ -1,0 +1,75 @@
+{
+ "ticker": "SCS",
+ "as_of": "2025-08-04",
+ "os_source": "Class A O/S 10-Q 2025-06-27 (as of 6/24) acc:0001050825-25-000108 = 95,762,563",
+ "excluded": [
+  {
+   "name": "Excluded=1.881841M D&O Class A group",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=9.77M Vanguard",
+   "shares_M": null
+  },
+  {
+   "name": "7.32M BlackRock",
+   "shares_M": null
+  },
+  {
+   "name": "5.24M Pzena",
+   "shares_M": null
+  },
+  {
+   "name": "4.81M LSV",
+   "shares_M": null
+  },
+  {
+   "name": "4.75M DFA passive 13G",
+   "shares_M": null
+  }
+ ],
+ "float_M": "93.88",
+ "os_M": "95.76",
+ "under_20M": "false",
+ "confidence": "high",
+ "cik": 1050825,
+ "depends_on_filings": [
+  {
+   "accession": "0001193125-25-172239",
+   "form": "8-K",
+   "filedAt": "2025-08-04"
+  },
+  {
+   "accession": "0001050825-25-000111",
+   "form": "8-K",
+   "filedAt": "2025-07-11"
+  },
+  {
+   "accession": "0001050825-25-000108",
+   "form": "10-Q",
+   "filedAt": "2025-06-27"
+  },
+  {
+   "accession": "0001171843-25-004103",
+   "form": "8-K",
+   "filedAt": "2025-06-25"
+  },
+  {
+   "accession": "0001050825-25-000082",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-28"
+  },
+  {
+   "accession": "0001171843-25-001723",
+   "form": "8-K",
+   "filedAt": "2025-03-26"
+  },
+  {
+   "accession": "0000950109-97-007344",
+   "form": "S-1",
+   "filedAt": "1997-12-05"
+  }
+ ]
+}

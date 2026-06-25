@@ -1,0 +1,64 @@
+{
+ "ticker": "FMST",
+ "as_of": "2025-06-02",
+ "os_source": "Carried from 2025-05-28: 424B3 2025-02-28 acc:0001171843-25-001157 MD&A O/S + 20-F 2024-07-01 ownership; intervening 6-K 2025-06-02 acc:0001171843-25-003575 non-dilutive",
+ "excluded": [
+  {
+   "name": "Excluded=per 2025-05-28 record (D&O/control)",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=per 2025-05-28 record",
+   "shares_M": null
+  }
+ ],
+ "float_M": "9.56",
+ "os_M": "10.34",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1935418,
+ "depends_on_filings": [
+  {
+   "accession": "0001171843-25-003575",
+   "form": "6-K",
+   "filedAt": "2025-06-02"
+  },
+  {
+   "accession": "0001171843-25-003468",
+   "form": "6-K",
+   "filedAt": "2025-05-27"
+  },
+  {
+   "accession": "0001171843-25-003247",
+   "form": "6-K",
+   "filedAt": "2025-05-15"
+  },
+  {
+   "accession": "0001171843-25-002908",
+   "form": "6-K",
+   "filedAt": "2025-05-07"
+  },
+  {
+   "accession": "0001171843-25-002754",
+   "form": "6-K",
+   "filedAt": "2025-05-05"
+  },
+  {
+   "accession": "0001171843-25-002696",
+   "form": "6-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001171843-24-003729",
+   "form": "20-F",
+   "filedAt": "2024-07-01"
+  },
+  {
+   "accession": "0001753926-23-000691",
+   "form": "F-1",
+   "filedAt": "2023-05-18"
+  }
+ ]
+}

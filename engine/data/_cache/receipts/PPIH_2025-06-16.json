@@ -1,0 +1,66 @@
+{
+ "ticker": "PPIH",
+ "as_of": "2025-06-16",
+ "os_source": "DEF 14A 2025-05-14 + 10-Q 2025-06-13 O/S 7,982,568",
+ "excluded": [
+  {
+   "name": "Excluded=0.42M",
+   "shares_M": null
+  },
+  {
+   "name": "D&O direct",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=0.66M",
+   "shares_M": null
+  },
+  {
+   "name": "Raymond James 13G; 0.46M",
+   "shares_M": null
+  },
+  {
+   "name": "Dimensional",
+   "shares_M": null
+  }
+ ],
+ "float_M": "7.56",
+ "os_M": "7.98",
+ "under_20M": "true",
+ "confidence": "high",
+ "cik": 914122,
+ "depends_on_filings": [
+  {
+   "accession": "0001437749-25-020261",
+   "form": "10-Q",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001437749-25-020262",
+   "form": "8-K",
+   "filedAt": "2025-06-13"
+  },
+  {
+   "accession": "0001437749-25-020215",
+   "form": "8-K",
+   "filedAt": "2025-06-12"
+  },
+  {
+   "accession": "0001437749-25-016914",
+   "form": "DEF 14A",
+   "filedAt": "2025-05-14"
+  },
+  {
+   "accession": "0001437749-25-014097",
+   "form": "8-K",
+   "filedAt": "2025-05-01"
+  },
+  {
+   "accession": "0001437749-25-011051",
+   "form": "8-K",
+   "filedAt": "2025-04-04"
+  }
+ ]
+}

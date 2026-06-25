@@ -1,0 +1,72 @@
+{
+ "ticker": "SPRC",
+ "as_of": "2025-08-28",
+ "os_source": "Carried from 2025-08-22; O/S 534,605 ord per F-3/A acc:0001213900-25-066634; merger only approved (6-K 08-28 acc:0001213900-25-081731) not closed",
+ "excluded": [
+  {
+   "name": "Excluded",
+   "shares_M": 0.015
+  },
+  {
+   "name": "D&O group actual ordinary post-split",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept",
+   "shares_M": 0.52
+  },
+  {
+   "name": "public",
+   "shares_M": null
+  }
+ ],
+ "float_M": "0.52",
+ "os_M": "0.53",
+ "under_20M": "true",
+ "confidence": "med",
+ "cik": 1611746,
+ "depends_on_filings": [
+  {
+   "accession": "0001213900-25-081731",
+   "form": "6-K",
+   "filedAt": "2025-08-28"
+  },
+  {
+   "accession": "0001213900-25-080737",
+   "form": "6-K",
+   "filedAt": "2025-08-26"
+  },
+  {
+   "accession": "0001213900-25-080337",
+   "form": "6-K",
+   "filedAt": "2025-08-25"
+  },
+  {
+   "accession": "0001213900-25-073278",
+   "form": "6-K",
+   "filedAt": "2025-08-08"
+  },
+  {
+   "accession": "0001213900-25-069979",
+   "form": "6-K",
+   "filedAt": "2025-07-31"
+  },
+  {
+   "accession": "0001213900-25-066634",
+   "form": "F-3/A",
+   "filedAt": "2025-07-22"
+  },
+  {
+   "accession": "0001213900-25-035115",
+   "form": "20-F",
+   "filedAt": "2025-04-24"
+  },
+  {
+   "accession": "0001213900-16-017994",
+   "form": "F-1",
+   "filedAt": "2016-11-04"
+  }
+ ]
+}

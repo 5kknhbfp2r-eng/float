@@ -1,0 +1,21 @@
+{
+ "ticker": "VTSI",
+ "as_of": "2025-07-30",
+ "os_source": "10-Q 2025-05-12 acc:0001641172-25-009672 (cover 11,261,588)",
+ "excluded": [
+  {
+   "name": "Excluded=0.31M D&O group ex-options",
+   "shares_M": null
+  }
+ ],
+ "kept_13g": [
+  {
+   "name": "Kept=passive 13G holders BlackRock et al.",
+   "shares_M": null
+  }
+ ],
+ "float_M": "10.96",
+ "os_M": "11.26",
+ "under_20M": "true",
+ "confidence": "high"
+}
