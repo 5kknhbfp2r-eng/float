@@ -203,7 +203,16 @@ of strict numeric order from incremental edits).
   name-noise problem). **Decision:** the registry warms ONLY from clean structured verdicts —
   `set_class()` called by the LLM tail when an agent names an entity + its class — plus the live
   keep-list / CIK-verified-13F checks. No bulk receipt seeding.
-- **▶ Next:** (1) wire `holder_registry.set_class()` into the LLM-tail agents so each run warms the cache
-  with clean verdicts; (2) the **per-ticker float-recipe cache** + event-driven recompute (§16 levers 2–3);
-  (3) improve 13F recall (robust holder-CIK straight from the 13G filing header); (4) re-derive WHLR/TGEN
-  (likely label errors).
+- **§16 levers 2-3 STARTED — `engine/recipe_cache.py` core built.** Per-ticker float-recipe cache +
+  event-driven recompute. `replay(ticker, day)` computes the float deterministically (no LLM) on a later
+  day; `is_stale()` re-fires the LLM only when an EXCLUSION-changing filing (13D/13G/proxy) appears after
+  the recipe's date. **Design lesson (from a 25-ticker demo):** carrying the *whole* exclusion is too coarse
+  (~20% exact — the D&O block drifts with insider Form-4 activity, and a deterministic O/S re-fetch diverges
+  from the label's O/S). **Correct design (implemented):** re-fetch O/S **and** the D&O group (`group_exoptions`)
+  deterministically every day, and carry ONLY the LLM's **control-block judgment** (`control_M`). Replay has
+  the L8 O/S guards (XBRL-vs-regex disagree / multi-class / implausible → defer, never a wrong float).
+- **▶ Next (immediate):** wire the LLM-tail to **emit the structured recipe** (basis, listed-class, ads_ratio,
+  **dno_M / control_M split**, control_holders) via `save_recipe()` — this both populates recipes AND warms
+  the holder registry via `set_class()`. Then validate replay end-to-end on recurring tickers (derive once →
+  replay free on later days → match labels). Then: improve 13F recall (holder-CIK from the 13G header);
+  re-derive WHLR/TGEN (likely label errors).
