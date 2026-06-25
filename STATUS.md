@@ -236,10 +236,32 @@ of strict numeric order from incremental edits).
   dno=11M on a 52.7M basis vs 5M O/S → negative float → implausible). Removed it; added a `proxy-changed` guard
   (new ownership source → defer to LLM). On the validated set: FREE 35%→50% (7/14), within-5% 3/5→4/7, bad
   deferrals 2→0; the remaining 7 deferrals are all `stale` (real structural events, correctly → LLM).
-- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE (above); remaining sub-lever = genuine multi-class
-  listed-class pick via XBRL member-dimension (L3 exists in `det_float`, not yet wired into `replay`; not
-  exercised by the 3-ticker validated set — lower priority). (2) **run recipe-emit across the full IS set** to
-  warm both caches at scale (needs LLM agents — 3 at a time, interruption-resilient via durable recording);
-  (3) improve 13F recall (holder-CIK from the 13G header); (4) re-derive WHLR/TGEN (likely label errors).
-  Artifacts: `recipes.json` (recipe cache, now carries `dno_M`+`control_M`), `holder_registry.json` (warmed),
-  `_recipes_emitted.json`.
+- **§16 FULL-SCALE $0 ACCURACY SIMULATION (2026-06-25, commit `6737db2`).** `engine/sim_replay.py`: the
+  LABEL is the ground-truth recipe at its derivation day (exclusion = os_M − float_M), so we replay every
+  later labeled day through `recipe_cache.replay()` and score vs the labels — proving the recipe system at
+  **236-ticker / 383-later-day scale for $0** (no LLM; the one thing it can't test, "can the LLM produce the
+  split," is already proven on KALA/NUKK/LIVE). **Findings:** naive replay = 52% free but **26% of free
+  replays miss >10%**, archetype-concentrated (foreign/ADS without a carried ADS ratio, reverse splits,
+  multi-class, IPO churn) and — key — **NOT gated by derivation confidence** (the misses are REPLAY-TIME O/S
+  problems: a name clean at derivation gets corrupted by a later split/offering/basis-change). Gap-form guards
+  are too blunt (`calib_guard.py`: defer 32–81 accurate to catch 30–41 misses). The clean knob (`calib_band.py`):
+  the `os_selected/os_at` ratio — accurate replays barely move O/S (ratio~1.0); basis-change/split misses land
+  outside. **Fix applied:** tighten the replay anchor band 8×→**±30% (k=1.3)** — calibrated knee catches ~30/52
+  misses at ZERO cost to accurate replays. **Result: free 52%→45%, within-5% 62%→71%, within-10% 73%→83%,
+  misses 26%→16%**, and the absolute count of GOOD replays is preserved (band sheds ONLY wrong replays).
+  Residual 16% ≈ sim artifacts (ads_ratio carried as 1 — a real LLM recipe carries the true ratio) + label
+  errors (TGEN). **Bottom line: the recipe-replay free-fraction is ~40–45% at HIGH accuracy on its proper
+  domain (clean single-class); the hard archetypes correctly route to the LLM.** Re-run: `python sim_replay.py`
+  (resume-safe, ~10 min) then score; `python calib_band.py` reproduces the band knee. Outputs gitignored.
+- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~measure accuracy at scale~~ DONE (the $0 sim above).
+  (2) **run recipe-emit across the full IS set** (needs LLM agents — 3 at a time, interruption-resilient via
+  durable recording): the BIGGEST remaining win is that real recipes carry the LLM-derived `ads_ratio` +
+  basis, which removes the foreign/ADS chunk of the sim's residual misses (the largest miss category). This
+  also warms both caches at scale and gives the true blended free-fraction with real (not label-stand-in)
+  recipes. ~236 multi-day tickers; consider a stratified ~30-ticker first wave to confirm before the full
+  set. (3) optional surgical guards for the genuine residual misses: frozen-XBRL O/S (AGEN — an 8-K/424B
+  offering post-dates the XBRL fact; needs item-level 8-K reading, gap-form alone is too blunt) and the
+  multi-class listed-class pick (L3 member-dimension, not yet wired into `replay`). (4) improve 13F recall
+  (holder-CIK from the 13G header); (5) re-derive WHLR/TGEN (likely label errors — TGEN re-surfaced as an
+  11% sim miss). Artifacts: `recipes.json` (now carries `dno_M`+`control_M`), `holder_registry.json`,
+  `_recipes_emitted.json`; harness: `engine/sim_replay.py` + `engine/calib_band.py`.
