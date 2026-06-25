@@ -1,83 +1,160 @@
-# FLOAT JOB — STATUS / RESUME (in-sample May–Aug 2025)
+# FLOAT JOB — HANDOFF / RESUME (read this first)
 
-**Goal:** a point-in-time **free float** for every `(ticker, day)` that passes the warrior Stage-1
-selector (CS, premarket-open $3.50–20, ≥18% up vs prev close, RVOL ≥2.7) in the **in-sample**
-window **May–Aug 2025**. EDGAR-only (sec-api subscription retired). One float per qualifying day
-(point-in-time: filings ≤ that day, no lookahead).
+> **Self-sufficient handoff for a fresh session with no prior context.** This directory
+> (`C:\Users\explo\claude2\float\`) is a standalone git repo and the project root for the
+> "LLM float" work. The sibling `C:\Users\explo\claude2\claudebacktest_init2-2.4\` is the
+> larger backtest project — **READ-ONLY, never edit it** (we copied what we needed out of it).
 
-**Working dir:** `C:\Users\explo\claude2\float\` (clean-room copy; the sibling
-`claudebacktest_init2-2.4\` is READ-ONLY — never edit it).
-**Python:** `C:\Users\explo\claude2\claudebacktest_init2-2.4\.venv\Scripts\python.exe` (bare
-`python` is broken). Prefix runs with `PYTHONUTF8=1`. Engine in `float\engine\` (EDGAR-only,
-no API key; sapi.txt unused).
+---
 
-## Files / data
-- **`float_is.csv`** — MASTER ledger, single source of truth. Cols:
-  `ticker,as_of,float_M,os_M,under_20M,confidence,basis,note`. Floats in millions.
-- **`_float_candidates_is.csv`** — the 1,025 IS candidate-days (the work universe).
-- **`engine/float_records.csv`**, **`float_may.csv`** — DERIVED from float_is.csv by
-  `sync_records.py` (never hand-edit). float_records is keyed (ticker,as_of) for
-  `float_backtest.py get T D`.
-- **Caches (grow as we go, enable cheap reuse):** `engine/data/_cache/filing_text/` (per-accession
-  filing text), `edgar_submissions/` (per-CIK filing index, full history → cache-hit for ANY date),
-  `scans/` (per-document parse), `dossiers/` (per-(ticker,as_of) dossier), `manifests/`
-  (per-(ticker,as_of) filing-dependency list, auto-saved by gather), `receipts/`
-  (per-(ticker,as_of) DERIVATION RECEIPT: os_source + excluded/kept holders + deps + result).
-  → a future date for a ticker = cheap delta: read its manifest/receipt, check for newer filings.
-- `_may_hard.txt` (122 May hard ticker-days to Opus-redo), `_redo_log.txt` (redo progress).
-- **Preservation/audit:** `float_is_before_opus_redo.csv` (full pre-redo backup),
-  `_may_hard_sonnet.csv` (the 122 Sonnet hard values), `_redo_diff.csv` (every Opus old→new change).
+## 0. WHAT THIS IS (one paragraph)
+A backtester for a micro-cap momentum strategy ("Warrior") needs each stock's **free float**
+on the day it traded, and the strategy gates on **float < 20M shares**. This project computes a
+**point-in-time free float** for every `(ticker, day)` that passes the strategy's Stage-1 scanner
+(common stock, premarket open $3.50–20, ≥18% up vs prev close, RVOL ≥2.7), from **SEC EDGAR
+filings only** (the prior `sec-api` subscription lapsed), with **no lookahead** (only filings
+dated ≤ the trading day). "Free float" = DilutionTracker-style:
+`O/S − (officers + directors + control-affiliates + non-passive >20% holders)`, **keeping**
+passive 13G/index holders even if >20%.
 
-## Helpers (run from float\ root unless noted)
-- `python remaining.py [MONTH] [N]` — resumable work list (MONTH=2025-06 etc). done/remaining counts.
-- `python record.py T D FLOAT OS CONF BASIS "NOTE"` — append one float (dedup ticker+day; skip-existing → resume-safe). For NEW names.
-- `python record_redo.py T D FLOAT OS CONF BASIS "NOTE"` — OVERWRITE an existing row (Opus redo of hard names); atomic; logs to _redo_log.txt + old→new to _redo_diff.csv.
-- `python save_receipt.py T D "OS_SOURCE" "name=sharesM|..." "name=sharesM|..."` — save the derivation receipt (excluded | kept-13g) after recording; combines with the auto manifest + result.
-- `python triage.py MONTH` — route REMAINING names of a month into `_triage_hard.txt` (→Opus) and `_triage_easy.txt` (→Sonnet) by archetype.
-- `python sync_records.py` — regenerate float_records.csv + float_may.csv from float_is.csv (run after each batch).
-- Dossier: `cd engine && PYTHONUTF8=1 <py> float_backtest.py dossier T D`.
+## 1. CURRENT STATE — in-sample is COMPLETE
+- **In-sample window = May–Aug 2025. ALL 1,025 candidate-days are done** (May 237, Jun 322,
+  Jul 266, Aug 200). 1,024 resolved; **1 unresolvable = SSBI** (Summit State Bank — a Nasdaq bank
+  with no SEC filings; recorded blank/low-conf).
+- **670 of 1,025 are trade candidates (<20M float).** 0 bad-confidence rows.
+- **Committed locally**: git repo on branch `main`, first commit `27952ba` (run `git log`).
+  Secrets and the 1.1 GB filing cache are gitignored (see `.gitignore`).
+- **Nothing is running.** No background workflow/agent is active. Out-of-sample (OOS) NOT started.
 
-## Method (per (ticker,day))
-`free_float = current_O/S − (officers+directors+control-affiliates+non-passive >20% holders)`;
-KEEP passive 13G/index even if >20%; multi-class → listed class only; ADS → divide ordinary by
-ratio; reverse/forward split → current O/S already reflects it; foreign IPO → exclude pre-IPO
-affiliate SPVs (float = public offering). Use `RECONCILIATION → CURRENT O/S` (latest periodic ≤
-as_of). NO-DROP: can't pin → confidence=low + best estimate + blocker. Carry-forward: a ticker
-already floated on a nearby day → if no intervening offering/split/periodic changed O/S, record
-the same float; else re-derive.
+## 2. ENVIRONMENT / RUNTIME
+- **Python (bare `python` is the broken Store stub — always use this full path):**
+  `C:\Users\explo\claude2\claudebacktest_init2-2.4\.venv\Scripts\python.exe`
+  Prefix every run with `PYTHONUTF8=1` (Windows cp1252 crashes on unicode prints otherwise).
+- **Engine** lives in `float\engine\` — EDGAR-only (no API key needed for SEC data).
+- **Secrets (gitignored, must exist on disk to run):** `engine\sapi.txt` (legacy sec-api key,
+  now UNUSED by the engine), `capi.txt` (your Claude API key, used to fund parallel agents — set
+  `ANTHROPIC_API_KEY` from it at launch to bill agents to the API rather than your Max plan).
 
-## Routing (single pass)
-HARD archetypes (foreign 20-F/6-K, multi-class, reverse-split/consolidation, ADS, SPAC/de-SPAC,
-fresh IPO, China/Cayman/BVI, death-spiral diluter) → **Opus** agent. EASY (US single-class
-10-K/10-Q, no split/ADS/IPO) → **Sonnet** agent. One agent at a time (sequential re-spawn, no
-fan-out). Each name recorded the instant it's derived → interruption-resilient.
+## 3. THE DELIVERABLE (files in `float\`)
+- **`float_is.csv`** — THE master ledger (1,025 rows). Single source of truth. Cols:
+  `ticker,as_of,float_M,os_M,under_20M,confidence,basis,note`. Floats in **millions**. A blank
+  `float_M` with a value in `os_M` means "clearly >20M, exact float not itemized" (72 such rows).
+- **`float_may.csv`** — May subset, the format `claudebacktest_init2\warrior_float_may.py` reads
+  (col `float_M`). DERIVED from `float_is.csv` — never hand-edit; run `sync_records.py`.
+- **`engine\float_records.csv`** — native ledger keyed `(ticker, as_of)` for
+  `python float_backtest.py get T D`. Also DERIVED by `sync_records.py`.
+- **Reuse/audit (committed):** `engine\data\_cache\receipts\` (per-name derivation receipt:
+  os_source + excluded/kept holders + result) and `manifests\` (the filings each float depended
+  on, for cheap delta-updates). `_redo_diff.csv` + `_may_hard_sonnet.csv` (Opus-vs-Sonnet diffs).
+- **Caches (gitignored, on disk, make re-runs cheap):** `engine\data\_cache\filing_text\`
+  (1.1 GB, per-accession filing text), `edgar_submissions\` (per-CIK filing index, full history →
+  cache-hit for ANY date), `scans\`, `dossiers\`.
 
-## Engine notes / fixes already made
-- EDGAR-only: `edgar.py` replaces sec-api Query/FTS with data.sec.gov submissions + efts search.
-  Validated to reproduce the sec-api-era results (O/S 9/10 exact; live doc-fetch works).
-- **Point-in-time CIK guard** (ticker reuse): a statically-mapped CIK with no filing ≤ as_of →
-  EFTS re-resolve (fixed MTAL: now→unfiled SPAC II, 2025→Metals Acquisition Ltd CIK 1950246).
-- Corrected hard-name errors found: HOLO (40:1 consolidation, ~82M O/S not 4.4M/189M), BIYA
-  (exclude pre-IPO SPVs, ~3.7M not 11.1M), MTAL (ticker reuse), LITM (missed 1:13 split → <20M),
-  SOS (missed 1-ADS=150-ord ratio → <20M), VMAR (no split by May; ~10.4M, NOT 1.03M — DT's 1.56M
-  reflects a LATER split). record.py/record_redo.py now VALIDATE confidence (reject true/false).
+## 4. THE PIPELINE — how a float gets made (and how to run it)
+Per `(ticker, as_of)`:
+1. **Gather** (deterministic, EDGAR-only): `cd engine && PYTHONUTF8=1 <py> float_backtest.py
+   dossier TICKER YYYY-MM-DD` prints a point-in-time **dossier** — cover O/S candidates by class,
+   a `⚠ RECONCILIATION` block (current O/S from the latest periodic ≤ as_of, split/ADS ratios,
+   post-filing dilution), the ownership table, footnotes. All filings capped at filedAt ≤ as_of.
+2. **Judge** (the LLM part): read the dossier per `engine\FLOAT_PROTOCOL.md` + `FLOAT_PLAYBOOK.md`
+   and compute float. **Routing:** HARD archetypes (foreign 20-F/6-K, multi-class, reverse-split/
+   consolidation, ADS, SPAC/de-SPAC, fresh IPO, China/Cayman/BVI, death-spiral diluter) → **Opus**;
+   EASY (US single-class 10-K/10-Q, no split/ADS/IPO) → **Sonnet**. `triage.py` does this routing.
+3. **Record** (durable, instant): `python record.py T D FLOAT OS CONF "BASIS" "NOTE"` appends to
+   `float_is.csv` (dedup on ticker+day; skip-existing → resume-safe). Then
+   `python save_receipt.py T D "OS_SOURCE" "Excl=M|..." "Kept=M|..."`.
+4. **Carry-forward** (efficiency): if a ticker already has a float on an earlier day and no new
+   O/S-relevant filing was filed between, record the same float ("carried from <date>").
 
-## PROGRESS (update this section each session)
-- **May (237/237) — COMPLETE & clean.** Easy=Sonnet; **122 hard re-derived on Opus** (2 correct
-  <20M flips LITM/SOS; ~27 split/ADS fixes); a batch-5 19-row column-shift bug was realigned +
-  Opus-redone (`_may_supplement.txt`). 146 under-20M trade candidates. (1 flagged low-conf
-  inconsistency: YSXT 05-22 vs 05-28 — both <20M.)
-- **June (322/322) — COMPLETE & QC'd.** 152 hard→Opus, 170 easy→Sonnet; 234 trade candidates (<20M); 0 bad-confidence; near-20M names spot-verified correct.
-- **IS COMPLETE — 1,025/1,025 (May 237, Jun 322, Jul 266, Aug 200).** 1,024 resolved (99.9%);
-  1 unresolvable = SSBI (Summit State Bank — no SEC filings). 670 trade candidates (<20M).
-  Hard archetypes on Opus, easy on Sonnet; July+Aug finished parallel (12 agents/wave on the API key).
-- **OOS (Sep 2025-Apr 2026) NOT started** — same pipeline: `triage.py 2025-09` (cache-warm; many tickers
-  recur so cheap) -> parallel sweep (copy float-is-finish-parallel script, point at _rem_*.txt) -> QC.
-  Use month-specific triage files (copy _triage_*.txt aside) to avoid the shared-file overwrite race.
+**Engine key files (`engine\`):** `float_backtest.py` (CLI: dossier/get/record), `float_gather.py`
+(builds the dossier; `resolve_cik` with a point-in-time ticker-reuse guard), **`edgar.py`** (the
+EDGAR-only shim that replaced sec-api: `data.sec.gov/submissions` + `efts.sec.gov` full-text-search
++ doc fetch from sec.gov), `float_from_filings.py`, helper probes (`_cik_probe`, `_formula_probe`,
+`_widen_probe`, `_affil_probe`), `FLOAT_PROTOCOL.md` (the derivation method = the "prompt"),
+`FLOAT_PLAYBOOK.md` (archetypes + worked examples).
 
-## TO RESUME
-1. `python remaining.py` (overall) / `python remaining.py 2025-06` (per month).
-2. If a month's sweep was interrupted: just re-launch its sweep workflow — record.py skips
-   already-done (ticker,as_of), so it continues. (Hard redo uses _redo_log.txt for progress.)
-3. After each month: `sync_records.py`; QC = scan float_is.csv for confidence not in high/med/low,
-   DT-divergence >2x, float==os, decision near 20M; spot-fix outliers. Update this section.
+**Helper scripts (`float\` root):** `remaining.py [MONTH] [N]` (resumable work list),
+`triage.py MONTH` (route remaining names → `_triage_hard.txt`/`_triage_easy.txt`),
+`record.py` (append, new names), `record_redo.py` (atomic OVERWRITE + logs `_redo_diff.csv`,
+used to re-derive/fix existing rows), `save_receipt.py`, `sync_records.py` (regen the derived
+ledgers — run after every batch), `validate_edgar.py` (the EDGAR-vs-prior-results validation).
+
+## 5. WHAT'S DONE / IN-PROGRESS / BLOCKERS
+- **DONE:** EDGAR-only engine built + validated (reproduces the prior sec-api results); all 1,025
+  IS floats; May hard names re-derived on Opus; bugs fixed (below); committed.
+- **IN-PROGRESS:** none (no active runs).
+- **BLOCKERS:** none. (One permanent edge: SSBI and any non-SEC-filer can't be derived from EDGAR.)
+
+## 6. KNOWN CAVEATS (none affect the <20M strategy gate)
+- **SSBI 2025-07-01** — unresolvable (no SEC filings); blank/low-conf. The only one of 1,025.
+- **72 rows have blank `float_M`** (O/S recorded, exact float not itemized) — all clearly >20M, so
+  not trade candidates; fine for the gate. Filling them is a cheap optional polish.
+- **20 low-confidence rows** — genuinely hard names, flagged per the NO-DROP rule.
+- DT (`dt_os_float_2026-06-04.csv`) is a 2026-06-04 snapshot; it's a gross-error sanity check only,
+  NOT a target (post-date dilution legitimately makes DT's O/S larger than a May–Aug value).
+
+## 7. FIXES / LESSONS (load-bearing — don't re-learn the hard way)
+- **EDGAR reproduces sec-api**: validated before doing new work (`validate_edgar.py`). sec-api was
+  only a structuring layer over free EDGAR data; the doc text always came from sec.gov.
+- **Point-in-time CIK guard** (ticker reuse): a statically-mapped CIK with no filing ≤ as_of is the
+  wrong entity → re-resolve via EFTS scoped to enddt=as_of. (Fixed MTAL: company_tickers now maps it
+  to an unfiled 2026 SPAC; in 2025 MTAL = Metals Acquisition Ltd, CIK 1950246, kept in `CIK_OVERRIDES`.)
+- **Opus catches what Sonnet misses on hard names**: reverse splits & ADS ratios — e.g. HOLO
+  (40:1 consolidation, ~82M O/S not 4.4M/189M), SOS (1 ADS = 150 ordinary), LITM (1:13 split),
+  CMCT (serial splits), VMAR (no split by May; ~10.4M not 1.03M). Several flipped the <20M gate.
+- **`record.py`/`record_redo.py` validate confidence** (reject `true`/`false`) — a Sonnet batch once
+  passed an extra `under_20M` arg, shifting columns in 19 rows (found + fixed).
+- **Triage writes shared files** (`_triage_hard.txt`/`_triage_easy.txt`): running a new `triage.py`
+  while a sweep is still reading them clobbers it. **Copy them to month-specific names** (e.g.
+  `_aug_hard.txt`) before launching a sweep, or finish the sweep first.
+- **Every name is `fsync`'d on record** → interruption-resilient. A stopped sweep loses nothing;
+  rebuild the remaining list (candidate set minus done) and re-launch.
+
+## 8. ▶ FRESH SESSION — READ THESE, IN THIS ORDER
+1. **This file** (`float\STATUS.md`) — you're done; it's the entry point.
+2. **`float\CLAUDE.md`** — the user's original task instruction (the success criteria).
+3. **`engine\FLOAT_PROTOCOL.md`** + **`engine\FLOAT_PLAYBOOK.md`** — the float-derivation method
+   and archetypes (this is the judgment you apply when reading a dossier).
+4. **`float\COST_OPTIMIZATION.md`** — the cheaper-pipeline workstream (data vendors + a
+   deterministic free-EDGAR engine the user wants explored). Read if pursuing cost reduction.
+5. (Optional, READ-ONLY background — how floats feed the strategy):
+   `..\claudebacktest_init2-2.4\WARRIOR_HANDOFF_2026-06-23.md` and `FLOAT_HANDOFF_2026-06-18_K.md`.
+6. **Verify the env (≈1 min):** `cd engine && PYTHONUTF8=1 <py> float_backtest.py dossier GOGO
+   2025-05-09` should print a full dossier (proves EDGAR engine works). Then
+   `PYTHONUTF8=1 <py> remaining.py` (from `float\`) should print `done 1025 / 1025, remaining 0`.
+
+## 9. ▶ THEN PROMPT THE USER (IS is complete — this is a direction fork; surface the options)
+> **The in-sample (May–Aug 2025) float dataset is complete and committed (1,025 floats, 670 trade
+> candidates). What next?** Suggested order:
+>
+> - **(A) Build the cheaper deterministic engine + benchmark it against the 1,025 labels — RECOMMENDED
+>   & the user's stated interest.** Goal: replace most of the LLM with free-EDGAR data + rules
+>   (regex O/S, Form 3/4 insiders, **13D vs 13G form-type = control vs passive**), keep a thin
+>   compressed-LLM pass only for the ~10–15% control-judgment tail. We have a perfect labeled test
+>   set (`float_is.csv`) to measure accuracy for almost nothing. Details + cost math in
+>   `COST_OPTIMIZATION.md`. This turns "can it be cheaper?" into a measured number before scaling.
+> - **(B) Extend to OUT-OF-SAMPLE (Sep 2025 – Apr 2026).** Same pipeline, per month:
+>   `triage.py 2025-09` → copy `_triage_hard.txt`/`_triage_easy.txt` to month-specific names →
+>   build combined `_rem_hard.txt`/`_rem_easy.txt` (remaining only) → run the parallel sweep via
+>   **`workflows\parallel_sweep.js`** (the committed Workflow script; reads `_rem_hard.txt`→Opus /
+>   `_rem_easy.txt`→Sonnet; args `{hardN,easyN,hchunk:6,echunk:9,maxconc:12}`) → `sync_records.py`
+>   → QC. Many tickers recur → cache-hits → cheap. (User has the API key + 12-agent allowance;
+>   non-OTC only per the user.)
+> - **(C) Fill the 72 blank >20M floats** for completeness (exact numbers on clearly-large names).
+> - **(D) Wire `float_is.csv` into the Warrior backtest** — the actual consumer. The strategy code is
+>   in the read-only `..\claudebacktest_init2-2.4\claudebacktest_init2\` (`warrior_float_may.py` etc.);
+>   the rule is "use ONLY LLM-derived floats (`float_M`)". This is the float's whole purpose.
+>
+> State a recommendation (A or B) and proceed if the user is hands-off.
+
+## 10. RESUME / EXTEND MECHANICS (quick reference)
+- Overall/per-month status: `PYTHONUTF8=1 <py> remaining.py [2025-09]`.
+- A sweep was interrupted? Rebuild remaining = candidate-days minus what's in `float_is.csv`, write
+  to `_rem_hard.txt`/`_rem_easy.txt`, re-launch the parallel sweep (record.py skips done names).
+- After every batch: `PYTHONUTF8=1 <py> sync_records.py`, then QC: scan `float_is.csv` for
+  confidence ∉ {high,med,low}, `float==os` near 20M, DT-divergence >2×, blanks with os<30M; spot-fix.
+- Parallel sweeps: run **`workflows\parallel_sweep.js`** via the Workflow tool — 12 agents/wave,
+  hard(`_rem_hard.txt`)→Opus, easy(`_rem_easy.txt`)→Sonnet, `record.py` + `save_receipt.py`,
+  carry-forward. Args `{hardN:<#>, easyN:<#>, hchunk:6, echunk:9, maxconc:12}`. The per-agent prompt
+  (full derivation method) is embedded in that script.
+- Do NOT update `version.txt` / `v.txt`. Never commit `capi.txt`/`sapi.txt` or `data\_cache\filing_text`.
