@@ -26,8 +26,8 @@ for e in emitted:
     if not rc:
         continue
     RC.save_recipe(t, cik, rc["basis"], e["a"], rc["os_M"], rc["float_M"], rc["control_M"],
-                   ads_ratio=rc.get("ads_ratio", 1.0) or 1.0, control_holders=rc.get("control_holders", []),
-                   conf=rc.get("conf", "med"))
+                   dno_M=rc.get("dno_M", 0.0), ads_ratio=rc.get("ads_ratio", 1.0) or 1.0,
+                   control_holders=rc.get("control_holders", []), conf=rc.get("conf", "med"))
     for nm in rc.get("control_holders", []):
         H.set_class(nm, "control", source="llm-recipe")
     for nm in rc.get("passive_holders", []):

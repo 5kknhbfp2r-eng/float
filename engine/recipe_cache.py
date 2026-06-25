@@ -7,14 +7,16 @@ on every later day compute the float DETERMINISTICALLY:  float = current XBRL O/
 Re-fire the LLM ONLY when a new ownership/structure filing changes the recipe (is_stale).
 
 Recipe (per ticker, in recipes.json):
-  {cik, basis, ads_ratio, exclusion_M, control_holders[], os_at, float_at, derived_day,
+  {cik, basis, ads_ratio, dno_M, control_M, control_holders[], os_at, float_at, derived_day,
    depends_on[], conf}
-exclusion_M is carried (the LLM's judgment); O/S is always re-fetched fresh (the thing that drifts).
+The exclusion (dno_M + control_M) is carried in SHARES — the LLM's judgment, held fixed against the
+drifting O/S exactly as the labels are built (D&O constant between proxy filings). O/S is the only
+thing re-fetched each day (anchored on os_at to reject misparses); a changed ownership source or a
+new 13D/13G/proxy re-fires the LLM (proxy-changed / is_stale).
 """
 import os, json
 import det_float as D
 import float_gather as fg
-import _widen_probe as wp
 import edgar
 
 RECIPES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes.json")
@@ -35,12 +37,15 @@ RECIPES = _load()
 
 
 def save_recipe(ticker, cik, basis, derived_day, os_at, float_at, control_M,
-                ads_ratio=1.0, control_holders=None, depends_on=None, conf="med"):
-    """The LLM emits the dno/control SPLIT: replay re-fetches O/S + the D&O group deterministically
-    and carries only control_M (the judgment). control_holders = the excluded control entities (for
-    finer staleness + the registry)."""
+                dno_M=0.0, ads_ratio=1.0, control_holders=None, depends_on=None, conf="med"):
+    """The LLM emits the validated exclusion SPLIT (dno_M = officers/directors block; control_M =
+    control affiliates). Replay carries BOTH in shares and re-fetches ONLY O/S — the labels hold
+    the D&O block fixed between proxy filings (a new proxy trips proxy-changed -> re-judge), so
+    re-deriving it deterministically only re-introduces the proxy's stale share basis (split bug).
+    control_holders = the excluded control entities (for finer staleness + the registry)."""
     RECIPES[ticker] = {"cik": cik, "basis": basis, "ads_ratio": ads_ratio,
-                       "control_M": round(control_M, 4), "control_holders": control_holders or [],
+                       "control_M": round(control_M, 4), "dno_M": round(dno_M, 4),
+                       "control_holders": control_holders or [],
                        "os_at": round(os_at, 4), "float_at": round(float_at, 4),
                        "derived_day": derived_day, "depends_on": depends_on or [], "conf": conf}
     json.dump(RECIPES, open(RECIPES_PATH, "w", encoding="utf-8"), indent=1, sort_keys=True)
@@ -71,28 +76,42 @@ def replay(ticker, day, cik=None):
         return ("stale", None)
     x = D.xbrl_os(cik, day) or {}
     g = D.regex_os(cik, day) or {}
-    xv, gv = x.get("val_M"), g.get("val_M")
-    os_ = xv or gv
-    if not os_:
+    xv, gv, nclass = x.get("val_M"), g.get("val_M"), (x.get("n_at_pick") or 1)
+    if not (xv or gv):
         return ("no-os", None)
-    # L8 O/S guard: never replay on an unreliable share base -> defer to the LLM instead of a wrong float.
-    if xv and gv and abs(xv - gv) / max(xv, gv) > 0.30:
-        return ("os-uncertain", None)                     # XBRL vs regex disagree (split/wrong-fact)
-    if (x.get("n_at_pick") or 1) > 1:
-        return ("os-multiclass", None)                    # flat XBRL can't pick the listed class
-    if "control_M" not in r:
-        return ("need-split", None)                       # old recipe lacks dno/control split -> re-derive
+    # L8 O/S guard — establish a trustworthy share base or defer to the LLM (never replay on a bad O/S).
+    # The recipe's os_at is an LLM-VALIDATED magnitude anchor: real O/S drifts with dilution but does
+    # NOT jump orders of magnitude between events (any 13D/13G/proxy would trip is_stale first). So a
+    # 30x XBRL-vs-regex gap is a regex MISPARSE (authorized-shares / wrong class), not genuine
+    # uncertainty -> anchor on os_at to reject the misparse instead of a symmetric disagree-veto.
+    # Accuracy-safe: anchoring only ever defers MORE than blind-trust, never emits a wrong float.
+    anchor = r.get("os_at")
+    sane = lambda v: (not anchor) or (0.2 * anchor <= v <= 8.0 * anchor)
+    if nclass == 1 and xv and sane(xv):
+        os_ = xv                                          # single-class XBRL, anchor-consistent -> gold
+    elif nclass == 1 and xv and gv and abs(xv - gv) / max(xv, gv) <= 0.30:
+        os_ = xv                                          # no anchor: require XBRL/regex agreement
+    elif nclass > 1:
+        return ("os-multiclass", None)                    # flat XBRL can't pick the listed class -> LLM
+    elif gv and not xv and sane(gv):
+        os_ = gv                                          # XBRL absent -> anchor-sane regex fallback
+    else:
+        return ("os-uncertain", None)                     # can't establish a trustworthy O/S -> LLM
     if r["basis"] in ("spac", "ipo"):
         return ("ok", round(r["float_at"], 3))            # whole-float bases: carried (re-validate on event)
-    # re-fetch the D&O group DETERMINISTICALLY (absorbs insider/Form-4 drift); carry only control_M.
-    f = fg._pick_own(cik, day)
-    if not f:
+    if "control_M" not in r or "dno_M" not in r:
+        return ("need-split", None)                       # old recipe lacks the exclusion split -> re-derive
+    # Carry the LLM-validated exclusion (D&O + control) in SHARES, held fixed against the drifting
+    # O/S — exactly how the labels are built (D&O constant between proxies). Re-deriving the D&O
+    # deterministically only re-reads the SAME proxy (no intra-proxy drift to capture) at the proxy's
+    # stale share basis (the reverse-split bug). Guard: if the ownership source changed since the
+    # recipe was derived, the block may have moved -> defer to the LLM.
+    f_now, f_der = fg._pick_own(cik, day), fg._pick_own(cik, r["derived_day"])
+    if not f_now or not f_der:
         return ("no-proxy", None)
-    ge = wp.group_exoptions(fg._text(f).translate(wp.ZW), os_)
-    dno = ge[0] if ge else None
-    if dno is None:
-        return ("no-dno", None)
-    fl = os_ / (r["ads_ratio"] or 1.0) - dno - r["control_M"]
+    if f_now["filedAt"][:10] != f_der["filedAt"][:10]:
+        return ("proxy-changed", None)                    # new D&O source -> re-judge with the LLM
+    fl = os_ / (r["ads_ratio"] or 1.0) - r["dno_M"] - r["control_M"]
     if fl <= 0 or fl > os_ * 1.01:
         return ("implausible", None)
     return ("ok", round(fl, 3))
