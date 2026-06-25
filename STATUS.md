@@ -186,5 +186,16 @@ of strict numeric order from incremental edits).
   per the updated `CLAUDE.md`, durably recorded (resume-safe). `CLAUDE.md` was rewritten 2026-06-25 (generic
   guidelines + TEMP: 3 agents max, interruption-resilient, surface concerns first). The float gate is now
   **all-floats-exact** (the <20M-gate framing was dropped).
-- **▶ Highest-leverage next build:** the CIK-keyed holder registry (seed from `receipts/` + the 13F list),
-  then the recipe cache + event-driven recompute; and re-derive WHLR/TGEN.
+- **§16 lever 1 STARTED — `engine/holder_registry.py` built + tested.** CIK-keyed holder-classification
+  registry (`holder_registry.json`): `classify(name, form_type)` → passive | control | judge, via
+  (1) cached verdict, (2) keep-list (the recurring passive complex), (3) **CIK-verified 13F-filer** (efts →
+  holder CIK → that CIK's submissions contain 13F-HR ⇒ institutional manager ⇒ passive on a 13G), else
+  (4) **judge** → LLM classifies ONCE → `set_class()` caches it. **Form-type gate:** a 13D filer is never
+  auto-passive (→ judge), which correctly routes Beach MHC / Bryant Riley / A. Gile. **Safe by design:** no
+  control entity is ever auto-passive (verified — the only auto-passives are real institutions). Recall is
+  partial (some institutions fall to judge-then-cache); that's a cost miss, never an accuracy error. On the
+  12 hard-tail names: 14% free / 85% judge-once-cached (a floor — representative stocks are mostly
+  institutional 13G ⇒ much higher free; value compounds as the cache warms across the universe).
+- **▶ Next:** warmup-seed the registry from `receipts/` (the 1,025 IS verdicts) + improve 13F recall
+  (robust holder-CIK from the 13G filing header); then the **per-ticker float-recipe cache** + event-driven
+  recompute (§16 levers 2–3); and re-derive WHLR/TGEN (likely label errors).
