@@ -11,6 +11,7 @@ engine/data/_cache/filing_text/
 engine/data/_cache/edgar_submissions/
 engine/data/_cache/scans/
 engine/data/_cache/dossiers/
+engine/data/_cache/xbrl/
 engine/data/_cache/company_tickers.json
 engine/data/_cache/secapi_ticker_cik.json
 engine/data/*.parquet

@@ -158,3 +158,33 @@ ledgers — run after every batch), `validate_edgar.py` (the EDGAR-vs-prior-resu
   carry-forward. Args `{hardN:<#>, easyN:<#>, hchunk:6, echunk:9, maxconc:12}`. The per-agent prompt
   (full derivation method) is embedded in that script.
 - Do NOT update `version.txt` / `v.txt`. Never commit `capi.txt`/`sapi.txt` or `data\_cache\filing_text`.
+
+## 11. ▶ COST-OPTIMIZATION WORKSTREAM (2026-06-25) — read `COST_OPTIMIZATION.md` (esp. the ★SUMMARY★ at the end)
+This pursued option (A): make float derivation cheap WITHOUT losing accuracy. Substantially explored +
+validated. **Full detail + the lever ledger + the target architecture are in `COST_OPTIMIZATION.md`** (the
+**★ SUMMARY & TARGET ARCHITECTURE ★** block at the very end is the entry point — sections above it are out
+of strict numeric order from incremental edits).
+
+**Key outcomes (so a fresh session has the bottom line):**
+- **Deterministic engine built** (`engine/det_float.py`): XBRL O/S (`dei:EntityCommonStockSharesOutstanding`,
+  point-in-time) + the reused `_widen_probe`/`_formula_probe` exclusion machinery + a 13D/13G form-type leg +
+  a compressed-dossier builder + the canonical abstention rule `is_confident`. Harnesses:
+  `engine/bench_os.py`, `engine/bench_full.py`, `engine/ab_13dg.py`.
+- **It plateaus at ~50% exact** (control-vs-passive judgment is irreducible — triple-confirmed). Good for the
+  easy slice + as LLM INPUT; NOT a standalone exact-float engine.
+- **The hybrid LLM tail is validated** (`record_llm.py` records, `score_llm.py` scores): each abstained name →
+  a routed agent reads the **compressed dossier** and derives the float. `det → Sonnet → Opus(escalation)`
+  hit **10/12 within 10% (median 7%)** on the hardest tail and surfaced **2 likely label errors** in
+  `float_is.csv` (**WHLR 2025-06-04, TGEN 2025-07-18** — re-derive/QC these). Results in
+  `_llm_tail_results.csv` (Sonnet) + `_llm_tail_opus.csv` (Opus).
+- **Cost now: ~$2–4K/yr** for the full non-OTC universe (~40K derivations) vs naive all-LLM ~$15–20K. The
+  old "~$200 deterministic-only" target did NOT survive (LLM does the majority).
+- **Path to ~$200/yr (target, not yet built):** LLM-as-compiler — a **CIK-keyed holder registry** (13F-filer
+  passive backbone, free + LLM-classified control entities, cached) + **per-ticker float-recipe cache** +
+  **event-driven recompute** (re-judge only when a new O/S/13D/13G filing changes the recipe). See §16.
+- **Runtime note:** these run as **Workflow** sub-agents on the Max plan (no API key), **3 agents at a time**
+  per the updated `CLAUDE.md`, durably recorded (resume-safe). `CLAUDE.md` was rewritten 2026-06-25 (generic
+  guidelines + TEMP: 3 agents max, interruption-resilient, surface concerns first). The float gate is now
+  **all-floats-exact** (the <20M-gate framing was dropped).
+- **▶ Highest-leverage next build:** the CIK-keyed holder registry (seed from `receipts/` + the 13F list),
+  then the recipe cache + event-driven recompute; and re-derive WHLR/TGEN.

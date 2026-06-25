@@ -1,0 +1,122 @@
+[
+ {
+  "t": "SATL",
+  "a": "2025-05-02",
+  "cik": 1874315,
+  "arch": "foreign/ADS",
+  "label": 48.63,
+  "os_label": 83.47,
+  "det": 12.85,
+  "conf": "multiclass+scaled"
+ },
+ {
+  "t": "ALMU",
+  "a": "2025-06-25",
+  "cik": 1828805,
+  "arch": "US-single-class",
+  "label": 13.73,
+  "os_label": 15.8,
+  "det": 13.41,
+  "conf": "1col-noderiv?+osdisagree"
+ },
+ {
+  "t": "BRLS",
+  "a": "2025-06-11",
+  "cik": 1852973,
+  "arch": "US-single-class",
+  "label": 5.28,
+  "os_label": 21.38,
+  "det": 17.07,
+  "conf": "1col-noderiv?+stale"
+ },
+ {
+  "t": "WHLR",
+  "a": "2025-06-04",
+  "cik": 1527541,
+  "arch": "split/reverse",
+  "label": 0.02,
+  "os_label": 0.56,
+  "det": 3.07,
+  "conf": "1col-deriv+scaled+osdisagree"
+ },
+ {
+  "t": "WKSP",
+  "a": "2025-05-15",
+  "cik": 1096275,
+  "arch": "split/reverse",
+  "label": 4.95,
+  "os_label": 5.2,
+  "det": 4.77,
+  "conf": "1col-deriv+scaled+osdisagree"
+ },
+ {
+  "t": "ARQQ",
+  "a": "2025-05-19",
+  "cik": 1859690,
+  "arch": "foreign/ADS",
+  "label": 6.53,
+  "os_label": 12.75,
+  "det": 1.67,
+  "conf": "nogroup"
+ },
+ {
+  "t": "NUKK",
+  "a": "2025-05-20",
+  "cik": 1787518,
+  "arch": "multi-class",
+  "label": 3.35,
+  "os_label": 5.03,
+  "det": 3.97,
+  "conf": "1col-deriv+scaled+osdisagree"
+ },
+ {
+  "t": "MTR",
+  "a": "2025-06-17",
+  "cik": 313364,
+  "arch": "SPAC",
+  "label": 1.86,
+  "os_label": 1.86,
+  "det": null,
+  "conf": ""
+ },
+ {
+  "t": "DIST",
+  "a": "2025-06-11",
+  "cik": 1818605,
+  "arch": "SPAC",
+  "label": 0.65,
+  "os_label": 3.2,
+  "det": 2.95,
+  "conf": "spac+osdisagree"
+ },
+ {
+  "t": "BBGI",
+  "a": "2025-06-20",
+  "cik": 1099160,
+  "arch": "multi-class",
+  "label": 0.68,
+  "os_label": 0.96,
+  "det": 149.05,
+  "conf": "multiclass"
+ },
+ {
+  "t": "EMPG",
+  "a": "2025-08-29",
+  "cik": 2005569,
+  "arch": "IPO/offering",
+  "label": 1.58,
+  "os_label": 8.33,
+  "det": null,
+  "conf": ""
+ },
+ {
+  "t": "TGEN",
+  "a": "2025-07-18",
+  "cik": 1537435,
+  "arch": "IPO/offering",
+  "label": 26.4,
+  "os_label": 28.49,
+  "det": 22.57,
+  "conf": "1col-deriv+osdisagree"
+ }
+]

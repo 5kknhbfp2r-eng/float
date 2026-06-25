@@ -1,0 +1,13 @@
+ticker,as_of,float_M,os_M,conf,model,note
+SATL,2025-05-02,34.49,90.30,med,sonnet,20-F Mar-2024: O/S 90.30M (76.72M ClassA+13.58M ClassB); excl 13D Cantor 13.91M+Liberty 20.00M+Hannover 7.51M+Kargieman 13.58M+D&O 0.81M=55.81M; keep 13G Pitanga 10.59M; float=34.49M
+ALMU,2025-06-25,12.43,15.80,med,sonnet,O/S 15.795M confirmed on 10-Q cover (May-7-2025); excluded D&O group 2.386M + McCarthy 13D 0.977M; kept Tompkins 13G 2.92M passive
+BRLS,2025-06-11,8.82,21.38,med,sonnet,O/S 21.38M (10-Q May2025); excl Oxus 5.30M(Form4 Oct24)+Soltanzadeh 3.66M(Form3)+Helg 3.23M+Mynzhanov 0.26M+other D&O ~0.11M=12.56M ctrl; keep 13G passives(Meteora/Mizuho/Polar)
+ARQQ,2025-05-19,1.67,11.545,med,sonnet,O/S 11.55M XBRL; excl D&O 6.17M + control 3.71M (Heritage 13D 5.78M + Evolution 13D 0.40M deduped); kept 13G passives (Williams 0.32M); float ~1.67M
+WKSP,2025-05-15,4.58,5.20,med,sonnet,OS=5.200M (10-Q cover 2025-05-15 post ~6.4x rev-split from 30.9M); D&O ex-options 0.395M; De Martino 13D (2002 stale) 0.222M; Armistice/passive 13G 0.492M kept
+WHLR,2025-06-04,0.4374,0.4387,low,sonnet,"Post 1-for-5 (Mar-26) and 1-for-7 (May-26) splits; cover O/S 3.071M/7=0.439M; Stilwell 13D filer but actual common ~1,346 shares post-splits (47,093 pre-splits from Dec-24 13D / 35); Howard Amster sold all shares Sep-2024; passive 13G KEPT; float~=O/S"
+NUKK,2025-05-20,3.77,5.026,med,sonnet,"O/S=XBRL 5.026M (10-KT 2025-05-01); excl D&O 1.25M scaled from proxy (1,191,422 on 4.78M base); Kotaieva/X-Group deduped; Emil Assentato 14% kept (no 13D, not D&O); all 13G passive kept"
+DIST,2025-06-11,0.93,3.20,low,sonnet,"SPAC pre-merger; O/S 3.20M (XBRL, post-redemptions); exclude Xiaosen Sponsor 13D 2.27M (control, 70.9%); float=public shares 0.93M; passive 13G holders (Meteora 0.63M, Wolverine 0.29M) kept but within public float"
+MTR,2025-06-17,1.598,1.8636,high,sonnet,"O/S 1,863,590 units (10-Q 2025-05-15); excluded A.Gile&Co 13D 265,388 units (control); kept passive 13G filers (Wells Fargo 787 units, etc); no D&O unit holdings to exclude (BNY Mellon institutional trustee)"
+TGEN,2025-07-18,19.49,25.259,med,sonnet,"O/S=25.26M (XBRL/proxy aligned, 100M regex rejected); excl D&O 3.32M + 13D controls 2.45M (Wincrest+Michaelson); kept all 13G passive filers incl Hatsopoulos family"
+BBGI,2025-06-20,0.613,1.791,low,sonnet,"Class A O/S 957,876 - D&O 264,153 - GAMCO 13D 80,416 = 613,307 float shares; Class B 833,137 (founder/non-trading) excluded from float; O/S=A+B combined"
+EMPG,2025-08-29,1.581,8.331,high,sonnet,Fresh IPO Jul-2-2025; 1.375M IPO + 0.206M full over-allotment = 1.581M public float; D&O (Yeoh 5.13M + Chin 0.27M) + 1.35M locked pre-IPO restricted excluded
