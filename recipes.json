@@ -1,0 +1,42 @@
+{
+ "KALA": {
+  "ads_ratio": 1,
+  "basis": "normal",
+  "cik": 1479419,
+  "conf": "med",
+  "control_M": 0,
+  "control_holders": [],
+  "depends_on": [],
+  "derived_day": "2025-06-03",
+  "float_at": 6.25,
+  "os_at": 6.45
+ },
+ "LIVE": {
+  "ads_ratio": 1,
+  "basis": "normal",
+  "cik": 1045742,
+  "conf": "med",
+  "control_M": 0.279,
+  "control_holders": [
+   "Kingston Diversified Holdings, LLC"
+  ],
+  "depends_on": [],
+  "derived_day": "2025-05-08",
+  "float_at": 1.214,
+  "os_at": 3.077
+ },
+ "NUKK": {
+  "ads_ratio": 1,
+  "basis": "normal",
+  "cik": 1787518,
+  "conf": "med",
+  "control_M": 0.671,
+  "control_holders": [
+   "Emil Assentato"
+  ],
+  "depends_on": [],
+  "derived_day": "2025-05-20",
+  "float_at": 3.35,
+  "os_at": 5.026
+ }
+}

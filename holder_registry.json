@@ -1,27 +1,111 @@
 {
+ "baker bros": {
+  "cik": null,
+  "class": "passive",
+  "name": "Baker Bros. Advisors LP",
+  "source": "llm-recipe"
+ },
  "boothbay": {
   "cik": 1549230,
   "class": "passive",
   "name": "Boothbay Fund Management, ",
   "source": "13F-filer"
  },
- "glazer": {
-  "cik": 1076809,
+ "checkpoint": {
+  "cik": null,
   "class": "passive",
-  "name": "Glazer Capital, LLC",
-  "source": "13F-filer"
+  "name": "Checkpoint Capital",
+  "source": "llm-recipe"
+ },
+ "cormorant asset": {
+  "cik": null,
+  "class": "passive",
+  "name": "Cormorant Asset Management",
+  "source": "llm-recipe"
+ },
+ "emil assentato": {
+  "cik": null,
+  "class": "control",
+  "name": "Emil Assentato",
+  "source": "llm-recipe"
+ },
+ "esousa": {
+  "cik": null,
+  "class": "passive",
+  "name": "Esousa Group Holdings LLC",
+  "source": "llm-recipe"
+ },
+ "feis equities": {
+  "cik": null,
+  "class": "passive",
+  "name": "Feis Equities LLC",
+  "source": "llm-recipe"
+ },
+ "glazer": {
+  "cik": null,
+  "class": "passive",
+  "name": "Glazer Capital LLC",
+  "source": "llm-recipe"
+ },
+ "goldman sachs": {
+  "cik": null,
+  "class": "passive",
+  "name": "The Goldman Sachs Group",
+  "source": "llm-recipe"
+ },
+ "hudson bay": {
+  "cik": null,
+  "class": "passive",
+  "name": "Hudson Bay Capital Management",
+  "source": "llm-recipe"
+ },
+ "integrated core strategies": {
+  "cik": null,
+  "class": "passive",
+  "name": "Integrated Core Strategies",
+  "source": "llm-recipe"
  },
  "karpus investment": {
-  "cik": 1048703,
+  "cik": null,
   "class": "passive",
   "name": "Karpus Investment Management",
-  "source": "13F-filer"
+  "source": "llm-recipe"
+ },
+ "kingston diversified": {
+  "cik": null,
+  "class": "control",
+  "name": "Kingston Diversified Holdings, LLC",
+  "source": "llm-recipe"
+ },
+ "longitude": {
+  "cik": null,
+  "class": "passive",
+  "name": "Longitude Capital Partners",
+  "source": "llm-recipe"
  },
  "meteora": {
   "cik": 1905106,
   "class": "passive",
   "name": "Meteora Capital, LLC",
   "source": "13F-filer"
+ },
+ "millennium": {
+  "cik": null,
+  "class": "passive",
+  "name": "Millennium Management LLC",
+  "source": "llm-recipe"
+ },
+ "mizuho financial": {
+  "cik": null,
+  "class": "passive",
+  "name": "Mizuho Financial Group",
+  "source": "llm-recipe"
+ },
+ "sr one ii": {
+  "cik": null,
+  "class": "passive",
+  "name": "SR One Capital Fund II",
+  "source": "llm-recipe"
  },
  "wealthspring": {
   "cik": 1844495,

@@ -1,0 +1,5 @@
+[
+ {"t":"KALA","a":"2025-06-03","cik":1479419,"recipe":{"float_M":6.25,"os_M":6.45,"basis":"normal","dno_M":0.2,"control_M":0,"ads_ratio":1,"control_holders":[],"passive_holders":["Baker Bros. Advisors LP","Cormorant Asset Management","SR One Capital Fund II","Longitude Capital Partners","Integrated Core Strategies","Millennium Management LLC","Checkpoint Capital"],"conf":"med"}},
+ {"t":"NUKK","a":"2025-05-20","cik":1787518,"recipe":{"float_M":3.35,"os_M":5.026,"basis":"normal","dno_M":1.01,"control_M":0.671,"ads_ratio":1,"control_holders":["Emil Assentato"],"passive_holders":["Esousa Group Holdings LLC","Mizuho Financial Group","Feis Equities LLC","The Goldman Sachs Group","Hudson Bay Capital Management","Karpus Investment Management","Glazer Capital LLC"],"conf":"med"}},
+ {"t":"LIVE","a":"2025-05-08","cik":1045742,"recipe":{"float_M":1.214,"os_M":3.077,"basis":"normal","dno_M":1.583,"control_M":0.279,"ads_ratio":1,"control_holders":["Kingston Diversified Holdings, LLC"],"passive_holders":[],"conf":"med"}}
+]

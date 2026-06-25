@@ -211,8 +211,21 @@ of strict numeric order from incremental edits).
   from the label's O/S). **Correct design (implemented):** re-fetch O/S **and** the D&O group (`group_exoptions`)
   deterministically every day, and carry ONLY the LLM's **control-block judgment** (`control_M`). Replay has
   the L8 O/S guards (XBRL-vs-regex disagree / multi-class / implausible → defer, never a wrong float).
-- **▶ Next (immediate):** wire the LLM-tail to **emit the structured recipe** (basis, listed-class, ads_ratio,
-  **dno_M / control_M split**, control_holders) via `save_recipe()` — this both populates recipes AND warms
-  the holder registry via `set_class()`. Then validate replay end-to-end on recurring tickers (derive once →
-  replay free on later days → match labels). Then: improve 13F recall (holder-CIK from the 13G header);
-  re-derive WHLR/TGEN (likely label errors).
+- **§16 levers 2-3 VALIDATED end-to-end (2026-06-25).** Recipe-emit (3 Opus agents on recurring tickers
+  KALA/NUKK/LIVE → `engine/validate_recipes.py`) emitted structured recipes (dno/control split + holders),
+  `save_recipe()`'d them, warmed the registry (6→20 clean entities — the SAFE organic path works), then
+  REPLAYED later candidate-days deterministically. Result on 14 later days: **35% replayed FREE (no LLM)**,
+  of those **3/5 within 5%** (KALA exact for ~3 weeks then ~6% drift); the rest **correctly deferred** —
+  NUKK→os-uncertain (multi-class XBRL-vs-regex), LIVE→stale (frequent 13D/proxy). The agents nailed the hard
+  judgment (KALA kept Baker Bros passive despite its 13D tag; LIVE folded Isaac Capital into D&O to avoid a
+  double-count). **Free-fraction is type-dependent:** clean single-class → high; multi-class/foreign → defer
+  on O/S; frequent-filers → stale. So ~35% is a FLOOR (hard micro-caps); the broad universe (clean large/mid
+  caps) is higher.
+- **$200/yr — updated to ~$300–600/yr steady-state.** The recipe amortization is real but smaller than the
+  optimistic ~3× (≈35% free on hard names, higher on clean → ~2× blended) × the cheap-model/compressed cut
+  (~6×) ⇒ low hundreds, not a hard $200. Still ~30–50× under naive all-LLM (~$15–20K) and ~6–12× under the
+  current hybrid (~$2–4K).
+- **▶ Next:** (1) reduce replay drift/deferrals — better O/S recency + multi-class listed-class pick (biggest
+  free-fraction lever); (2) run the recipe-emit across the full IS set to warm both caches at scale; (3)
+  improve 13F recall (holder-CIK from the 13G header); (4) re-derive WHLR/TGEN (likely label errors).
+  Artifacts: `recipes.json` (recipe cache), `holder_registry.json` (warmed), `_recipes_emitted.json`.
