@@ -71,4 +71,4 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 
 ## TEMP INSTRUCTIONS
 
-use only three agents at a time. make sure that it's work is interuption reselient, so if the llm is stopped by usage credits, it can pick up again later.  let me know if there are any concerns before you start.
+use only 12 agents at a time. make sure that it's work is interuption reselient, so if the llm is stopped by usage credits, it can pick up again later.  let me know if there are any concerns before you start.

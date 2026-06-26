@@ -188,6 +188,30 @@ of strict numeric order from incremental edits).
 > (Cost-only test — no OOS labels needed; if labels exist later, score accuracy too.)
 > Harness ready: `engine/{emit_worklist,merge_emitted,validate_recipes,oos_cost}.py` + `workflows/recipe_emit_wave.js`.
 
+> **▶▶ 2026-06-26 — COST/ACCURACY AUDIT + ENGINE-HARDENING (branch `audit-fixes`; do this BEFORE the warm).**
+> A multi-agent audit (12 module finders + adversarial verify; full record `_AUDIT_2026-06-26.md`, tracker
+> `_AUDIT_FIXES.md`) found 50 verified defects (3 critical, 12 high). **45 are FIXED** on branch `audit-fixes`
+> (8 commits `f28e074`..`32ccf70`, each group tested); 5 deferred — F27/F28/F48 are design knobs (your call:
+> per-archetype band, modeling D&O drift, recalibrating the band on float-error) and F44/F34 would trade one
+> bug for another. **The 3 criticals are closed:** point-in-time CIK resolution (edgar picked the highest-
+> relevance EFTS hit, not the latest-dated entity <= asof — wrong company for reused tickers); 13F false-
+> passive (a control person/family vehicle auto-classified passive via a single shared token -> kept ->
+> float too high, cached forever); and SPAC/IPO carried-float replayed `ok` with NO de-SPAC/redemption/
+> lockup (8-K **and 6-K**) staleness.
+> **HEADLINE-ACCURACY CORRECTION (F13/F24):** every §16 accuracy number BELOW was computed relative to O/S,
+> not the float being measured — so they OVERSTATE float accuracy (a replay ~100% wrong on the float could
+> read "within-10%"). The scoring harness now reports `err_float_rel` as the primary metric.
+> **Post-fix sim (236-ticker / 383-later-day, FLOAT denominator):** 35% free | within-5% **72%** | within-10%
+> **86%** | miss>10% **13%** | median **0.23%**. The >10% tail is dominated by foreign/ADS SIM ARTIFACTS (the
+> label-stand-in sim carries NO ads_ratio — e.g. LSE replays ~0 float; the REAL 30-recipe wave, which carries
+> the ratio, had worst 12%). New guards (frozen-XBRL `stale-osfact` age defer >300d/>100d-foreign, positive-
+> anchor, 14C + foreign-consolidation staleness, native-unit ADS) shed wrong-free replays — ARBKL's old ~10%
+> free miss now correctly defers. **For the warm:** `recipe_emit_wave.js` is now durable (per-agent
+> `engine/record_recipe.py`, resume = worklist minus recorded), Opus-pinned, and emits os_M in the issuer's
+> NATIVE/ordinary units (ads_ratio converts) so replay's re-fetch is unit-consistent; and **re-derive (don't
+> skip) the QC-flagged AGENT-ERROR recipes ARBKL + BMGL** before/within the warm (they're in the 33 already-
+> emitted but STATUS QC found them wrong). Re-run the sim: `python sim_replay.py` then score `err_float_rel`.
+
 **Key outcomes (so a fresh session has the bottom line):**
 - **Deterministic engine built** (`engine/det_float.py`): XBRL O/S (`dei:EntityCommonStockSharesOutstanding`,
   point-in-time) + the reused `_widen_probe`/`_formula_probe` exclusion machinery + a 13D/13G form-type leg +
