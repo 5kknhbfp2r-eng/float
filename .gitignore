@@ -49,3 +49,6 @@ _wave_emitted_raw.json
 
 # label-QC raw verdicts (regenerable from the workflow output)
 _labelqc_raw.json
+
+# O/S audit output (regenerable via audit_os.py)
+_audit_os.csv
