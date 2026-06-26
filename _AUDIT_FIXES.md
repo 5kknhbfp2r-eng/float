@@ -14,8 +14,8 @@ F48 (recalibrate band on float-error after the denominator fix). Marked [-] belo
 - [x] **F12** (HIGH/confirmed) `recipe_cache.py:37,97-113,124` — Foreign issuers (ads_ratio != 1): is_stale and _split_in_window ignore 6-K, so 6-K-announced reverse splits and share issuances replay as a wrong free float  (f28e074)
 - [x] **F17** (MEDIUM/confirmed) `recipe_cache.py:139-170` — Anchor band compares raw ordinary xv against os_at whose semantics contradict the recipe-emit spec -> ADS replays dead (cost) or wrong-anchored (accuracy)  (f28e074)
 - [x] **F22** (MEDIUM/uncertain) `recipe_cache.py:29-31,83-94` — is_stale misses DEF 14C / PRE 14C / DEFR14C information statements -> control/D&O/reverse-split changes effected by written consent replay as a wrong free float  (f28e074)
-- [-] **F27** (LOW/confirmed) `recipe_cache.py:139-153,170-172` — Single global ±30% anchor band ignores the recipe's own confidence and archetype, leaving safe-cost and accuracy on the table
-- [-] **F28** (LOW/confirmed) `recipe_cache.py:158-170` — dno_M/control_M carried fixed in shares assumes zero D&O drift between proxies — true vs the self-referential label, an unquantified real-world error for the production OOS path
+- [-] **F27** (LOW/confirmed) `recipe_cache.py:139-153,170-172` — Single global ±30% anchor band ignores the recipe's own confidence and archetype, leaving safe-cost and accuracy on the table  — RESOLVED: no change (band can't catch ratio~1 float-misses; data-backed)
+- [x] **F28** (LOW/confirmed) `recipe_cache.py:158-170` — dno_M/control_M carried fixed in shares assumes zero D&O drift between proxies — true vs the self-referential label, an unquantified real-world error for the production OOS path  (50ea735)
 - [x] **F29** (LOW/uncertain) `recipe_cache.py:139-140,170` — ADS-ratio unit convention (exclusion carried in ADS units, O/S anchored in ordinary) is implicit and undocumented in the replay formula — a latent wrong-unit float on the next ADS recipe  (f28e074)
 - [x] **F30** (LOW/confirmed) `recipe_cache.py:97-113` — _split_in_window caps 8-K fetch at size=30; a long-lived recipe window can truncate the older end and miss a reverse-split announcement  (f28e074)
 - [x] **F45** (LOW/confirmed) `recipe_cache.py:97-113,168` — _split_in_window runs on the FREE happy path and fetches up to 30 8-K full texts per replay day  (f28e074)
@@ -60,7 +60,7 @@ F48 (recalibrate band on float-error after the denominator fix). Marked [-] belo
 - [x] **F14** (HIGH/confirmed) `bench_full.py:108,115-116` — bench_full reports accuracy-on-confident relative to O/S (os_relerr), not float — same denominator overstatement as the sim  (9acb0c5)
 - [x] **F23** (MEDIUM/confirmed) `bench_full.py:69-72` — bench_full's inline confidence rule diverges from canonical is_confident — overstates confident coverage and pollutes accuracy-on-confident with cases production routes to the LLM  (9acb0c5)
 - [x] **F24** (MEDIUM/confirmed) `validate_recipes.py:43-44,53` — validate_recipes scores replay accuracy relative to O/S, not float (same denominator bug) and reports it as 'within 5%'  (9acb0c5)
-- [-] **F48** (LOW/uncertain) `calib_band.py:25-36` — Production anchor band (k=1.3) was calibrated against O/S-relative error, so it emits 24 float-wrong-as-'ok' replays the metric never counts as misses
+- [-] **F48** (LOW/uncertain) `calib_band.py:25-36` — Production anchor band (k=1.3) was calibrated against O/S-relative error, so it emits 24 float-wrong-as-'ok' replays the metric never counts as misses  — RESOLVED: no change, keep k=1.3 (tightening catches 0/19 float-misses)
 - [x] **F49** (LOW/confirmed) `oos_cost.py:24-29` — oos_cost over-counts LLM cost: never caches a derivation within the run, so a recurring OOS ticker is billed as N full derivations instead of 1 derive + (N-1) free replays  (9acb0c5)
 
 ## H. workflows (recipe_emit_wave/parallel_sweep.js)

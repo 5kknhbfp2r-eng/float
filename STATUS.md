@@ -191,9 +191,12 @@ of strict numeric order from incremental edits).
 > **▶▶ 2026-06-26 — COST/ACCURACY AUDIT + ENGINE-HARDENING (branch `audit-fixes`; do this BEFORE the warm).**
 > A multi-agent audit (12 module finders + adversarial verify; full record `_AUDIT_2026-06-26.md`, tracker
 > `_AUDIT_FIXES.md`) found 50 verified defects (3 critical, 12 high). **45 are FIXED** on branch `audit-fixes`
-> (8 commits `f28e074`..`32ccf70`, each group tested); 5 deferred — F27/F28/F48 are design knobs (your call:
-> per-archetype band, modeling D&O drift, recalibrating the band on float-error) and F44/F34 would trade one
-> bug for another. **The 3 criticals are closed:** point-in-time CIK resolution (edgar picked the highest-
+> (commits `f28e074`..`50ea735`, each group tested). The 5 deferred are now resolved: **F28** implemented
+> (a low-float `insider-drift` guard — for a recipe whose float is <12% of O/S, defer on any Form 3/4/5 in
+> the window; `calib_dno_drift.py` measured median ~1% annual D&O drift, with the big drifts already caught
+> by the proxy-changed re-derive); **F27/F48 analyzed → NO CHANGE** (the band is an O/S-drift guard and
+> tightening k catches 0/19 float-misses — they're ratio≈1.0, orthogonal); **F44/F34 intentionally left**
+> (each proposed fix adds a NEW regression, per the adversarial verifier). **The 3 criticals are closed:** point-in-time CIK resolution (edgar picked the highest-
 > relevance EFTS hit, not the latest-dated entity <= asof — wrong company for reused tickers); 13F false-
 > passive (a control person/family vehicle auto-classified passive via a single shared token -> kept ->
 > float too high, cached forever); and SPAC/IPO carried-float replayed `ok` with NO de-SPAC/redemption/
