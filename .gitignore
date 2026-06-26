@@ -40,3 +40,6 @@ tmp_*
 *.tmp
 claude.txt
 *.output
+
+# wave manifest (regenerable via emit_worklist)
+_emit_wave_manifest.json
