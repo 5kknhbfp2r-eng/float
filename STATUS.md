@@ -256,14 +256,16 @@ of strict numeric order from incremental edits).
   derivation, so defer if a "reverse split"+ratio 8-K is filed in [derived−30d, day] (kills the HUSA 899%).
   (d) **close a band leak** (`a0b0b48`) — the XBRL-vs-regex agreement fallback bypassed the anchor band when
   the regex echoed a stale wrong-class O/S (METCB Class-A 44M vs the listed Class-B 10.7M anchor → 315%);
-  gate it on `not anchor`. **FULL $0 ARC (naive → carry-dno + band + 424B + split + leak-fix) on the
-  236-ticker / 383-later-day IS sim: free 52%→38% | within-5% 62%→75% | within-10% 73%→89% | misses 26%→10%
-  | WORST-CASE 899%→30% | median 0.1%.** Every dropped free replay was wrong/uncertain — the band/leak fixes
+  gate it on `not anchor`. (e) **revised/additional proxies** (DEFR14A/DEFA14A/PRER14A → `STRUCT_FORMS`,
+  `4c76ae7`) — a revised proxy updates D&O just like a definitive one; catches AGEN (DEFR14A restated O/S
+  between 10-Qs while XBRL froze) at zero false-defers. **FULL $0 ARC (naive → carry-dno + band + 424B +
+  split + leak-fix + proxy-rev) on the 236-ticker / 383-later-day IS sim: free 52%→37% | within-5% 62%→75% |
+  within-10% 73%→90% | misses 26%→9% | WORST-CASE 899%→30% | median 0.1%.** Every dropped free replay was wrong/uncertain — the band/leak fixes
   shed ONLY bad replays; 424B + split are accuracy↔cost knobs (tune via `OS_EVENT_FORMS` / the lookback).
   **Residual ~10% are all SOFT now (11–30%, no catastrophes):** foreign/ADS O/S-source (UBXG/PRE/MB — a real
   LLM recipe carries the ADS ratio, so these are sim artifacts), AGEN frozen-XBRL+8-K dilution (no 424B/split
   signal — needs 8-K item reading, diminishing returns), a few clean drifts (SRM/XCUR/BSGM), and label errors
-  (TGEN). **Bottom line: recipe-replay is ~38% free at ~89% within-10% / 75% within-5% accuracy, worst-case
+  (TGEN). **Bottom line: recipe-replay is ~37% free at ~90% within-10% / 75% within-5% accuracy, worst-case
   30%, on its proper domain; everything uncertain routes to the LLM.** Re-run: `python sim_replay.py`
   (resume-safe ~10 min) then score; `calib_band.py` / `calib_split.py` reproduce the knees. Outputs gitignored.
 - **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~measure accuracy at scale~~ DONE; ~~$0 accuracy guards
