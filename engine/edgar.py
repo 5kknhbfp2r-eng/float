@@ -94,14 +94,16 @@ def query(cik, forms, asof, size=6, order="desc"):
         return []
     rows = [f for f in _assemble(cik)
             if f["formType"] in forms and f["filingDate"] <= asof]
-    rows.sort(key=lambda f: f["filedAt"], reverse=(order == "desc"))
+    # Order on the SAME axis as the point-in-time filter (filingDate, ET business day), tie-broken by
+    # the acceptance instant — so the sort can't invert vs the filter on rare late re-acceptances (F38).
+    rows.sort(key=lambda f: (f["filingDate"], f["filedAt"]), reverse=(order == "desc"))
     return rows[:int(size)]
 
 
 def all_filings(cik, asof, limit=40):
     """Every filing (any form) <= asof, newest-first — for list_filings()."""
     rows = [f for f in _assemble(cik) if f["filingDate"] <= asof]
-    rows.sort(key=lambda f: f["filedAt"], reverse=True)
+    rows.sort(key=lambda f: (f["filingDate"], f["filedAt"]), reverse=True)
     return rows[:int(limit)]
 
 
@@ -127,14 +129,25 @@ def resolve_cik_edgar(ticker, asof="2026-06-04"):
     except Exception:
         return None
     pat = re.compile(rf"\(\s*{re.escape(ticker)}\s*[\),]", re.I)
+    # EFTS orders hits by relevance _score, NOT by date. For a REUSED ticker the newer/more-active
+    # entity often scores highest while still having filings inside the enddt<=asof window, so taking
+    # the first hit returns the wrong entity (F02). Pick the matched CIK from the LATEST-dated hit
+    # (file_date <= asof) — the entity actually using the ticker at as_of.
+    best = None                                  # (file_date, cik)
     for h in hits:
         src = h.get("_source", {})
         names, ciks = src.get("display_names", []), src.get("ciks", [])
+        fd = src.get("file_date") or ""
         for j, nm in enumerate(names):
             if pat.search(nm):
                 m = re.search(r"CIK\s*0*(\d+)", nm)
                 if m:
-                    return int(m.group(1))
-                if ciks:
-                    return int(str(ciks[min(j, len(ciks) - 1)]).lstrip("0") or 0) or None
-    return None
+                    cik = int(m.group(1))
+                elif ciks:
+                    cik = int(str(ciks[min(j, len(ciks) - 1)]).lstrip("0") or 0) or None
+                else:
+                    cik = None
+                if cik and (best is None or fd > best[0]):
+                    best = (fd, cik)
+                break
+    return best[1] if best else None
