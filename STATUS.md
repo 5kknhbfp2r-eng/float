@@ -268,16 +268,28 @@ of strict numeric order from incremental edits).
   (TGEN). **Bottom line: recipe-replay is ~37% free at ~90% within-10% / 75% within-5% accuracy, worst-case
   30%, on its proper domain; everything uncertain routes to the LLM.** Re-run: `python sim_replay.py`
   (resume-safe ~10 min) then score; `calib_band.py` / `calib_split.py` reproduce the knees. Outputs gitignored.
-- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~measure accuracy at scale~~ DONE; ~~$0 accuracy guards
-  (band, 424B, reverse-split, leak-fix)~~ DONE — worst-case 899%→30%, misses 26%→10% (the $0 arc above).
-  (2) **run recipe-emit across the full IS set** (needs LLM agents — 3 at a time, interruption-resilient via
-  durable recording): the BIGGEST remaining win is that real recipes carry the LLM-derived `ads_ratio` +
-  basis, which removes the foreign/ADS chunk of the residual misses (a sim artifact — the sim carried
-  ads_ratio=1). Also warms both caches at scale and gives the true blended free-fraction with real (not
-  label-stand-in) recipes. ~236 multi-day tickers; consider a stratified ~30-ticker first wave to confirm
-  before the full set. (3) remaining soft-miss guards (diminishing returns, optional): frozen-XBRL O/S (AGEN
-  — an 8-K dilution post-dates the XBRL fact with no 424B/split signal; needs item-level 8-K reading, gap-form
-  alone is too blunt). (4) improve 13F recall (holder-CIK from the 13G header); (5) re-derive WHLR/TGEN
-  (likely label errors — TGEN re-surfaced as an
-  11% sim miss). Artifacts: `recipes.json` (now carries `dno_M`+`control_M`), `holder_registry.json`,
-  `_recipes_emitted.json`; harness: `engine/sim_replay.py` + `engine/calib_band.py`.
+- **§16 RECIPE-EMIT WAVE — 30 REAL recipes, end-to-end PROOF (2026-06-26, commit `33477f7`).** Ran
+  `workflows/recipe_emit_wave.js` (30 agents, 3-at-a-time, ~1.2M tokens, ~42 min) over a stratified IS wave
+  (5 per archetype). Each agent self-fetched its dossier (`emit_worklist.py dossier T`), derived the recipe
+  (basis + dno/control split + ADS ratio + held/excluded holders) via structured output;
+  `engine/merge_emitted.py` resolved CIKs + folded into `_recipes_emitted.json` (33 total); `recipes.json` +
+  `holder_registry.json` warmed; `validate_recipes.py` scored. **Results (REAL recipes, not label stand-ins):
+  DERIVATION 75% within-5% / 84% within-10% / median 1.3%; REPLAY 60 later-days, 38% free (matches the sim),
+  of free 69% within-5% / 95% within-10% / worst 12% / median 1.1%; REGISTRY 20→135 entities.** The ADS ratio
+  carrying WORKS (ARBKL ads=10) — the foreign/ADS residual that capped the sim at 30% worst-case is GONE
+  (worst replay now 12%). The guard stack deferred every bad recipe (ATNF negative float → implausible;
+  LIMN/MARPS/MTR → no-os/no-proxy; LIVE/NUKK → stale). **Label-QC candidates the agents surfaced** (derivation
+  vs label disagreements to review): **ANNA** (agent 3.53 excl Nautilus/Wilder 37M control SPV vs label 29.44
+  KEPT it → likely label error), **ATNF** (agent −0.59 over-excl Elray 47.8% 13D vs label 4.10), BNGO (split
+  basis), ARBKL (ADS ratio 10 vs implied ~8), BMGL (control-SPV size). Re-run: `python merge_emitted.py`
+  (from `_wave_emitted_raw.json`) then `python validate_recipes.py`. **The 30-ticker wave PROVES the system;
+  the full 236 is the production cache-warming step (one-time, amortizing), NOT required for proof.**
+- **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~$0 accuracy guards~~ DONE (worst 899%→30%);
+  ~~prove with real recipes (30-wave)~~ DONE (replay 95% within-10%, worst 12%). (2) OPTIONAL: run the full
+  236-ticker recipe-emit to warm the production cache for the whole IS set (same `recipe_emit_wave.js` pattern,
+  swap in the full `emit_worklist.py` list; one-time, amortizes). (3) **QC the label-error candidates** (ANNA,
+  ATNF — the agents excluded control SPVs the labels kept; re-derive + correct `float_is.csv` if confirmed),
+  plus the earlier WHLR/TGEN. (4) optional precision: ADS-ratio refinement (ARBKL), frozen-XBRL 8-K guard.
+  Artifacts: `recipes.json` + `_recipes_emitted.json` (33 recipes), `holder_registry.json` (135 entities);
+  harness: `engine/{sim_replay,calib_band,calib_split,emit_worklist,merge_emitted}.py` +
+  `workflows/recipe_emit_wave.js`.
