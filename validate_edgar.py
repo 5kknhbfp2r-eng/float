@@ -25,7 +25,7 @@ def nums(strs):
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
-    rows = [r for r in csv.DictReader(open(os.path.join(here, "float_may.csv"), newline=""))]
+    rows = [r for r in csv.DictReader(open(os.path.join(here, "float_may.csv"), newline="", encoding="utf-8"))]
     lim = None if (len(sys.argv) < 2 or sys.argv[1] == "all") else int(sys.argv[1])
     if lim:
         rows = rows[:lim]

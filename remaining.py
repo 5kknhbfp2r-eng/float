@@ -23,13 +23,13 @@ def main():
     n = int(args[0]) if args else None
 
     cand = [(r["ticker"], r["date"]) for r in
-            csv.DictReader(open(os.path.join(HERE, "_float_candidates_is.csv"), newline=""))]
+            csv.DictReader(open(os.path.join(HERE, "_float_candidates_is.csv"), newline="", encoding="utf-8"))]
     if month:
         cand = [(t, d) for t, d in cand if d.startswith(month)]
     rows = []
     p = os.path.join(HERE, "float_is.csv")
     if os.path.exists(p):
-        rows = list(csv.DictReader(open(p, newline="")))
+        rows = list(csv.DictReader(open(p, newline="", encoding="utf-8")))
     done = {(r["ticker"], r["as_of"]) for r in rows}
     by_ticker = {}
     for r in rows:
@@ -48,8 +48,10 @@ def main():
         for d in groups[t]:
             hint = ""
             if t in by_ticker:
-                pr = by_ticker[t][0]
-                hint = f"   [prior {pr['as_of']} float={pr['float_M'] or 'NA'} os={pr['os_M']}]"
+                prior = [r for r in by_ticker[t] if r["as_of"] < d]      # (F43) strictly-earlier rows only
+                if prior:
+                    pr = max(prior, key=lambda r: r["as_of"])            # the most-recent prior day, not file order
+                    hint = f"   [prior {pr['as_of']} float={pr['float_M'] or 'NA'} os={pr['os_M']}]"
             print(f"{t} {d}{hint}")
 
 

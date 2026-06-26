@@ -1,10 +1,7 @@
-"""Append ONE derived per-(ticker, day) float to float_may.csv (existing schema) and flush
-immediately. Durable, interruption-resilient progress: one row per (ticker, as_of), written
-the instant it's derived, so a usage stop loses nothing and a re-spawn resumes from this file.
-
-float_may.csv is the SINGLE source of truth. The engine's native ledger engine/float_records.csv
-(keyed ticker+as_of, for `float_backtest.py get T D` reuse) is REGENERATED from it by
-sync_records.py — never written here — so the two can't desync.
+"""RETIRED (F40). float_may.csv is now a DERIVED artifact — sync_records.py REGENERATES it from
+float_is.csv, so any row written here is silently destroyed on the next sync, and (unlike record.py)
+this script never had the confidence/column-shift guard. Record via record.py (the single validated
+writer), then run sync_records.py. Kept only so stale references don't ImportError; __main__ refuses.
 
 Schema (float_may.csv): ticker,as_of,float_M,os_M,under_20M,confidence,basis,note
   under_20M is derived: (float_M < 20) when float_M numeric; 'false' when float_M left blank.
@@ -22,8 +19,9 @@ COLS = ["ticker", "as_of", "float_M", "os_M", "under_20M", "confidence", "basis"
 
 
 def main(a):
-    if len(a) < 6:
-        print(__doc__); sys.exit(1)
+    sys.exit("record_may.py is RETIRED: float_may.csv is a DERIVED artifact (regenerated from "
+             "float_is.csv by sync_records.py) — rows written here are silently overwritten. "
+             "Use record.py (the single validated writer), then sync_records.py.")
     ticker, as_of, float_m, os_m, conf, basis = a[:6]
     note = a[6] if len(a) > 6 else ""
     seen = set()

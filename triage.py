@@ -58,8 +58,8 @@ def classify(text):
 def main():
     arg = sys.argv[1] if len(sys.argv) > 1 else "all"
     cand = [(r["ticker"], r["date"]) for r in
-            csv.DictReader(open(os.path.join(HERE, "_float_candidates_is.csv"), newline=""))]
-    rows = list(csv.DictReader(open(os.path.join(HERE, "float_is.csv"), newline="")))
+            csv.DictReader(open(os.path.join(HERE, "_float_candidates_is.csv"), newline="", encoding="utf-8"))]
+    rows = list(csv.DictReader(open(os.path.join(HERE, "float_is.csv"), newline="", encoding="utf-8")))
     done = {(r["ticker"], r["as_of"]) for r in rows}
     if arg == "done-may":
         work = [(t, d) for t, d in cand if d.startswith("2025-05") and (t, d) in done]

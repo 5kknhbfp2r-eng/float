@@ -31,7 +31,7 @@ def main(a):
         fm, under = "", "false"
     else:
         under = "true" if float(fm) < 20 else "false"
-    rows = list(csv.DictReader(open(CSV, newline="")))
+    rows = list(csv.DictReader(open(CSV, newline="", encoding="utf-8")))
     found, old = False, None
     for r in rows:
         if r["ticker"] == ticker and r["as_of"] == as_of:
@@ -41,7 +41,7 @@ def main(a):
             found = True; break
     if old is not None:                                  # append old->new to the audit trail
         dnew = not os.path.exists(DIFF)
-        with open(DIFF, "a", newline="") as f:
+        with open(DIFF, "a", newline="", encoding="utf-8") as f:
             w = csv.writer(f)
             if dnew:
                 w.writerow(DIFFCOLS)
@@ -52,7 +52,7 @@ def main(a):
         rows.append({"ticker": ticker, "as_of": as_of, "float_M": fm, "os_M": os_m,
                      "under_20M": under, "confidence": conf, "basis": basis, "note": note})
     tmp = CSV + ".tmp"
-    with open(tmp, "w", newline="") as f:
+    with open(tmp, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=COLS); w.writeheader(); w.writerows(rows)
         f.flush(); os.fsync(f.fileno())
     os.replace(tmp, CSV)

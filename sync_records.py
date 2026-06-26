@@ -16,15 +16,15 @@ MCOLS = ["ticker", "as_of", "float_M", "os_M", "under_20M", "confidence", "basis
 
 
 def main():
-    rows = list(csv.DictReader(open(SRC, newline="")))
+    rows = list(csv.DictReader(open(SRC, newline="", encoding="utf-8")))
     now = datetime.datetime.utcnow().isoformat(timespec="seconds")
-    with open(RECORDS, "w", newline="") as f:
+    with open(RECORDS, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f); w.writerow(LCOLS)
         for r in rows:
             w.writerow([r["ticker"], r["as_of"], r["float_M"], r["os_M"],
                         r["confidence"], r["basis"], now, r["note"]])
     may = [r for r in rows if r["as_of"].startswith("2025-05")]
-    with open(MAY, "w", newline="") as f:
+    with open(MAY, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=MCOLS); w.writeheader()
         for r in may:
             w.writerow({k: r[k] for k in MCOLS})
