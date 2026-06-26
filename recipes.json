@@ -1,480 +1,546 @@
 {
- "AAOI": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1158114,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-18",
-  "dno_M": 2.499,
-  "float_at": 53.045,
-  "os_at": 55.544
- },
- "ACOG": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1655923,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-05-16",
-  "dno_M": 0.9213,
-  "float_at": 15.0985,
-  "os_at": 16.0198
- },
- "ADN": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1744494,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-08-15",
-  "dno_M": 0.092,
-  "float_at": 2.578,
-  "os_at": 2.67
- },
- "ADPT": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1478320,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-05-02",
-  "dno_M": 10.13,
-  "float_at": 141.79,
-  "os_at": 151.92
- },
- "ADUR": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1863934,
-  "conf": "high",
-  "control_M": 9.6559,
-  "control_holders": [
-   "Avshalom Ofer Vicus"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-08",
-  "dno_M": 1.4549,
-  "float_at": 17.799,
-  "os_at": 28.9097
- },
- "AEHR": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1040470,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-07-22",
-  "dno_M": 1.853,
-  "float_at": 27.918,
-  "os_at": 29.771
- },
- "AEVA": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1789029,
-  "conf": "high",
-  "control_M": 16.23,
-  "control_holders": [
-   "Entities affiliated with Sylebra Capital LTD (Sylebra Capital Management Ltd., Daniel Patrick Gibson, Sylebra Capital LLC)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-06",
-  "dno_M": 15.38,
-  "float_at": 23.38,
-  "os_at": 54.99
- },
- "AGEN": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1098972,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-03",
-  "dno_M": 0.298,
-  "float_at": 27.12,
-  "os_at": 27.417
- },
- "ALMU": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1828805,
-  "conf": "med",
-  "control_M": 0.977,
-  "control_holders": [
-   "Lee McCarthy"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-06-02",
-  "dno_M": 2.066,
-  "float_at": 12.752,
-  "os_at": 15.795
- },
- "ANNA": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1845123,
-  "conf": "high",
-  "control_M": 37.13,
-  "control_holders": [
-   "Nautilus Resources LLC (C. John Wilder Jr. / Bluescape control SPV) - 30.48M Class A",
-   "John and Susan Wilder Foundation (Wilder-controlled) - 6.66M Class A"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-06-25",
-  "dno_M": 0,
-  "float_at": 3.53,
-  "os_at": 40.66
- },
- "APLM": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1944885,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-07-09",
-  "dno_M": 0.1884,
-  "float_at": 0.9149,
-  "os_at": 1.1033
- },
- "ARAI": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1818274,
-  "conf": "high",
-  "control_M": 1.9511,
-  "control_holders": [
-   "X Technology Fund Trust (trust for CEO Dan O'Toole's children Steve & Reese O'Toole)",
-   "O'Toole family members / Affiliates or Other Insiders (Stacia, Lois, Michelle, Bryce O'Toole)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-28",
-  "dno_M": 25.1166,
-  "float_at": 2.9105,
-  "os_at": 29.9782
- },
- "ARBKL": {
-  "ads_ratio": 10,
-  "basis": "normal",
-  "cik": 1841675,
-  "conf": "med",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-07-11",
-  "dno_M": 0,
-  "float_at": 57.716,
-  "os_at": 577.156
- },
- "ARQQ": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1859690,
-  "conf": "med",
-  "control_M": 6.147,
-  "control_holders": [
-   "Heritage Assets SCSp / Manfredi Lefebvre d'Ovidio (40.4% 13D control block, held via Senior Independent Director Manfredi)",
-   "D2BW Limited / David Williams / David Bestwick (founder SPV group, joint 13D with control intent)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-16",
-  "dno_M": 0.421,
-  "float_at": 6.18,
-  "os_at": 12.747
- },
- "ASST": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1920406,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [
-   "Asset Entities Holdings, LLC (AEH)",
-   "Arshia Sarkhani",
-   "Kyle Fairbanks",
-   "Michael Gaubert",
-   "Arman Sarkhani",
-   "Matthew Krueger"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-08",
-  "dno_M": 0.3113,
-  "float_at": 13.1018,
-  "os_at": 13.4132
- },
- "ATNF": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1690080,
-  "conf": "med",
-  "control_M": 4.32,
-  "control_holders": [
-   "Elray Resources Inc. (Anthony Brian Goodman, 13D, 47.8%)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-07-29",
-  "dno_M": 2.31,
-  "float_at": -0.59,
-  "os_at": 6.039
- },
- "ATYR": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1339970,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-03",
-  "dno_M": 1.4,
-  "float_at": 87.604,
-  "os_at": 89.004
- },
- "AUUD": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1554818,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-27",
-  "dno_M": 0.0051,
-  "float_at": 0.6153,
-  "os_at": 0.6204
- },
- "AVTX": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1534120,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-07-17",
-  "dno_M": 0.336,
-  "float_at": 10.49,
-  "os_at": 10.828
- },
- "BBGI": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1099160,
-  "conf": "high",
-  "control_M": 0.113,
-  "control_holders": [
-   "Beasley Family Towers, LLC",
-   "GGB Family Limited Partnership",
-   "GGB II Family Limited Partnership",
-   "GGB Family Enterprises, Inc."
-  ],
-  "depends_on": [],
-  "derived_day": "2025-06-20",
-  "dno_M": 0.151,
-  "float_at": 0.697,
-  "os_at": 0.961
- },
- "BGLC": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1737523,
-  "conf": "high",
-  "control_M": 0.3948,
-  "control_holders": [
-   "Soo Kow Lai",
-   "Chan Chong Wong",
-   "Choong-Chin Liew"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-07-01",
-  "dno_M": 0.0013,
-  "float_at": 1.4005,
-  "os_at": 1.7966
- },
- "BKKT": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1820302,
-  "conf": "high",
-  "control_M": 0.6499,
-  "control_holders": [
-   "Intercontinental Exchange Holdings, Inc."
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-13",
-  "dno_M": 0.3115,
-  "float_at": 5.7729,
-  "os_at": 6.7343
- },
- "BMBL": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1830043,
-  "conf": "high",
-  "control_M": 30.116,
-  "control_holders": [
-   "Blackstone (BX Buzz ML-1 through ML-7 Holdco L.P. / Blackstone Funds)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-08",
-  "dno_M": 1.195,
-  "float_at": 71.919,
-  "os_at": 103.231
- },
- "BMGL": {
-  "ads_ratio": 1,
-  "basis": "ipo",
-  "cik": 2004489,
-  "conf": "high",
-  "control_M": 10.1746,
-  "control_holders": [
-   "Rainforest Capital VCC (acting on behalf of sub-fund Basel Medical Fund; managed/controlled by AIP Investment Partners Pte. Ltd.)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-14",
-  "dno_M": 0.0294,
-  "float_at": 8.5818,
-  "os_at": 18.7858
- },
- "BNGO": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1411690,
-  "conf": "med",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-05-14",
-  "dno_M": 0.002,
-  "float_at": 3.362,
-  "os_at": 3.364
- },
- "DAIC": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 2033770,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-07-01",
-  "dno_M": 10.7579,
-  "float_at": 16.879,
-  "os_at": 27.6369
- },
- "FOXX": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 2013807,
-  "conf": "med",
-  "control_M": 3.676,
-  "control_holders": [
-   "BRR Investment Holding Corp. (Lapistone Trust LLC / Durabilis Trust, 13D, 34%)",
-   "New Bay Capital Limited (Shi Liu, 13D, merger note-converter, locked-up, 10.3%)",
-   "BR Technologies Pte. Ltd. (Baoman Xu, 13D, merger note-converter, 9.8%)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-07-17",
-  "dno_M": 2.156,
-  "float_at": 0.948,
-  "os_at": 6.781
- },
- "KALA": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1479419,
-  "conf": "med",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-03",
-  "dno_M": 0.2,
-  "float_at": 6.25,
-  "os_at": 6.45
- },
- "LIMN": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1971387,
-  "conf": "high",
-  "control_M": 6.9,
-  "control_holders": [
-   "Iris Acquisition Holdings LLC (SPAC Sponsor)"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-06-04",
-  "dno_M": 6.1694,
-  "float_at": 12.9452,
-  "os_at": 26.0146
- },
- "LIVE": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1045742,
-  "conf": "med",
-  "control_M": 0.279,
-  "control_holders": [
-   "Kingston Diversified Holdings, LLC"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-08",
-  "dno_M": 1.583,
-  "float_at": 1.214,
-  "os_at": 3.077
- },
- "MARPS": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 62362,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-13",
-  "dno_M": 0,
-  "float_at": 2,
-  "os_at": 2
- },
- "MTR": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 313364,
-  "conf": "high",
-  "control_M": 0,
-  "control_holders": [],
-  "depends_on": [],
-  "derived_day": "2025-06-13",
-  "dno_M": 0,
-  "float_at": 1.8636,
-  "os_at": 1.8636
- },
- "NUKK": {
-  "ads_ratio": 1,
-  "basis": "normal",
-  "cik": 1787518,
-  "conf": "med",
-  "control_M": 0.671,
-  "control_holders": [
-   "Emil Assentato"
-  ],
-  "depends_on": [],
-  "derived_day": "2025-05-20",
-  "dno_M": 1.01,
-  "float_at": 3.35,
-  "os_at": 5.026
- }
+ "AAOI": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1158114,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-18",
+   "dno_M": 2.499,
+   "float_at": 53.045,
+   "os_at": 55.544
+  }
+ ],
+ "ACOG": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1655923,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-05-16",
+   "dno_M": 0.9213,
+   "float_at": 15.0985,
+   "os_at": 16.0198
+  }
+ ],
+ "ADN": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1744494,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-08-15",
+   "dno_M": 0.092,
+   "float_at": 2.578,
+   "os_at": 2.67
+  }
+ ],
+ "ADPT": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1478320,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-05-02",
+   "dno_M": 10.13,
+   "float_at": 141.79,
+   "os_at": 151.92
+  }
+ ],
+ "ADUR": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1863934,
+   "conf": "high",
+   "control_M": 9.6559,
+   "control_holders": [
+    "Avshalom Ofer Vicus"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-08",
+   "dno_M": 1.4549,
+   "float_at": 17.799,
+   "os_at": 28.9097
+  }
+ ],
+ "AEHR": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1040470,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-07-22",
+   "dno_M": 1.853,
+   "float_at": 27.918,
+   "os_at": 29.771
+  }
+ ],
+ "AEVA": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1789029,
+   "conf": "high",
+   "control_M": 16.23,
+   "control_holders": [
+    "Entities affiliated with Sylebra Capital LTD (Sylebra Capital Management Ltd., Daniel Patrick Gibson, Sylebra Capital LLC)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-06",
+   "dno_M": 15.38,
+   "float_at": 23.38,
+   "os_at": 54.99
+  }
+ ],
+ "AGEN": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1098972,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-03",
+   "dno_M": 0.298,
+   "float_at": 27.12,
+   "os_at": 27.417
+  }
+ ],
+ "ALMU": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1828805,
+   "conf": "med",
+   "control_M": 0.977,
+   "control_holders": [
+    "Lee McCarthy"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-06-02",
+   "dno_M": 2.066,
+   "float_at": 12.752,
+   "os_at": 15.795
+  }
+ ],
+ "ANNA": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1845123,
+   "conf": "high",
+   "control_M": 37.13,
+   "control_holders": [
+    "Nautilus Resources LLC (C. John Wilder Jr. / Bluescape control SPV) - 30.48M Class A",
+    "John and Susan Wilder Foundation (Wilder-controlled) - 6.66M Class A"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-06-25",
+   "dno_M": 0,
+   "float_at": 3.53,
+   "os_at": 40.66
+  }
+ ],
+ "APLM": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1944885,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-07-09",
+   "dno_M": 0.1884,
+   "float_at": 0.9149,
+   "os_at": 1.1033
+  }
+ ],
+ "ARAI": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1818274,
+   "conf": "high",
+   "control_M": 1.9511,
+   "control_holders": [
+    "X Technology Fund Trust (trust for CEO Dan O'Toole's children Steve & Reese O'Toole)",
+    "O'Toole family members / Affiliates or Other Insiders (Stacia, Lois, Michelle, Bryce O'Toole)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-28",
+   "dno_M": 25.1166,
+   "float_at": 2.9105,
+   "os_at": 29.9782
+  }
+ ],
+ "ARBKL": [
+  {
+   "ads_ratio": 10,
+   "basis": "normal",
+   "cik": 1841675,
+   "conf": "med",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-07-11",
+   "dno_M": 0,
+   "float_at": 57.716,
+   "os_at": 577.156
+  }
+ ],
+ "ARQQ": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1859690,
+   "conf": "med",
+   "control_M": 6.147,
+   "control_holders": [
+    "Heritage Assets SCSp / Manfredi Lefebvre d'Ovidio (40.4% 13D control block, held via Senior Independent Director Manfredi)",
+    "D2BW Limited / David Williams / David Bestwick (founder SPV group, joint 13D with control intent)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-16",
+   "dno_M": 0.421,
+   "float_at": 6.18,
+   "os_at": 12.747
+  }
+ ],
+ "ASST": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1920406,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [
+    "Asset Entities Holdings, LLC (AEH)",
+    "Arshia Sarkhani",
+    "Kyle Fairbanks",
+    "Michael Gaubert",
+    "Arman Sarkhani",
+    "Matthew Krueger"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-08",
+   "dno_M": 0.3113,
+   "float_at": 13.1018,
+   "os_at": 13.4132
+  }
+ ],
+ "ATNF": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1690080,
+   "conf": "med",
+   "control_M": 4.32,
+   "control_holders": [
+    "Elray Resources Inc. (Anthony Brian Goodman, 13D, 47.8%)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-07-29",
+   "dno_M": 2.31,
+   "float_at": -0.59,
+   "os_at": 6.039
+  }
+ ],
+ "ATYR": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1339970,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-03",
+   "dno_M": 1.4,
+   "float_at": 87.604,
+   "os_at": 89.004
+  }
+ ],
+ "AUUD": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1554818,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-27",
+   "dno_M": 0.0051,
+   "float_at": 0.6153,
+   "os_at": 0.6204
+  }
+ ],
+ "AVTX": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1534120,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-07-17",
+   "dno_M": 0.336,
+   "float_at": 10.49,
+   "os_at": 10.828
+  }
+ ],
+ "BBGI": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1099160,
+   "conf": "high",
+   "control_M": 0.113,
+   "control_holders": [
+    "Beasley Family Towers, LLC",
+    "GGB Family Limited Partnership",
+    "GGB II Family Limited Partnership",
+    "GGB Family Enterprises, Inc."
+   ],
+   "depends_on": [],
+   "derived_day": "2025-06-20",
+   "dno_M": 0.151,
+   "float_at": 0.697,
+   "os_at": 0.961
+  }
+ ],
+ "BGLC": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1737523,
+   "conf": "high",
+   "control_M": 0.3948,
+   "control_holders": [
+    "Soo Kow Lai",
+    "Chan Chong Wong",
+    "Choong-Chin Liew"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-07-01",
+   "dno_M": 0.0013,
+   "float_at": 1.4005,
+   "os_at": 1.7966
+  }
+ ],
+ "BKKT": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1820302,
+   "conf": "high",
+   "control_M": 0.6499,
+   "control_holders": [
+    "Intercontinental Exchange Holdings, Inc."
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-13",
+   "dno_M": 0.3115,
+   "float_at": 5.7729,
+   "os_at": 6.7343
+  }
+ ],
+ "BMBL": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1830043,
+   "conf": "high",
+   "control_M": 30.116,
+   "control_holders": [
+    "Blackstone (BX Buzz ML-1 through ML-7 Holdco L.P. / Blackstone Funds)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-08",
+   "dno_M": 1.195,
+   "float_at": 71.919,
+   "os_at": 103.231
+  }
+ ],
+ "BMGL": [
+  {
+   "ads_ratio": 1,
+   "basis": "ipo",
+   "cik": 2004489,
+   "conf": "high",
+   "control_M": 10.1746,
+   "control_holders": [
+    "Rainforest Capital VCC (acting on behalf of sub-fund Basel Medical Fund; managed/controlled by AIP Investment Partners Pte. Ltd.)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-14",
+   "dno_M": 0.0294,
+   "float_at": 8.5818,
+   "os_at": 18.7858
+  }
+ ],
+ "BNGO": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1411690,
+   "conf": "med",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-05-14",
+   "dno_M": 0.002,
+   "float_at": 3.362,
+   "os_at": 3.364
+  }
+ ],
+ "DAIC": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 2033770,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-07-01",
+   "dno_M": 10.7579,
+   "float_at": 16.879,
+   "os_at": 27.6369
+  }
+ ],
+ "FOXX": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 2013807,
+   "conf": "med",
+   "control_M": 3.676,
+   "control_holders": [
+    "BRR Investment Holding Corp. (Lapistone Trust LLC / Durabilis Trust, 13D, 34%)",
+    "New Bay Capital Limited (Shi Liu, 13D, merger note-converter, locked-up, 10.3%)",
+    "BR Technologies Pte. Ltd. (Baoman Xu, 13D, merger note-converter, 9.8%)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-07-17",
+   "dno_M": 2.156,
+   "float_at": 0.948,
+   "os_at": 6.781
+  }
+ ],
+ "KALA": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1479419,
+   "conf": "med",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-03",
+   "dno_M": 0.2,
+   "float_at": 6.25,
+   "os_at": 6.45
+  }
+ ],
+ "LIMN": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1971387,
+   "conf": "high",
+   "control_M": 6.9,
+   "control_holders": [
+    "Iris Acquisition Holdings LLC (SPAC Sponsor)"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-06-04",
+   "dno_M": 6.1694,
+   "float_at": 12.9452,
+   "os_at": 26.0146
+  }
+ ],
+ "LIVE": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1045742,
+   "conf": "med",
+   "control_M": 0.279,
+   "control_holders": [
+    "Kingston Diversified Holdings, LLC"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-08",
+   "dno_M": 1.583,
+   "float_at": 1.214,
+   "os_at": 3.077
+  }
+ ],
+ "MARPS": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 62362,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-13",
+   "dno_M": 0,
+   "float_at": 2,
+   "os_at": 2
+  }
+ ],
+ "MTR": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 313364,
+   "conf": "high",
+   "control_M": 0,
+   "control_holders": [],
+   "depends_on": [],
+   "derived_day": "2025-06-13",
+   "dno_M": 0,
+   "float_at": 1.8636,
+   "os_at": 1.8636
+  }
+ ],
+ "NUKK": [
+  {
+   "ads_ratio": 1,
+   "basis": "normal",
+   "cik": 1787518,
+   "conf": "med",
+   "control_M": 0.671,
+   "control_holders": [
+    "Emil Assentato"
+   ],
+   "depends_on": [],
+   "derived_day": "2025-05-20",
+   "dno_M": 1.01,
+   "float_at": 3.35,
+   "os_at": 5.026
+  }
+ ]
 }

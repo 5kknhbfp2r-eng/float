@@ -38,13 +38,25 @@ OS_EVENT_FORMS = ["424B1", "424B2", "424B3", "424B4", "424B5", "424B7", "424B8"]
 
 
 def _load():
+    """Recipes are VERSIONED / append-only: {ticker: [recipe, ... sorted by derived_day]}. A re-derive
+    after a corporate event ADDS a version instead of overwriting, so every past (ticker, day) window
+    stays free-replayable on later re-runs (historical repeatability; costs zero LLM — just disk).
+    Auto-migrates the old {ticker: recipe} shape on read."""
     try:
-        return json.load(open(RECIPES_PATH, encoding="utf-8"))
+        raw = json.load(open(RECIPES_PATH, encoding="utf-8"))
     except Exception:
         return {}
+    return {t: (v if isinstance(v, list) else [v]) for t, v in raw.items()}
 
 
 RECIPES = _load()
+
+
+def _current(ticker, day):
+    """The recipe version valid as of `day` — the latest derived_day <= day (no lookahead). None if
+    no version was derived on/before `day`."""
+    vs = [r for r in RECIPES.get(ticker, []) if r.get("derived_day", "9999") <= day]
+    return max(vs, key=lambda r: r["derived_day"]) if vs else None
 
 
 def save_recipe(ticker, cik, basis, derived_day, os_at, float_at, control_M,
@@ -53,12 +65,18 @@ def save_recipe(ticker, cik, basis, derived_day, os_at, float_at, control_M,
     control affiliates). Replay carries BOTH in shares and re-fetches ONLY O/S — the labels hold
     the D&O block fixed between proxy filings (a new proxy trips proxy-changed -> re-judge), so
     re-deriving it deterministically only re-introduces the proxy's stale share basis (split bug).
-    control_holders = the excluded control entities (for finer staleness + the registry)."""
-    RECIPES[ticker] = {"cik": cik, "basis": basis, "ads_ratio": ads_ratio,
-                       "control_M": round(control_M, 4), "dno_M": round(dno_M, 4),
-                       "control_holders": control_holders or [],
-                       "os_at": round(os_at, 4), "float_at": round(float_at, 4),
-                       "derived_day": derived_day, "depends_on": depends_on or [], "conf": conf}
+    control_holders = the excluded control entities (for finer staleness + the registry).
+    APPEND-ONLY: adds a version keyed by derived_day (re-deriving the SAME day replaces it -> idempotent);
+    earlier versions are kept so historical re-runs replay free."""
+    rec = {"cik": cik, "basis": basis, "ads_ratio": ads_ratio,
+           "control_M": round(control_M, 4), "dno_M": round(dno_M, 4),
+           "control_holders": control_holders or [],
+           "os_at": round(os_at, 4), "float_at": round(float_at, 4),
+           "derived_day": derived_day, "depends_on": depends_on or [], "conf": conf}
+    vs = [r for r in RECIPES.get(ticker, []) if r.get("derived_day") != derived_day]  # replace same-day
+    vs.append(rec)
+    vs.sort(key=lambda r: r["derived_day"])
+    RECIPES[ticker] = vs
     json.dump(RECIPES, open(RECIPES_PATH, "w", encoding="utf-8"), indent=1, sort_keys=True)
 
 
@@ -66,7 +84,7 @@ def is_stale(ticker, day, cik=None):
     """True if an EXCLUSION-changing filing was filed after the recipe's derived_day (<= day) —
     a new 13D/13G (control set), proxy (D&O), or offering/8-K (structure). A plain periodic that
     only updates O/S is NOT stale (we re-fetch O/S). True -> re-derive with the LLM."""
-    r = RECIPES.get(ticker)
+    r = _current(ticker, day)
     if not r:
         return True
     cik = cik or r["cik"]
@@ -97,8 +115,9 @@ def _split_in_window(cik, derived_day, day, lookback=30):
 
 def replay(ticker, day, cik=None):
     """Deterministic float on a NEW day from the cached recipe (no LLM). Returns
-    (status, float_M): status in {ok, stale, no-recipe, no-os}. 'stale' -> hand to the LLM."""
-    r = RECIPES.get(ticker)
+    (status, float_M): status in {ok, stale, no-recipe, no-os}. 'stale' -> hand to the LLM.
+    Uses the recipe VERSION valid as of `day` (no lookahead)."""
+    r = _current(ticker, day)
     if not r:
         return ("no-recipe", None)
     cik = cik or r["cik"]
@@ -156,5 +175,5 @@ def replay(ticker, day, cik=None):
 
 if __name__ == "__main__":
     import sys
-    print(json.dumps(RECIPES.get(sys.argv[1], {}), indent=1) if len(sys.argv) > 1 else
-          f"{len(RECIPES)} recipes cached")
+    print(json.dumps(RECIPES.get(sys.argv[1], []), indent=1) if len(sys.argv) > 1 else
+          f"{len(RECIPES)} tickers / {sum(len(v) for v in RECIPES.values())} recipe versions cached")
