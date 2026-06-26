@@ -43,3 +43,6 @@ claude.txt
 
 # wave manifest (regenerable via emit_worklist)
 _emit_wave_manifest.json
+
+# raw workflow emit output (merged into _recipes_emitted.json)
+_wave_emitted_raw.json

@@ -1,8 +1,152 @@
 {
+ "accel growth associates": {
+  "cik": null,
+  "class": "passive",
+  "name": "Accel Growth Fund V Associates",
+  "source": "llm-recipe"
+ },
+ "adage l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "Adage Capital Partners, L.P.",
+  "source": "llm-recipe"
+ },
+ "affinity asset": {
+  "cik": null,
+  "class": "passive",
+  "name": "Affinity Asset Advisors, LLC",
+  "source": "llm-recipe"
+ },
+ "alpha intelligence enterprise": {
+  "cik": null,
+  "class": "passive",
+  "name": "Alpha Intelligence Enterprise",
+  "source": "llm-recipe"
+ },
+ "alyeska investment l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "Alyeska Investment Group, L.P.",
+  "source": "llm-recipe"
+ },
+ "ameriprise financial": {
+  "cik": null,
+  "class": "passive",
+  "name": "Ameriprise Financial, Inc.",
+  "source": "llm-recipe"
+ },
+ "amtrust financial services": {
+  "cik": null,
+  "class": "passive",
+  "name": "AmTrust Financial Services, Inc.",
+  "source": "llm-recipe"
+ },
+ "anson": {
+  "cik": null,
+  "class": "passive",
+  "name": "Anson Funds Management LP",
+  "source": "llm-recipe"
+ },
+ "antara": {
+  "cik": null,
+  "class": "passive",
+  "name": "Antara Capital LP",
+  "source": "llm-recipe"
+ },
+ "aqr": {
+  "cik": null,
+  "class": "passive",
+  "name": "AQR Capital Management, LLC (13G)",
+  "source": "llm-recipe"
+ },
+ "ark investment": {
+  "cik": null,
+  "class": "passive",
+  "name": "ARK Investment Management LLC",
+  "source": "llm-recipe"
+ },
+ "arman sarkhani": {
+  "cik": null,
+  "class": "control",
+  "name": "Arman Sarkhani",
+  "source": "llm-recipe"
+ },
+ "armistice": {
+  "cik": null,
+  "class": "passive",
+  "name": "Armistice Capital, LLC",
+  "source": "llm-recipe"
+ },
+ "arshia sarkhani": {
+  "cik": null,
+  "class": "control",
+  "name": "Arshia Sarkhani",
+  "source": "llm-recipe"
+ },
+ "asset entities aeh": {
+  "cik": null,
+  "class": "control",
+  "name": "Asset Entities Holdings, LLC (AEH)",
+  "source": "llm-recipe"
+ },
+ "avshalom ofer vicus": {
+  "cik": null,
+  "class": "control",
+  "name": "Avshalom Ofer Vicus",
+  "source": "llm-recipe"
+ },
+ "awm investment": {
+  "cik": null,
+  "class": "passive",
+  "name": "AWM Investment Company",
+  "source": "llm-recipe"
+ },
+ "ayrton": {
+  "cik": null,
+  "class": "passive",
+  "name": "Ayrton Capital LLC",
+  "source": "llm-recipe"
+ },
+ "baillie gifford": {
+  "cik": null,
+  "class": "passive",
+  "name": "BAILLIE GIFFORD & CO",
+  "source": "llm-recipe"
+ },
  "baker bros": {
   "cik": null,
   "class": "passive",
   "name": "Baker Bros. Advisors LP",
+  "source": "llm-recipe"
+ },
+ "beasley family towers": {
+  "cik": null,
+  "class": "control",
+  "name": "Beasley Family Towers, LLC",
+  "source": "llm-recipe"
+ },
+ "beck mack oliver": {
+  "cik": null,
+  "class": "passive",
+  "name": "Beck, Mack & Oliver LLC",
+  "source": "llm-recipe"
+ },
+ "blackrock": {
+  "cik": null,
+  "class": "passive",
+  "name": "BlackRock, Inc.",
+  "source": "llm-recipe"
+ },
+ "blackstone bx buzz ml- through ml- holdco l.p blackstone": {
+  "cik": null,
+  "class": "control",
+  "name": "Blackstone (BX Buzz ML-1 through ML-7 Ho",
+  "source": "llm-recipe"
+ },
+ "bnp paribas asset": {
+  "cik": null,
+  "class": "passive",
+  "name": "BNP Paribas Asset Management",
   "source": "llm-recipe"
  },
  "boothbay": {
@@ -11,10 +155,64 @@
   "name": "Boothbay Fund Management, ",
   "source": "13F-filer"
  },
+ "br technologies pte baoman xu merger note-converter": {
+  "cik": null,
+  "class": "control",
+  "name": "BR Technologies Pte. Ltd. (Baoman Xu, 13",
+  "source": "llm-recipe"
+ },
+ "brr investment lapistone durabilis": {
+  "cik": null,
+  "class": "control",
+  "name": "BRR Investment Holding Corp. (Lapistone ",
+  "source": "llm-recipe"
+ },
+ "bvf l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "BVF Partners, L.P.",
+  "source": "llm-recipe"
+ },
+ "bw david williams david bestwick founder spv joint with control intent": {
+  "cik": null,
+  "class": "control",
+  "name": "D2BW Limited / David Williams / David Be",
+  "source": "llm-recipe"
+ },
+ "canaan xi": {
+  "cik": null,
+  "class": "passive",
+  "name": "Canaan Partners XI LLC",
+  "source": "llm-recipe"
+ },
+ "chan chong wong": {
+  "cik": null,
+  "class": "control",
+  "name": "Chan Chong Wong",
+  "source": "llm-recipe"
+ },
  "checkpoint": {
   "cik": null,
   "class": "passive",
   "name": "Checkpoint Capital",
+  "source": "llm-recipe"
+ },
+ "choong-chin liew": {
+  "cik": null,
+  "class": "control",
+  "name": "Choong-Chin Liew",
+  "source": "llm-recipe"
+ },
+ "citadel": {
+  "cik": null,
+  "class": "passive",
+  "name": "Citadel Advisors LLC",
+  "source": "llm-recipe"
+ },
+ "collaborative": {
+  "cik": null,
+  "class": "passive",
+  "name": "Collaborative Holdings",
   "source": "llm-recipe"
  },
  "cormorant asset": {
@@ -23,10 +221,64 @@
   "name": "Cormorant Asset Management",
   "source": "llm-recipe"
  },
+ "cvi investments": {
+  "cik": null,
+  "class": "passive",
+  "name": "CVI Investments, Inc.",
+  "source": "llm-recipe"
+ },
+ "d e shaw l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "D. E. Shaw & Co., L.P.",
+  "source": "llm-recipe"
+ },
+ "davidson kempner": {
+  "cik": null,
+  "class": "passive",
+  "name": "Davidson Kempner Partners",
+  "source": "llm-recipe"
+ },
+ "deep track": {
+  "cik": null,
+  "class": "passive",
+  "name": "Deep Track Capital, LP",
+  "source": "llm-recipe"
+ },
+ "deep track l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "Deep Track Capital, L.P.",
+  "source": "llm-recipe"
+ },
+ "driehaus": {
+  "cik": null,
+  "class": "passive",
+  "name": "Driehaus Capital Management",
+  "source": "llm-recipe"
+ },
+ "elham nejad": {
+  "cik": null,
+  "class": "passive",
+  "name": "Elham Nejad",
+  "source": "llm-recipe"
+ },
+ "elray resources anthony brian goodman": {
+  "cik": null,
+  "class": "control",
+  "name": "Elray Resources Inc. (Anthony Brian Good",
+  "source": "llm-recipe"
+ },
  "emil assentato": {
   "cik": null,
   "class": "control",
   "name": "Emil Assentato",
+  "source": "llm-recipe"
+ },
+ "entities affiliated with sylebra sylebra daniel patrick gibson sylebra": {
+  "cik": null,
+  "class": "control",
+  "name": "Entities affiliated with Sylebra Capital",
   "source": "llm-recipe"
  },
  "esousa": {
@@ -35,10 +287,64 @@
   "name": "Esousa Group Holdings LLC",
   "source": "llm-recipe"
  },
+ "f.e.r fischer edelstahlrohre": {
+  "cik": null,
+  "class": "passive",
+  "name": "F.E.R. fischer Edelstahlrohre",
+  "source": "llm-recipe"
+ },
+ "farallon": {
+  "cik": null,
+  "class": "passive",
+  "name": "Farallon Capital Partners",
+  "source": "llm-recipe"
+ },
+ "federated hermes": {
+  "cik": null,
+  "class": "passive",
+  "name": "Federated Hermes, Inc.",
+  "source": "llm-recipe"
+ },
  "feis equities": {
   "cik": null,
   "class": "passive",
   "name": "Feis Equities LLC",
+  "source": "llm-recipe"
+ },
+ "fmr": {
+  "cik": null,
+  "class": "passive",
+  "name": "FMR LLC",
+  "source": "llm-recipe"
+ },
+ "funicular": {
+  "cik": null,
+  "class": "passive",
+  "name": "Funicular Funds, LP",
+  "source": "llm-recipe"
+ },
+ "gamco investors gabelli gamco asset teton": {
+  "cik": null,
+  "class": "passive",
+  "name": "GAMCO Investors, Inc. (Gabelli Funds, LL",
+  "source": "llm-recipe"
+ },
+ "ggb family": {
+  "cik": null,
+  "class": "control",
+  "name": "GGB Family Limited Partnership",
+  "source": "llm-recipe"
+ },
+ "ggb family enterprises": {
+  "cik": null,
+  "class": "control",
+  "name": "GGB Family Enterprises, Inc.",
+  "source": "llm-recipe"
+ },
+ "ggb ii family": {
+  "cik": null,
+  "class": "control",
+  "name": "GGB II Family Limited Partnership",
   "source": "llm-recipe"
  },
  "glazer": {
@@ -53,16 +359,106 @@
   "name": "The Goldman Sachs Group",
   "source": "llm-recipe"
  },
+ "heritage assets scsp manfredi lefebvre d'ovidio control block held via senior independent director manfredi": {
+  "cik": null,
+  "class": "control",
+  "name": "Heritage Assets SCSp / Manfredi Lefebvre",
+  "source": "llm-recipe"
+ },
+ "highbridge": {
+  "cik": null,
+  "class": "passive",
+  "name": "Highbridge Capital Management (13G)",
+  "source": "llm-recipe"
+ },
+ "horizon kinetics asset": {
+  "cik": null,
+  "class": "passive",
+  "name": "Horizon Kinetics Asset Management",
+  "source": "llm-recipe"
+ },
  "hudson bay": {
   "cik": null,
   "class": "passive",
   "name": "Hudson Bay Capital Management",
   "source": "llm-recipe"
  },
+ "hung-wen chen": {
+  "cik": null,
+  "class": "passive",
+  "name": "Hung-Wen Chen",
+  "source": "llm-recipe"
+ },
+ "ian jacobs": {
+  "cik": null,
+  "class": "passive",
+  "name": "Ian Jacobs",
+  "source": "llm-recipe"
+ },
+ "ikarian": {
+  "cik": null,
+  "class": "passive",
+  "name": "Ikarian Capital, LLC",
+  "source": "llm-recipe"
+ },
  "integrated core strategies": {
   "cik": null,
   "class": "passive",
   "name": "Integrated Core Strategies",
+  "source": "llm-recipe"
+ },
+ "intercontinental exchange": {
+  "cik": null,
+  "class": "control",
+  "name": "Intercontinental Exchange Holdings, Inc.",
+  "source": "llm-recipe"
+ },
+ "invesco": {
+  "cik": null,
+  "class": "passive",
+  "name": "Invesco Ltd",
+  "source": "llm-recipe"
+ },
+ "invus public equities l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "Invus Public Equities, L.P.",
+  "source": "llm-recipe"
+ },
+ "iris acquisition spac sponsor": {
+  "cik": null,
+  "class": "control",
+  "name": "Iris Acquisition Holdings LLC (SPAC Spon",
+  "source": "llm-recipe"
+ },
+ "j.p morgan securities": {
+  "cik": null,
+  "class": "passive",
+  "name": "J.P. Morgan Securities LLC",
+  "source": "llm-recipe"
+ },
+ "james besser manchester": {
+  "cik": null,
+  "class": "passive",
+  "name": "James Besser / Manchester Management Com",
+  "source": "llm-recipe"
+ },
+ "jennifer joan fairbanks": {
+  "cik": null,
+  "class": "passive",
+  "name": "Jennifer Joan Fairbanks",
+  "source": "llm-recipe"
+ },
+ "john susan wilder foundation wilder-controlled class": {
+  "cik": null,
+  "class": "control",
+  "name": "John and Susan Wilder Foundation (Wilder",
+  "source": "llm-recipe"
+ },
+ "jpmorgan chase": {
+  "cik": null,
+  "class": "passive",
+  "name": "JPMorgan Chase & Co.",
   "source": "llm-recipe"
  },
  "karpus investment": {
@@ -77,22 +473,106 @@
   "name": "Kingston Diversified Holdings, LLC",
   "source": "llm-recipe"
  },
+ "kyle fairbanks": {
+  "cik": null,
+  "class": "control",
+  "name": "Kyle Fairbanks",
+  "source": "llm-recipe"
+ },
+ "laurence w lytton": {
+  "cik": null,
+  "class": "passive",
+  "name": "Laurence W. Lytton",
+  "source": "llm-recipe"
+ },
+ "lee mccarthy": {
+  "cik": null,
+  "class": "control",
+  "name": "Lee McCarthy",
+  "source": "llm-recipe"
+ },
+ "liberum wealth passive": {
+  "cik": null,
+  "class": "passive",
+  "name": "Liberum Wealth Limited (13G passive)",
+  "source": "llm-recipe"
+ },
+ "lmr multi-strategy master lmr llp": {
+  "cik": null,
+  "class": "passive",
+  "name": "LMR Multi-Strategy Master Fund / LMR Par",
+  "source": "llm-recipe"
+ },
+ "logos global": {
+  "cik": null,
+  "class": "passive",
+  "name": "Logos Global Management LP",
+  "source": "llm-recipe"
+ },
  "longitude": {
   "cik": null,
   "class": "passive",
   "name": "Longitude Capital Partners",
   "source": "llm-recipe"
  },
+ "lucas": {
+  "cik": null,
+  "class": "passive",
+  "name": "Lucas Capital Management LLC",
+  "source": "llm-recipe"
+ },
+ "lux ventures iv l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "Lux Ventures IV, L.P.",
+  "source": "llm-recipe"
+ },
+ "mark n tompkins": {
+  "cik": null,
+  "class": "passive",
+  "name": "Mark N. Tompkins",
+  "source": "llm-recipe"
+ },
+ "matrix": {
+  "cik": null,
+  "class": "passive",
+  "name": "Matrix Capital Management",
+  "source": "llm-recipe"
+ },
+ "matthew krueger": {
+  "cik": null,
+  "class": "control",
+  "name": "Matthew Krueger",
+  "source": "llm-recipe"
+ },
+ "maxpro investment": {
+  "cik": null,
+  "class": "passive",
+  "name": "Maxpro Investment Co., Ltd",
+  "source": "llm-recipe"
+ },
  "meteora": {
-  "cik": 1905106,
+  "cik": null,
   "class": "passive",
   "name": "Meteora Capital, LLC",
-  "source": "13F-filer"
+  "source": "llm-recipe"
+ },
+ "michael gaubert": {
+  "cik": null,
+  "class": "control",
+  "name": "Michael Gaubert",
+  "source": "llm-recipe"
  },
  "millennium": {
   "cik": null,
   "class": "passive",
   "name": "Millennium Management LLC",
+  "source": "llm-recipe"
+ },
+ "mitchell p kopin": {
+  "cik": null,
+  "class": "passive",
+  "name": "Mitchell P. Kopin",
   "source": "llm-recipe"
  },
  "mizuho financial": {
@@ -101,10 +581,196 @@
   "name": "Mizuho Financial Group",
   "source": "llm-recipe"
  },
+ "nautilus resources c john wilder jr bluescape control spv class": {
+  "cik": null,
+  "class": "control",
+  "name": "Nautilus Resources LLC (C. John Wilder J",
+  "source": "llm-recipe"
+ },
+ "new bay shi liu merger note-converter locked-up": {
+  "cik": null,
+  "class": "control",
+  "name": "New Bay Capital Limited (Shi Liu, 13D, m",
+  "source": "llm-recipe"
+ },
+ "nikko asset americas": {
+  "cik": null,
+  "class": "passive",
+  "name": "Nikko Asset Management Americas",
+  "source": "llm-recipe"
+ },
+ "o'toole family members affiliates or other insiders stacia lois michelle bryce o'toole": {
+  "cik": null,
+  "class": "control",
+  "name": "O'Toole family members / Affiliates or O",
+  "source": "llm-recipe"
+ },
+ "orbimed": {
+  "cik": null,
+  "class": "passive",
+  "name": "OrbiMed Advisors, LLC",
+  "source": "llm-recipe"
+ },
+ "patricia martin": {
+  "cik": null,
+  "class": "passive",
+  "name": "Patricia Martin",
+  "source": "llm-recipe"
+ },
+ "patrick j crutcher": {
+  "cik": null,
+  "class": "passive",
+  "name": "Patrick J. Crutcher",
+  "source": "llm-recipe"
+ },
+ "point asset": {
+  "cik": null,
+  "class": "passive",
+  "name": "Point72 Asset Management",
+  "source": "llm-recipe"
+ },
+ "point asset l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "Point72 Asset Management, L.P.",
+  "source": "llm-recipe"
+ },
+ "polar asset": {
+  "cik": null,
+  "class": "passive",
+  "name": "Polar Asset Management Partners",
+  "source": "llm-recipe"
+ },
+ "ra l.p": {
+  "cik": null,
+  "class": "passive",
+  "name": "RA Capital Management, L.P.",
+  "source": "llm-recipe"
+ },
+ "rainforest vcc acting on behalf sub-fund basel medical managed controlled by aip investment pte": {
+  "cik": null,
+  "class": "control",
+  "name": "Rainforest Capital VCC (acting on behalf",
+  "source": "llm-recipe"
+ },
+ "robert h paslay": {
+  "cik": null,
+  "class": "passive",
+  "name": "Robert H. Paslay",
+  "source": "llm-recipe"
+ },
+ "ropemaker nominees notion managers llp rule-of-three no individual control": {
+  "cik": null,
+  "class": "passive",
+  "name": "Ropemaker Nominees Limited / Notion Capi",
+  "source": "llm-recipe"
+ },
+ "rubric": {
+  "cik": null,
+  "class": "passive",
+  "name": "Rubric Capital Management LP",
+  "source": "llm-recipe"
+ },
+ "sandia investment": {
+  "cik": null,
+  "class": "passive",
+  "name": "Sandia Investment Management",
+  "source": "llm-recipe"
+ },
+ "shaolin": {
+  "cik": null,
+  "class": "passive",
+  "name": "Shaolin Capital Management",
+  "source": "llm-recipe"
+ },
+ "sir marc feldmann": {
+  "cik": null,
+  "class": "passive",
+  "name": "Sir Marc Feldmann",
+  "source": "llm-recipe"
+ },
+ "solas": {
+  "cik": null,
+  "class": "passive",
+  "name": "Solas Capital Management, LLC",
+  "source": "llm-recipe"
+ },
+ "soo kow lai": {
+  "cik": null,
+  "class": "control",
+  "name": "Soo Kow Lai",
+  "source": "llm-recipe"
+ },
  "sr one ii": {
   "cik": null,
   "class": "passive",
   "name": "SR One Capital Fund II",
+  "source": "llm-recipe"
+ },
+ "state street": {
+  "cik": null,
+  "class": "passive",
+  "name": "State Street Corporation",
+  "source": "llm-recipe"
+ },
+ "stephen f lappert": {
+  "cik": null,
+  "class": "passive",
+  "name": "Stephen F. Lappert",
+  "source": "llm-recipe"
+ },
+ "stonepine": {
+  "cik": null,
+  "class": "passive",
+  "name": "Stonepine Capital Management",
+  "source": "llm-recipe"
+ },
+ "streeterville sc filed passive": {
+  "cik": null,
+  "class": "passive",
+  "name": "Streeterville Capital LLC (SC 13G filed ",
+  "source": "llm-recipe"
+ },
+ "sumitomo mitsui": {
+  "cik": null,
+  "class": "passive",
+  "name": "Sumitomo Mitsui Trust Group",
+  "source": "llm-recipe"
+ },
+ "swiftmerge": {
+  "cik": null,
+  "class": "passive",
+  "name": "Swiftmerge Holdings, LP",
+  "source": "llm-recipe"
+ },
+ "technology for ceo dan o'toole's children steve reese o'toole": {
+  "cik": null,
+  "class": "control",
+  "name": "X Technology Fund Trust (trust for CEO D",
+  "source": "llm-recipe"
+ },
+ "tiger brokers nz": {
+  "cik": null,
+  "class": "passive",
+  "name": "Tiger Brokers (NZ) Limited",
+  "source": "llm-recipe"
+ },
+ "vanguard": {
+  "cik": null,
+  "class": "passive",
+  "name": "The Vanguard Group",
+  "source": "llm-recipe"
+ },
+ "venrock healthcare": {
+  "cik": null,
+  "class": "passive",
+  "name": "Venrock Healthcare Capital",
+  "source": "llm-recipe"
+ },
+ "viking global investors": {
+  "cik": null,
+  "class": "passive",
+  "name": "Viking Global Investors LP",
   "source": "llm-recipe"
  },
  "wealthspring": {
@@ -113,10 +779,34 @@
   "name": "Wealthspring Capital LLC",
   "source": "13F-filer"
  },
+ "wellington": {
+  "cik": null,
+  "class": "passive",
+  "name": "Wellington Management Group",
+  "source": "llm-recipe"
+ },
+ "wells fargo": {
+  "cik": null,
+  "class": "passive",
+  "name": "Wells Fargo & Company",
+  "source": "llm-recipe"
+ },
+ "white lion": {
+  "cik": null,
+  "class": "passive",
+  "name": "White Lion Capital, LLC",
+  "source": "llm-recipe"
+ },
  "wolverine asset": {
   "cik": 1279891,
   "class": "passive",
   "name": "Wolverine Asset Management",
   "source": "13F-filer"
+ },
+ "yong rong": {
+  "cik": null,
+  "class": "passive",
+  "name": "Yong Rong",
+  "source": "llm-recipe"
  }
 }
