@@ -62,18 +62,33 @@ def xbrl_os(cik, asof):
 
 # ----------------------------------------------------------------------------- regex O/S leg (reuse engine)
 _NUM = re.compile(r"[\d,]{6,}")
+_OUT_RE = re.compile(r"([\d,]{6,})(?:\s+[A-Za-z.]+){0,6}?\s+outstanding", re.I)
+
+
+def _os_num(c):
+    """(F35) A candidate string can read 'N shares authorized; M issued and outstanding' — taking the
+    first/max number keeps the AUTHORIZED count (a false +osdisagree DEFER vs the correct XBRL). Prefer
+    the number bound to 'outstanding'; else drop any number immediately followed by 'authorized' and
+    take the max of the rest."""
+    mo = _OUT_RE.search(c)
+    if mo:
+        return int(mo.group(1).replace(",", ""))
+    best = None
+    for m in re.finditer(r"[\d,]{6,}", c):
+        if re.match(r"\s*(?:shares?\s+)?(?:of\s+\S+\s+)?authoriz", c[m.end():m.end() + 30], re.I):
+            continue                                       # 'N shares ... authorized' -> not outstanding
+        v = int(m.group(0).replace(",", ""))
+        best = v if best is None or v > best else best
+    return best
 
 
 def regex_os(cik, asof):
-    """Max cover-page O/S candidate from the latest periodic <= asof (engine's _current_os)."""
+    """Cover-page O/S candidate from the latest periodic <= asof (engine's _current_os), preferring the
+    'outstanding' count over an 'authorized' cap (F35)."""
     cur = fg._current_os(cik, asof)
     if not cur:
         return None
-    nums = []
-    for c in cur[2]:
-        m = _NUM.search(c)
-        if m:
-            nums.append(int(m.group(0).replace(",", "")))
+    nums = [v for c in cur[2] if (v := _os_num(c)) is not None]
     if not nums:
         return None
     return {"val_M": max(nums) / 1e6, "form": cur[0], "filed": cur[1], "n": len(nums)}
@@ -315,6 +330,9 @@ def full(ticker, asof, cik=None):
         if r and r < 1 and abs(rat * r - 1) <= 0.4:
             basis, factor = iosb / 1e6, rat
             conf += "+ads"
+    elif ge and iosb is None:
+        conf += "+nosplitbasis"      # (F32) no proxy %-basis -> can't verify a reverse-split rescale of
+        #                              the pre-split D&O block against the post-split O/S -> abstain
     if conf == "item7":
         strat = 0.0
     elif strat_pre is not None:
@@ -386,8 +404,8 @@ def compressed_dossier(ticker, asof, cik=None):
 # ----------------------------------------------------------------------------- L7: abstention rule
 # Single canonical definition of "trust the deterministic float" — used by the benchmark AND the
 # future LLM router. Accuracy is preserved by abstaining on EVERY uncertain signal -> the LLM.
-ABSTAIN_TOKENS = ("multiclass", "nogroup", "misparse", "nil-group", "item7", "spac",
-                  "scaled", "ads", "addrisk", "osdisagree", "stale")
+ABSTAIN_TOKENS = ("multiclass", "nogroup", "misparse", "nil-group", "item7", "spac", "ipo",
+                  "scaled", "ads", "addrisk", "osdisagree", "stale", "nosplitbasis")
 
 
 def is_confident(d):
