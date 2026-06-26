@@ -63,14 +63,10 @@ def main():
                 rec["relerr"] = round(abs(fd - fl) / fl, 4) if fl else ""
                 rec["os_relerr"] = round(abs(fd - fl) / d["os"], 4) if d["os"] else ""
                 rec["gate_match"] = (fd < 20) == (fl < 20)
-                # L7: ABSTAIN when uncertain -> route to the LLM (accuracy preserved).
-                # NB 'noderiv' (no options to subtract) is NOT uncertainty -> stays confident.
-                # SPAC redeemable / scaled / ADS / multiclass / nogroup bases ARE uncertain.
-                unc = (any(k in d["conf"] for k in ("multiclass", "nogroup", "misparse",
-                                                    "nil-group", "spac", "scaled", "ads"))
-                       or d["os_src"] != "xbrl" or d.get("xbrl_n") not in ("", 1, None)
-                       or fd <= 0 or fd > d["os"] * 1.01)
-                rec["confident"] = not unc
+                # (F23) measure EXACTLY the production gate — call the canonical is_confident rather
+                # than a drifting inline copy of ABSTAIN_TOKENS (the inline list omitted item7/addrisk/
+                # osdisagree/stale, counting catastrophic-error names as confident).
+                rec["confident"] = D.is_confident(d)
         except Exception as e:
             rec["cls"] = f"ERR:{type(e).__name__}"
         out.append(rec)
@@ -105,14 +101,14 @@ def main():
 
     # ---- L7 reframe: the REAL cost/accuracy metric = coverage x accuracy-on-confident ----
     conf = [r for r in out if r["confident"] is True]
-    cb = [r for r in conf if r["os_relerr"] != "" and r["os_relerr"] <= 0.05]
+    cb = [r for r in conf if r["relerr"] != "" and r["relerr"] <= 0.05]   # (F14) FLOAT denominator, not O/S
     cg = [r for r in conf if r["gate_match"] is True]
     abst = N - len(conf)                                   # abstained -> routed to the LLM
     print(f"\n=== COVERAGE x ACCURACY (the real cost/accuracy metric) ===")
     print(f"  confident coverage : {len(conf)}/{N} ({100*len(conf)//N}%)  -> deterministic, ~$0")
     print(f"  abstained -> LLM   : {abst}/{N} ({100*abst//N}%)  -> the per-name LLM cost")
     if conf:
-        print(f"  accuracy ON confident: O/S≤5% {len(cb)}/{len(conf)} ({100*len(cb)//len(conf)}%)  "
+        print(f"  accuracy ON confident: float≤5% {len(cb)}/{len(conf)} ({100*len(cb)//len(conf)}%)  "
               f"| gate {len(cg)}/{len(conf)} ({100*len(cg)//len(conf)}%)")
     # failure census
     cens = {}

@@ -40,7 +40,7 @@ for e in emitted:
             continue
         st, fv = RC.replay(t, d, cik)
         if st == "ok":
-            err = abs(fv - fl) / os_ if os_ else None
+            err = abs(fv - fl) / fl if fl else None         # (F24) FLOAT-relative accuracy, not O/S
             free += 1; match += (err is not None and err <= 0.05)
             print(f"   {d}  REPLAY(free) float={fv:.2f} label={fl:.2f}  err={err*100:.1f}%" if err is not None
                   else f"   {d}  REPLAY(free) float={fv:.2f}")
