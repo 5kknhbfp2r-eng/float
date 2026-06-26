@@ -165,6 +165,29 @@ validated. **Full detail + the lever ledger + the target architecture are in `CO
 **★ SUMMARY & TARGET ARCHITECTURE ★** block at the very end is the entry point — sections above it are out
 of strict numeric order from incremental edits).
 
+> **▶▶ RESUME HERE (next session) — 2 steps: warm the cache, then test cost on 1 OOS month.**
+> The system is PROVEN and the benchmark is QC'd clean (see the QC bullet below). State now: ~90% within-10%
+> accuracy, never confidently wrong; ~$300–600/yr (~2× above the ~$200–300 floor). Closing the cost gap =
+> warming the cache at scale, then measuring the real steady-state cost on out-of-sample data.
+>
+> **STEP 1 — Warm the production cache (full 236 multi-day tickers).** `cd engine && python emit_worklist.py`
+> → `_emit_worklist.json` (236 tickers + earliest day + cik). Put the full 236 `{t,a}` list into
+> `workflows/recipe_emit_wave.js` ITEMS (currently the 30-wave; it's already 6-at-a-time + resume-safe), run it
+> via the Workflow tool (needs user opt-in — Max spend ~8–10M tokens; resume via `resumeFromRunId` if cut off).
+> Then `python merge_emitted.py` (folds → `_recipes_emitted.json`) → `python validate_recipes.py` (replays +
+> scores + warms `holder_registry.json` to several hundred entities). Output: warmed `recipes.json` (versioned)
+> + `holder_registry.json` = the production cache.
+>
+> **STEP 2 — OOS cost test (1 month, e.g. 2025-09).** Get a month of scanner hits AFTER 2025-08-29 as a
+> `_oos_candidates.csv` (cols `ticker,date`). The scanner (up>18%/day, RVOL≥2.7, $3.50–20) lives in the SIBLING
+> repo `claudebacktest_init2-2.4` (READ-ONLY — never edit it) — re-run it for Sept, or hand-pick a month. Then
+> `cd engine && python oos_cost.py ../_oos_candidates.csv` — runs `recipe_cache.replay` FIRST (free on a warmed
+> recipe), tallies free-vs-needs-LLM = the REAL blended cost (the IS numbers were self-referential since IS
+> warmed its own cache). NEW OOS tickers miss the recipe cache but the holder REGISTRY still cuts their LLM
+> cost; recurring momentum names hit the recipe cache. Extrapolate $/yr, compare to the ~$300–600 IS estimate.
+> (Cost-only test — no OOS labels needed; if labels exist later, score accuracy too.)
+> Harness ready: `engine/{emit_worklist,merge_emitted,validate_recipes,oos_cost}.py` + `workflows/recipe_emit_wave.js`.
+
 **Key outcomes (so a fresh session has the bottom line):**
 - **Deterministic engine built** (`engine/det_float.py`): XBRL O/S (`dei:EntityCommonStockSharesOutstanding`,
   point-in-time) + the reused `_widen_probe`/`_formula_probe` exclusion machinery + a 13D/13G form-type leg +
