@@ -40,6 +40,12 @@ STRUCT_FORMS = ["SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SCHEDULE 13D", "SCH
 # the post-event share base. Reverse splits land in 8-K (too noisy to blanket-trigger); the 424B
 # offering-close is the clean, targeted signal and is what actually moves O/S in this universe.
 OS_EVENT_FORMS = ["424B1", "424B2", "424B3", "424B4", "424B5", "424B7", "424B8"]
+# (F28) For a heavily-controlled recipe the carried D&O+control block dominates, so a single insider
+# Form 3/4/5 (a grant/sale the fixed block can't see) moves the float materially in FLOAT-relative
+# terms while the proxy is unchanged. Below this float/os ratio, defer such names to the LLM on any
+# insider filing in the window. Tunable: raise to guard more controlled names, set 0 to disable.
+LOWFLOAT_FRAC = 0.12
+INSIDER_FORMS = ["3", "4", "5", "3/A", "4/A", "5/A"]
 
 
 def _load():
@@ -214,6 +220,13 @@ def replay(ticker, day, cik=None):
         return ("proxy-changed", None)                    # new D&O source -> re-judge with the LLM
     if _split_in_window(cik, r["derived_day"], day):
         return ("split", None)                            # reverse split mid-recipe (XBRL lags) -> LLM
+    # (F28) heavily-controlled recipe: the carried D&O+control block is most of the O/S, so an insider
+    # transaction the fixed block can't see moves the float materially in float-relative terms. Defer on
+    # any Form 3/4/5 after the recipe (cheap metadata query; only ever defers, never a wrong float).
+    if LOWFLOAT_FRAC and r["os_at"] and r["float_at"] <= LOWFLOAT_FRAC * r["os_at"]:
+        for f in edgar.query(cik, INSIDER_FORMS, day, size=40):
+            if r["derived_day"] < f["filedAt"][:10] <= day:
+                return ("insider-drift", None)
     # UNIT CONVENTION: os_/os_at are native XBRL units (ordinary shares for an ADS name); ads_ratio
     # converts to the listed class; dno_M/control_M are carried in LISTED units; so the float below is
     # in listed units (save_recipe asserts float_at matches this identity at warm time — F17/F29).
