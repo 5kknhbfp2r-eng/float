@@ -46,3 +46,6 @@ _emit_wave_manifest.json
 
 # raw workflow emit output (merged into _recipes_emitted.json)
 _wave_emitted_raw.json
+
+# label-QC raw verdicts (regenerable from the workflow output)
+_labelqc_raw.json
