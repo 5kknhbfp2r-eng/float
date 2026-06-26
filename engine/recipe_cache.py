@@ -27,7 +27,8 @@ _RS_RATIO = re.compile(r"\b(?:1[-\s]?for[-\s]?\d{1,3}|\d{1,3}[-\s]?for[-\s]?1|1[
 RECIPES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes.json")
 # filings that change the EXCLUSION STRUCTURE (control set / D&O). A new 13D/13G/proxy => re-judge.
 STRUCT_FORMS = ["SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SCHEDULE 13D", "SCHEDULE 13G",
-                "SCHEDULE 13D/A", "SCHEDULE 13G/A", "DEF 14A", "DEFM14A", "DEFM14C"]
+                "SCHEDULE 13D/A", "SCHEDULE 13G/A", "DEF 14A", "DEFM14A", "DEFM14C",
+                "DEFR14A", "DEFA14A", "PRER14A"]   # revised/additional proxies also update D&O
 # O/S-EVENT forms: an offering/takedown CLOSES here and the XBRL O/S fact LAGS it (only refreshes at
 # the next 10-Q/10-K), so a deterministic O/S re-fetch would be STALE (the AGEN/HUSA failure mode in
 # the IS sim — frozen XBRL while a 424B issued shares). Treat as an event that needs the LLM to read
