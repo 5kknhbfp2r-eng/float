@@ -4,7 +4,9 @@
 The expensive LLM judgment is "is this holder a control affiliate (exclude) or passive (keep)?"
 That judgment is about a STABLE ENTITY, reusable across every stock it appears in -> classify ONCE,
 cache forever. Three free/structured sources before the LLM:
-  1. registry  — already-classified entity (cached, keyed on CIK when known else normalized name).
+  1. registry  — already-classified entity (cached, keyed on a normalized name token-set; the entity's
+     CIK is stored for reference). Over-stripped single-token names (e.g. 'soros','ra') are routed to
+     judge and never auto-cached, so two distinct entities can't collide to one auto-passive verdict.
   2. keep-list — the recurring passive complex (index funds + biotech-specialist passives, from §8.1).
   3. 13F-filer — a registered 13F-HR manager that filed a 13G is passive by construction (the §8.3
      generalization: backs the keep-list with the whole institutional universe, for free).
@@ -18,16 +20,21 @@ UA = edgar.UA
 REG_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "holder_registry.json")
 F13_CACHE = os.path.join(ff.DATA, "_cache", "_13f_lookup.json")   # gitignored EDGAR-lookup cache
 
-# the recurring passive complex (§8.1): index/quant + biotech-specialist passives that show up everywhere
+# the recurring passive complex (§8.1): index/quant + biotech-specialist passives that show up everywhere.
+# (F19) the riskiest generic single-word tokens are anchored to the full MANAGER-name form so an unrelated
+# control holdco/operating co ('Citadel Broadcasting', 'Vivo Energy', 'Adage Inc', 'Wellington Shire
+# Council', 'Alyeska Pipeline') is NOT auto-passed; distinctive multi-word patterns are left as-is.
 KEEPLIST = [r"black\s*rock", r"vanguard", r"state\s*street", r"\bfmr\b|fidelity", r"geode",
             r"dimensional|\bdfa\b", r"invesco", r"northern\s*trust", r"t\.?\s*rowe", r"\bssga\b",
             r"charles\s*schwab|\bschwab\b", r"morgan\s*stanley", r"goldman\s*sachs", r"jpmorgan|j\.?p\.?\s*morgan",
-            r"bank\s+of\s+america", r"wellington", r"nuveen|tiaa", r"\bbny\b|mellon", r"capital\s+(world|research|group)",
-            r"susquehanna", r"renaissance\s+tech", r"two\s*sigma", r"d\.?\s*e\.?\s*shaw", r"millennium\s+management",
-            r"citadel", r"point\s*72", r"jane\s*street",
+            r"bank\s+of\s+america", r"wellington\s+(management|group|trust)", r"nuveen|tiaa", r"\bbny\b|mellon",
+            r"capital\s+(world|research|group)", r"susquehanna", r"renaissance\s+tech", r"two\s*sigma",
+            r"d\.?\s*e\.?\s*shaw", r"millennium\s+management", r"citadel\s+(advisors|advisers|securities|enterprise|gp)",
+            r"point\s*72", r"jane\s*street",
             # biotech-specialist passives recurring in this universe (§8.1 second tier)
-            r"baker\s+bro", r"\bra\s+capital", r"deep\s*track", r"\bbvf\b", r"perceptive", r"cormorant",
-            r"\bvivo\b", r"soleus", r"venrock", r"adage", r"alyeska", r"wellington"]
+            r"baker\s+bro", r"\bra\s+capital", r"deep\s*track", r"\bbvf\b", r"perceptive\s+(advisors|life)",
+            r"cormorant", r"vivo\s+(capital|opportunity)", r"soleus\s+capital", r"venrock",
+            r"adage\s+capital", r"alyeska\s+investment"]
 
 
 def norm(name):
@@ -65,14 +72,28 @@ def keeplist_passive(name):
     return any(re.search(p, name, re.I) for p in KEEPLIST)
 
 
+# (F03) only an INSTITUTIONAL-MANAGER-looking name is eligible for a 13F auto-passive. A bare personal
+# name ('George Soros') or a family/estate/trust/holdco vehicle is a control-affiliate risk -> route to
+# the LLM (judge) instead of trusting a 13F-HR presence on a shared/eponymous CIK.
+_INSTY = re.compile(r"\b(?:llc|l\.l\.c|lp|l\.p|inc|incorporated|corp|corporation|company|co|plc|capital|"
+                    r"management|mgmt|partners?|advis(?:e|o)rs?|asset|investments?|fund|funds|securities|"
+                    r"group|holdings?|associates|ventures?|bank|advisory|sicav|gmbh)\b", re.I)
+_FAMILY_HOLDCO = re.compile(r"\b(?:family|estate|revocable|grantor|foundation|trust)\b", re.I)
+
+
 def lookup_13f(name):
     """Is `name` itself a registered 13F-HR filer (institutional manager => passive on a 13G)?
     -> (is_13f, cik). Cached. Uses EDGAR full-text search of 13F-HR filings and requires the
     matched FILER's name to share a distinctive token with the holder — so a 13F manager that
     merely HOLDS a Hatsopoulos-linked stock does NOT make 'Hatsopoulos' a 13F filer."""
     k = norm(name)
-    if not k:
+    # (F03/F08) a single distinctive token ('soros', 'ra', 'anson') is too weak to trust for a 13F
+    # auto-passive — it collides with unrelated filers and would falsely KEEP a control holder. Require
+    # >=2 tokens and route the rest to the LLM (judge), never auto-cache them.
+    if len(k.split()) < 2:
         return (False, None)
+    if not _INSTY.search(name) or _FAMILY_HOLDCO.search(name):
+        return (False, None)                               # (F03) not an institutional-manager name -> judge
     if k in _F13:
         v = _F13[k]
         return (v["is_13f"], v["cik"])
@@ -88,7 +109,9 @@ def lookup_13f(name):
         for h in hits:
             src = h.get("_source", {})
             for j, dn in enumerate(src.get("display_names", [])):
-                if set(norm(dn).split()) >= ktok or (set(norm(dn).split()) & ktok and len(ktok) >= 2):
+                # (F03) the holder's FULL token set must be a SUBSET of the filer's name — so 'George
+                # Soros' ({george,soros}) does NOT match the filer 'Soros Fund Management' ({soros}).
+                if set(norm(dn).split()) >= ktok:
                     cks = src.get("ciks", [])
                     if cks:
                         try:
@@ -110,13 +133,20 @@ def classify(name, form_type=None, use_edgar=True):
     then call set_class() to cache the verdict. form_type 13D leans control / 13G leans passive,
     but is only a hint (per the MTR lesson: a passive adviser can file 13D)."""
     k = norm(name)
+    is13d = bool(form_type and "13D" in form_type.upper())
     if k in REGISTRY:
-        return (REGISTRY[k]["class"], "registry")          # cached LLM/manual verdict wins
-    if form_type and "13D" in form_type.upper():
+        e = REGISTRY[k]
+        # (F05/F39) a HEURISTIC passive (13F-filer / keeplist auto) must NOT override a fresh 13D active
+        # stake — re-judge it (the MTR/CFSB/RILYT lesson). A deliberate llm/manual set_class verdict is
+        # a reviewed judgment and still wins; cached 'control'/'judge' also return from the registry.
+        if is13d and e.get("class") == "passive" and e.get("source") in ("13F-filer", "keeplist"):
+            return ("judge", "13D-active")
+        return (e["class"], "registry")
+    if is13d:
         return ("judge", "13D-active")                     # active stake -> never auto-passive (MTR/CFSB/RILYT)
     if keeplist_passive(name):
         return ("passive", "keeplist")
-    if use_edgar:
+    if use_edgar and len(k.split()) >= 2:                  # (F08) over-stripped single-token names -> judge
         is13f, cik = lookup_13f(name)
         if is13f:
             REGISTRY[k] = {"name": name[:40], "cik": cik, "class": "passive", "source": "13F-filer"}
