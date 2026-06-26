@@ -284,12 +284,31 @@ of strict numeric order from incremental edits).
   basis), ARBKL (ADS ratio 10 vs implied ~8), BMGL (control-SPV size). Re-run: `python merge_emitted.py`
   (from `_wave_emitted_raw.json`) then `python validate_recipes.py`. **The 30-ticker wave PROVES the system;
   the full 236 is the production cache-warming step (one-time, amortizing), NOT required for proof.**
+- **§16 BENCHMARK QC + O/S AUDIT (2026-06-26, commits `a3f67ae`, `032fc64`, audit commit).** Resolved the 7
+  wave disputes via `workflows/label_qc.js` (investigate + adversarial verify, 14 agents) — BUT independent
+  spot-checking (reading primary filings myself) **overturned the agents on 4 of 7.** ⚠ **Key reliability
+  lesson: two SAME-MODEL adversarial agents share blind spots — their unanimous high-confidence verdicts are a
+  SIGNAL, not ground truth for benchmark edits; an independent tool/human check is mandatory.** Outcome:
+  **3 real label errors CORRECTED** in `float_is.csv` (+ derived ledgers, via `engine/apply_qc.py`):
+  **ANNA** 29.44→3.53 (Wilder's Nautilus 30.48M = 75.05% of Class A → it IS listed Class A; label wrongly
+  called it exchangeable), **BNGO** 1.84→3.36/4.68 (actual 10-Q covers 3.364M/4.681M; label O/S stale),
+  **ATNF** 4.10→3.73 (Elray 13D control sits in the D&O group via a board voting agreement) → derivation
+  accuracy **84%→90% within-10%**, and the only remaining recipe misses are exactly where the AGENT erred.
+  **4 were AGENT errors, label stands:** ARBKL (agents' 577M ord < the 20-F floor 638M — impossible),
+  BMGL (agents kept founder Yip), TGEN (agents missed a 7/18 offering 24.99M+3.5M=28.49M AND over-excluded
+  Hatsopoulos family trusts), WHLR (O/S 0.56M correct post 1-for-7 split; float ambiguous in toxic dilution).
+  Then a **SYSTEMATIC O/S audit** (`engine/audit_os.py` + `audit_triage.py`) cross-checked all 952 labels' os_M
+  vs corroborated single-class XBRL: 15 flags → 12 XBRL-stale (split/offering in the gap → label right) →
+  3 candidates → **all 3 FALSE** (KIDZ: XBRL tagged founder Class A, listed class is Class B = label; PRCH:
+  voting-only vs total incl non-voting; PBM: foreign annual). **Benchmark O/S is accurate — 0 new errors.**
+  The residual label-error frontier is float/control-JUDGMENT (multi-class like ANNA), not O/S — rare, not
+  cheaply detectable; a same-model agent sweep is unreliable for it (see the 4/7 lesson).
 - **▶ Next:** (1) ~~reduce replay deferrals~~ DONE; ~~$0 accuracy guards~~ DONE (worst 899%→30%);
-  ~~prove with real recipes (30-wave)~~ DONE (replay 95% within-10%, worst 12%). (2) OPTIONAL: run the full
-  236-ticker recipe-emit to warm the production cache for the whole IS set (same `recipe_emit_wave.js` pattern,
-  swap in the full `emit_worklist.py` list; one-time, amortizes). (3) **QC the label-error candidates** (ANNA,
-  ATNF — the agents excluded control SPVs the labels kept; re-derive + correct `float_is.csv` if confirmed),
-  plus the earlier WHLR/TGEN. (4) optional precision: ADS-ratio refinement (ARBKL), frozen-XBRL 8-K guard.
-  Artifacts: `recipes.json` + `_recipes_emitted.json` (33 recipes), `holder_registry.json` (135 entities);
-  harness: `engine/{sim_replay,calib_band,calib_split,emit_worklist,merge_emitted}.py` +
-  `workflows/recipe_emit_wave.js`.
+  ~~prove with real recipes (30-wave)~~ DONE (replay 95% within-10%); ~~QC the disputes + audit O/S~~ DONE
+  (3 labels corrected, O/S verified clean). (2) OPTIONAL: run the full 236-ticker recipe-emit to warm the
+  production cache (same `recipe_emit_wave.js`, full `emit_worklist.py` list, now 6-at-a-time; one-time,
+  amortizes). (3) OPTIONAL: deeper float/control-judgment audit (the ANNA-class errors) — needs careful
+  per-ticker primary-filing review, NOT a same-model agent sweep. Artifacts: `recipes.json` +
+  `_recipes_emitted.json` (33 recipes, versioned cache), `holder_registry.json` (135 entities); harness:
+  `engine/{sim_replay,calib_band,calib_split,emit_worklist,merge_emitted,dump_filing,apply_qc,audit_os,audit_triage}.py`
+  + `workflows/{recipe_emit_wave,label_qc}.js`.
