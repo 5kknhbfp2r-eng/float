@@ -74,11 +74,12 @@ INVESTIGATOR verdict: ${inv.verdict}, float=${inv.correct_float_M}M os=${inv.cor
 ${tools(it)}
 Return: agrees, final_float_M, final_os_M, final_verdict, note (cite the filing that confirms/refutes), confidence.`
 
-// Phase 1 — investigate, 3 at a time
+const CONC = 6                                              // agents at a time (CLAUDE.md cap)
+// Phase 1 — investigate
 phase('Investigate')
 const inv = []
-for (let i = 0; i < ITEMS.length; i += 3) {
-  const chunk = ITEMS.slice(i, i + 3)
+for (let i = 0; i < ITEMS.length; i += CONC) {
+  const chunk = ITEMS.slice(i, i + CONC)
   const r = await parallel(chunk.map((it) => () =>
     agent(invPrompt(it), { label: `inv:${it.t}`, phase: 'Investigate', schema: INV_SCHEMA })
       .then((x) => ({ it, inv: x }))))
@@ -86,11 +87,11 @@ for (let i = 0; i < ITEMS.length; i += 3) {
   log(`investigated ${inv.length}/${ITEMS.length}`)
 }
 
-// Phase 2 — adversarial verify, 3 at a time
+// Phase 2 — adversarial verify
 phase('Verify')
 const out = []
-for (let i = 0; i < inv.length; i += 3) {
-  const chunk = inv.slice(i, i + 3)
+for (let i = 0; i < inv.length; i += CONC) {
+  const chunk = inv.slice(i, i + CONC)
   const r = await parallel(chunk.map((e) => () =>
     e.inv
       ? agent(verPrompt(e.it, e.inv), { label: `ver:${e.it.t}`, phase: 'Verify', schema: VER_SCHEMA })

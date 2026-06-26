@@ -50,9 +50,10 @@ You MAY run additional read-only Bash commands (e.g. EDGAR fetches via the same 
 STEP 3 — return the recipe via the structured-output tool: os_M and float_M in millions (listed class); dno_M = the proxy "as a group" officer+director block (ex-options, listed class) in millions; control_M = control affiliates in millions; ads_ratio; control_holders = excluded control entity names; passive_holders = the KEPT passive names; conf = high|med|low. dno_M + control_M is the exclusion the cache replays deterministically, so split it correctly.`
 
 phase('Emit')
+const CONC = 6                                               // agents at a time (CLAUDE.md cap)
 const out = []
-for (let i = 0; i < ITEMS.length; i += 3) {                 // 3 agents at a time (hard cap per CLAUDE.md)
-  const chunk = ITEMS.slice(i, i + 3)
+for (let i = 0; i < ITEMS.length; i += CONC) {
+  const chunk = ITEMS.slice(i, i + CONC)
   const recipes = await parallel(chunk.map((it) => () =>
     agent(prompt(it), { label: `emit:${it.t}`, phase: 'Emit', schema: SCHEMA })
       .then((r) => (r ? { t: it.t, a: it.a, recipe: r } : null))
