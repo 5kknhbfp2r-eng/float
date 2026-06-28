@@ -69,6 +69,52 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
 ---
 
+
+## Commit & versioning convention (THIS REPO — follow exactly)
+
+- **main carries ONE commit per session**: `floatN: <session headline>`
+  (N increments once per session; e.g. Session F = 2.4.16, Session G = 2.4.17).
+- **During a session, develop on a session branch** with step commits
+  `floatN.m: <change>` (m = 1, 2, 3, …). Each step commit is small,
+  self-contained, and carries measured results in its message where relevant.
+- **Land on main via GitHub "Squash and merge".** ⚠️ **The squash dialog PREFILLS the
+  commit title from the PR/branch name** (e.g. `Claude/handoff continuation prep … (#2)`)
+  — that is WRONG and must NOT be accepted. **Manually overwrite the title to
+  `floatN: <session headline>`** where:
+  - **N is the session number** — the SAME N as this session's `…N.m` step commits (check
+    `git log --oneline` on the branch; e.g. steps `float19.61–.76` → squash
+    title `float19: …`). Do NOT include the step suffix `.m` in the squash title.
+  - **`<session headline>` SUMMARIZES THE WHOLE SESSION'S NET OUTCOME** — the end result /
+    headline metric achieved ACROSS ALL the step commits — NOT a copy of the last step commit.
+    State the before→after of the session's main metric. (E.g. session 2.4.19 →
+    `float19: float thread — Phase-1 per-ticker float recovery COMPLETE on the
+    150-sample: within-5%-of-DT-float 90.7%→100% (150/150), within-1% 76%→86%; 15 imperfect
+    names solved in isolation.`)
+  (Exact same `floatN` format as every other main commit — check
+  `git log main --oneline` first.) Keep the prefilled list of step messages in the body.
+  A trailing ` (#N)` PR reference is fine. Keep (or tag) the session branch afterwards so the
+  step-by-step history survives the squash. If the title was already merged wrong, fix it by
+  amending the squash commit on main and force-pushing (message-only rewrite).
+- In committed docs, reference **step-commit numbers (2.4.N.m) or branch names, not
+  raw hashes** — squashing/rebasing invalidates hashes.
+- `version.txt` is user-maintained — do not update it.
+- Never commit credentials (`sapi.txt`/`mapi.txt`/`dbapi.txt`), `data/`, `*.jsonl`,
+  or bulk artifacts (see `.gitignore` and `REBUILD.md`).
+
+**ON STARTUP / AFTER ANY CONTEXT COMPRESSION:** before acting, re-read the latest
+`FLOAT_HANDOFF_*` — its **§Durable Knowledge** (the load-bearing facts) and its
+**§current state / in-progress** (the live work state). Conversation memory may be
+summarized lossily; the committed handoff + git history are the source of truth.
+
+**Working rules:**  Commit each self-contained step as
+`floatN.m` with before/after numbers; **commit working state
+frequently** (so a compression/restart loses no progress); keep the latest handoff's
+current-state section fresh.
+
+----
+
+
+
 ## TEMP INSTRUCTIONS
 
 use only 12 agents at a time. make sure that it's work is interuption reselient, so if the llm is stopped by usage credits, it can pick up again later.  let me know if there are any concerns before you start.

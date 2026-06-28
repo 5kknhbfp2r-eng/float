@@ -5,6 +5,9 @@ sapi.txt
 **/sapi.txt
 mapi.txt
 dbapi.txt
+.env
+*.env
+**/.env
 
 # --- large / reproducible caches (re-fetchable from EDGAR; kept on disk, not in git) ---
 engine/data/_cache/filing_text/
