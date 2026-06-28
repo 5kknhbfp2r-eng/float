@@ -49,7 +49,7 @@ def main(a):
            "excluded": excluded, "kept_13g": kept}
     # attach the recorded float result
     try:
-        for r in csv.DictReader(open(LEDGER, newline="")):
+        for r in csv.DictReader(open(LEDGER, newline="", encoding="utf-8")):
             if r["ticker"] == ticker and r["as_of"] == as_of:
                 rec["float_M"], rec["os_M"], rec["under_20M"], rec["confidence"] = \
                     r["float_M"], r["os_M"], r["under_20M"], r["confidence"]

@@ -58,14 +58,21 @@ def resolve_via_query(tickers):
     """Last resort: sec-api Query API search by at-filing-time ticker. Latest filer
     <= 2026-06-04 wins (handles ticker reuse; matches DT's 6/4 coverage date)."""
     for i, t in enumerate(tickers):
+        if t in SAPI:
+            continue                       # (F09) never overwrite a verified mapping result (incl. None)
         body = {"query": f"ticker:{t} AND filedAt:[2000-01-01 TO 2026-06-04T23:59:59]",
                 "from": "0", "size": "1", "sort": [{"filedAt": {"order": "desc"}}]}
         r = requests.post("https://api.sec-api.io", json=body, headers=ff.HDR, timeout=30)
         if not r.ok:
             continue
         fl = r.json().get("filings", [])
-        if fl and fl[0].get("cik"):
+        # (F09) require the filing's own ticker to match before caching (mirror resolve_via_mapping);
+        # an unverified `ticker:T` hit can be a different entity that previously used the symbol. For a
+        # truly point-in-time resolution prefer edgar.resolve_cik_edgar (latest-dated hit <= asof).
+        if fl and fl[0].get("cik") and fl[0].get("ticker", "").upper() == t.upper():
             SAPI[t] = str(fl[0]["cik"]).lstrip("0")
+        else:
+            SAPI[t] = None                 # cache the miss so it isn't retried/overwritten
         if i % 100 == 0:
             json.dump(SAPI, open(SAPI_CACHE, "w"))
     json.dump(SAPI, open(SAPI_CACHE, "w"))

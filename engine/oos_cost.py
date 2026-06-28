@@ -20,20 +20,36 @@ print(f"OOS candidates: {len(cand)} | recipes cached: {len(RC.RECIPES)} tickers 
       f"registry: {len(H.REGISTRY)} entities\n")
 
 tally = collections.Counter()
-free = 0
+free = 0                                  # COLD: free only via the pre-warmed cache (status 'ok')
+warm_derived = set()                      # WARMED: tickers that triggered a (modeled) first derivation this run
+warm_free = warm_llm = 0
 for r in cand:
     t = r["ticker"]; d = r.get("date", r.get("as_of", ""))[:10]
     cik = fg.resolve_cik(t, d)
     st, fv = RC.replay(t, d, cik) if cik else ("no-cik", None)
     tally[st] += 1
     free += (st == "ok")
+    # (F49) within-month warming: production derives a NEW ticker ONCE (first non-'ok' day -> cache it),
+    # then replays its later same-ticker days free. Model that by de-duping LLM billing per ticker, so a
+    # recurring momentum name isn't billed as N full derivations. (Can't actually derive — needs the LLM —
+    # so this is the cheap, accurate proxy the verifier prescribed; reported alongside the cold snapshot.)
+    if st == "ok":
+        warm_free += 1
+    elif t in warm_derived:
+        warm_free += 1                    # later same-ticker day -> free replay off the within-month recipe
+    else:
+        warm_derived.add(t); warm_llm += 1   # first appearance -> one modeled LLM derivation
 
 n = len(cand)
-print("=== replay status split ===")
+print("=== replay status split (COLD: pre-warmed cache only) ===")
 for k, v in tally.most_common():
     print(f"  {k:14} {v:4} ({100*v//max(1,n)}%)")
 print(f"\nFREE (recipe-cache hit, no LLM): {free}/{n} ({100*free//max(1,n)}%)")
-print(f"NEEDS LLM: {n-free}/{n} — but each LLM call's holder classifications hit the {len(H.REGISTRY)}-entity")
-print("registry (free) + warm it further, so the marginal LLM cost keeps falling as the month runs.")
+print(f"NEEDS LLM (cold): {n-free}/{n} ({100*(n-free)//max(1,n)}%)")
+print(f"\n=== within-month WARMED (de-dup LLM billing per distinct ticker) ===")
+print(f"  modeled LLM derivations: {warm_llm} (distinct new tickers) | free (cache+within-month): {warm_free}/{n} "
+      f"({100*warm_free//max(1,n)}%)")
+print(f"NEEDS LLM (warmed): {warm_llm}/{n} ({100*warm_llm//max(1,n)}%) — and each derivation's holder "
+      f"classifications hit/warm the {len(H.REGISTRY)}-entity registry, lowering marginal cost further.")
 print("\nCost: FREE share * $0 + LLM share * (~compressed-dossier cost, ~$0.05-0.15/derivation w/ registry).")
 print("Extrapolate /yr = (annual scanner hits) * blended; compare to the IS ~$300-600/yr estimate.")

@@ -31,7 +31,7 @@ def main(a):
         sys.exit(2)
     seen = set()
     if os.path.exists(CSV):
-        seen = {(r["ticker"], r["as_of"]) for r in csv.DictReader(open(CSV, newline=""))}
+        seen = {(r["ticker"], r["as_of"]) for r in csv.DictReader(open(CSV, newline="", encoding="utf-8"))}
     if (ticker, as_of) in seen:
         print(f"SKIP {ticker}@{as_of}: already recorded -- not overwriting.")
         return
@@ -41,7 +41,7 @@ def main(a):
     else:
         under = "true" if float(fm) < 20 else "false"
     new = not os.path.exists(CSV)
-    with open(CSV, "a", newline="") as f:
+    with open(CSV, "a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         if new:
             w.writerow(COLS)

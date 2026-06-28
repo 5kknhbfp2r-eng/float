@@ -21,20 +21,31 @@ import edgar
 
 # reverse-split detection (the HUSA 899% lag: a split changes the share basis but XBRL keeps reporting
 # the pre-split count until the next periodic, so a deterministic O/S re-fetch is stale mid-recipe).
-_RS = re.compile(r"reverse\s+(?:stock\s+)?split", re.I)
+# (F04) include the foreign 'consolidation'/'subdivision' vocabulary for reverse splits — but keep it
+# SHARE/STOCK-qualified so it does NOT match the ubiquitous 'consolidated financial statements'.
+_RS = re.compile(r"reverse\s+(?:stock\s+)?split"
+                 r"|\b(?:share|stock|ordinary[ -]?share|capital)\s+consolidation\b"
+                 r"|\bshare\s+subdivision\b", re.I)
 _RS_RATIO = re.compile(r"\b(?:1[-\s]?for[-\s]?\d{1,3}|\d{1,3}[-\s]?for[-\s]?1|1[-:]\s?\d{1,3})\b", re.I)
 
 RECIPES_PATH = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "recipes.json")
 # filings that change the EXCLUSION STRUCTURE (control set / D&O). A new 13D/13G/proxy => re-judge.
 STRUCT_FORMS = ["SC 13D", "SC 13G", "SC 13D/A", "SC 13G/A", "SCHEDULE 13D", "SCHEDULE 13G",
                 "SCHEDULE 13D/A", "SCHEDULE 13G/A", "DEF 14A", "DEFM14A", "DEFM14C",
-                "DEFR14A", "DEFA14A", "PRER14A"]   # revised/additional proxies also update D&O
+                "DEFR14A", "DEFA14A", "PRER14A",    # revised/additional proxies also update D&O
+                "DEF 14C", "DEFR14C", "DEFA14C", "PRE 14C"]  # (F22) info statements: D&O/control by written consent
 # O/S-EVENT forms: an offering/takedown CLOSES here and the XBRL O/S fact LAGS it (only refreshes at
 # the next 10-Q/10-K), so a deterministic O/S re-fetch would be STALE (the AGEN/HUSA failure mode in
 # the IS sim — frozen XBRL while a 424B issued shares). Treat as an event that needs the LLM to read
 # the post-event share base. Reverse splits land in 8-K (too noisy to blanket-trigger); the 424B
 # offering-close is the clean, targeted signal and is what actually moves O/S in this universe.
 OS_EVENT_FORMS = ["424B1", "424B2", "424B3", "424B4", "424B5", "424B7", "424B8"]
+# (F28) For a heavily-controlled recipe the carried D&O+control block dominates, so a single insider
+# Form 3/4/5 (a grant/sale the fixed block can't see) moves the float materially in FLOAT-relative
+# terms while the proxy is unchanged. Below this float/os ratio, defer such names to the LLM on any
+# insider filing in the window. Tunable: raise to guard more controlled names, set 0 to disable.
+LOWFLOAT_FRAC = 0.12
+INSIDER_FORMS = ["3", "4", "5", "3/A", "4/A", "5/A"]
 
 
 def _load():
@@ -68,6 +79,18 @@ def save_recipe(ticker, cik, basis, derived_day, os_at, float_at, control_M,
     control_holders = the excluded control entities (for finer staleness + the registry).
     APPEND-ONLY: adds a version keyed by derived_day (re-deriving the SAME day replaces it -> idempotent);
     earlier versions are kept so historical re-runs replay free."""
+    # (F17/F29) UNIT-CONVENTION guard: os_at is the issuer's NATIVE XBRL O/S (ordinary shares for an
+    # ADS name); ads_ratio converts to the listed class; dno_M/control_M are carried in LISTED units;
+    # so for a normal-basis recipe float_at must equal os_at/ads_ratio - dno_M - control_M. Warn loudly
+    # if it doesn't — that means a wrong-unit emit (e.g. exclusion in ordinary, or os_at in ADS) that
+    # would replay to a wrong float. (Cheap to catch at warm time; impossible to catch later.)
+    if not (os_at and os_at > 0):
+        print(f"  ! recipe {ticker} @ {derived_day}: non-positive os_at={os_at} -> will defer on replay")
+    if basis == "normal":
+        implied = os_at / (ads_ratio or 1.0) - dno_M - control_M
+        if abs(implied - float_at) > 0.01 * max(1.0, os_at):
+            print(f"  ! recipe {ticker} @ {derived_day}: float_at {float_at:.3f} != os/ads-excl "
+                  f"{implied:.3f} (UNIT/identity mismatch — check ads_ratio & dno/control units)")
     rec = {"cik": cik, "basis": basis, "ads_ratio": ads_ratio,
            "control_M": round(control_M, 4), "dno_M": round(dno_M, 4),
            "control_holders": control_holders or [],
@@ -94,14 +117,25 @@ def is_stale(ticker, day, cik=None):
     return False
 
 
+_SPLIT_MEMO = {}
+
+
 def _split_in_window(cik, derived_day, day, lookback=30):
-    """True if a reverse-split-announcing 8-K is filed in [derived_day-lookback, day] -> the share
-    basis may change mid-recipe and XBRL lags it -> defer & re-derive (the HUSA 899% failure mode).
-    The 30d look-back covers announcements that precede their effective date (HUSA: announced 14d
-    before derivation, effective the next day). Reads 8-K text only for otherwise-free-eligible
-    replays (called late in replay) so the cost is bounded to a small minority of (ticker,day)s."""
+    """True if a reverse-split / consolidation-announcing 8-K OR 6-K is filed in [derived_day-lookback,
+    day] -> the share basis may change mid-recipe and XBRL lags it -> defer & re-derive (the HUSA 899%
+    failure mode). The 30d look-back covers announcements that precede their effective date (HUSA:
+    announced 14d before derivation, effective the next day).
+      (F04) also scans 6-K — foreign issuers announce consolidations there, not in an 8-K.
+      (F30) size=200 + the explicit date filter so a long recipe window isn't truncated by a fixed
+            newest-N cap on an active filer.
+      (F45) memoized per (cik, derived_day, day) so the FREE happy-path doesn't re-read 8-K bodies
+            on every later replay day."""
+    key = (int(cik), derived_day, day)
+    if key in _SPLIT_MEMO:
+        return _SPLIT_MEMO[key]
     lo = (dt.date.fromisoformat(derived_day) - dt.timedelta(days=lookback)).isoformat()
-    for f in edgar.query(cik, ["8-K", "8-K/A"], day, size=30):
+    hit = False
+    for f in edgar.query(cik, ["8-K", "8-K/A", "6-K", "6-K/A"], day, size=200):
         if not (lo <= f["filedAt"][:10] <= day):
             continue
         try:
@@ -109,8 +143,10 @@ def _split_in_window(cik, derived_day, day, lookback=30):
         except Exception:
             continue
         if _RS.search(t) and _RS_RATIO.search(t):
-            return True
-    return False
+            hit = True
+            break
+    _SPLIT_MEMO[key] = hit
+    return hit
 
 
 def replay(ticker, day, cik=None):
@@ -137,7 +173,17 @@ def replay(ticker, day, cik=None):
     # ZERO cost to accurate (<=5%) replays (those barely move O/S, ratio~1.0). Accuracy-safe by
     # construction: tightening the band only ever defers MORE, never emits a wrong float.
     anchor = r.get("os_at")
-    sane = lambda v: (not anchor) or (anchor / 1.3 <= v <= 1.3 * anchor)
+    if not (anchor and anchor > 0):
+        return ("os-uncertain", None)                     # (F46) no positive magnitude anchor -> defer
+    # (F06/F12) frozen-XBRL-fact staleness: a dei O/S whose `end` long predates `day` has missed an
+    # IPO/offering/split the periodic cadence hasn't absorbed (MB/UBXG/MSW). Foreign (ads_ratio!=1)
+    # filers disclose interim actions via 6-K that the annual dei count lags, so use a tighter bound.
+    # calib_age knee: >300d general / >100d foreign catches the band-uncatchable misses; only defers.
+    age_max = 100 if (r.get("ads_ratio") or 1) != 1 else 300
+    if xv and x.get("end") and \
+            (dt.date.fromisoformat(day) - dt.date.fromisoformat(x["end"])).days > age_max:
+        return ("stale-osfact", None)
+    sane = lambda v: anchor / 1.3 <= v <= 1.3 * anchor
     if nclass == 1 and xv and sane(xv):
         os_ = xv                                          # single-class XBRL, anchor-consistent -> gold
     elif nclass == 1 and xv and gv and not anchor and abs(xv - gv) / max(xv, gv) <= 0.30:
@@ -152,6 +198,13 @@ def replay(ticker, day, cik=None):
     else:
         return ("os-uncertain", None)                     # can't establish a trustworthy O/S -> LLM
     if r["basis"] in ("spac", "ipo"):
+        # (F01) a carried whole-float (redeemable / offering size) is invalidated by the de-SPAC close,
+        # redemptions, lock-up expiry, follow-on dilution or founder conversion — reported in 8-K (or
+        # 6-K for foreign issuers, e.g. the live BMGL ipo recipe), which is_stale does NOT scan. Any
+        # such filing after the recipe -> re-derive rather than carry a now-stale whole float.
+        for f in edgar.query(cik, ["8-K", "8-K/A", "6-K", "6-K/A"], day, size=80):
+            if r["derived_day"] < f["filedAt"][:10] <= day:
+                return ("stale", None)
         return ("ok", round(r["float_at"], 3))            # whole-float bases: carried (re-validate on event)
     if "control_M" not in r or "dno_M" not in r:
         return ("need-split", None)                       # old recipe lacks the exclusion split -> re-derive
@@ -167,8 +220,19 @@ def replay(ticker, day, cik=None):
         return ("proxy-changed", None)                    # new D&O source -> re-judge with the LLM
     if _split_in_window(cik, r["derived_day"], day):
         return ("split", None)                            # reverse split mid-recipe (XBRL lags) -> LLM
-    fl = os_ / (r["ads_ratio"] or 1.0) - r["dno_M"] - r["control_M"]
-    if fl <= 0 or fl > os_ * 1.01:
+    # (F28) heavily-controlled recipe: the carried D&O+control block is most of the O/S, so an insider
+    # transaction the fixed block can't see moves the float materially in float-relative terms. Defer on
+    # any Form 3/4/5 after the recipe (cheap metadata query; only ever defers, never a wrong float).
+    if LOWFLOAT_FRAC and r["os_at"] and r["float_at"] <= LOWFLOAT_FRAC * r["os_at"]:
+        for f in edgar.query(cik, INSIDER_FORMS, day, size=40):
+            if r["derived_day"] < f["filedAt"][:10] <= day:
+                return ("insider-drift", None)
+    # UNIT CONVENTION: os_/os_at are native XBRL units (ordinary shares for an ADS name); ads_ratio
+    # converts to the listed class; dno_M/control_M are carried in LISTED units; so the float below is
+    # in listed units (save_recipe asserts float_at matches this identity at warm time — F17/F29).
+    ads = r["ads_ratio"] or 1.0
+    fl = os_ / ads - r["dno_M"] - r["control_M"]
+    if fl <= 0 or fl > os_ / ads * 1.01:                  # (F47) plausibility cap in LISTED units, not raw os_
         return ("implausible", None)
     return ("ok", round(fl, 3))
 

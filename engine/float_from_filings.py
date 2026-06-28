@@ -86,7 +86,9 @@ _NOT_CURRENT = re.compile(
     r"reserved\s+for|issuable", re.I)
 _SHARE_OUT = re.compile(
     rf"(?P<num>{NUM})\s+(?:shares\s+of\s+)?(?:the\s+registrant'?s\s+)?"
-    rf"(?:(?P<clsA>{CLS})(?:(?!\.\s)[\s\S]){{0,80}}?(?:issued\s+and\s+)?outstanding"
+    # (F18) the class->'outstanding' gap must NOT bridge a SECOND 6-digit number, else an AUTHORIZED
+    # count can anchor here and reach the 'outstanding' belonging to a later (real) number.
+    rf"(?:(?P<clsA>{CLS})(?:(?!\.\s|[\d,]{{6,}})[\s\S]){{0,80}}?(?:issued\s+and\s+)?outstanding"
     rf"|(?:issued\s+and\s+)?outstanding\s+(?P<clsB>{CLS}))", re.I)
 
 
@@ -101,10 +103,13 @@ def extract_shares(text: str, filing_date: str) -> dict | None:
     by_asof: dict = {}
     for m in _SHARE_OUT.finditer(text):
         n = int(m.group("num").replace(",", ""))
-        if n > 5_000_000_000:                                   # authorized magnitudes
-            continue
+        if n > 50_000_000_000:                                  # (F33) only impossibly-large = authorized cap;
+            continue                                            # legit sub-penny issuers can exceed 5B shares
         if _NOT_CURRENT.search(text[max(0, m.start() - 45):m.start()]):
             continue                                            # not the current count
+        if re.search(r"(?i)authoriz|designat", m.group(0)):     # (F18) 'authorized'/'designated' INSIDE the
+            continue                                            # num..outstanding span -> the 'outstanding'
+            #                                                     belongs to a LATER number, not this one
         cls = re.sub(r"\s+", " ", (m.group("clsA") or m.group("clsB"))).title()
         cls = "Common Stock" if "common" in cls.lower() and "class" not in cls.lower() else cls
         before = text[max(0, m.start() - 120):m.start()]

@@ -40,7 +40,7 @@ fh = open(OUT, "a", newline="", encoding="utf-8")
 w = csv.writer(fh)
 if new:
     w.writerow(["ticker", "day", "status", "float_replay", "float_label", "os_label",
-                "err_os_rel", "archetype", "derived_day"])
+                "err_float_rel", "err_os_rel", "archetype", "derived_day"])
 
 LIMIT = int(sys.argv[1]) if len(sys.argv) > 1 else 10**9
 todo = [t for t in sorted(multi) if t not in done][:LIMIT]
@@ -62,8 +62,10 @@ for i, t in enumerate(todo):
             st, fv = RC.replay(t, d, cik)
         except Exception as e:
             st, fv = "err:" + type(e).__name__, None
-        err = (abs(fv - fl) / oss) if (st == "ok" and oss) else ""
+        err = (abs(fv - fl) / oss) if (st == "ok" and oss) else ""        # O/S-relative (anchor-band diagnostic)
+        errf = (abs(fv - fl) / fl) if (st == "ok" and fl) else ""         # (F13) FLOAT-relative = the real accuracy
         w.writerow([t, d, st, (round(fv, 3) if fv is not None else ""), fl, oss,
+                    (round(errf, 4) if errf != "" else ""),
                     (round(err, 4) if err != "" else ""), arche, d0])
     fh.flush()
     if (i + 1) % 20 == 0:

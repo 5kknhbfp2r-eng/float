@@ -15,12 +15,13 @@ anchor = {t: sorted(v)[0][2] for t, v in labels.items()}        # earliest-day o
 exclu  = {t: sorted(v)[0][2] - sorted(v)[0][1] for t, v in labels.items()}
 
 rows = [r for r in csv.DictReader(open(os.path.join(ROOT, "_sim_replay.csv"), encoding="utf-8"))
-        if r["status"] == "ok" and r["err_os_rel"] != ""]
+        if r["status"] == "ok" and r["float_replay"] != ""]
 for r in rows:
     t = r["ticker"]
-    os_sel = float(r["float_replay"]) + exclu[t]               # sim: os_sel = float + exclusion
-    r["_ratio"] = os_sel / anchor[t] if anchor[t] else 1.0
-    r["_err"] = float(r["err_os_rel"])
+    fr, fl = float(r["float_replay"]), float(r["float_label"])
+    os_sel = fr + exclu[t]                                     # sim: os_sel = float + exclusion
+    r["_ratio"] = os_sel / anchor[t] if anchor[t] else 1.0     # the anchor BAND stays an O/S ratio (its purpose)
+    r["_err"] = abs(fr - fl) / fl if fl else 0.0              # (F13) miss/accurate buckets = FLOAT-relative
 
 miss = [r for r in rows if r["_err"] > 0.10]
 acc  = [r for r in rows if r["_err"] <= 0.05]

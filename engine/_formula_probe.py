@@ -513,10 +513,33 @@ def solve(excl, gopts, cand, tol):
     vals = [c[1] for c in cand]      # caller pre-sorts cand by size so the >17 cap keeps the
     if len(vals) > 17:               # largest (a big control block must survive -- CYPH)
         vals = vals[:17]; cand = cand[:17]
+
+    # (F07/F37) one holder can appear as several candidate rows (13D/13G amendment blocks, a Form-4
+    # holding, the '~basic' ex-warrant variant). The solver may CHOOSE which single block to use, but
+    # must NEVER SUM two rows of the SAME holder. Key each candidate by its name tokens (stripping the
+    # '~basic' and '(Filed by ...)' suffixes) and skip any combo that selects a duplicate identity.
+    def _idkey(c):
+        nm = re.sub(r"~basic$", "", c[0])
+        nm = re.sub(r"\s*\(filed by.*", "", nm, flags=re.I)
+        return frozenset(wp._caps(nm))
+    keys = [_idkey(c) for c in cand]
+
+    def _dup(combo):
+        seen = set()
+        for i in combo:
+            kk = keys[i]
+            if kk:
+                if kk in seen:
+                    return True
+                seen.add(kk)
+        return False
+
     all_sols, within = [], []
     for gi, (gname, g) in enumerate(gopts):
         for k in range(0, len(vals) + 1):
             for combo in itertools.combinations(range(len(vals)), k):
+                if _dup(combo):
+                    continue                         # never sum two rows of the same holder
                 err = abs(g + sum(vals[i] for i in combo) - excl)
                 all_sols.append((err, gi, gname, combo))
                 if err <= tol:
@@ -679,7 +702,11 @@ def _recover(t, cik):
     gmax = max(g_exo, g_ben, 0.01)                      # a D&O-section row BIGGER than the
     cand = [r for r in hrows if (not r[3]["do"] and not r[3]["deemed"])   # whole group total
             or (r[3]["do"] and not r[3]["deemed"] and r[1] > gmax * 1.1)]  # can't be inside it
-    dno_sum = sum(r[1] for r in hrows if r[3]["do"])    # summed D&O rows = the group
+    # (F36) a big D&O row kept as a standalone candidate above must NOT also be summed into the 'dno'
+    # group basis, or selecting group='dno' + that candidate double-counts the holder. Exclude the
+    # big-standalone do-rows from dno_sum so each holder is counted by exactly one leg.
+    dno_sum = sum(r[1] for r in hrows
+                  if r[3]["do"] and not (not r[3]["deemed"] and r[1] > gmax * 1.1))
     mh = major_holders(text, os_cap, form == "20-F")    # separate major-shareholders table
     if form == "20-F":                                  # foreign shares|options|total|own%|vote%
         mh += multicol_holders(text, gm, os_)           # layout holders() can't read (BNR's VCs)

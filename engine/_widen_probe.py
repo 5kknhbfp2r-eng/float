@@ -165,6 +165,15 @@ def _caps(s):                    # proper-name tokens only: prose words ("sole",
             re.findall(r"\b[A-Z][a-z]{2,}\b|\b[A-Z]{2,}\b", s)} - STOPW   # "SY Co." = 2 caps
 
 
+def _tokmatch(a, b):
+    """Name-identity between two cap-token sets, judged on the INTERSECTION: TRUE only on >=2 shared
+    tokens, or a single shared token of length>=6 (a distinctive surname). So a coincidental common
+    surname (Wang/Li/Zhang) is NOT identity. (Unlike det_float._nmatch this does NOT treat subset as a
+    match, because in the F21 call site one operand is the WHOLE D&O subsection's token set.)"""
+    sh = a & b
+    return len(sh) >= 2 or (len(sh) == 1 and len(next(iter(sh))) >= 6)
+
+
 def outside_holders(text, gm, os_m, foreign=False):
     """Strategic-holder exclusion (DT doc: '>20% shareholders' + 'affiliates of the company').
     Scans the ownership table BOTH sides of the group row (5%-holder sections often follow it),
@@ -184,18 +193,23 @@ def outside_holders(text, gm, os_m, foreign=False):
     hd = list(OWN_HDR.finditer(text, max(0, gm.start() - 6000), gm.start()))
     start = hd[0].end() if hd else max(0, gm.start() - 4000)   # FIRST header in range: the 5%
     # table can be a separate table well before the D&O one (TUSK's MAJOR STOCKHOLDERS)
-    zone = text[gm.end():gm.end() + FN_ZONE]
+    # Footnote bodies usually live AFTER the group row, but when the 5%/principal-stockholder table
+    # PRECEDES the D&O group row (TUSK-style layout) its footnotes sit before gm.start() too (F20).
+    # Scan the pre-group region FIRST, then the post-group zone — so a genuine post-group body still
+    # WINS on a ref-label collision (preserves the 'real bodies overwrite inline row refs' semantics).
     affil_fns, fn_txt = set(), {}
-    fnm = [f for f in re.finditer(r"\((\d{1,2}|[a-z])\)", zone)   # a footnote BODY starts with
-           if re.match(r"\s+[A-Z]", zone[f.end():f.end() + 4])]   # a capitalized word; inline
-    for i, f in enumerate(fnm):                                   # "(a)"/row refs do not, and
-        # must not truncate the body before its principal's name (GMHS Funtery/Feng Xie)
-        seg = zone[f.end():fnm[i + 1].start() if i + 1 < len(fnm) else f.end() + 800][:800]
-        e = FN_END.search(seg)
-        seg = seg[:e.start()] if e else seg
-        fn_txt[f.group(1)] = seg     # refs inside table rows are overwritten by the real
-        if AFFIL.search(seg):        # footnote bodies that follow them
-            affil_fns.add(f.group(1))
+    for zstart, zend in ((start, gm.start()), (gm.end(), gm.end() + FN_ZONE)):
+        zone = text[zstart:zend]
+        fnm = [f for f in re.finditer(r"\((\d{1,2}|[a-z])\)", zone)   # a footnote BODY starts with
+               if re.match(r"\s+[A-Z]", zone[f.end():f.end() + 4])]   # a capitalized word; inline
+        for i, f in enumerate(fnm):                                   # "(a)"/row refs do not, and
+            # must not truncate the body before its principal's name (GMHS Funtery/Feng Xie)
+            seg = zone[f.end():fnm[i + 1].start() if i + 1 < len(fnm) else f.end() + 800][:800]
+            e = FN_END.search(seg)
+            seg = seg[:e.start()] if e else seg
+            fn_txt[f.group(1)] = seg     # refs inside table rows are overwritten by the real
+            if AFFIL.search(seg):        # footnote bodies that follow them
+                affil_fns.add(f.group(1))
     span = text[start:gm.end() + AFTER_GROUP]
     g0, g1 = gm.start() - start, gm.end() - start     # group row, in span coordinates
     marks = sorted([(m.start(), "5p") for m in SEC_5P.finditer(span)] +
@@ -224,9 +238,10 @@ def outside_holders(text, gm, os_m, foreign=False):
                 v = int(n.replace(",", ""))
                 if v >= 1000 and v not in counts and v <= os_m * 1e6 * 1.01:
                     counts.append(v)                  # distinct count = another class's shares
-        counts = [c for c in counts if c <= 0.88 * os_m * 1e6]    # listed cos must keep a
-        if not counts:        # public float; a >88% count is as-converted (EEX) or a VOTING-
-            continue          # power column (TOP: 50-votes class B inflates the row)
+        if foreign:           # (F11) the >88% drop targets FOREIGN multi-class voting/as-converted
+            counts = [c for c in counts if c <= 0.88 * os_m * 1e6]   # artifacts (EEX/TOP). For a US
+            if not counts:    # single-class filer a >88% count is a REAL controlling block -> keep it
+                continue      # for the >20% exclusion below; dropping it would over-state the float.
         sec = max([(p, k) for p, k in marks if p <= m.start()], default=(0, "5p"))[1]
         rows.append((nm, pct, set(re.findall(r"\((\d{1,2}|[a-z])\)", row)), sec, counts))
     allsh = [c for _, _, _, _, counts in rows for c in counts]
@@ -256,9 +271,9 @@ def outside_holders(text, gm, os_m, foreign=False):
             # (any body -- row->note refs are off-by-one in sloppy filings, SELX)
             nmt = _caps(nm)
             bods = [b for b in fn_txt.values() if nmt and nmt <= _caps(b)]
-            linked = any(_caps(b) & dno_tok for b in bods)
+            linked = any(_tokmatch(_caps(b), dno_tok) for b in bods)   # (F21) >=2 / long token, not any
             lp = [v for toks, v in dno_rows                   # the LINKED persons' own row
-                  if any(toks & _caps(b) for b in bods)]      # totals bound what can be a
+                  if any(_tokmatch(toks, _caps(b)) for b in bods)]     # totals bound what can be a
             cap = max(lp) if lp else (max(gvals) if gvals else 0)     # re-listed block
             if linked and sh_new <= cap:
                 continue          # a D&O's vehicle that FITS inside the linked person's row
@@ -277,9 +292,15 @@ def outside_holders(text, gm, os_m, foreign=False):
             continue
         if sh > 0.20 * os_m * 1e6:
             out += sh; taken.add(sh)
-        elif fns & affil_fns and sh >= 0.01 * os_m * 1e6 and \
-                not any(sh < o <= sh * 1.35 for o in allsh):
-            out += sh; taken.add(sh)                  # affiliate block NOT inside a person's row
+        else:
+            # (F10) a footnote makes THIS holder an affiliate only if the matched affil body actually
+            # NAMES it — a generic "a director of the company ..." note attached elsewhere must not
+            # exclude a passive fund. Require the holder's own name tokens to be in the affil body.
+            nmt = _caps(nm)
+            named_affil = nmt and any(r in affil_fns and nmt <= _caps(fn_txt.get(r, "")) for r in fns)
+            if named_affil and sh >= 0.01 * os_m * 1e6 and \
+                    not any(sh < o <= sh * 1.35 for o in allsh):
+                out += sh; taken.add(sh)              # affiliate block NOT inside a person's row
     return out / 1e6, sum(dno_vals) / 1e6
 
 
