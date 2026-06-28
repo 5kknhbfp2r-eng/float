@@ -7,6 +7,77 @@
 
 ---
 
+## ▶▶ LATEST — START HERE (updated 2026-06-28)
+
+**You are resuming after a COST/ACCURACY AUDIT + ENGINE-HARDENING pass.** The in-sample float dataset
+(1,025 labels) was already complete; this session audited the §16 cost-optimization engine, fixed it, and
+resolved the design knobs. **Nothing is running. No work is mid-flight.**
+
+**WHERE THINGS STAND**
+- Git: on branch **`audit-fixes`** — **11 commits ahead of `main`, clean tree, NOT merged.** The production
+  data files (`float_is.csv`, `recipes.json`, `holder_registry.json`, `_recipes_emitted.json`) are UNCHANGED
+  vs `main` — the fixes change engine BEHAVIOR going forward, not existing labels/cache.
+- A multi-agent audit (12 module finders + adversarial verify) found **50 verified defects** (3 critical,
+  12 high). **45 fixed**; 3 design knobs resolved (F27/F48 = no-change, F28 = implemented); **2 left UNFIXED
+  on purpose** (F44, F34 — each proposed fix adds a NEW regression; both LOW/latent).
+- **3 criticals CLOSED:** wrong-entity point-in-time CIK resolution; 13F false-passive (a control person/
+  family vehicle auto-kept in float); SPAC/IPO carried-float with no de-SPAC/redemption/6-K staleness.
+- **Accuracy was overstated** — it had been scored vs O/S, not the float. Corrected free-replay accuracy
+  (FLOAT denominator): **~86% within-10% / ~13% miss / median 0.23%** (self-referential sim, 383 later-days);
+  **~91% within-10%** (21/23 free) on the 33 REAL emitted recipes (post-fix sweep). The >10% tail is mostly
+  foreign/ADS SIM ARTIFACTS (the sim carries no ADS ratio; real recipes do). Accuracy is **label-bounded**
+  (the labels ARE the ground truth = the ceiling).
+- **Cost is NOT verified** — the OOS cost test (original STEP 2) has never been run. Estimate ~$300–600/yr.
+
+**READ THESE, IN ORDER, TO CONTINUE**
+1. This block, then **`STATUS.md` §11** — search for "**2026-06-26 — COST/ACCURACY AUDIT**" (the fix record)
+   and the "**RESUME HERE (next session)**" block just above it (the original warm → OOS plan + harness).
+2. **`_AUDIT_FIXES.md`** — per-finding tracker (F01..F50: status `[x]/[-]`, severity, commit). 45 done, 5 `[-]`.
+3. **`_AUDIT_2026-06-26.md`** — full verified-findings detail (what / impact / fix / verifier note per finding).
+4. `git log main..HEAD --oneline` — the 11 commits (one per audit group A–I + 2 design/docs).
+5. **`engine/FLOAT_PROTOCOL.md`** + **`FLOAT_PLAYBOOK.md`** — the float-derivation method (unchanged).
+6. **Verify env** (~1 min): `cd engine && PYTHONUTF8=1 <py> -c "import recipe_cache,det_float,holder_registry,edgar; print('ok')"`
+   where `<py>` = `C:/Users/explo/claude2/claudebacktest_init2-2.4/.venv/Scripts/python.exe` (bare `python` is
+   the broken Store stub; always prefix `PYTHONUTF8=1`).
+
+**KEY FILES TOUCHED THIS PASS** (full list/why in `_AUDIT_FIXES.md`): engine — `recipe_cache.py` (replay
+guards: spac/ipo+6-K staleness, frozen-XBRL age, positive-anchor, native-unit ADS, F28 low-float insider-drift),
+`holder_registry.py` (false-passive + 13D-gate), `edgar.py` (point-in-time CIK + ordering), `det_float.py`
+(ipo abstain, split-basis, regex_os authorized-vs-outstanding), `float_from_filings.py`, `_widen_probe.py`,
+`_cik_probe.py`, `_formula_probe.py`, scoring (`sim_replay.py`/`calib_band.py`/`bench_full.py`/
+`validate_recipes.py`/`oos_cost.py` — now float-denominator). NEW: `engine/record_recipe.py` (durable
+per-agent recipe write), `engine/calib_dno_drift.py` (D&O-drift analysis). workflows — `recipe_emit_wave.js`
+(durable per-agent record, Opus-pinned, native-unit `os_M`), `parallel_sweep.js` (carry-forward).
+
+**▶ THEN PROMPT THE USER** (the user has been deciding each step; offer these, recommend A→B→C→D, E in parallel):
+> The audit + engine-hardening is complete on branch `audit-fixes`. What next?
+> - **(A) Review / merge `audit-fixes` into `main`** — RECOMMENDED FIRST: large tested change set; merge it as
+>   the baseline before any token spend.
+> - **(B) Warm the full-236 production cache** (original STEP 1, now on the hardened engine). Build the
+>   remaining list = `_emit_worklist.json` (236 multi-day tickers) MINUS those already in
+>   `_recipes_emitted.json`, **but RE-DERIVE the QC-flagged AGENT-ERROR recipes `ARBKL` + `BMGL`** (they are
+>   wrong in the cache, not to be skipped). Run `workflows/recipe_emit_wave.js` via the **Workflow tool**, each
+>   batch fed via `args` (a `[{t,a}]` list); it is now durable (per-agent `engine/record_recipe.py` → resume =
+>   worklist minus recorded), Opus-pinned, 12-at-a-time. Then `cd engine && python merge_emitted.py` →
+>   `python validate_recipes.py`. **Max-plan spend ~8–10M tokens — needs explicit user opt-in.**
+> - **(C) OOS cost test** (STEP 2; do AFTER B) — the ONLY non-self-referential cost number. Needs a post-
+>   2025-08 month of scanner hits as `_oos_candidates.csv` (cols `ticker,date`; scanner lives in the READ-ONLY
+>   sibling `claudebacktest_init2-2.4`). Then `cd engine && python oos_cost.py ../_oos_candidates.csv`.
+> - **(D) Cost optimizations** (after the OOS baseline, all independent of warming): registry recall (13F
+>   backbone), cheaper-model tail routing, compressed dossier, event-driven recompute.
+> - **(E) Accuracy beyond the label ceiling** (parallel track): independent ground-truth check — the labels are
+>   LLM-derived and never verified vs an external source (DilutionTracker / real float); and a deeper control-
+>   judgment label audit (ANNA-class multi-class) by **human/tool, NOT same-model agents** (the 4/7 lesson).
+
+**BLOCKERS / CAVEATS**
+- Nothing blocks the warm. **Cost is unverified** until (C). **Accuracy is label-bounded** — the sim is
+  self-referential (label = recipe), so it proves replay MECHANICS, not absolute truth; see (E).
+- The §16 accuracy figures in the OLDER parts of §11 are **O/S-denominator (overstated)**; the corrected
+  float-denominator numbers live in the 2026-06-26 audit block.
+- Do NOT update `version.txt` / `v.txt`. Never commit `capi.txt`/`sapi.txt` or `engine/data/_cache/filing_text`.
+
+---
+
 ## 0. WHAT THIS IS (one paragraph)
 A backtester for a micro-cap momentum strategy ("Warrior") needs each stock's **free float**
 on the day it traded, and the strategy gates on **float < 20M shares**. This project computes a
